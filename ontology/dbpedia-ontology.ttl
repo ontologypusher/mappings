@@ -33041,7 +33041,7 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 ###  http://dbpedia.org/ontology/ElectionDiagram
 :ElectionDiagram rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing ;
-                 rdfs:comment "asfasfdfdf"@asdf ;
+                 rdfs:comment "asfasfdfdfddddrr"@asdf ;
                  rdfs:label "Election Diagram"@en ,
                             "Wahldiagram"@de ,
                             "verkiezingen diagram"@nl ,
