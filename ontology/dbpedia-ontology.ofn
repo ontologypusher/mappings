@@ -33886,7 +33886,7 @@ SubClassOf(:Election :SocietalEvent)
 
 # Class: :ElectionDiagram (Election Diagram)
 
-AnnotationAssertion(rdfs:comment :ElectionDiagram "asfasfdfdfddddrr"@asdf)
+AnnotationAssertion(rdfs:comment :ElectionDiagram "asfasfdfdfddddrrf"@asdf)
 AnnotationAssertion(rdfs:label :ElectionDiagram "Election Diagram"@en)
 AnnotationAssertion(rdfs:label :ElectionDiagram "Wahldiagram"@de)
 AnnotationAssertion(rdfs:label :ElectionDiagram "verkiezingen diagram"@nl)
