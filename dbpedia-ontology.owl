@@ -43582,6 +43582,7 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/ElectionDiagram">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="asdf">asfasf</rdfs:comment>
         <rdfs:label xml:lang="en">Election Diagram</rdfs:label>
         <rdfs:label xml:lang="de">Wahldiagram</rdfs:label>
         <rdfs:label xml:lang="nl">verkiezingen diagram</rdfs:label>
