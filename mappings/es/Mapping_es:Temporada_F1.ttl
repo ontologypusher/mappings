@@ -29,7 +29,7 @@
 @prefix wikidata: 	<http://www.wikidata.org/entity/> .
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
-
+asdfasf
 ### Main TriplesMap
 ####################
 <http://es.dbpedia.org/resource/Mapping_es:Temporada_F1>
