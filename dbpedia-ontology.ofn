@@ -37714,7 +37714,7 @@ SubClassOf(:Psychologist :Person)
 
 # Class: :PublicService (öffentlicher Dienst)
 
-AnnotationAssertion(rdfs:comment :PublicService "Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτους"@el)
+AnnotationAssertion(rdfs:comment :PublicService "Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτουςa"@el)
 AnnotationAssertion(rdfs:label :PublicService "public service"@en)
 AnnotationAssertion(rdfs:label :PublicService "service public"@fr)
 AnnotationAssertion(rdfs:label :PublicService "öffentlicher Dienst"@de)

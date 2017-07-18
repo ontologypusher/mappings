@@ -48683,7 +48683,7 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
     <owl:Class rdf:about="http://dbpedia.org/ontology/PublicService">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q161837"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:comment xml:lang="el">Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτους</rdfs:comment>
+        <rdfs:comment xml:lang="el">Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτουςa</rdfs:comment>
         <rdfs:label xml:lang="en">public service</rdfs:label>
         <rdfs:label xml:lang="fr">service public</rdfs:label>
         <rdfs:label xml:lang="de">öffentlicher Dienst</rdfs:label>

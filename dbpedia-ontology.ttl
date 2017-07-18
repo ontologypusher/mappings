@@ -37203,7 +37203,7 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 :PublicService rdf:type owl:Class ;
                owl:equivalentClass <http://www.wikidata.org/entity/Q161837> ;
                rdfs:subClassOf owl:Thing ;
-               rdfs:comment "Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτους"@el ;
+               rdfs:comment "Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτουςa"@el ;
                rdfs:label "public service"@en ,
                           "service public"@fr ,
                           "öffentlicher Dienst"@de ,
