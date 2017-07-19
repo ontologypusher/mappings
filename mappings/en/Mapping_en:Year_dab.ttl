@@ -1,4 +1,4 @@
-@base	          	<http://en.dbpedia.org/resource/Mapping_en:US-org-stub/> .
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:Year_dab/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -10,7 +10,7 @@
 @prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
 @prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
-@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix dct:   		<http://pdddurl.org/dc/terms/> .
 @prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
 @prefix dcterms: 	<http://purl.org/dc/terms/> .
 @prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
@@ -32,23 +32,20 @@
 
 ### Main TriplesMap
 ####################
-<http://en.dbpedia.org/resource/Mapping_en:US-org-stub>
-        a                      rr:TriplesMap ;
-        rml:logicalSource      <LogicalSource> ;
-        rr:predicateObjectMap  <ConstantMapping/0> ;
-        rr:subjectMap          <SubjectMap> .
+<http://en.dbpedia.org/resource/Mapping_en:Year_dab>
+        a                  rr:TriplesMap ;
+        rml:logicalSource  <LogicalSource> ;
+        rr:subjectMap      <SubjectMap> .
 
 
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     dbo:Agent ,
-		     wikidata:Q43229 ,
-		     dul:Agent ,
-		     dul:SocialPerson ,
-		     dbo:Organisation ,
-		     schema:Organization ,
-		     owl:Thing ;
+        rr:class     dbo:Year ,
+		             wikidata:Q577 ,
+		             dul:TimeInterval ,
+		             dbo:TimePeriod ,
+		             owl:Thing ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -59,18 +56,12 @@
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:US-org-stub?oldid=28799" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:Year_dab?oldid=16265" .
 
 
 ###########
 # Mappings
 ###########
-
-### Predicate Object Map
-#########################
-<ConstantMapping/0>  a  rr:PredicateObjectMap ;
-        rr:object     dbr-en:United_States ;
-        rr:predicate  dbo:location .
 
 
 ######################
