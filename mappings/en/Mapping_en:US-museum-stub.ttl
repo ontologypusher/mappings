@@ -1,5 +1,5 @@
 @base	          	<http://en.dbpedia.org/resource/Mapping_en:US-museum-stub/> .
-@prefix schema: 	<http://schema.org/> .ee
+@prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
 @prefix gml:   		<http://www.opengis.net/gml/> .
@@ -32,7 +32,6 @@
 
 ### Main TriplesMap
 ####################
-###hola, esto es una prueba
 <http://en.dbpedia.org/resource/Mapping_en:US-museum-stub>
         a                  rr:TriplesMap ;
         rml:logicalSource  <LogicalSource> ;
