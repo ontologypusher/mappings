@@ -802,16 +802,7 @@ Declaration(Class(:Year))
 Declaration(Class(:YearInSpaceflight))
 Declaration(Class(:Zoo))
 Declaration(Class(<http://dbpedia.org/ontology/%3Chttp://vocab.org/transit/terms/stop%3E>))
-Declaration(Class(:_Monument))
-Declaration(Class(:_CareerStation))
-Declaration(Class(:_Parish))
-Declaration(Class(:_Instrument))
-Declaration(Class(:_AdministrativeRegion))
-Declaration(Class(:_NaturalEvent))
 Declaration(Class(:Volcano))
-Declaration(Class(:_Parish))
-Declaration(Class(:_PopulatedPlace))
-Declaration(Class(:_Deanery))
 Declaration(Class(:Q11424))
 Declaration(Class(:SpatialThing))
 Declaration(Class(<http://purl.org/ontology/bibo/Article>))
@@ -4100,7 +4091,7 @@ Declaration(Datatype(xsd:time))
 #   Object Properties
 ############################
 
-# Object Property: :Department (Distrikt)
+# Object Property: :Department (departement)
 
 AnnotationAssertion(rdfs:label :Department "Distrikt"@de)
 AnnotationAssertion(rdfs:label :Department "Distrito"@es)
@@ -4291,7 +4282,7 @@ AnnotationAssertion(rdfs:label :agency "делатност"@sr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :agency <http://mappings.dbpedia.org/index.php/OntologyProperty:agency>)
 ObjectPropertyDomain(:agency :Person)
 
-# Object Property: :agglomeration (agglomeration)
+# Object Property: :agglomeration (агломерација)
 
 AnnotationAssertion(rdfs:label :agglomeration "agglomeration"@en)
 AnnotationAssertion(rdfs:label :agglomeration "агломерација"@sr)
@@ -4617,7 +4608,6 @@ ObjectPropertyRange(:alumni :Person)
 AnnotationAssertion(rdfs:label :amateurTeam "amateur team"@en)
 AnnotationAssertion(rdfs:label :amateurTeam "аматерски тим"@sr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :amateurTeam <http://mappings.dbpedia.org/index.php/OntologyProperty:amateurTeam>)
-ObjectPropertyDomain(:amateurTeam :_CareerStation)
 ObjectPropertyRange(:amateurTeam :SportsTeam)
 
 # Object Property: :americanComedyAward (америчка награда за комедију)
@@ -4698,7 +4688,7 @@ AnnotationAssertion(rdfs:label :archipelago "архипелаг"@sr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :archipelago <http://mappings.dbpedia.org/index.php/OntologyProperty:archipelago>)
 ObjectPropertyDomain(:archipelago :Island)
 
-# Object Property: :architect (Architekt)
+# Object Property: :architect (architect)
 
 AnnotationAssertion(rdfs:label :architect "Architekt"@de)
 AnnotationAssertion(rdfs:label :architect "ailtire"@ga)
@@ -5000,7 +4990,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :bandMember <http
 ObjectPropertyDomain(:bandMember :Band)
 ObjectPropertyRange(:bandMember :Person)
 
-# Object Property: :basedOn (basierend auf)
+# Object Property: :basedOn (op basis van)
 
 AnnotationAssertion(rdfs:label :basedOn "based on"@en)
 AnnotationAssertion(rdfs:label :basedOn "basierend auf"@de)
@@ -5129,7 +5119,7 @@ AnnotationAssertion(rdfs:label :blockAlloy "κράμα μετάλλου"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :blockAlloy <http://mappings.dbpedia.org/index.php/OntologyProperty:blockAlloy>)
 ObjectPropertyDomain(:blockAlloy :AutomobileEngine)
 
-# Object Property: :bloodType (bloedgroep)
+# Object Property: :bloodType (blood type)
 
 AnnotationAssertion(rdfs:label :bloodType "Blutgruppe"@de)
 AnnotationAssertion(rdfs:label :bloodType "bloedgroep"@nl)
@@ -5140,7 +5130,7 @@ AnnotationAssertion(rdfs:label :bloodType "血液型"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :bloodType <http://mappings.dbpedia.org/index.php/OntologyProperty:bloodType>)
 ObjectPropertyDomain(:bloodType :Person)
 
-# Object Property: :board (bestuur)
+# Object Property: :board (board)
 
 AnnotationAssertion(rdfs:label :board "bestuur"@nl)
 AnnotationAssertion(rdfs:label :board "board"@en)
@@ -5718,7 +5708,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :choreographer <h
 ObjectPropertyDomain(:choreographer :FigureSkater)
 ObjectPropertyRange(:choreographer :Person)
 
-# Object Property: :cinematography (cinematography)
+# Object Property: :cinematography (cineamatagrafaíocht)
 
 AnnotationAssertion(rdfs:label :cinematography "Kinematografie"@de)
 AnnotationAssertion(rdfs:label :cinematography "cineamatagrafaíocht"@ga)
@@ -5914,7 +5904,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :college <http://
 ObjectPropertyDomain(:college :Person)
 ObjectPropertyRange(:college :EducationalInstitution)
 
-# Object Property: :colour (色)
+# Object Property: :colour (colour)
 
 AnnotationAssertion(rdfs:comment :colour "A colour represented by its entity."@en)
 AnnotationAssertion(rdfs:label :colour "Farbe"@de)
@@ -5933,7 +5923,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :comic <http://ma
 ObjectPropertyDomain(:comic :FictionalCharacter)
 ObjectPropertyRange(:comic :Comic)
 
-# Object Property: :commandStructure (Kommandostruktur)
+# Object Property: :commandStructure (command structure)
 
 AnnotationAssertion(rdfs:label :commandStructure "Kommandostruktur"@de)
 AnnotationAssertion(rdfs:label :commandStructure "command structure"@en)
@@ -5941,7 +5931,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :commandStructure
 ObjectPropertyDomain(:commandStructure :MilitaryUnit)
 ObjectPropertyRange(:commandStructure :MilitaryUnit)
 
-# Object Property: :commandant (Kommandant)
+# Object Property: :commandant (commandant)
 
 AnnotationAssertion(rdfs:label :commandant "Kommandant"@de)
 AnnotationAssertion(rdfs:label :commandant "commandant"@en)
@@ -5984,7 +5974,7 @@ AnnotationAssertion(rdfs:label :company "会社"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :company <http://mappings.dbpedia.org/index.php/OntologyProperty:company>)
 ObjectPropertyRange(:company :Organisation)
 
-# Object Property: :comparable (comparable)
+# Object Property: :comparable (vergleichbar)
 
 AnnotationAssertion(rdfs:comment :comparable "similar, unrelated rockets"@en)
 AnnotationAssertion(rdfs:label :comparable "comparable"@en)
@@ -6467,7 +6457,6 @@ ObjectPropertyRange(:custodian :Person)
 
 AnnotationAssertion(rdfs:label :cyclistGenre "cyclist genre"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :cyclistGenre <http://mappings.dbpedia.org/index.php/OntologyProperty:cyclistGenre>)
-ObjectPropertyDomain(:cyclistGenre :_CareerStation)
 
 # Object Property: :daira (daira)
 
@@ -6530,7 +6519,6 @@ AnnotationAssertion(rdfs:label :deanery "Dekanat"@de)
 AnnotationAssertion(rdfs:label :deanery "deanery"@en)
 AnnotationAssertion(rdfs:label :deanery "proosdij"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :deanery <http://mappings.dbpedia.org/index.php/OntologyProperty:deanery>)
-ObjectPropertyDomain(:deanery :_Parish)
 ObjectPropertyRange(:deanery :Deanery)
 
 # Object Property: :deathCause (death cause)
@@ -6644,7 +6632,7 @@ AnnotationAssertion(rdfs:label :designer "σχεδιαστής"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :designer <http://mappings.dbpedia.org/index.php/OntologyProperty:designer>)
 ObjectPropertyRange(:designer :Person)
 
-# Object Property: :destination (destination)
+# Object Property: :destination (Ziel)
 
 AnnotationAssertion(rdfs:label :destination "Ziel"@de)
 AnnotationAssertion(rdfs:label :destination "destination"@en)
@@ -6685,7 +6673,6 @@ AnnotationAssertion(rdfs:label :diocese "Diözese"@de)
 AnnotationAssertion(rdfs:label :diocese "bisdom"@nl)
 AnnotationAssertion(rdfs:label :diocese "diocese"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :diocese <http://mappings.dbpedia.org/index.php/OntologyProperty:diocese>)
-ObjectPropertyDomain(:diocese :_Deanery)
 ObjectPropertyRange(:diocese :Diocese)
 
 # Object Property: :diploma (diploma)
@@ -6867,7 +6854,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :editing <http://
 ObjectPropertyDomain(:editing :Film)
 ObjectPropertyRange(:editing :Person)
 
-# Object Property: :editor (eagarthóir)
+# Object Property: :editor (Herausgeber)
 
 AnnotationAssertion(rdfs:label :editor "Herausgeber"@de)
 AnnotationAssertion(rdfs:label :editor "eagarthóir"@ga)
@@ -7406,7 +7393,7 @@ AnnotationAssertion(rdfs:label :format "format (object)"@en)
 AnnotationAssertion(rdfs:label :format "formáid"@ga)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :format <http://mappings.dbpedia.org/index.php/OntologyProperty:format>)
 
-# Object Property: :formerBandMember (ehemaliges Bandmitglied)
+# Object Property: :formerBandMember (former band member)
 
 AnnotationAssertion(rdfs:comment :formerBandMember "A former member of the band."@en)
 AnnotationAssertion(rdfs:label :formerBandMember "ehemaliges Bandmitglied"@de)
@@ -7495,7 +7482,7 @@ AnnotationAssertion(rdfs:label :foundedBy "założony przez"@pl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :foundedBy <http://mappings.dbpedia.org/index.php/OntologyProperty:foundedBy>)
 ObjectPropertyRange(:foundedBy :Agent)
 
-# Object Property: :founder (founder)
+# Object Property: :founder (Ιδρυτής)
 
 AnnotationAssertion(rdfs:comment :founder "Ein Gründer oder Gründungsmitglied einer Organisation, Religion oder eines Ortes."@en)
 AnnotationAssertion(rdfs:label :founder "Gründer"@de)
@@ -8400,7 +8387,7 @@ AnnotationAssertion(rdfs:label :kingdom "界_(分類学)"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :kingdom <http://mappings.dbpedia.org/index.php/OntologyProperty:kingdom>)
 ObjectPropertyDomain(:kingdom :Species)
 
-# Object Property: :knownFor (known for)
+# Object Property: :knownFor (γνωστός_για)
 
 AnnotationAssertion(rdfs:comment :knownFor "Work, historic event, etc that the subject is known for. Applies to Person, Organization, ConcentrationCamp, etc"@en)
 AnnotationAssertion(rdfs:label :knownFor "bekannt für"@de)
@@ -8590,7 +8577,6 @@ ObjectPropertyRange(:lchfDraftTeam :HockeyTeam)
 
 AnnotationAssertion(rdfs:label :leadTeam "lead team"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :leadTeam <http://mappings.dbpedia.org/index.php/OntologyProperty:leadTeam>)
-ObjectPropertyDomain(:leadTeam :_CareerStation)
 ObjectPropertyRange(:leadTeam :SportsTeam)
 
 # Object Property: :leader (Führer)
@@ -8631,7 +8617,7 @@ AnnotationAssertion(rdfs:label :leaderParty "κόμμα_αρχηγού"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :leaderParty <http://mappings.dbpedia.org/index.php/OntologyProperty:leaderParty>)
 ObjectPropertyDomain(:leaderParty :PopulatedPlace)
 
-# Object Property: :league (Liga)
+# Object Property: :league (league)
 
 AnnotationAssertion(rdfs:label :league "Liga"@de)
 AnnotationAssertion(rdfs:label :league "league"@en)
@@ -9416,7 +9402,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :musicFusionGenre
 ObjectPropertyDomain(:musicFusionGenre :MusicGenre)
 ObjectPropertyRange(:musicFusionGenre :MusicGenre)
 
-# Object Property: :musicSubgenre (music subgenre)
+# Object Property: :musicSubgenre (Musik Subgenre)
 
 AnnotationAssertion(rdfs:label :musicSubgenre "Musik Subgenre"@de)
 AnnotationAssertion(rdfs:label :musicSubgenre "music subgenre"@en)
@@ -9795,7 +9781,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :officialOpenedBy
 ObjectPropertyDomain(:officialOpenedBy :Olympics)
 ObjectPropertyRange(:officialOpenedBy :Person)
 
-# Object Property: :oilSystem (oil system)
+# Object Property: :oilSystem (Ölsystem)
 
 AnnotationAssertion(rdfs:label :oilSystem "oil system"@en)
 AnnotationAssertion(rdfs:label :oilSystem "Ölsystem"@de)
@@ -9841,7 +9827,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :olympicGames <ht
 ObjectPropertyDomain(:olympicGames :Person)
 ObjectPropertyRange(:olympicGames :Tournament)
 
-# Object Property: :olympicOathSwornBy (olympic oath sworn by)
+# Object Property: :olympicOathSwornBy (Olympischer Eid)
 
 AnnotationAssertion(rdfs:label :olympicOathSwornBy "Olympischer Eid"@de)
 AnnotationAssertion(rdfs:label :olympicOathSwornBy "lecteur du serment olympique"@fr)
@@ -10009,13 +9995,13 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :origo <http://ma
 ObjectPropertyDomain(:origo :Muscle)
 ObjectPropertyRange(:origo :AnatomicalStructure)
 
-# Object Property: :orogeny (orogenèse)
+# Object Property: :orogeny (orogeny)
 
 AnnotationAssertion(rdfs:label :orogeny "orogeny"@en)
 AnnotationAssertion(rdfs:label :orogeny "orogenèse"@fr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :orogeny <http://mappings.dbpedia.org/index.php/OntologyProperty:orogeny>)
 
-# Object Property: :orthologousGene (オーソロガス遺伝子)
+# Object Property: :orthologousGene (Orthologous Gene)
 
 AnnotationAssertion(rdfs:label :orthologousGene "Orthologous Gene"@en)
 AnnotationAssertion(rdfs:label :orthologousGene "オーソロガス遺伝子"@ja)
@@ -10639,7 +10625,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :presidentRegiona
 ObjectPropertyDomain(:presidentRegionalCouncil :TermOfOffice)
 ObjectPropertyRange(:presidentRegionalCouncil :Person)
 
-# Object Property: :previousDemographics (frühere Demografie)
+# Object Property: :previousDemographics (previous demographics)
 
 AnnotationAssertion(rdfs:label :previousDemographics "frühere Demografie"@de)
 AnnotationAssertion(rdfs:label :previousDemographics "previous demographics"@en)
@@ -10758,7 +10744,6 @@ ObjectPropertyRange(:principalEngineer :Person)
 
 AnnotationAssertion(rdfs:label :proTeam "pro team"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :proTeam <http://mappings.dbpedia.org/index.php/OntologyProperty:proTeam>)
-ObjectPropertyDomain(:proTeam :_CareerStation)
 ObjectPropertyRange(:proTeam :SportsTeam)
 
 # Object Property: :producedBy (hergestellt durch)
@@ -11012,7 +10997,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :recordedIn <http
 ObjectPropertyDomain(:recordedIn :MusicalWork)
 ObjectPropertyRange(:recordedIn :PopulatedPlace)
 
-# Object Property: :rector (Rektor)
+# Object Property: :rector (rector)
 
 AnnotationAssertion(rdfs:label :rector "Rektor"@de)
 AnnotationAssertion(rdfs:label :rector "rector"@en)
@@ -12605,7 +12590,6 @@ AnnotationAssertion(rdfs:label :territory "Gebiet"@de)
 AnnotationAssertion(rdfs:label :territory "territorio"@es)
 AnnotationAssertion(rdfs:label :territory "territory"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :territory <http://mappings.dbpedia.org/index.php/OntologyProperty:territory>)
-ObjectPropertyDomain(:territory :_AdministrativeRegion)
 ObjectPropertyRange(:territory :PopulatedPlace)
 
 # Object Property: :terytCode (kod TERYT)
@@ -12654,7 +12638,7 @@ AnnotationAssertion(rdfs:label :thumbnail "thumbnail"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :thumbnail <http://mappings.dbpedia.org/index.php/OntologyProperty:thumbnail>)
 ObjectPropertyRange(:thumbnail :Image)
 
-# Object Property: :timeZone (tijdzone)
+# Object Property: :timeZone (huso horario)
 
 AnnotationAssertion(rdfs:label :timeZone "Zeitzone"@de)
 AnnotationAssertion(rdfs:label :timeZone "fuseau horaire"@fr)
@@ -12850,7 +12834,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :usedInWar <http:
 ObjectPropertyDomain(:usedInWar :Weapon)
 ObjectPropertyRange(:usedInWar :MilitaryConflict)
 
-# Object Property: :uses (користи)
+# Object Property: :uses (uses)
 
 AnnotationAssertion(rdfs:label :uses "uses"@en)
 AnnotationAssertion(rdfs:label :uses "користи"@sr)
@@ -13795,7 +13779,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :allegiance <http
 DataPropertyDomain(:allegiance :Person)
 DataPropertyRange(:allegiance xsd:string)
 
-# Data Property: :alpsSoiusaCode (Alps SOIUSA code)
+# Data Property: :alpsSoiusaCode (codice SOIUSA)
 
 AnnotationAssertion(rdfs:comment :alpsSoiusaCode "the Alps SOIUSA code corresponding to the mountain, according to the SOIUSA classification"@en)
 AnnotationAssertion(rdfs:label :alpsSoiusaCode "Alps SOIUSA code"@en)
@@ -13865,7 +13849,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :amateurTie <http
 DataPropertyDomain(:amateurTie :Boxer)
 DataPropertyRange(:amateurTie xsd:nonNegativeInteger)
 
-# Data Property: :amateurTitle (Amateurtitel)
+# Data Property: :amateurTitle (amateur title)
 
 AnnotationAssertion(rdfs:label :amateurTitle "Amateurtitel"@de)
 AnnotationAssertion(rdfs:label :amateurTitle "amateur title"@en)
@@ -13886,7 +13870,6 @@ DataPropertyRange(:amateurVictory xsd:nonNegativeInteger)
 
 AnnotationAssertion(rdfs:label :amateurYear "amateur year"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :amateurYear <http://mappings.dbpedia.org/index.php/OntologyProperty:amateurYear>)
-DataPropertyDomain(:amateurYear :_CareerStation)
 DataPropertyRange(:amateurYear xsd:string)
 
 # Data Property: :amgid (amgId)
@@ -14127,7 +14110,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :areaRural <http:
 DataPropertyDomain(:areaRural :PopulatedPlace)
 DataPropertyRange(:areaRural xsd:double)
 
-# Data Property: :areaTotal (έκταση περιοχής (m2))
+# Data Property: :areaTotal (area total (m2))
 
 AnnotationAssertion(rdfs:label :areaTotal "Fläche (m2)"@de)
 AnnotationAssertion(rdfs:label :areaTotal "area total (m2)"@en)
@@ -14184,7 +14167,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :arm <http://mapp
 DataPropertyDomain(:arm :Protein)
 DataPropertyRange(:arm xsd:string)
 
-# Data Property: :army (leger)
+# Data Property: :army (army)
 
 AnnotationAssertion(rdfs:comment :army "Ένας στρατός αποτελεί τις επίγειες ένοπλες δυνάμεις ενός έθνους"@el)
 AnnotationAssertion(rdfs:label :army "Armee"@de)
@@ -14360,7 +14343,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :automobileModel 
 DataPropertyDomain(:automobileModel :AutomobileEngine)
 DataPropertyRange(:automobileModel xsd:string)
 
-# Data Property: :average (μέσος όρος)
+# Data Property: :average (average)
 
 AnnotationAssertion(rdfs:label :average "Durchschnitt"@de)
 AnnotationAssertion(rdfs:label :average "average"@en)
@@ -14482,7 +14465,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :band <http://map
 DataPropertyDomain(:band :Protein)
 DataPropertyRange(:band xsd:string)
 
-# Data Property: :barPassRate (bar pass rate)
+# Data Property: :barPassRate (ποσοστό επιτυχίας)
 
 AnnotationAssertion(rdfs:label :barPassRate "bar pass rate"@en)
 AnnotationAssertion(rdfs:label :barPassRate "ποσοστό επιτυχίας"@el)
@@ -14631,7 +14614,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :bioclimate <http
 DataPropertyDomain(:bioclimate :Place)
 DataPropertyRange(:bioclimate xsd:string)
 
-# Data Property: :birthDate (data de naixement)
+# Data Property: :birthDate (Geburtsdatum)
 
 AnnotationAssertion(rdfs:label :birthDate "Geburtsdatum"@de)
 AnnotationAssertion(rdfs:label :birthDate "birth date"@en)
@@ -14773,7 +14756,7 @@ AnnotationAssertion(rdfs:label :book "название"@ru)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :book <http://mappings.dbpedia.org/index.php/OntologyProperty:book>)
 DataPropertyRange(:book xsd:string)
 
-# Data Property: :bowlRecord (bowl record)
+# Data Property: :bowlRecord (ρεκόρ μπόουλινγκ)
 
 AnnotationAssertion(rdfs:label :bowlRecord "bowl record"@en)
 AnnotationAssertion(rdfs:label :bowlRecord "ρεκόρ μπόουλινγκ"@el)
@@ -14788,7 +14771,7 @@ AnnotationAssertion(rdfs:label :bpnId "BPN Id"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :bpnId <http://mappings.dbpedia.org/index.php/OntologyProperty:bpnId>)
 DataPropertyRange(:bpnId xsd:string)
 
-# Data Property: :brainInfoNumber (brain info number)
+# Data Property: :brainInfoNumber (αριθμός νοητικής πληροφόρησης)
 
 AnnotationAssertion(rdfs:label :brainInfoNumber "brain info number"@en)
 AnnotationAssertion(rdfs:label :brainInfoNumber "αριθμός νοητικής πληροφόρησης"@el)
@@ -15131,7 +15114,6 @@ AnnotationAssertion(rdfs:label :casualties "casualties"@en)
 AnnotationAssertion(rdfs:label :casualties "pertes"@fr)
 AnnotationAssertion(rdfs:label :casualties "verliezen"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :casualties <http://mappings.dbpedia.org/index.php/OntologyProperty:casualties>)
-DataPropertyDomain(:casualties :_NaturalEvent)
 DataPropertyRange(:casualties xsd:integer)
 
 # Data Property: :catch (catch)
@@ -15247,7 +15229,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :chairmanTitle <h
 DataPropertyDomain(:chairmanTitle :SoccerClub)
 DataPropertyRange(:chairmanTitle rdf:langString)
 
-# Data Property: :championships (Meisterschaft)
+# Data Property: :championships (championships)
 
 AnnotationAssertion(rdfs:label :championships "Meisterschaft"@de)
 AnnotationAssertion(rdfs:label :championships "championships"@en)
@@ -15494,7 +15476,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :coachingRecord <
 DataPropertyDomain(:coachingRecord :CollegeCoach)
 DataPropertyRange(:coachingRecord xsd:string)
 
-# Data Property: :coalition (Koalition)
+# Data Property: :coalition (coalition)
 
 AnnotationAssertion(rdfs:comment :coalition "Παλαιότερα ο συνασπισμός χρησιμοποιούνταν ως στρατιωτικός όρος που υποδήλωνε την όμορη παράταξη πολεμιστών κατά την οποία ο κάθε στρατιώτης προφύλασσε τον διπλανό του με την ασπίδα του."@el)
 AnnotationAssertion(rdfs:label :coalition "Koalition"@de)
@@ -15899,7 +15881,7 @@ AnnotationAssertion(rdfs:label :cosparId "COSPAR id"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :cosparId <http://mappings.dbpedia.org/index.php/OntologyProperty:cosparId>)
 DataPropertyRange(:cosparId xsd:string)
 
-# Data Property: :cost (cost ($))
+# Data Property: :cost (kosten ($))
 
 AnnotationAssertion(rdfs:comment :cost "Cost of building an ArchitecturalStructure, Ship, etc"@en)
 AnnotationAssertion(rdfs:label :cost "Kosten ($)"@de)
@@ -16143,7 +16125,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :dateExtended <ht
 DataPropertyDomain(:dateExtended :Canal)
 DataPropertyRange(:dateExtended xsd:date)
 
-# Data Property: :dateLastUpdated (Datum der letzten Aktualisierung)
+# Data Property: :dateLastUpdated (datum laatste bewerking)
 
 AnnotationAssertion(rdfs:label :dateLastUpdated "Date Last Updated"@en)
 AnnotationAssertion(rdfs:label :dateLastUpdated "Datum der letzten Aktualisierung"@de)
@@ -16234,7 +16216,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :deadInFightPlace
 DataPropertyDomain(:deadInFightPlace :Person)
 DataPropertyRange(:deadInFightPlace xsd:string)
 
-# Data Property: :deathAge (death age)
+# Data Property: :deathAge (ηλικία θανάτου)
 
 AnnotationAssertion(rdfs:label :deathAge "Sterbealter"@de)
 AnnotationAssertion(rdfs:label :deathAge "death age"@en)
@@ -16609,7 +16591,6 @@ DataPropertyRange(:dissolutionDate xsd:date)
 
 AnnotationAssertion(rdfs:label :dissolutionYear "dissolution year"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :dissolutionYear <http://mappings.dbpedia.org/index.php/OntologyProperty:dissolutionYear>)
-DataPropertyDomain(:dissolutionYear :_PopulatedPlace)
 DataPropertyRange(:dissolutionYear xsd:gYear)
 
 # Data Property: :dissolved (dissolved)
@@ -16737,7 +16718,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :dockedTime <http
 DataPropertyDomain(:dockedTime :Spacecraft)
 DataPropertyRange(:dockedTime xsd:double)
 
-# Data Property: :documentDesignation (Aanduiding beschrijvend document)
+# Data Property: :documentDesignation (String designation of the WrittenWork describing the resource)
 
 AnnotationAssertion(rdfs:label :documentDesignation "Aanduiding beschrijvend document"@nl)
 AnnotationAssertion(rdfs:label :documentDesignation "String designation of the WrittenWork describing the resource"@en)
@@ -16867,7 +16848,6 @@ AnnotationAssertion(rdfs:label :dutchMIPCode "monument code for the Monuments In
 AnnotationAssertion(rdfs:label :dutchMIPCode "monumentcode voor het Monumenten Inventarisatie Project"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :dutchMIPCode <http://mappings.dbpedia.org/index.php/OntologyProperty:dutchMIPCode>)
 SubDataPropertyOf(:dutchMIPCode :Code)
-DataPropertyDomain(:dutchMIPCode :_Monument)
 DataPropertyRange(:dutchMIPCode xsd:string)
 
 # Data Property: :dutchNAIdentifier (Identifier for Duch National Archive)
@@ -16987,7 +16967,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :electionDate <ht
 DataPropertyDomain(:electionDate :Person)
 DataPropertyRange(:electionDate xsd:date)
 
-# Data Property: :electionDateLeader (election date leader)
+# Data Property: :electionDateLeader (Wahldatum des Vorsitzenden)
 
 AnnotationAssertion(rdfs:comment :electionDateLeader "The date that leader was elected."@en)
 AnnotationAssertion(rdfs:label :electionDateLeader "Wahldatum des Vorsitzenden"@de)
@@ -17145,7 +17125,7 @@ AnnotationAssertion(rdfs:label :endOccupation "end occupation"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :endOccupation <http://mappings.dbpedia.org/index.php/OntologyProperty:endOccupation>)
 DataPropertyRange(:endOccupation xsd:string)
 
-# Data Property: :endYear (Startjahr)
+# Data Property: :endYear (start year)
 
 AnnotationAssertion(rdfs:label :endYear "Startjahr"@de)
 AnnotationAssertion(rdfs:label :endYear "start year"@en)
@@ -17532,7 +17512,7 @@ AnnotationAssertion(rdfs:label :fdaUniiCode "código FDA UNII"@pt)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :fdaUniiCode <http://mappings.dbpedia.org/index.php/OntologyProperty:fdaUniiCode>)
 DataPropertyRange(:fdaUniiCode xsd:string)
 
-# Data Property: :feastDay (feestdag)
+# Data Property: :feastDay (Festtag)
 
 AnnotationAssertion(rdfs:comment :feastDay "A day of celebration associated with the entity. Applies to Saint, School etc"@en)
 AnnotationAssertion(rdfs:label :feastDay "Festtag"@de)
@@ -18089,7 +18069,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :freeScoreCompeti
 DataPropertyDomain(:freeScoreCompetition :Person)
 DataPropertyRange(:freeScoreCompetition xsd:string)
 
-# Data Property: :frequency (Frequenz (Hz))
+# Data Property: :frequency (frequency (Hz))
 
 AnnotationAssertion(rdfs:label :frequency "Frequenz (Hz)"@de)
 AnnotationAssertion(rdfs:label :frequency "frequency (Hz)"@en)
@@ -18985,7 +18965,7 @@ AnnotationAssertion(rdfs:label :imageSize "イメージサイズ　(px2)"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :imageSize <http://mappings.dbpedia.org/index.php/OntologyProperty:imageSize>)
 DataPropertyRange(:imageSize xsd:integer)
 
-# Data Property: :imdbId (IMDb id)
+# Data Property: :imdbId (imdb id)
 
 AnnotationAssertion(rdfs:comment :imdbId "International Movie Database ID. Applies to Films, Actors, etc"@en)
 AnnotationAssertion(rdfs:label :imdbId "IMDB id"@en)
@@ -19687,7 +19667,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :launch <http://m
 DataPropertyDomain(:launch :Spacecraft)
 DataPropertyRange(:launch xsd:date)
 
-# Data Property: :launchDate (Starttermin)
+# Data Property: :launchDate (launch date)
 
 AnnotationAssertion(rdfs:label :launchDate "Starttermin"@de)
 AnnotationAssertion(rdfs:label :launchDate "launch date"@en)
@@ -19757,7 +19737,6 @@ DataPropertyRange(:lchfDraftYear xsd:string)
 
 AnnotationAssertion(rdfs:label :leadYear "lead year"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :leadYear <http://mappings.dbpedia.org/index.php/OntologyProperty:leadYear>)
-DataPropertyDomain(:leadYear :_CareerStation)
 DataPropertyRange(:leadYear xsd:string)
 
 # Data Property: :leaderTitle (τίτλος_αρχηγού)
@@ -20448,7 +20427,7 @@ AnnotationAssertion(rdfs:label :meaning "meaning"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :meaning <http://mappings.dbpedia.org/index.php/OntologyProperty:meaning>)
 DataPropertyRange(:meaning xsd:string)
 
-# Data Property: :measurements (Messungen)
+# Data Property: :measurements (medidas)
 
 AnnotationAssertion(rdfs:label :measurements "Messungen"@de)
 AnnotationAssertion(rdfs:label :measurements "measurements"@en)
@@ -20497,7 +20476,6 @@ DataPropertyRange(:membership rdf:langString)
 AnnotationAssertion(rdfs:label :membershipAsOf "date membership established"@en)
 AnnotationAssertion(rdfs:label :membershipAsOf "datum vaststellen ledental"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :membershipAsOf <http://mappings.dbpedia.org/index.php/OntologyProperty:membershipAsOf>)
-DataPropertyDomain(:membershipAsOf :_Parish)
 DataPropertyRange(:membershipAsOf xsd:date)
 
 # Data Property: :mergerDate (merger date)
@@ -20557,7 +20535,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :militaryCommand 
 DataPropertyDomain(:militaryCommand :MilitaryPerson)
 DataPropertyRange(:militaryCommand xsd:string)
 
-# Data Property: :militaryFunction (military function)
+# Data Property: :militaryFunction (militärische Funktion)
 
 AnnotationAssertion(rdfs:label :militaryFunction "military function"@en)
 AnnotationAssertion(rdfs:label :militaryFunction "militärische Funktion"@de)
@@ -20832,7 +20810,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :mukhtar <http://
 DataPropertyDomain(:mukhtar :LebanonSettlement)
 DataPropertyRange(:mukhtar xsd:string)
 
-# Data Property: :municipalityCode (Gemeindecode)
+# Data Property: :municipalityCode (municipality code)
 
 AnnotationAssertion(rdfs:label :municipalityCode "Gemeindecode"@de)
 AnnotationAssertion(rdfs:label :municipalityCode "gemeente-code"@nl)
@@ -21109,7 +21087,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :neighbourConstel
 DataPropertyDomain(:neighbourConstellations :Constellation)
 DataPropertyRange(:neighbourConstellations xsd:string)
 
-# Data Property: :neighbourRegion (Nachbarregion)
+# Data Property: :neighbourRegion (neighbour region)
 
 AnnotationAssertion(rdfs:label :neighbourRegion "Nachbarregion"@de)
 AnnotationAssertion(rdfs:label :neighbourRegion "neighbour region"@en)
@@ -21281,7 +21259,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :numberBuilt <htt
 DataPropertyDomain(:numberBuilt :Aircraft)
 DataPropertyRange(:numberBuilt xsd:nonNegativeInteger)
 
-# Data Property: :numberOfAcademicStaff (Anzahl der wissenschaftlichen Mitarbeiter)
+# Data Property: :numberOfAcademicStaff (αριθμός ακαδημαϊκού προσωπικού)
 
 AnnotationAssertion(rdfs:label :numberOfAcademicStaff "Anzahl der wissenschaftlichen Mitarbeiter"@de)
 AnnotationAssertion(rdfs:label :numberOfAcademicStaff "number of academic staff"@en)
@@ -21356,7 +21334,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :numberOfCity <ht
 DataPropertyDomain(:numberOfCity :Continent)
 DataPropertyRange(:numberOfCity xsd:nonNegativeInteger)
 
-# Data Property: :numberOfClubs (nombre de clubs)
+# Data Property: :numberOfClubs (Anzahl der Clubs)
 
 AnnotationAssertion(rdfs:label :numberOfClubs "Anzahl der Clubs"@de)
 AnnotationAssertion(rdfs:label :numberOfClubs "nombre de clubs"@fr)
@@ -21571,7 +21549,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :numberOfIsland <
 DataPropertyDomain(:numberOfIsland :Place)
 DataPropertyRange(:numberOfIsland xsd:string)
 
-# Data Property: :numberOfIslands (αριθμός νησιών)
+# Data Property: :numberOfIslands (aantal eilanden)
 
 AnnotationAssertion(rdfs:label :numberOfIslands "Anzahl der Inseln"@de)
 AnnotationAssertion(rdfs:label :numberOfIslands "aantal eilanden"@nl)
@@ -22269,7 +22247,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :olympicGamesGold
 DataPropertyDomain(:olympicGamesGold :Person)
 DataPropertyRange(:olympicGamesGold xsd:nonNegativeInteger)
 
-# Data Property: :olympicGamesSilver (olympic games silver)
+# Data Property: :olympicGamesSilver (zilver op de Olympische Spelen)
 
 AnnotationAssertion(rdfs:label :olympicGamesSilver "olympic games silver"@en)
 AnnotationAssertion(rdfs:label :olympicGamesSilver "zilver op de Olympische Spelen"@nl)
@@ -22320,7 +22298,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :openAccessConten
 DataPropertyDomain(:openAccessContent :PeriodicalLiterature)
 DataPropertyRange(:openAccessContent xsd:string)
 
-# Data Property: :openingDate (date d'ouverture)
+# Data Property: :openingDate (Eröffnungsdatum)
 
 AnnotationAssertion(rdfs:label :openingDate "Eröffnungsdatum"@de)
 AnnotationAssertion(rdfs:label :openingDate "date d'ouverture"@fr)
@@ -22826,7 +22804,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :personName <http
 DataPropertyDomain(:personName :PersonFunction)
 DataPropertyRange(:personName xsd:string)
 
-# Data Property: :phonePrefix (Telefonvorwahl)
+# Data Property: :phonePrefix (phone prefix)
 
 AnnotationAssertion(rdfs:comment :phonePrefix "Don't use this, use areaCode"@en)
 AnnotationAssertion(rdfs:label :phonePrefix "Telefonvorwahl"@de)
@@ -23234,7 +23212,6 @@ DataPropertyRange(:proSince xsd:string)
 
 AnnotationAssertion(rdfs:label :proYear "pro year"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :proYear <http://mappings.dbpedia.org/index.php/OntologyProperty:proYear>)
-DataPropertyDomain(:proYear :_CareerStation)
 DataPropertyRange(:proYear xsd:string)
 
 # Data Property: :probowlPick (pro bowl pick)
@@ -23521,7 +23498,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :quebecerTitle <h
 DataPropertyDomain(:quebecerTitle :Film)
 DataPropertyRange(:quebecerTitle xsd:string)
 
-# Data Property: :quotation (Zitat)
+# Data Property: :quotation (citation)
 
 AnnotationAssertion(rdfs:comment :quotation "A quotation is the repetition of one expression as part of another one, particularly when the quoted expression is well-known or explicitly attributed by citation to its original source."@en)
 AnnotationAssertion(rdfs:comment :quotation "En su acepción más amplia, una cita es un recurso retórico que consiste en reproducir un fragmento de una expresión humana respetando su formulación original."@es)
@@ -23602,7 +23579,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :railGauge <http:
 DataPropertyDomain(:railGauge :RouteOfTransportation)
 DataPropertyRange(:railGauge xsd:double)
 
-# Data Property: :railwayPlatforms (αποβάθρα)
+# Data Property: :railwayPlatforms (Bahnsteige)
 
 AnnotationAssertion(rdfs:comment :railwayPlatforms "Information on the type of platform(s) at the station."@en)
 AnnotationAssertion(rdfs:label :railwayPlatforms "Bahnsteige"@de)
@@ -23619,7 +23596,6 @@ AnnotationAssertion(rdfs:comment :range "Maximum distance without refueling"@en)
 AnnotationAssertion(rdfs:label :range "bereik"@nl)
 AnnotationAssertion(rdfs:label :range "range"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :range <http://mappings.dbpedia.org/index.php/OntologyProperty:range>)
-DataPropertyDomain(:range :_Instrument)
 DataPropertyRange(:range xsd:positiveInteger)
 
 # Data Property: :rank (rank)
@@ -24323,7 +24299,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :schoolNumber <ht
 DataPropertyDomain(:schoolNumber :School)
 DataPropertyRange(:schoolNumber xsd:string)
 
-# Data Property: :scientificName (scientific name)
+# Data Property: :scientificName (wetenschappelijke naam)
 
 AnnotationAssertion(rdfs:label :scientificName "scientific name"@en)
 AnnotationAssertion(rdfs:label :scientificName "wetenschappelijke naam"@nl)
@@ -25581,7 +25557,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :titleSingle <htt
 DataPropertyDomain(:titleSingle :TennisPlayer)
 DataPropertyRange(:titleSingle xsd:string)
 
-# Data Property: :toll (Maut ($))
+# Data Property: :toll (toll ($))
 
 AnnotationAssertion(rdfs:label :toll "Maut ($)"@de)
 AnnotationAssertion(rdfs:label :toll "toll ($)"@en)
@@ -25864,7 +25840,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :uniprot <http://
 DataPropertyDomain(:uniprot :Biomolecule)
 DataPropertyRange(:uniprot xsd:string)
 
-# Data Property: :unitCost (unit cost ($))
+# Data Property: :unitCost (Stückkosten ($))
 
 AnnotationAssertion(rdfs:label :unitCost "Stückkosten ($)"@de)
 AnnotationAssertion(rdfs:label :unitCost "unit cost ($)"@en)
@@ -26055,7 +26031,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :victoryAsMgr <ht
 DataPropertyDomain(:victoryAsMgr :Person)
 DataPropertyRange(:victoryAsMgr xsd:nonNegativeInteger)
 
-# Data Property: :victoryPercentageAsMgr (victory percentage as manager)
+# Data Property: :victoryPercentageAsMgr (проценат победа на месту менаџера)
 
 AnnotationAssertion(rdfs:label :victoryPercentageAsMgr "victory percentage as manager"@en)
 AnnotationAssertion(rdfs:label :victoryPercentageAsMgr "проценат победа на месту менаџера"@sr)
@@ -26100,7 +26076,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :visitorsPerYear 
 DataPropertyDomain(:visitorsPerYear :ArchitecturalStructure)
 DataPropertyRange(:visitorsPerYear xsd:nonNegativeInteger)
 
-# Data Property: :visitorsPercentageChange (prozentuale Veränderung der Besucherzahl)
+# Data Property: :visitorsPercentageChange (промена процента посетилаца)
 
 AnnotationAssertion(rdfs:comment :visitorsPercentageChange "Percentage increase or decrease."@en)
 AnnotationAssertion(rdfs:label :visitorsPercentageChange "prozentuale Veränderung der Besucherzahl"@de)
@@ -26155,7 +26131,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :voltageOfElectri
 DataPropertyDomain(:voltageOfElectrification :RouteOfTransportation)
 DataPropertyRange(:voltageOfElectrification xsd:double)
 
-# Data Property: :volume (όγκος (μ³))
+# Data Property: :volume (Volumen (μ³))
 
 AnnotationAssertion(rdfs:label :volume "Volumen (μ³)"@de)
 AnnotationAssertion(rdfs:label :volume "volume (μ³)"@en)
@@ -26289,7 +26265,7 @@ AnnotationAssertion(rdfs:label :websiteLabel "label of a website"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :websiteLabel <http://mappings.dbpedia.org/index.php/OntologyProperty:websiteLabel>)
 DataPropertyRange(:websiteLabel rdf:langString)
 
-# Data Property: :weddingParentsDate (датум венчања родитеља)
+# Data Property: :weddingParentsDate (Hochzeitstag der Eltern)
 
 AnnotationAssertion(rdfs:label :weddingParentsDate "Hochzeitstag der Eltern"@de)
 AnnotationAssertion(rdfs:label :weddingParentsDate "Parents Wedding Date"@en)
@@ -26813,7 +26789,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/ConveyorSystem/diame
 DataPropertyDomain(<http://dbpedia.org/ontology/ConveyorSystem/diameter> :ConveyorSystem)
 DataPropertyRange(<http://dbpedia.org/ontology/ConveyorSystem/diameter> <http://dbpedia.org/datatype/metre>)
 
-# Data Property: <http://dbpedia.org/ontology/ConveyorSystem/height> (hoogte (mm))
+# Data Property: <http://dbpedia.org/ontology/ConveyorSystem/height> (hauteur (mm))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/ConveyorSystem/height> "Höhe (mm)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/ConveyorSystem/height> "altura (mm)"@pt)
@@ -27056,7 +27032,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Escalator/weight> "�
 DataPropertyDomain(<http://dbpedia.org/ontology/Escalator/weight> :Escalator)
 DataPropertyRange(<http://dbpedia.org/ontology/Escalator/weight> <http://dbpedia.org/datatype/kilogram>)
 
-# Data Property: <http://dbpedia.org/ontology/Escalator/width> (width (mm))
+# Data Property: <http://dbpedia.org/ontology/Escalator/width> (breedte (mm))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Escalator/width> "Breite (mm)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Escalator/width> "ancho (mm)"@es)
@@ -27301,7 +27277,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/MeanOfTransportation
 DataPropertyDomain(<http://dbpedia.org/ontology/MeanOfTransportation/mass> :MeanOfTransportation)
 DataPropertyRange(<http://dbpedia.org/ontology/MeanOfTransportation/mass> <http://dbpedia.org/datatype/kilogram>)
 
-# Data Property: <http://dbpedia.org/ontology/MeanOfTransportation/weight> (gewicht (kg))
+# Data Property: <http://dbpedia.org/ontology/MeanOfTransportation/weight> (βάρος (kg))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/MeanOfTransportation/weight> "Gewicht (kg)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/MeanOfTransportation/weight> "gewicht (kg)"@nl)
@@ -27413,7 +27389,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/On-SiteTransportatio
 DataPropertyDomain(<http://dbpedia.org/ontology/On-SiteTransportation/height> :On-SiteTransportation)
 DataPropertyRange(<http://dbpedia.org/ontology/On-SiteTransportation/height> <http://dbpedia.org/datatype/millimetre>)
 
-# Data Property: <http://dbpedia.org/ontology/On-SiteTransportation/length> (longueur (mm))
+# Data Property: <http://dbpedia.org/ontology/On-SiteTransportation/length> (lengte (mm))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/On-SiteTransportation/length> "Länge (mm)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/On-SiteTransportation/length> "lengte (mm)"@nl)
@@ -27608,7 +27584,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/PopulatedPlace/area>
 DataPropertyDomain(<http://dbpedia.org/ontology/PopulatedPlace/area> :PopulatedPlace)
 DataPropertyRange(<http://dbpedia.org/ontology/PopulatedPlace/area> <http://dbpedia.org/datatype/squareKilometre>)
 
-# Data Property: <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> (περιοχή μετρό (km2))
+# Data Property: <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> (метрополска област (km2))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> "area metro (km2)"@en)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/PopulatedPlace/areaMetro> "περιοχή μετρό (km2)"@el)
@@ -27782,7 +27758,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/SpaceStation/volume>
 DataPropertyDomain(<http://dbpedia.org/ontology/SpaceStation/volume> :SpaceStation)
 DataPropertyRange(<http://dbpedia.org/ontology/SpaceStation/volume> <http://dbpedia.org/datatype/cubicMetre>)
 
-# Data Property: <http://dbpedia.org/ontology/Spacecraft/apoapsis> (апоапсис (km))
+# Data Property: <http://dbpedia.org/ontology/Spacecraft/apoapsis> (apoapsis (km))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Spacecraft/apoapsis> "Apoapsisdistanz (km)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Spacecraft/apoapsis> "apoapsis (km)"@en)
@@ -27918,7 +27894,7 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Weapon/length> "μή
 DataPropertyDomain(<http://dbpedia.org/ontology/Weapon/length> :Weapon)
 DataPropertyRange(<http://dbpedia.org/ontology/Weapon/length> <http://dbpedia.org/datatype/millimetre>)
 
-# Data Property: <http://dbpedia.org/ontology/Weapon/weight> (βάρος (kg))
+# Data Property: <http://dbpedia.org/ontology/Weapon/weight> (体重 (kg))
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Weapon/weight> "Gewicht (kg)"@de)
 AnnotationAssertion(rdfs:label <http://dbpedia.org/ontology/Weapon/weight> "gewicht (kg)"@nl)
@@ -29628,7 +29604,7 @@ AnnotationAssertion(rdfs:label :AdministrativeRegion "관리 지역"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :AdministrativeRegion <http://mappings.dbpedia.org/index.php/OntologyClass:AdministrativeRegion>)
 SubClassOf(:AdministrativeRegion :Region)
 
-# Class: :AdultActor (adult (pornographic) actor)
+# Class: :AdultActor (actor porno)
 
 AnnotationAssertion(rdfs:comment :AdultActor "A pornographic actor or actress or a porn star is a person who performs sex acts in film, normally characterised as a pornographic film."@en)
 AnnotationAssertion(rdfs:comment :AdultActor "Un actor ou unha actriz porno ou pornográfico/a, é un actor ou actriz de cine porno que actúa en películas de temática pornográfica..&lt;ref&gt;https://gl.wikipedia.org/wiki/Actor_pornogr%C3%A1fico&lt;/ref&gt;"@gl)
@@ -29849,7 +29825,7 @@ AnnotationAssertion(rdfs:label :AmericanFootballPlayer "미식 축구 선수"@ko
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :AmericanFootballPlayer <http://mappings.dbpedia.org/index.php/OntologyClass:AmericanFootballPlayer>)
 SubClassOf(:AmericanFootballPlayer :GridironFootballPlayer)
 
-# Class: :AmericanFootballTeam (equipo de fútbol americano)
+# Class: :AmericanFootballTeam (american football Team)
 
 AnnotationAssertion(rdfs:label :AmericanFootballTeam "American-Football-Team"@de)
 AnnotationAssertion(rdfs:label :AmericanFootballTeam "Amerikaans football team"@nl)
@@ -29999,7 +29975,7 @@ AnnotationAssertion(rdfs:label :Archaea "고세균"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Archaea <http://mappings.dbpedia.org/index.php/OntologyClass:Archaea>)
 SubClassOf(:Archaea :Species)
 
-# Class: :Archeologist (seandálaí)
+# Class: :Archeologist (Αρχαιολόγος)
 
 AnnotationAssertion(rdfs:label :Archeologist "Archäologe"@de)
 AnnotationAssertion(rdfs:label :Archeologist "Arqueólogo"@es)
@@ -30159,7 +30135,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Article <http://
 EquivalentClasses(:Article <http://purl.org/ontology/bibo/Article>)
 SubClassOf(:Article :WrittenWork)
 
-# Class: :ArtificialSatellite (künstlicher Satellit)
+# Class: :ArtificialSatellite (人工衛星)
 
 AnnotationAssertion(rdfs:comment :ArtificialSatellite "In the context of spaceflight, an artificial satellite is an artificial object which has been intentionally placed into orbit."@en)
 AnnotationAssertion(rdfs:comment :ArtificialSatellite "Satellit (Raumfahrt), ein künstlicher Raumflugkörper, der einen Himmelskörper auf einer festen Umlaufbahn umrundet"@de)
@@ -30173,7 +30149,7 @@ AnnotationAssertion(rdfs:label :ArtificialSatellite "人工衛星"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ArtificialSatellite <http://mappings.dbpedia.org/index.php/OntologyClass:ArtificialSatellite>)
 SubClassOf(:ArtificialSatellite :Satellite)
 
-# Class: :Artist (artysta)
+# Class: :Artist (kunstenaar)
 
 AnnotationAssertion(rdfs:label :Artist "Künstler"@de)
 AnnotationAssertion(rdfs:label :Artist "artist"@en)
@@ -30289,7 +30265,7 @@ AnnotationAssertion(rdfs:label :Athletics "陸上競技"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Athletics <http://mappings.dbpedia.org/index.php/OntologyClass:Athletics>)
 SubClassOf(:Athletics :Sport)
 
-# Class: :AthleticsPlayer (lúthchleasaí)
+# Class: :AthleticsPlayer (陸上競技選手)
 
 AnnotationAssertion(rdfs:label :AthleticsPlayer "Athlet"@de)
 AnnotationAssertion(rdfs:label :AthleticsPlayer "athletics player"@en)
@@ -30364,7 +30340,7 @@ AnnotationAssertion(rdfs:label :AustralianRulesFootballPlayer "오스트레일�
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :AustralianRulesFootballPlayer <http://mappings.dbpedia.org/index.php/OntologyClass:AustralianRulesFootballPlayer>)
 SubClassOf(:AustralianRulesFootballPlayer :Athlete)
 
-# Class: :AutoRacingLeague (πρωτάθλημα αγώνων αυτοκινήτων)
+# Class: :AutoRacingLeague (自動車競技リーグ)
 
 AnnotationAssertion(rdfs:comment :AutoRacingLeague "a group of sports teams or individual athletes that compete against each other in auto racing"@en)
 AnnotationAssertion(rdfs:comment :AutoRacingLeague "μια ομάδα αθλητικών ομάδων ή μεμονωμένων αθλητών που ανταγωνίζονται μεταξύ τους σε αγώνες αυτοκινήτων"@el)
@@ -30543,7 +30519,7 @@ AnnotationAssertion(rdfs:label :BaseballPlayer "야구 선수"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :BaseballPlayer <http://mappings.dbpedia.org/index.php/OntologyClass:BaseballPlayer>)
 SubClassOf(:BaseballPlayer :Athlete)
 
-# Class: :BaseballSeason (σεζόν του μπέιζμπολ)
+# Class: :BaseballSeason (Baseballsaison)
 
 AnnotationAssertion(rdfs:label :BaseballSeason "Baseballsaison"@de)
 AnnotationAssertion(rdfs:label :BaseballSeason "baseball season"@en)
@@ -30584,7 +30560,7 @@ AnnotationAssertion(rdfs:label :BasketballLeague "농구 리그"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :BasketballLeague <http://mappings.dbpedia.org/index.php/OntologyClass:BasketballLeague>)
 SubClassOf(:BasketballLeague :SportsLeague)
 
-# Class: :BasketballPlayer (농구 선수)
+# Class: :BasketballPlayer (Basquetbolista)
 
 AnnotationAssertion(rdfs:comment :BasketballPlayer "Ένας αθλητής (άνδρας ή γυναίκα) που ασχολείται με το άθλημα της καλαθοσφαίρισης."@el)
 AnnotationAssertion(rdfs:label :BasketballPlayer "Basketballspieler"@de)
@@ -30626,7 +30602,7 @@ AnnotationAssertion(rdfs:label :Bay "湾"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Bay <http://mappings.dbpedia.org/index.php/OntologyClass:Bay>)
 SubClassOf(:Bay :BodyOfWater)
 
-# Class: :Beach (strand)
+# Class: :Beach (platja)
 
 AnnotationAssertion(rdfs:comment :Beach "Ribera del mar o de un río grande, formada de arenales en superficie casi plana."@es)
 AnnotationAssertion(rdfs:comment :Beach "The shore of a body of water, especially when sandy or pebbly."@en)
@@ -30751,7 +30727,7 @@ AnnotationAssertion(rdfs:label :Biomolecule "생체 분자"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Biomolecule <http://mappings.dbpedia.org/index.php/OntologyClass:Biomolecule>)
 SubClassOf(:Biomolecule owl:Thing)
 
-# Class: :Bird (oiseau)
+# Class: :Bird (éan)
 
 AnnotationAssertion(rdfs:label :Bird "Vogel"@de)
 AnnotationAssertion(rdfs:label :Bird "bird"@en)
@@ -31308,7 +31284,7 @@ AnnotationAssertion(rdfs:label :Cartoon "카툰 (만화)"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Cartoon <http://mappings.dbpedia.org/index.php/OntologyClass:Cartoon>)
 SubClassOf(:Cartoon :Work)
 
-# Class: :Case (dossier)
+# Class: :Case (Sache)
 
 AnnotationAssertion(rdfs:comment :Case "A case is the total of work done to prepare for an administrative or business decision. As a rule, a case is reflected in a set of documents."@en)
 AnnotationAssertion(rdfs:comment :Case "Een zaak is het geheel aan werk gedaan om tot een bestuurlijke of zakelijke beslissing te komen. Een zaak slaat doorgaans neer in een verzameling documenten."@de)
@@ -31418,7 +31394,7 @@ AnnotationAssertion(rdfs:label :CelestialBody "천체"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :CelestialBody <http://mappings.dbpedia.org/index.php/OntologyClass:CelestialBody>)
 SubClassOf(:CelestialBody :Place)
 
-# Class: :Cemetery (reilig)
+# Class: :Cemetery (墓地)
 
 AnnotationAssertion(rdfs:comment :Cemetery "A burial place"@en)
 AnnotationAssertion(rdfs:comment :Cemetery "Un cimetière est un groupement de sépultures monumentales."@fr)
@@ -31521,7 +31497,7 @@ AnnotationAssertion(rdfs:label :ChemicalElement "원소"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ChemicalElement <http://mappings.dbpedia.org/index.php/OntologyClass:ChemicalElement>)
 SubClassOf(:ChemicalElement :ChemicalSubstance)
 
-# Class: :ChemicalSubstance (chemical substance)
+# Class: :ChemicalSubstance (substance chimique)
 
 AnnotationAssertion(rdfs:label :ChemicalSubstance "ceimiceán"@ga)
 AnnotationAssertion(rdfs:label :ChemicalSubstance "chemical substance"@en)
@@ -31665,7 +31641,7 @@ AnnotationAssertion(rdfs:label :ClassicalMusicComposition "σύνθεση κλα
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ClassicalMusicComposition <http://mappings.dbpedia.org/index.php/OntologyClass:ClassicalMusicComposition>)
 SubClassOf(:ClassicalMusicComposition :MusicalWork)
 
-# Class: :Cleric (성직자)
+# Class: :Cleric (ecclesiastico)
 
 AnnotationAssertion(rdfs:label :Cleric "cleric"@en)
 AnnotationAssertion(rdfs:label :Cleric "ecclesiastico"@it)
@@ -31815,7 +31791,7 @@ AnnotationAssertion(rdfs:label :ComedyGroup "코미디 그룹"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ComedyGroup <http://mappings.dbpedia.org/index.php/OntologyClass:ComedyGroup>)
 SubClassOf(:ComedyGroup :Group)
 
-# Class: :Comic (comic)
+# Class: :Comic (bande dessinée)
 
 AnnotationAssertion(rdfs:label :Comic "Comic"@de)
 AnnotationAssertion(rdfs:label :Comic "bande dessinée"@fr)
@@ -31967,7 +31943,7 @@ AnnotationAssertion(rdfs:label :Contest "コンテスト"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Contest <http://mappings.dbpedia.org/index.php/OntologyClass:Contest>)
 SubClassOf(:Contest :Competition)
 
-# Class: :Continent (continent)
+# Class: :Continent (continente)
 
 AnnotationAssertion(rdfs:comment :Continent "Un continente es una gran área de tierra emergida de la costra terrestre."@es)
 AnnotationAssertion(rdfs:comment :Continent "Un continente è una grande area di terra emersa della crosta terrestre, è anzi la più vasta delle ripartizioni con le quali si suddividono le terre emerse."@it)
@@ -32173,7 +32149,7 @@ AnnotationAssertion(rdfs:label :Curler "컬링 선수"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Curler <http://mappings.dbpedia.org/index.php/OntologyClass:Curler>)
 SubClassOf(:Curler :WinterSportPlayer)
 
-# Class: :CurlingLeague (πρωτάθλημα curling)
+# Class: :CurlingLeague (curling league)
 
 AnnotationAssertion(rdfs:comment :CurlingLeague "a group of sports teams that compete against each other in Curling"@en)
 AnnotationAssertion(rdfs:label :CurlingLeague "Curling-Liga"@de)
@@ -32216,7 +32192,7 @@ AnnotationAssertion(rdfs:label :Cycad "소철류"@kr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Cycad <http://mappings.dbpedia.org/index.php/OntologyClass:Cycad>)
 SubClassOf(:Cycad :Plant)
 
-# Class: :CyclingCompetition (Radrennen)
+# Class: :CyclingCompetition (gara ciclistica)
 
 AnnotationAssertion(rdfs:label :CyclingCompetition "Prueba ciclista"@es)
 AnnotationAssertion(rdfs:label :CyclingCompetition "Radrennen"@de)
@@ -32405,7 +32381,7 @@ AnnotationAssertion(rdfs:label :Demographics "人口動態"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Demographics <http://mappings.dbpedia.org/index.php/OntologyClass:Demographics>)
 SubClassOf(:Demographics owl:Thing)
 
-# Class: :Department (Distrikt)
+# Class: :Department (departement)
 
 SubClassOf(:Department :GovernmentalAdministrativeRegion)
 
@@ -32512,7 +32488,7 @@ AnnotationAssertion(rdfs:label :Diploma "卒業証明書"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Diploma <http://mappings.dbpedia.org/index.php/OntologyClass:Diploma>)
 SubClassOf(:Diploma owl:Thing)
 
-# Class: :Disease (disease)
+# Class: :Disease (病気)
 
 AnnotationAssertion(rdfs:label :Disease "Krankheit"@de)
 AnnotationAssertion(rdfs:label :Disease "disease"@en)
@@ -32691,7 +32667,7 @@ AnnotationAssertion(rdfs:label :Egyptologist "エジプト学者"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Egyptologist <http://mappings.dbpedia.org/index.php/OntologyClass:Egyptologist>)
 SubClassOf(:Egyptologist :Person)
 
-# Class: :Election (選挙)
+# Class: :Election (선거)
 
 AnnotationAssertion(rdfs:label :Election "Election"@en)
 AnnotationAssertion(rdfs:label :Election "Wahl"@de)
@@ -32706,7 +32682,7 @@ AnnotationAssertion(rdfs:label :Election "선거"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Election <http://mappings.dbpedia.org/index.php/OntologyClass:Election>)
 SubClassOf(:Election :SocietalEvent)
 
-# Class: :ElectionDiagram (εκλογικό διάγραμμα)
+# Class: :ElectionDiagram (Election Diagram)
 
 AnnotationAssertion(rdfs:label :ElectionDiagram "Election Diagram"@en)
 AnnotationAssertion(rdfs:label :ElectionDiagram "Wahldiagram"@de)
@@ -32723,7 +32699,7 @@ AnnotationAssertion(rdfs:label :ElectricalSubstation "transformatorhuisje"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ElectricalSubstation <http://mappings.dbpedia.org/index.php/OntologyClass:ElectricalSubstation>)
 SubClassOf(:ElectricalSubstation :Station)
 
-# Class: :Embryology (embryologie)
+# Class: :Embryology (εμβρυολογία)
 
 AnnotationAssertion(rdfs:label :Embryology "Embryologie"@de)
 AnnotationAssertion(rdfs:label :Embryology "embryologie"@fr)
@@ -32798,7 +32774,7 @@ AnnotationAssertion(rdfs:label :Entomologist "昆虫学者"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Entomologist <http://mappings.dbpedia.org/index.php/OntologyClass:Entomologist>)
 SubClassOf(:Entomologist :Scientist)
 
-# Class: :Enzyme (ένζυμο)
+# Class: :Enzyme (einsím)
 
 AnnotationAssertion(rdfs:label :Enzyme "Enzym"@de)
 AnnotationAssertion(rdfs:label :Enzyme "einsím"@ga)
@@ -32821,7 +32797,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Escalator <http:
 SubClassOf(:Escalator :On-SiteTransportation)
 DisjointClasses(:Escalator :Person)
 
-# Class: :EthnicGroup (ethnie)
+# Class: :EthnicGroup (εθνική ομάδα)
 
 AnnotationAssertion(rdfs:label :EthnicGroup "ethnic group"@en)
 AnnotationAssertion(rdfs:label :EthnicGroup "ethnie"@de)
@@ -32859,7 +32835,7 @@ AnnotationAssertion(rdfs:label :EurovisionSongContestEntry "Διαγωνισμό
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :EurovisionSongContestEntry <http://mappings.dbpedia.org/index.php/OntologyClass:EurovisionSongContestEntry>)
 SubClassOf(:EurovisionSongContestEntry :Song)
 
-# Class: :Event (évènement)
+# Class: :Event (사건)
 
 AnnotationAssertion(rdfs:label :Event "Ereignis"@de)
 AnnotationAssertion(rdfs:label :Event "event"@en)
@@ -32906,7 +32882,7 @@ AnnotationAssertion(rdfs:label :Family "家族"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Family <http://mappings.dbpedia.org/index.php/OntologyClass:Family>)
 SubClassOf(:Family :Agent)
 
-# Class: :Farmer (boer)
+# Class: :Farmer (farmer)
 
 AnnotationAssertion(rdfs:label :Farmer "Bauer"@de)
 AnnotationAssertion(rdfs:label :Farmer "boer"@nl)
@@ -32953,7 +32929,7 @@ AnnotationAssertion(rdfs:label :Fencer "フェンシング選手"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Fencer <http://mappings.dbpedia.org/index.php/OntologyClass:Fencer>)
 SubClassOf(:Fencer :Athlete)
 
-# Class: :Fern (φτέρη)
+# Class: :Fern (farn)
 
 AnnotationAssertion(rdfs:label :Fern "farn"@de)
 AnnotationAssertion(rdfs:label :Fern "felce"@it)
@@ -33002,7 +32978,7 @@ AnnotationAssertion(rdfs:label :FieldHockeyLeague "πρωτάθλημα χόκε
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :FieldHockeyLeague <http://mappings.dbpedia.org/index.php/OntologyClass:FieldHockeyLeague>)
 SubClassOf(:FieldHockeyLeague :SportsLeague)
 
-# Class: :FigureSkater (figure skater)
+# Class: :FigureSkater (Eiskunstläufer)
 
 AnnotationAssertion(rdfs:label :FigureSkater "Eiskunstläufer"@de)
 AnnotationAssertion(rdfs:label :FigureSkater "figure skater"@en)
@@ -33163,7 +33139,7 @@ AnnotationAssertion(rdfs:label :Forest "forêt"@fr)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Forest <http://mappings.dbpedia.org/index.php/OntologyClass:Forest>)
 SubClassOf(:Forest :NaturalPlace)
 
-# Class: :FormerMunicipality (one-time municipality)
+# Class: :FormerMunicipality (commune historique)
 
 AnnotationAssertion(rdfs:comment :FormerMunicipality "A municipality that has ceased to exist, and most of the time got incorporated (wholesale or partly) into another municipality"@en)
 AnnotationAssertion(rdfs:label :FormerMunicipality "commune historique"@fr)
@@ -33345,7 +33321,7 @@ AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :GeologicalPeriod
 SubClassOf(:GeologicalPeriod :TimePeriod)
 DisjointClasses(:GeologicalPeriod :Person)
 
-# Class: :GeopoliticalOrganisation (geopolitieke organisatie)
+# Class: :GeopoliticalOrganisation (organisation géopolitique)
 
 AnnotationAssertion(rdfs:label :GeopoliticalOrganisation "geopolitical organisation"@en)
 AnnotationAssertion(rdfs:label :GeopoliticalOrganisation "geopolitieke organisatie"@nl)
@@ -33357,7 +33333,7 @@ AnnotationAssertion(rdfs:label :GeopoliticalOrganisation "지정학적 조직"@k
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :GeopoliticalOrganisation <http://mappings.dbpedia.org/index.php/OntologyClass:GeopoliticalOrganisation>)
 SubClassOf(:GeopoliticalOrganisation :Organisation)
 
-# Class: :Ginkgo (ginkgo)
+# Class: :Ginkgo (ginkgo biloba)
 
 AnnotationAssertion(rdfs:label :Ginkgo "Ginkgo biloba"@nl)
 AnnotationAssertion(rdfs:label :Ginkgo "ginkgo"@de)
@@ -33443,7 +33419,7 @@ AnnotationAssertion(rdfs:label :GolfLeague "ένωση γκολφ"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :GolfLeague <http://mappings.dbpedia.org/index.php/OntologyClass:GolfLeague>)
 SubClassOf(:GolfLeague :SportsLeague)
 
-# Class: :GolfPlayer (golfeur)
+# Class: :GolfPlayer (imreoir gailf)
 
 AnnotationAssertion(rdfs:label :GolfPlayer "Golfspieler"@de)
 AnnotationAssertion(rdfs:label :GolfPlayer "golf player"@en)
@@ -33587,7 +33563,7 @@ AnnotationAssertion(rdfs:label :GrossDomesticProduct "ακαθάριστο εγ�
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :GrossDomesticProduct <http://mappings.dbpedia.org/index.php/OntologyClass:GrossDomesticProduct>)
 SubClassOf(:GrossDomesticProduct owl:Thing)
 
-# Class: :GrossDomesticProductPerCapita (gross domestic product per capita)
+# Class: :GrossDomesticProductPerCapita (produit intérieur brut par habitant)
 
 AnnotationAssertion(rdfs:label :GrossDomesticProductPerCapita "Bruttoinlandsprodukt pro Kopf"@de)
 AnnotationAssertion(rdfs:label :GrossDomesticProductPerCapita "bruto nationaal product per hoofd van de bevolking"@nl)
@@ -33715,7 +33691,7 @@ AnnotationAssertion(rdfs:label :Historian "歴史学者"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Historian <http://mappings.dbpedia.org/index.php/OntologyClass:Historian>)
 SubClassOf(:Historian :Writer)
 
-# Class: :HistoricBuilding (historic building)
+# Class: :HistoricBuilding (ιστορικό κτίριο)
 
 AnnotationAssertion(rdfs:label :HistoricBuilding "bâtiment historique"@fr)
 AnnotationAssertion(rdfs:label :HistoricBuilding "foirgneamh stairiúil"@ga)
@@ -33908,7 +33884,7 @@ AnnotationAssertion(rdfs:label :HorseRiding "ιππασία"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :HorseRiding <http://mappings.dbpedia.org/index.php/OntologyClass:HorseRiding>)
 SubClassOf(:HorseRiding :Sport)
 
-# Class: :HorseTrainer (Pferdetrainer)
+# Class: :HorseTrainer (paardentrainer)
 
 AnnotationAssertion(rdfs:label :HorseTrainer "Pferdetrainer"@de)
 AnnotationAssertion(rdfs:label :HorseTrainer "horse trainer"@en)
@@ -33987,7 +33963,7 @@ AnnotationAssertion(rdfs:label :HumanGene "ヒト遺伝子"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :HumanGene <http://mappings.dbpedia.org/index.php/OntologyClass:HumanGene>)
 SubClassOf(:HumanGene :Gene)
 
-# Class: :HumanGeneLocation (menselijk genoom locatie)
+# Class: :HumanGeneLocation (HumanGeneLocation)
 
 AnnotationAssertion(rdfs:label :HumanGeneLocation "HumanGeneLocation"@en)
 AnnotationAssertion(rdfs:label :HumanGeneLocation "Humangen Lokation"@de)
@@ -34067,7 +34043,7 @@ AnnotationAssertion(rdfs:label :InformationAppliance "συσκευή πληρο�
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :InformationAppliance <http://mappings.dbpedia.org/index.php/OntologyClass:InformationAppliance>)
 SubClassOf(:InformationAppliance :Device)
 
-# Class: :Infrastructure (infrastructure)
+# Class: :Infrastructure (インフラストラクチャー)
 
 AnnotationAssertion(rdfs:label :Infrastructure "Infrastruktur"@de)
 AnnotationAssertion(rdfs:label :Infrastructure "infrastructure"@en)
@@ -34524,7 +34500,7 @@ AnnotationAssertion(rdfs:label :Locomotive "機関車"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Locomotive <http://mappings.dbpedia.org/index.php/OntologyClass:Locomotive>)
 SubClassOf(:Locomotive :MeanOfTransportation)
 
-# Class: :LunarCrater (cráitéar gealaí)
+# Class: :LunarCrater (Σεληνιακός κρατήρας)
 
 AnnotationAssertion(rdfs:label :LunarCrater "Mondkrater"@de)
 AnnotationAssertion(rdfs:label :LunarCrater "cratera lunar"@pt)
@@ -34564,7 +34540,7 @@ AnnotationAssertion(rdfs:label :Magazine "잡지"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Magazine <http://mappings.dbpedia.org/index.php/OntologyClass:Magazine>)
 SubClassOf(:Magazine :PeriodicalLiterature)
 
-# Class: :Mammal (ssak)
+# Class: :Mammal (θηλαστικό ζώο)
 
 AnnotationAssertion(rdfs:label :Mammal "mamach"@ga)
 AnnotationAssertion(rdfs:label :Mammal "mammal"@en)
@@ -34636,7 +34612,7 @@ AnnotationAssertion(rdfs:label :Marriage "結婚"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Marriage <http://mappings.dbpedia.org/index.php/OntologyClass:Marriage>)
 SubClassOf(:Marriage :PersonalEvent)
 
-# Class: :MartialArtist (Kampfkünstler)
+# Class: :MartialArtist (Πολεμικός Καλλιτέχνης)
 
 AnnotationAssertion(rdfs:label :MartialArtist "Kampfkünstler"@de)
 AnnotationAssertion(rdfs:label :MartialArtist "martial artist"@en)
@@ -34652,7 +34628,7 @@ AnnotationAssertion(rdfs:label :MathematicalConcept "mathematisches Konzept"@de)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :MathematicalConcept <http://mappings.dbpedia.org/index.php/OntologyClass:MathematicalConcept>)
 SubClassOf(:MathematicalConcept :TopicalConcept)
 
-# Class: :Mayor (maire)
+# Class: :Mayor (burgemeester)
 
 AnnotationAssertion(rdfs:label :Mayor "Bürgermeister"@de)
 AnnotationAssertion(rdfs:label :Mayor "burgemeester"@nl)
@@ -34905,7 +34881,7 @@ AnnotationAssertion(rdfs:label :MobilePhone "сотовый телефон"@ru)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :MobilePhone <http://mappings.dbpedia.org/index.php/OntologyClass:MobilePhone>)
 SubClassOf(:MobilePhone :Device)
 
-# Class: :Model (μοντέλο)
+# Class: :Model (모델)
 
 AnnotationAssertion(rdfs:label :Model "(foto)model"@nl)
 AnnotationAssertion(rdfs:label :Model "mainicín"@ga)
@@ -35104,7 +35080,7 @@ AnnotationAssertion(rdfs:label :MountainPass "峠"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :MountainPass <http://mappings.dbpedia.org/index.php/OntologyClass:MountainPass>)
 SubClassOf(:MountainPass :NaturalPlace)
 
-# Class: :MountainRange (산맥)
+# Class: :MountainRange (chaîne de montagne)
 
 AnnotationAssertion(rdfs:comment :MountainRange "a chain of mountains bordered by highlands or separated from other mountains by passes or valleys."@en)
 AnnotationAssertion(rdfs:label :MountainRange "Bergkette"@de)
@@ -35117,7 +35093,7 @@ AnnotationAssertion(rdfs:label :MountainRange "산맥"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :MountainRange <http://mappings.dbpedia.org/index.php/OntologyClass:MountainRange>)
 SubClassOf(:MountainRange :NaturalPlace)
 
-# Class: :MouseGene (Mausgenom)
+# Class: :MouseGene (géin luiche)
 
 AnnotationAssertion(rdfs:label :MouseGene "Mausgenom"@de)
 AnnotationAssertion(rdfs:label :MouseGene "MouseGene"@en)
@@ -35200,7 +35176,7 @@ AnnotationAssertion(rdfs:label :Municipality "基礎自治体"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Municipality <http://mappings.dbpedia.org/index.php/OntologyClass:Municipality>)
 SubClassOf(:Municipality :GovernmentalAdministrativeRegion)
 
-# Class: :Murderer (dúnmharfóir)
+# Class: :Murderer (δολοφόνος)
 
 AnnotationAssertion(rdfs:label :Murderer "Mörder"@de)
 AnnotationAssertion(rdfs:label :Murderer "assasino"@it)
@@ -35397,7 +35373,7 @@ AnnotationAssertion(rdfs:label :NationalFootballLeagueSeason "national football 
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :NationalFootballLeagueSeason <http://mappings.dbpedia.org/index.php/OntologyClass:NationalFootballLeagueSeason>)
 SubClassOf(:NationalFootballLeagueSeason :FootballLeagueSeason)
 
-# Class: :NationalSoccerClub (nationale voetbalclub)
+# Class: :NationalSoccerClub (nationaler Fußballverein)
 
 AnnotationAssertion(rdfs:label :NationalSoccerClub "milli takım"@tr)
 AnnotationAssertion(rdfs:label :NationalSoccerClub "national soccer club"@en)
@@ -35555,7 +35531,7 @@ AnnotationAssertion(rdfs:label :NuclearPowerStation "Πυρηνικός Σταθ
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :NuclearPowerStation <http://mappings.dbpedia.org/index.php/OntologyClass:NuclearPowerStation>)
 SubClassOf(:NuclearPowerStation :PowerStation)
 
-# Class: :Ocean (aigéan)
+# Class: :Ocean (Ωκεανός)
 
 AnnotationAssertion(rdfs:comment :Ocean "A body of saline water that composes much of a planet's hydrosphere."@en)
 AnnotationAssertion(rdfs:comment :Ocean "Μάζα αλμυρού νερού που αποτελεί σημαντικό μέρος της υδρόσφαιρας ενός πλανήτη."@el)
@@ -35582,7 +35558,7 @@ AnnotationAssertion(rdfs:label :OfficeHolder "공직자"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :OfficeHolder <http://mappings.dbpedia.org/index.php/OntologyClass:OfficeHolder>)
 SubClassOf(:OfficeHolder :Person)
 
-# Class: :OldTerritory (alten Länder)
+# Class: :OldTerritory (old territory)
 
 AnnotationAssertion(rdfs:label :OldTerritory "alten Länder"@de)
 AnnotationAssertion(rdfs:label :OldTerritory "old territory"@en)
@@ -35728,7 +35704,7 @@ AnnotationAssertion(rdfs:label :PaintballLeague "κύπελλο paintball"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :PaintballLeague <http://mappings.dbpedia.org/index.php/OntologyClass:PaintballLeague>)
 SubClassOf(:PaintballLeague :SportsLeague)
 
-# Class: :Painter (peintre)
+# Class: :Painter (ζωγράφος)
 
 AnnotationAssertion(rdfs:label :Painter "Maler"@de)
 AnnotationAssertion(rdfs:label :Painter "painter"@en)
@@ -35926,7 +35902,7 @@ AnnotationAssertion(rdfs:label :Place "立地"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Place <http://mappings.dbpedia.org/index.php/OntologyClass:Place>)
 SubClassOf(:Place owl:Thing)
 
-# Class: :Planet (惑星)
+# Class: :Planet (planet)
 
 AnnotationAssertion(rdfs:label :Planet "Planet"@de)
 AnnotationAssertion(rdfs:label :Planet "Planeta"@pt)
@@ -36044,7 +36020,7 @@ AnnotationAssertion(rdfs:label :PoliticalFunction "politische Funktion"@de)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :PoliticalFunction <http://mappings.dbpedia.org/index.php/OntologyClass:PoliticalFunction>)
 SubClassOf(:PoliticalFunction :PersonFunction)
 
-# Class: :PoliticalParty (parti politique)
+# Class: :PoliticalParty (partido político)
 
 AnnotationAssertion(rdfs:comment :PoliticalParty "for example: Democratic_Party_(United_States)"@en)
 AnnotationAssertion(rdfs:comment :PoliticalParty "για παράδειγμα: Δημοκρατικό Κόμμα _United_States)"@el)
@@ -36366,7 +36342,7 @@ AnnotationAssertion(rdfs:label :ProtohistoricalPeriod "protohistorical period"@e
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ProtohistoricalPeriod <http://mappings.dbpedia.org/index.php/OntologyClass:ProtohistoricalPeriod>)
 SubClassOf(:ProtohistoricalPeriod :TimePeriod)
 
-# Class: :Province (province)
+# Class: :Province (provincie)
 
 AnnotationAssertion(rdfs:comment :Province "An administrative body governing a territorial unity on the intermediate level, between local and national level"@en)
 AnnotationAssertion(rdfs:comment :Province "Είναι διοικητική δομή του κράτους που διοικεί μια περιοχή που είναι σε έκταση μεγαλύτερη από τοπικό επίπεδο και μικρότερη από εθνικό επίπεδο."@el)
@@ -36390,7 +36366,7 @@ AnnotationAssertion(rdfs:label :Psychologist "ψυχολόγος"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Psychologist <http://mappings.dbpedia.org/index.php/OntologyClass:Psychologist>)
 SubClassOf(:Psychologist :Person)
 
-# Class: :PublicService (service public)
+# Class: :PublicService (öffentlicher Dienst)
 
 AnnotationAssertion(rdfs:comment :PublicService "Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτους"@el)
 AnnotationAssertion(rdfs:label :PublicService "public service"@en)
@@ -36462,7 +36438,7 @@ AnnotationAssertion(rdfs:label :Race "レース"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Race <http://mappings.dbpedia.org/index.php/OntologyClass:Race>)
 SubClassOf(:Race :SportsEvent)
 
-# Class: :RaceHorse (renpaard)
+# Class: :RaceHorse (競走馬)
 
 AnnotationAssertion(rdfs:label :RaceHorse "Rennpferd"@de)
 AnnotationAssertion(rdfs:label :RaceHorse "capall rása"@ga)
@@ -36556,7 +36532,7 @@ AnnotationAssertion(rdfs:label :RadioStation "ラジオ放送局"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :RadioStation <http://mappings.dbpedia.org/index.php/OntologyClass:RadioStation>)
 SubClassOf(:RadioStation :Broadcaster)
 
-# Class: :RailwayLine (σιδηρόδρομος)
+# Class: :RailwayLine (railway line)
 
 AnnotationAssertion(rdfs:comment :RailwayLine "A railway line is a transport service by trains that pull passengers or freight provided by an organization. Not to be mistaken for railway track, which is the structure consisting of the rails. Wikipedia do not clearly differentiate between both, so there is one infobox describing tracks and lines."@en)
 AnnotationAssertion(rdfs:comment :RailwayLine "Eine Eisenbahnlinie im Verkehrswesen ist die regelmäßige Bedienung einer bestimmten Eisenbahnstrecke durch öffentliche Verkehrsmittel."@de)
@@ -36706,7 +36682,7 @@ AnnotationAssertion(rdfs:label :Religious "θρησκευτικός"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Religious <http://mappings.dbpedia.org/index.php/OntologyClass:Religious>)
 SubClassOf(:Religious :Person)
 
-# Class: :ReligiousBuilding (religiöses Gebäude)
+# Class: :ReligiousBuilding (edificio religioso)
 
 AnnotationAssertion(rdfs:label :ReligiousBuilding "cultusgebouw"@nl)
 AnnotationAssertion(rdfs:label :ReligiousBuilding "edificio religioso"@es)
@@ -36720,7 +36696,7 @@ AnnotationAssertion(rdfs:label :ReligiousBuilding "종교 건물"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :ReligiousBuilding <http://mappings.dbpedia.org/index.php/OntologyClass:ReligiousBuilding>)
 SubClassOf(:ReligiousBuilding :Building)
 
-# Class: :ReligiousOrganisation (Religionsorganisation)
+# Class: :ReligiousOrganisation (organización religiosa)
 
 AnnotationAssertion(rdfs:label :ReligiousOrganisation "Religionsorganisation"@de)
 AnnotationAssertion(rdfs:label :ReligiousOrganisation "kerkelijke organisatie"@nl)
@@ -36778,7 +36754,7 @@ AnnotationAssertion(rdfs:label :Restaurant "レストラン"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Restaurant <http://mappings.dbpedia.org/index.php/OntologyClass:Restaurant>)
 SubClassOf(:Restaurant :Building)
 
-# Class: :Resume (CV)
+# Class: :Resume (職務経歴書)
 
 AnnotationAssertion(rdfs:comment :Resume "A Resume describes a persons work experience and skill set."@en)
 AnnotationAssertion(rdfs:comment :Resume "Een CV (curriculum vitae) beschrijft iemands werkervaring en vaardigheden."@nl)
@@ -36832,7 +36808,7 @@ AnnotationAssertion(rdfs:label :RoadJunction "wegkruising"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :RoadJunction <http://mappings.dbpedia.org/index.php/OntologyClass:RoadJunction>)
 SubClassOf(:RoadJunction :RouteOfTransportation)
 
-# Class: :RoadTunnel (road tunnel)
+# Class: :RoadTunnel (Οδική σήραγγα)
 
 AnnotationAssertion(rdfs:label :RoadTunnel "Straßentunnel"@de)
 AnnotationAssertion(rdfs:label :RoadTunnel "road tunnel"@en)
@@ -36842,7 +36818,7 @@ AnnotationAssertion(rdfs:label :RoadTunnel "Οδική σήραγγα"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :RoadTunnel <http://mappings.dbpedia.org/index.php/OntologyClass:RoadTunnel>)
 SubClassOf(:RoadTunnel :RouteOfTransportation)
 
-# Class: :Rocket (Rakete)
+# Class: :Rocket (raket)
 
 AnnotationAssertion(rdfs:label :Rocket "Rakete"@de)
 AnnotationAssertion(rdfs:label :Rocket "fusée"@fr)
@@ -37000,7 +36976,7 @@ AnnotationAssertion(rdfs:label :SambaSchool "σχολή σάμπα"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SambaSchool <http://mappings.dbpedia.org/index.php/OntologyClass:SambaSchool>)
 SubClassOf(:SambaSchool :Organisation)
 
-# Class: :Satellite (satailít)
+# Class: :Satellite (satelliet)
 
 AnnotationAssertion(rdfs:comment :Satellite "An astronomic object orbiting around a planet or star. Definition partly derived from http://www.ontotext.com/proton/protonext# (and thus WordNet 1.7)."@en)
 AnnotationAssertion(rdfs:comment :Satellite "Ένα αστρονομικό αντικείμενο που βρίσκεται σε τροχιά γύρω από έναν πλανήτη ή αστέρι."@el)
@@ -37078,7 +37054,7 @@ AnnotationAssertion(rdfs:label :Sculptor "彫刻家"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Sculptor <http://mappings.dbpedia.org/index.php/OntologyClass:Sculptor>)
 SubClassOf(:Sculptor :Artist)
 
-# Class: :Sculpture (Sculpture)
+# Class: :Sculpture (scultura)
 
 AnnotationAssertion(rdfs:comment :Sculpture "Een beeldhouwwerk is een drie-dimensionaal kunstvoorwerp of plastiek, gemaakt van harde materialen zoals steen of metaal. Ook kunnen textiel of kunststoffen erin verwerkt zijn of het hoofdbestanddeel ervan uitmaken."@nl)
 AnnotationAssertion(rdfs:comment :Sculpture "Sculpture is three-dimensional artwork created by shaping or combining hard materials, typically stone such as marble, metal, glass, or wood, or plastic materials such as clay, textiles, polymers and softer metals."@en)
@@ -37093,7 +37069,7 @@ AnnotationAssertion(rdfs:label :Sculpture "彫刻"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Sculpture <http://mappings.dbpedia.org/index.php/OntologyClass:Sculpture>)
 SubClassOf(:Sculpture :Artwork)
 
-# Class: :Sea (海)
+# Class: :Sea (θάλασσα)
 
 AnnotationAssertion(rdfs:label :Sea "Meer"@de)
 AnnotationAssertion(rdfs:label :Sea "farraige"@ga)
@@ -37181,7 +37157,7 @@ AnnotationAssertion(rdfs:label :Shrine "神社"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Shrine <http://mappings.dbpedia.org/index.php/OntologyClass:Shrine>)
 SubClassOf(:Shrine :ReligiousBuilding)
 
-# Class: :Singer (zanger)
+# Class: :Singer (Singer)
 
 AnnotationAssertion(rdfs:comment :Singer "a person who sings."@en)
 AnnotationAssertion(rdfs:comment :Singer "ένα άτομο που τραγουδά."@el)
@@ -37257,7 +37233,7 @@ AnnotationAssertion(rdfs:label :SkiResort "θέρετρο σκι"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SkiResort <http://mappings.dbpedia.org/index.php/OntologyClass:SkiResort>)
 SubClassOf(:SkiResort :SkiArea)
 
-# Class: :Ski_jumper (ski jumper)
+# Class: :Ski_jumper (skispringer)
 
 AnnotationAssertion(rdfs:label :Ski_jumper "Skispringer"@de)
 AnnotationAssertion(rdfs:label :Ski_jumper "ski jumper"@en)
@@ -37400,7 +37376,7 @@ AnnotationAssertion(rdfs:label :SoccerManager "サッカーマネージャー"@j
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SoccerManager <http://mappings.dbpedia.org/index.php/OntologyClass:SoccerManager>)
 SubClassOf(:SoccerManager :SportsManager)
 
-# Class: :SoccerPlayer (축구 선수)
+# Class: :SoccerPlayer (soccer player)
 
 AnnotationAssertion(rdfs:label :SoccerPlayer "Fußballspieler"@de)
 AnnotationAssertion(rdfs:label :SoccerPlayer "futbolista"@es)
@@ -37516,7 +37492,7 @@ AnnotationAssertion(rdfs:label :Sound "音"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Sound <http://mappings.dbpedia.org/index.php/OntologyClass:Sound>)
 SubClassOf(:Sound :Document)
 
-# Class: :SpaceMission (mission spatiale)
+# Class: :SpaceMission (Weltraummission)
 
 AnnotationAssertion(rdfs:label :SpaceMission "Weltraummission"@de)
 AnnotationAssertion(rdfs:label :SpaceMission "misean spáís"@ga)
@@ -37599,7 +37575,7 @@ AnnotationAssertion(rdfs:label :SpeedwayLeague "πρωτάθλημα αυτοκ�
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SpeedwayLeague <http://mappings.dbpedia.org/index.php/OntologyClass:SpeedwayLeague>)
 SubClassOf(:SpeedwayLeague :SportsLeague)
 
-# Class: :SpeedwayRider (Speedway Fahrer)
+# Class: :SpeedwayRider (speedway rider)
 
 AnnotationAssertion(rdfs:label :SpeedwayRider "Speedway Fahrer"@de)
 AnnotationAssertion(rdfs:label :SpeedwayRider "speedway rider"@en)
@@ -37776,7 +37752,7 @@ AnnotationAssertion(rdfs:label :Stadium "경기장"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Stadium <http://mappings.dbpedia.org/index.php/OntologyClass:Stadium>)
 SubClassOf(:Stadium :SportFacility)
 
-# Class: :Standard (規格)
+# Class: :Standard (standaard)
 
 AnnotationAssertion(rdfs:comment :Standard "a common specification"@en)
 AnnotationAssertion(rdfs:label :Standard "standaard"@nl)
@@ -37820,7 +37796,7 @@ AnnotationAssertion(rdfs:label :StatedResolution "Stated Resolution"@en)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :StatedResolution <http://mappings.dbpedia.org/index.php/OntologyClass:StatedResolution>)
 SubClassOf(:StatedResolution :WrittenWork)
 
-# Class: :Station (stáisiún)
+# Class: :Station (station)
 
 AnnotationAssertion(rdfs:comment :Station "Public transport station (eg. railway station, metro station, bus station)."@en)
 AnnotationAssertion(rdfs:comment :Station "Остановка общественного транспорта (например: железнодорожная станция, станция метро, автостанция)."@ru)
@@ -37913,7 +37889,7 @@ AnnotationAssertion(rdfs:label :SumoWrestler "sumoworstelaar"@nl)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SumoWrestler <http://mappings.dbpedia.org/index.php/OntologyClass:SumoWrestler>)
 SubClassOf(:SumoWrestler :Wrestler)
 
-# Class: :SupremeCourtOfTheUnitedStatesCase (cas juridique de la Cour suprême des États-Unis)
+# Class: :SupremeCourtOfTheUnitedStatesCase (Fall Oberster Gerichtshof der Vereinigten)
 
 AnnotationAssertion(rdfs:label :SupremeCourtOfTheUnitedStatesCase "Fall Oberster Gerichtshof der Vereinigten"@de)
 AnnotationAssertion(rdfs:label :SupremeCourtOfTheUnitedStatesCase "Supreme Court of the United States case"@en)
@@ -37975,7 +37951,7 @@ AnnotationAssertion(rdfs:label :Swimmer "수영 선수"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Swimmer <http://mappings.dbpedia.org/index.php/OntologyClass:Swimmer>)
 SubClassOf(:Swimmer :Athlete)
 
-# Class: :Synagogue (synagogue)
+# Class: :Synagogue (シナゴーグ)
 
 AnnotationAssertion(rdfs:comment :Synagogue "A synagogue, sometimes spelt synagog, is a Jewish or Samaritan house of prayer."@en)
 AnnotationAssertion(rdfs:comment :Synagogue "Une synagogue est un lieu de culte juif."@fr)
@@ -38003,7 +37979,7 @@ AnnotationAssertion(rdfs:label :SystemOfLaw "σύστημα δικαίου"@el)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :SystemOfLaw <http://mappings.dbpedia.org/index.php/OntologyClass:SystemOfLaw>)
 SubClassOf(:SystemOfLaw :TopicalConcept)
 
-# Class: :TableTennisPlayer (tafeltennisser)
+# Class: :TableTennisPlayer (Tischtennisspieler)
 
 AnnotationAssertion(rdfs:comment :TableTennisPlayer "Athlete who plays table tennis"@en)
 AnnotationAssertion(rdfs:comment :TableTennisPlayer "O αθλητής που παίζει πινγκ-πονγκ"@el)
@@ -38017,7 +37993,7 @@ AnnotationAssertion(rdfs:label :TableTennisPlayer "탁구 선수"@ko)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :TableTennisPlayer <http://mappings.dbpedia.org/index.php/OntologyClass:TableTennisPlayer>)
 SubClassOf(:TableTennisPlayer :Athlete)
 
-# Class: :Tax (φόρος)
+# Class: :Tax (belasting)
 
 AnnotationAssertion(rdfs:label :Tax "Steuer"@de)
 AnnotationAssertion(rdfs:label :Tax "belasting"@nl)
@@ -38304,7 +38280,7 @@ AnnotationAssertion(rdfs:label :Tower "塔"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Tower <http://mappings.dbpedia.org/index.php/OntologyClass:Tower>)
 SubClassOf(:Tower :ArchitecturalStructure)
 
-# Class: :Town (miasteczko)
+# Class: :Town (stad)
 
 AnnotationAssertion(rdfs:comment :Town "a settlement ranging from a few hundred to several thousand (occasionally hundreds of thousands). The precise meaning varies between countries and is not always a matter of legal definition. Usually, a town is thought of as larger than a village but smaller than a city, though there are exceptions to this rule."@en)
 AnnotationAssertion(rdfs:label :Town "Stadt"@de)
@@ -38511,7 +38487,7 @@ AnnotationAssertion(rdfs:label :Vein "静脈"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Vein <http://mappings.dbpedia.org/index.php/OntologyClass:Vein>)
 SubClassOf(:Vein :AnatomicalStructure)
 
-# Class: :Venue (ionad)
+# Class: :Venue (τόπος συνάντησης)
 
 AnnotationAssertion(rdfs:label :Venue "Veranstaltungsort"@de)
 AnnotationAssertion(rdfs:label :Venue "ionad"@ga)
@@ -38872,7 +38848,7 @@ AnnotationAssertion(rdfs:label :Wrestler "レスラー"@ja)
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :Wrestler <http://mappings.dbpedia.org/index.php/OntologyClass:Wrestler>)
 SubClassOf(:Wrestler :Athlete)
 
-# Class: :WrestlingEvent (Wrestling-Veranstaltung)
+# Class: :WrestlingEvent (match de catch)
 
 AnnotationAssertion(rdfs:label :WrestlingEvent "Wrestling-Veranstaltung"@de)
 AnnotationAssertion(rdfs:label :WrestlingEvent "match de catch"@fr)

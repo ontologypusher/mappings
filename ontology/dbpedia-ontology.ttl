@@ -2514,7 +2514,6 @@ xsd:time rdf:type rdfs:Datatype ;
 
 ###  http://dbpedia.org/ontology/amateurTeam
 :amateurTeam rdf:type owl:ObjectProperty ;
-             rdfs:domain :_CareerStation ;
              rdfs:range :SportsTeam ;
              rdfs:label "amateur team"@en ,
                         "аматерски тим"@sr ;
@@ -4575,7 +4574,6 @@ xsd:time rdf:type rdfs:Datatype ;
 
 ###  http://dbpedia.org/ontology/cyclistGenre
 :cyclistGenre rdf:type owl:ObjectProperty ;
-              rdfs:domain :_CareerStation ;
               rdfs:label "cyclist genre"@en ;
               <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:cyclistGenre> .
 
@@ -4643,7 +4641,6 @@ xsd:time rdf:type rdfs:Datatype ;
 
 ###  http://dbpedia.org/ontology/deanery
 :deanery rdf:type owl:ObjectProperty ;
-         rdfs:domain :_Parish ;
          rdfs:range :Deanery ;
          rdfs:comment "Dioceses and parishes should know which deaneries there are"@en ;
          rdfs:label "Dekanat"@de ,
@@ -4817,7 +4814,6 @@ xsd:time rdf:type rdfs:Datatype ;
 
 ###  http://dbpedia.org/ontology/diocese
 :diocese rdf:type owl:ObjectProperty ;
-         rdfs:domain :_Deanery ;
          rdfs:range :Diocese ;
          rdfs:comment "A religious administrative body above the parish level"@en ;
          rdfs:label "Diözese"@de ,
@@ -6957,7 +6953,6 @@ xsd:time rdf:type rdfs:Datatype ;
 
 ###  http://dbpedia.org/ontology/leadTeam
 :leadTeam rdf:type owl:ObjectProperty ;
-          rdfs:domain :_CareerStation ;
           rdfs:range :SportsTeam ;
           rdfs:label "lead team"@en ;
           <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:leadTeam> .
@@ -9390,7 +9385,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/proTeam
 :proTeam rdf:type owl:ObjectProperty ;
-         rdfs:domain :_CareerStation ;
          rdfs:range :SportsTeam ;
          rdfs:label "pro team"@en ;
          <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:proTeam> .
@@ -11454,7 +11448,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/territory
 :territory rdf:type owl:ObjectProperty ;
-           rdfs:domain :_AdministrativeRegion ;
            rdfs:range :PopulatedPlace ;
            rdfs:label "Gebiet"@de ,
                       "territorio"@es ,
@@ -12900,7 +12893,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/amateurYear
 :amateurYear rdf:type owl:DatatypeProperty ;
-             rdfs:domain :_CareerStation ;
              rdfs:range xsd:string ;
              rdfs:label "amateur year"@en ;
              <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:amateurYear> .
@@ -14287,7 +14279,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/casualties
 :casualties rdf:type owl:DatatypeProperty ;
-            rdfs:domain :_NaturalEvent ;
             rdfs:range xsd:integer ;
             rdfs:comment "Number of casualties of a MilitaryConflict or natural disaster such as an Earthquake"@en ;
             rdfs:label "Verluste"@de ,
@@ -15947,7 +15938,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/dissolutionYear
 :dissolutionYear rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :_PopulatedPlace ;
                  rdfs:range xsd:gYear ;
                  rdfs:label "dissolution year"@en ;
                  <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:dissolutionYear> .
@@ -16235,7 +16225,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 ###  http://dbpedia.org/ontology/dutchMIPCode
 :dutchMIPCode rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf :Code ;
-              rdfs:domain :_Monument ;
               rdfs:range xsd:string ;
               rdfs:comment "Code voor alle soorten monumenten gebezigd door het MI-project"@nl ,
                            "The Dutch MIP project was meant to take stock of all kinds of monuments"@en ;
@@ -19484,7 +19473,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/leadYear
 :leadYear rdf:type owl:DatatypeProperty ;
-          rdfs:domain :_CareerStation ;
           rdfs:range xsd:string ;
           rdfs:label "lead year"@en ;
           <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:leadYear> .
@@ -20318,7 +20306,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/membershipAsOf
 :membershipAsOf rdf:type owl:DatatypeProperty ;
-                rdfs:domain :_Parish ;
                 rdfs:range xsd:date ;
                 rdfs:label "date membership established"@en ,
                            "datum vaststellen ledental"@nl ;
@@ -23390,7 +23377,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/proYear
 :proYear rdf:type owl:DatatypeProperty ;
-         rdfs:domain :_CareerStation ;
          rdfs:range xsd:string ;
          rdfs:label "pro year"@en ;
          <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:proYear> .
@@ -23821,7 +23807,6 @@ Domain is unrestricted since Organization is Agent but City is Place. Range is u
 
 ###  http://dbpedia.org/ontology/range
 :range rdf:type owl:DatatypeProperty ;
-       rdfs:domain :_Instrument ;
        rdfs:range xsd:positiveInteger ;
        rdfs:comment "Maximum distance without refueling"@en ;
        rdfs:label "bereik"@nl ,
@@ -38952,44 +38937,8 @@ Includes concentration, extermination, transit, detention, internment, (forced) 
 <http://dbpedia.org/ontology/%3Chttp://vocab.org/transit/terms/stop%3E> rdf:type owl:Class .
 
 
-###  http://dbpedia.org/ontology/ArchitecturalStructure,_Monument
-:_Monument rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/Athlete,_CareerStation
-:_CareerStation rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/Diocese,_Parish
-:_Parish rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/MeanOfTransportation_,_Instrument
-:_Instrument rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/MilitaryConflict,_AdministrativeRegion
-:_AdministrativeRegion rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/MilitaryConflict_,_NaturalEvent
-:_NaturalEvent rdf:type owl:Class .
-
-
 ###  http://dbpedia.org/ontology/Mountain,Volcano
 :Volcano rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/Organisation,_Parish
-:_Parish rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/Organisation,_PopulatedPlace
-:_PopulatedPlace rdf:type owl:Class .
-
-
-###  http://dbpedia.org/ontology/Parish,_Deanery
-:_Deanery rdf:type owl:Class .
 
 
 ###  http://dbpedia.org/ontology/Wikidata:Q11424
@@ -39049,20 +38998,20 @@ Includes concentration, extermination, transit, detention, internment, (forced) 
 #    Annotations
 #################################################################
 
-:Department rdfs:label "Distrikt"@de ,
-                       "departement"@nl ,
+:Department rdfs:label "departement"@nl ,
+                       "Distrikt"@de ,
                        "département"@fr ,
                        "department"@en ,
                        "τμήμα"@el ,
                        "부서"@ko ;
             <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Department> ;
-            rdfs:label "roinn"@ga ,
-                       "Distrito"@es .
+            rdfs:label "Distrito"@es ,
+                       "roinn"@ga .
 
 
-:MemberOfParliament rdfs:label "member of parliament"@en ;
-                    <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
-                    rdfs:label "parlementslid"@nl ,
+:MemberOfParliament <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
+                    rdfs:label "member of parliament"@en ,
+                               "parlementslid"@nl ,
                                "membre du Parlement"@fr ,
                                "Parlamentsmitglied"@de ,
                                "Μέλος κοινοβουλίου"@el ,
@@ -39076,9 +39025,9 @@ Includes concentration, extermination, transit, detention, internment, (forced) 
                  "όνομα"@el ,
                  "naam"@nl ,
                  "name"@en ,
-                 "nazwa"@pl ,
+                 "nome"@pt ,
                  "ainm"@ga ,
-                 "nome"@pt .
+                 "nazwa"@pl .
 
 
 :silCode rdfs:label "SIL code"@en ;
