@@ -1,4 +1,4 @@
-@base	          	<http://en.dbpedia.org/resource/Mapping_en:Baronet-stub/> .
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:US-screen-writer-stub/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -32,7 +32,7 @@
 
 ### Main TriplesMap
 ####################
-<http://en.dbpedia.org/resource/Mapping_en:Baronet-stub>
+<http://en.dbpedia.org/resource/Mapping_en:US-screen-writer-stub>
         a                  rr:TriplesMap ;
         rml:logicalSource  <LogicalSource> ;
         rr:subjectMap      <SubjectMap> .
@@ -41,18 +41,19 @@
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     wikidata:Q5 ,
-		     dul:NaturalPerson ,
-		     dbo:Royalty ,
-		     dbo:Baronet ,
+        rr:class     wikidata:Q28389 ,
+		     schema:Person ,
 		     wikidata:Q215627 ,
+		     dul:NaturalPerson ,
 		     foaf:Person ,
 		     dbo:Agent ,
-		     dbo:Person ,
-		     dbo:BritishRoyalty ,
+		     dbo:ScreenWriter ,
+		     wikidata:Q36180 ,
+		     wikidata:Q5 ,
+		     dbo:Writer ,
 		     owl:Thing ,
-		     dul:Agent ,
-		     schema:Person ;
+		     dbo:Person ,
+		     dul:Agent ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -63,7 +64,7 @@
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:Baronet-stub?oldid=30078" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:US-screen-writer-stub?oldid=29026" .
 
 
 ###########
