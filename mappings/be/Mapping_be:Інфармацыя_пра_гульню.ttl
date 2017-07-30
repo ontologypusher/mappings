@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TriplesMadp
+### Maind TriplesMadp
 ####################
 <http://be.dbpedia.org/resource/Mapping_be:Інфармацыя_пра_гульню>
         a                      rr:TriplesMap ;
