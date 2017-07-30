@@ -1,3 +1,1 @@
-# mappings
-d
-a
+borro todo
