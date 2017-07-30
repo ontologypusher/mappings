@@ -51,7 +51,7 @@
         rr:subjectMap          <SubjectMap> .
 
 
-### Main SubjectMap
+### Main SubjecdtMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Artery ,
