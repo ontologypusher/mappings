@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main dTrdiplesMap
+### Main dTrdipldesMap
 ####################
 <http://es.dbpedia.org/resource/Mapping_es:Ficha_de_arteria>
         a                      rr:TriplesMap ;
