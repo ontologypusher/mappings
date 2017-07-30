@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main dTrdipldesMap
+### Main TriplesMap
 ####################
 <http://es.dbpedia.org/resource/Mapping_es:Ficha_de_arteria>
         a                      rr:TriplesMap ;
@@ -51,7 +51,7 @@
         rr:subjectMap          <SubjectMap> .
 
 
-### Main SubjecdtMap
+### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Artery ,

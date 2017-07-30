@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Maidn TripdlesMasdfap
+### Main TriplesMap
 ####################
 <http://de.dbpedia.org/resource/Mapping_de:Infobox_Fluss>
         a                      rr:TriplesMap ;

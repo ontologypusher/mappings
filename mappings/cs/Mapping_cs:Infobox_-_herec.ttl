@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TridplesasdfMap
+### Main TriplesMap
 ####################
 <http://cs.dbpedia.org/resource/Mapping_cs:Infobox_-_herec>
         a                      rr:TriplesMap ;

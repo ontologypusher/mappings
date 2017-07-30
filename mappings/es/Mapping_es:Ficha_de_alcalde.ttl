@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TripledsMap
+### Main TriplesMap
 ####################
 <http://es.dbpedia.org/resource/Mapping_es:Ficha_de_alcalde>
         a                      rr:TriplesMap ;
@@ -40,7 +40,7 @@
         rr:subjectMap          <SubjectMap> .
 
 
-### Main SubdjectMap
+### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Politician ,
