@@ -40,7 +40,7 @@
         rr:subjectMap          <SubjectMap> .
 
 
-### Main SubjectMap
+### Main SubdjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Politician ,
