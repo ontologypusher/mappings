@@ -1,4 +1,4 @@
-Modificado en github
+Modificado en github otra vez
 @base	          	<http://en.dbpedia.org/resource/Mapping_en:Authority_control/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
@@ -29,7 +29,7 @@ Modificado en github
 @prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
 @prefix wikidata: 	<http://www.wikidata.org/entity/> .
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
-
+update
 
 ### Main TriplesMap
 ####################
