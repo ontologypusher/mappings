@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TriplesMap
+### Main TripledsMap
 ####################
 <http://es.dbpedia.org/resource/Mapping_es:Ficha_de_alcalde>
         a                      rr:TriplesMap ;
