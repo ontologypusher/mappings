@@ -1,4 +1,4 @@
-@base	          	<http://en.dbpedia.org/resource/Mapping_en:US-autoracing-bio-stub/> .
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:US-singer-stub/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -32,7 +32,7 @@
 
 ### Main TriplesMap
 ####################
-<http://en.dbpedia.org/resource/Mapping_en:US-autoracing-bio-stub>
+<http://en.dbpedia.org/resource/Mapping_en:US-singer-stub>
         a                  rr:TriplesMap ;
         rml:logicalSource  <LogicalSource> ;
         rr:subjectMap      <SubjectMap> .
@@ -41,19 +41,19 @@
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     wikidata:Q215627 ,
-		     wikidata:Q378622 ,
-		     foaf:Person ,
-		     dbo:RacingDriver ,
-		     schema:Person ,
-		     wikidata:Q5 ,
-		     dbo:Athlete ,
-		     owl:Thing ,
-		     dul:NaturalPerson ,
-		     dbo:Agent ,
-		     dbo:MotorsportRacer ,
+        rr:class     dul:NaturalPerson ,
 		     dul:Agent ,
-		     dbo:Person ;
+		     dbo:MusicalArtist ,
+		     dbo:Artist ,
+		     owl:Thing ,
+		     schema:MusicGroup ,
+		     dbo:Agent ,
+		     wikidata:Q215627 ,
+		     dbo:Person ,
+		     wikidata:Q5 ,
+		     schema:Person ,
+		     wikidata:Q483501 ,
+		     foaf:Person ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -64,7 +64,7 @@
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:US-autoracing-bio-stub?oldid=29548" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:US-singer-stub?oldid=28982" .
 
 
 ###########
