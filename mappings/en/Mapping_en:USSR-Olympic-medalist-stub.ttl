@@ -43,15 +43,15 @@
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Agent ,
-		     owl:Thing ,
-		     wikidata:Q215627 ,
-		     wikidata:Q5 ,
-		     dul:Agent ,
-		     dul:NaturalPerson ,
-		     dbo:Person ,
-		     foaf:Person ,
-		     schema:Person ,
-		     dbo:Athlete ;
+		             owl:Thing ,
+		             wikidata:Q215627 ,
+		             wikidata:Q5 ,
+		             dul:Agent ,
+		             dul:NaturalPerson ,
+		             dbo:Person ,
+		             foaf:Person ,
+		             schema:Person ,
+		             dbo:Athlete ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -72,8 +72,8 @@
 ### Predicate Object Map
 #########################
 <ConstantMapping/0>  a  rr:PredicateObjectMap ;
-        rr:object     dbr-en:Soviet_Union ;
-        rr:predicate  dbo:nationality .
+        rr:object       dbr-en:Soviet_Union ;
+        rr:predicate    dbo:nationality .
 
 
 ######################
