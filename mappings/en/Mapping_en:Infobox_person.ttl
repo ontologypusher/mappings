@@ -36,62 +36,62 @@
         a                      rr:TriplesMap ;
         rml:logicalSource      <LogicalSource> ;
         rr:predicateObjectMap  <SimplePropertyMapping/42> ,
-            			       <SimplePropertyMapping/28> ,
-            			       <SimplePropertyMapping/13> ,
-            			       <SimplePropertyMapping/30> ,
-            			       <StartDateMapping/1> ,
-            			       <SimplePropertyMapping/16> ,
-            			       <SimplePropertyMapping/24> ,
-            			       <SimplePropertyMapping/8> ,
-            			       <SimplePropertyMapping/12> ,
-            			       <SimplePropertyMapping/5> ,
-            			       <SimplePropertyMapping/1> ,
-            			       <SimplePropertyMapping/47> ,
-            			       <SimplePropertyMapping/18> ,
-            			       <EndDateMapping/1> ,
-            			       <SimplePropertyMapping/39> ,
-            			       <SimplePropertyMapping/41> ,
-            			       <SimplePropertyMapping/27> ,
-            			       <SimplePropertyMapping/35> ,
-            			       <StartDateMapping/0> ,
-            			       <SimplePropertyMapping/15> ,
-            			       <SimplePropertyMapping/52> ,
-            			       <SimplePropertyMapping/23> ,
-            			       <SimplePropertyMapping/7> ,
-            			       <SimplePropertyMapping/44> ,
-            			       <SimplePropertyMapping/40> ,
-            			       <SimplePropertyMapping/11> ,
-            			       <SimplePropertyMapping/32> ,
-            			       <SimplePropertyMapping/20> ,
-            			       <SimplePropertyMapping/4> ,
-            			       <SimplePropertyMapping/0> ,
-            			       <EndDateMapping/0> ,
-            			       <SimplePropertyMapping/38> ,
-            			       <SimplePropertyMapping/46> ,
-            			       <SimplePropertyMapping/26> ,
-            			       <SimplePropertyMapping/49> ,
-            			       <SimplePropertyMapping/34> ,
-            			       <SimplePropertyMapping/14> ,
-            			       <SimplePropertyMapping/51> ,
-            			       <SimplePropertyMapping/37> ,
-            			       <SimplePropertyMapping/22> ,
-            			       <SimplePropertyMapping/43> ,
-            			       <SimplePropertyMapping/29> ,
-            			       <SimplePropertyMapping/25> ,
-            			       <SimplePropertyMapping/10> ,
-            			       <SimplePropertyMapping/31> ,
-            			       <SimplePropertyMapping/17> ,
-            			       <SimplePropertyMapping/9> ,
-            			       <SimplePropertyMapping/3> ,
-            			       <SimplePropertyMapping/6> ,
-            			       <SimplePropertyMapping/45> ,
-            			       <SimplePropertyMapping/2> ,
-            			       <SimplePropertyMapping/48> ,
-            			       <SimplePropertyMapping/33> ,
-            			       <SimplePropertyMapping/19> ,
-            			       <SimplePropertyMapping/50> ,
-            			       <SimplePropertyMapping/36> ,
-            			       <SimplePropertyMapping/21> ;
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/30> ,
+			       <StartDateMapping/1> ,
+			       <SimplePropertyMapping/16> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/5> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/47> ,
+			       <SimplePropertyMapping/18> ,
+			       <EndDateMapping/1> ,
+			       <SimplePropertyMapping/39> ,
+			       <SimplePropertyMapping/41> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/35> ,
+			       <StartDateMapping/0> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/52> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/44> ,
+			       <SimplePropertyMapping/40> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/32> ,
+			       <SimplePropertyMapping/20> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/0> ,
+			       <EndDateMapping/0> ,
+			       <SimplePropertyMapping/38> ,
+			       <SimplePropertyMapping/46> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/49> ,
+			       <SimplePropertyMapping/34> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/51> ,
+			       <SimplePropertyMapping/37> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/43> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/10> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/45> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/48> ,
+			       <SimplePropertyMapping/33> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/50> ,
+			       <SimplePropertyMapping/36> ,
+			       <SimplePropertyMapping/21> ;
         rr:subjectMap          <SubjectMap> .
 
 
@@ -99,14 +99,14 @@
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dul:Agent ,
-        		     owl:Thing ,
-        		     dbo:Person ,
-        		     foaf:Person ,
-        		     wikidata:Q215627 ,
-        		     schema:Person ,
-        		     wikidata:Q5 ,
-        		     dbo:Agent ,
-        		     dul:NaturalPerson ;
+		     owl:Thing ,
+		     dbo:Person ,
+		     foaf:Person ,
+		     wikidata:Q215627 ,
+		     schema:Person ,
+		     wikidata:Q5 ,
+		     dbo:Agent ,
+		     dul:NaturalPerson ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -117,7 +117,7 @@
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source               "http://en.wikipedia.org/wiki/Mapping_en:Infobox_person?oldid=26071" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:Infobox_person?oldid=26071" .
 
 
 ###########
@@ -141,13 +141,13 @@
         a                      rr:TriplesMap ;
         rml:logicalSource      <LogicalSource> ;
         rr:predicateObjectMap  <Function/SimplePropertyFunction> ,
-			            <SimplePropertyMapping/42/FTM/FV/propertyParameterPOM> ;
+			       <SimplePropertyMapping/42/FTM/FV/propertyParameterPOM> ;
         rr:subjectMap          <SubjectMap/Function> .
 
 ### Parameters
 <SimplePropertyMapping/42/FTM/FV/propertyParameterPOM>
         a             rr:PredicateObjectMap ;
-        rr:objectMap      <SimplePropertyMapping/42/FTM/FV/propertyParameterPOM/ObjectMap> ;
+        rr:objectMap  <SimplePropertyMapping/42/FTM/FV/propertyParameterPOM/ObjectMap> ;
         rr:predicate  dbf:propertyParameter .
 
 ### References
