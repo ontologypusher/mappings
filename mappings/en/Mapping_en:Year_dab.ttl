@@ -10,7 +10,7 @@
 @prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
 @prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
-@prefix dct:   		<http://pdddurl.org/dc/terms/> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
 @prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
 @prefix dcterms: 	<http://purl.org/dc/terms/> .
 @prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
@@ -42,10 +42,10 @@
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
         rr:class     dbo:Year ,
-		             wikidata:Q577 ,
-		             dul:TimeInterval ,
-		             dbo:TimePeriod ,
-		             owl:Thing ;
+		     wikidata:Q577 ,
+		     dul:TimeInterval ,
+		     dbo:TimePeriod ,
+		     owl:Thing ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
