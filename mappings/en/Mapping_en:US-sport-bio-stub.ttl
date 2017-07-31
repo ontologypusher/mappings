@@ -1,4 +1,4 @@
-das@base	          	<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stub/> .
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:US-sport-bio-stub/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -32,7 +32,7 @@ das@base	          	<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stu
 
 ### Main TriplesMap
 ####################
-<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stub>
+<http://en.dbpedia.org/resource/Mapping_en:US-sport-bio-stub>
         a                  rr:TriplesMap ;
         rml:logicalSource  <LogicalSource> ;
         rr:subjectMap      <SubjectMap> .
@@ -41,13 +41,16 @@ das@base	          	<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stu
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     <http://dbpedia.org/ontology/Wikidata:Q11424> ,
-		     dbo:Work ,
-		     schema:CreativeWork ,
-		     wikidata:Q386724 ,
+        rr:class     wikidata:Q215627 ,
+		     dul:Agent ,
+		     wikidata:Q5 ,
+		     schema:Person ,
+		     dbo:Person ,
 		     owl:Thing ,
-		     schema:Movie ,
-		     dbo:Film ;
+		     dul:NaturalPerson ,
+		     foaf:Person ,
+		     dbo:Athlete ,
+		     dbo:Agent ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -58,7 +61,7 @@ das@base	          	<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stu
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:1930s-UK-film-stub?oldid=28949" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:US-sport-bio-stub?oldid=28998" .
 
 
 ###########
