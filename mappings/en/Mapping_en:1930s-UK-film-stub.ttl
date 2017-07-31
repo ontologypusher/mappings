@@ -1,4 +1,4 @@
-@base	          	<http://en.dbpedia.org/resource/Mapping_en:AIADMK-politician-stub/> .
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stub/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -32,7 +32,7 @@
 
 ### Main TriplesMap
 ####################
-<http://en.dbpedia.org/resource/Mapping_en:AIADMK-politician-stub>
+<http://en.dbpedia.org/resource/Mapping_en:1930s-UK-film-stub>
         a                  rr:TriplesMap ;
         rml:logicalSource  <LogicalSource> ;
         rr:subjectMap      <SubjectMap> .
@@ -41,17 +41,13 @@
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     wikidata:Q82955 ,
-		     wikidata:Q5 ,
-		     wikidata:Q215627 ,
-		     dbo:Person ,
-		     dul:NaturalPerson ,
+        rr:class     <http://dbpedia.org/ontology/Wikidata:Q11424> ,
+		     dbo:Work ,
+		     schema:CreativeWork ,
+		     wikidata:Q386724 ,
 		     owl:Thing ,
-		     schema:Person ,
-		     dbo:Politician ,
-		     dul:Agent ,
-		     dbo:Agent ,
-		     foaf:Person ;
+		     schema:Movie ,
+		     dbo:Film ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -62,7 +58,7 @@
 <LogicalSource>  a                rml:LogicalSource ;
         rml:iterator              "Infobox" ;
         rml:referenceFormulation  ql:wikitext ;
-        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:AIADMK-politician-stub?oldid=29023" .
+        rml:source                "http://en.wikipedia.org/wiki/Mapping_en:1930s-UK-film-stub?oldid=28949" .
 
 
 ###########
