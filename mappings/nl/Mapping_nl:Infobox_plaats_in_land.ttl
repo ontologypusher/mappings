@@ -1,0 +1,2661 @@
+@base	          	<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_plaats_in_land/> .
+@prefix schema: 	<http://schema.org/> .
+@prefix rr:    		<http://www.w3.org/ns/r2rml#> .
+@prefix owl:   		<http://www.w3.org/2002/07/owl#> .
+@prefix gml:   		<http://www.opengis.net/gml/> .
+@prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
+@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
+@prefix dbr-en: 	<http://en.dbpedia.org/resource/> .
+@prefix foaf:  		<http://xmlns.com/foaf/0.1/> .
+@prefix crml:  		<http://semweb.mmlab.be/ns/crml#> .
+@prefix fno:   		<http://w3id.org/function/ontology#> .
+@prefix georss: 	<http://www.georss.org/georss/> .
+@prefix dbf:   		<http://dbpedia.org/function/> .
+@prefix dbo:   		<http://dbpedia.org/ontology/> .
+@prefix mappings: 	<http://mappings.dbpedia.org/wiki/> .
+@prefix rdf:   		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:  		<http://purl.org/ontology/bibo/> .
+@prefix dul:   		<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: 	<http://www.wikidata.org/entity/> .
+@prefix dc:    		<http://purl.org/dc/elements/1.1/> .
+
+
+### Main TriplesMap
+####################
+<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_plaats_in_land>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <SimplePropertyMapping/150> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/32> ,
+			       <SimplePropertyMapping/71> ,
+			       <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/103> ,
+			       <SimplePropertyMapping/104> ,
+			       <SimplePropertyMapping/133> ,
+			       <SimplePropertyMapping/80> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/44> ,
+			       <SimplePropertyMapping/83> ,
+			       <SimplePropertyMapping/116> ,
+			       <SimplePropertyMapping/145> ,
+			       <SimplePropertyMapping/92> ,
+			       <SimplePropertyMapping/37> ,
+			       <SimplePropertyMapping/56> ,
+			       <SimplePropertyMapping/77> ,
+			       <SimplePropertyMapping/95> ,
+			       <SimplePropertyMapping/96> ,
+			       <SimplePropertyMapping/157> ,
+			       <SimplePropertyMapping/67> ,
+			       <SimplePropertyMapping/129> ,
+			       <SimplePropertyMapping/89> ,
+			       <LatitudeMapping/1> ,
+			       <SimplePropertyMapping/79> ,
+			       <SimplePropertyMapping/111> ,
+			       <SimplePropertyMapping/30> ,
+			       <SimplePropertyMapping/101> ,
+			       <SimplePropertyMapping/131> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/51> ,
+			       <SimplePropertyMapping/52> ,
+			       <SimplePropertyMapping/140> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/42> ,
+			       <SimplePropertyMapping/113> ,
+			       <SimplePropertyMapping/124> ,
+			       <SimplePropertyMapping/143> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/64> ,
+			       <SimplePropertyMapping/90> ,
+			       <SimplePropertyMapping/152> ,
+			       <SimplePropertyMapping/35> ,
+			       <SimplePropertyMapping/75> ,
+			       <SimplePropertyMapping/54> ,
+			       <SimplePropertyMapping/38> ,
+			       <SimplePropertyMapping/107> ,
+			       <SimplePropertyMapping/136> ,
+			       <SimplePropertyMapping/155> ,
+			       <SimplePropertyMapping/127> ,
+			       <SimplePropertyMapping/47> ,
+			       <SimplePropertyMapping/87> ,
+			       <SimplePropertyMapping/119> ,
+			       <SimplePropertyMapping/139> ,
+			       <SimplePropertyMapping/59> ,
+			       <SimplePropertyMapping/99> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/6> ,
+			       <LongitudeMapping/1> ,
+			       <SimplePropertyMapping/21> ,
+			       <SimplePropertyMapping/122> ,
+			       <SimplePropertyMapping/141> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/61> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/33> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/72> ,
+			       <SimplePropertyMapping/18> ,
+			       <SimplePropertyMapping/105> ,
+			       <SimplePropertyMapping/134> ,
+			       <SimplePropertyMapping/153> ,
+			       <SimplePropertyMapping/81> ,
+			       <SimplePropertyMapping/39> ,
+			       <SimplePropertyMapping/45> ,
+			       <SimplePropertyMapping/84> ,
+			       <SimplePropertyMapping/85> ,
+			       <SimplePropertyMapping/117> ,
+			       <SimplePropertyMapping/146> ,
+			       <SimplePropertyMapping/93> ,
+			       <SimplePropertyMapping/137> ,
+			       <SimplePropertyMapping/57> ,
+			       <SimplePropertyMapping/97> ,
+			       <SimplePropertyMapping/158> ,
+			       <SimplePropertyMapping/0> ,
+			       <SimplePropertyMapping/159> ,
+			       <SimplePropertyMapping/68> ,
+			       <SimplePropertyMapping/149> ,
+			       <SimplePropertyMapping/100> ,
+			       <SimplePropertyMapping/120> ,
+			       <SimplePropertyMapping/10> ,
+			       <SimplePropertyMapping/40> ,
+			       <SimplePropertyMapping/41> ,
+			       <SimplePropertyMapping/112> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/16> ,
+			       <SimplePropertyMapping/102> ,
+			       <SimplePropertyMapping/70> ,
+			       <SimplePropertyMapping/132> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/160> ,
+			       <SimplePropertyMapping/53> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/43> ,
+			       <SimplePropertyMapping/114> ,
+			       <SimplePropertyMapping/82> ,
+			       <SimplePropertyMapping/115> ,
+			       <SimplePropertyMapping/144> ,
+			       <SimplePropertyMapping/65> ,
+			       <SimplePropertyMapping/91> ,
+			       <SimplePropertyMapping/36> ,
+			       <SimplePropertyMapping/76> ,
+			       <SimplePropertyMapping/55> ,
+			       <SimplePropertyMapping/108> ,
+			       <SimplePropertyMapping/94> ,
+			       <SimplePropertyMapping/156> ,
+			       <SimplePropertyMapping/66> ,
+			       <SimplePropertyMapping/128> ,
+			       <SimplePropertyMapping/48> ,
+			       <SimplePropertyMapping/88> ,
+			       <LatitudeMapping/0> ,
+			       <SimplePropertyMapping/78> ,
+			       <SimplePropertyMapping/110> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/130> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/50> ,
+			       <LongitudeMapping/2> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/123> ,
+			       <SimplePropertyMapping/142> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/62> ,
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/63> ,
+			       <SimplePropertyMapping/151> ,
+			       <SimplePropertyMapping/34> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/106> ,
+			       <SimplePropertyMapping/73> ,
+			       <SimplePropertyMapping/74> ,
+			       <SimplePropertyMapping/135> ,
+			       <SimplePropertyMapping/154> ,
+			       <SimplePropertyMapping/109> ,
+			       <SimplePropertyMapping/125> ,
+			       <SimplePropertyMapping/126> ,
+			       <SimplePropertyMapping/46> ,
+			       <SimplePropertyMapping/86> ,
+			       <SimplePropertyMapping/49> ,
+			       <SimplePropertyMapping/118> ,
+			       <SimplePropertyMapping/147> ,
+			       <SimplePropertyMapping/148> ,
+			       <SimplePropertyMapping/138> ,
+			       <SimplePropertyMapping/58> ,
+			       <SimplePropertyMapping/98> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/69> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/5> ,
+			       <LongitudeMapping/0> ,
+			       <SimplePropertyMapping/20> ,
+			       <LatitudeMapping/2> ,
+			       <SimplePropertyMapping/121> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/60> ;
+        rr:subjectMap          <SubjectMap> .
+
+
+### Main SubjectMap
+####################
+<SubjectMap>  a      rr:SubjectMap ;
+        rr:class     dbo:Settlement ;
+        rr:template  "http://nl.dbpedia.org/resource/{wikititle}" ;
+        rr:termType  rr:IRI .
+
+
+### LogicalSource
+##################
+
+<LogicalSource>  a                rml:LogicalSource ;
+        rml:iterator              "Infobox:Infobox_plaats_in_land" ;
+        rml:referenceFormulation  ql:wikitext ;
+        rml:source                "https://nl.wikipedia.org/wiki/{wikititle}" .
+
+
+###########
+# Mappings
+###########
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/150>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/150/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/150/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ondertitel" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/14>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/14/OM> ;
+        rr:predicate  dbo:iso31661Code .
+
+### ObjectMap
+<SimplePropertyMapping/14/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "landcode" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/32>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/32/OM> ;
+        rr:predicate  dbo:flagLink .
+
+### ObjectMap
+<SimplePropertyMapping/32/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vlagartikel" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/71>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/71/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/71/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/17>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/17/OM> ;
+        rr:predicate  dbo:populationTotal .
+
+### ObjectMap
+<SimplePropertyMapping/17/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "inwoners" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/103>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/103/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/103/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/104>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/104/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/104/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "regionaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/133>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/133/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/133/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/80>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/80/OM> ;
+        rr:predicate  dbo:district .
+
+### ObjectMap
+<SimplePropertyMapping/80/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/25>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/25/OM> ;
+        rr:predicate  dbo:elevation .
+
+### ObjectMap
+<SimplePropertyMapping/25/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "hoogte" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/44>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/44/OM> ;
+        rr:predicate  dbo:blazonLink .
+
+### ObjectMap
+<SimplePropertyMapping/44/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "wapenartikel" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/83>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/83/OM> ;
+        rr:predicate  dbo:mapDescription .
+
+### ObjectMap
+<SimplePropertyMapping/83/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "caption" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/116>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/116/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/116/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ondertitel" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/145>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/145/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/145/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ondertitel1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/92>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/92/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/92/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "website" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/37>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/37/OM> ;
+        rr:predicate  dbo:mayor .
+
+### ObjectMap
+<SimplePropertyMapping/37/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "burgemeester" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/56>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/56/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/56/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/77>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/77/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/77/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/95>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/95/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/95/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "caption1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/96>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/96/OM> ;
+        rr:predicate  dbo:map .
+
+### ObjectMap
+<SimplePropertyMapping/96/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "breedtepositiekaart" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/157>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/157/OM> ;
+        rr:predicate  dbo:governingBody .
+
+### ObjectMap
+<SimplePropertyMapping/157/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "politieknaam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/67>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/67/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/67/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/129>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/129/OM> ;
+        rr:predicate  dbo:province .
+
+### ObjectMap
+<SimplePropertyMapping/129/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "province" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/89>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/89/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/89/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "web" .
+
+
+### Predicate Object Map
+#########################
+<LatitudeMapping/1>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/1/FTM> ;
+        rr:predicate  geo:lat .
+
+### Function Term Map
+<LatitudeMapping/1/FTM>
+        a                      fnml:FunctionTermMap , rr:TriplesMap ;
+        fnml:functionValue     <LatitudeMapping/1/FTM> ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LatitudeFunction> , <LatitudeMapping/1/FTM/ParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Function Execution Mapping
+<LatitudeMapping/1/FTM>
+        a                      fnml:FunctionTermMap ,
+			       rr:TriplesMap ;
+        fnml:functionValue     <LatitudeMapping/1/FTM> ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LatitudeFunction> ,
+			       <LatitudeMapping/1/FTM/ParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LatitudeMapping/1/FTM/ParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/1/FTM/ParameterPOM/OM> ;
+        rr:predicate  dbf:latParameter .
+
+### References
+<LatitudeMapping/1/FTM/ParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/79>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/79/OM> ;
+        rr:predicate  dbo:map .
+
+### ObjectMap
+<SimplePropertyMapping/79/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "kaart" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/111>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/111/OM> ;
+        rr:predicate  dbo:federalState .
+
+### ObjectMap
+<SimplePropertyMapping/111/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deelstaat" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/30>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/30/OM> ;
+        rr:predicate  dbo:flag .
+
+### ObjectMap
+<SimplePropertyMapping/30/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "flag" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/101>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/101/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/101/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "image4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/131>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/131/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/131/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/51>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/51/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/51/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/52>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/52/OM> ;
+        rr:predicate  dbo:mapDescription .
+
+### ObjectMap
+<SimplePropertyMapping/52/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "detailkaartbijschrift" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/140>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/140/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/140/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/23>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/23/OM> ;
+        rr:predicate  dbo:cityType .
+
+### ObjectMap
+<SimplePropertyMapping/23/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "soort" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/42>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/42/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/42/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/113>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/113/OM> ;
+        rr:predicate  dbo:province .
+
+### ObjectMap
+<SimplePropertyMapping/113/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "provincienaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/124>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/124/OM> ;
+        rr:predicate  dbo:governingBody .
+
+### ObjectMap
+<SimplePropertyMapping/124/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "politieknaam0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/143>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/143/OM> ;
+        rr:predicate  dbo:mayor .
+
+### ObjectMap
+<SimplePropertyMapping/143/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "burgemeesternaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/26>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/26/OM> ;
+        rr:predicate  dbo:municipality .
+
+### ObjectMap
+<SimplePropertyMapping/26/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "gemeente" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/29>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/29/OM> ;
+        rr:predicate  dbo:postalCode .
+
+### ObjectMap
+<SimplePropertyMapping/29/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "postcode" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/64>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/64/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/64/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/90>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/90/OM> ;
+        rr:predicate  dbo:populationAsOf .
+
+### ObjectMap
+<SimplePropertyMapping/90/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "meetjaar" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/152>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/152/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/152/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "onderschrift2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/35>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/35/OM> ;
+        rr:predicate  dbo:vehicleCode .
+
+### ObjectMap
+<SimplePropertyMapping/35/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "kenteken" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/75>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/75/OM> ;
+        rr:predicate  dbo:vehicleCode .
+
+### ObjectMap
+<SimplePropertyMapping/75/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "kentekennaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/54>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/54/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/54/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/38>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/38/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/38/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/107>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/107/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/107/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/136>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/136/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/136/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/155>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/155/OM> ;
+        rr:predicate  dbo:areaWater .
+
+### ObjectMap
+<SimplePropertyMapping/155/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oppervlakwater" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/127>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/127/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/127/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "caption4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/47>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/47/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/47/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/87>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/87/OM> ;
+        rr:predicate  dbo:capital .
+
+### ObjectMap
+<SimplePropertyMapping/87/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "hoofdstad" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/119>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/119/OM> ;
+        rr:predicate  dbo:department .
+
+### ObjectMap
+<SimplePropertyMapping/119/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "departement" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/139>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/139/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/139/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/59>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/59/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/59/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/99>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/99/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/99/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "image2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/2>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/2/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/6>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/6/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam5" .
+
+
+### Predicate Object Map
+#########################
+<LongitudeMapping/1>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/1/FTM> ;
+        rr:predicate  geo:long .
+
+### Function Term Map
+<LongitudeMapping/1/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <LongitudeMapping/1/FTM/FV> .
+
+### Function Execution Mapping
+<LongitudeMapping/1/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LongitudeFunction> ,
+			       <LongitudeMapping/1/FTM/FV/ParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LongitudeMapping/1/FTM/FV/ParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/1/FTM/FV/ParameterPOM/OM> ;
+        rr:predicate  dbf:lonParameter .
+
+### References
+<LongitudeMapping/1/FTM/FV/ParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lon" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/21>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/21/OM> ;
+        rr:predicate  dbo:areaTotal .
+
+### ObjectMap
+<SimplePropertyMapping/21/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "area" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/122>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/122/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/122/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/141>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/141/OM> ;
+        rr:predicate  dbo:webcast .
+
+### ObjectMap
+<SimplePropertyMapping/141/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "portaal" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/12>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/12/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/12/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/61>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/61/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/61/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/27>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/27/OM> ;
+        rr:predicate  dbo:map .
+
+### ObjectMap
+<SimplePropertyMapping/27/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "mapname" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/33>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/33/OM> ;
+        rr:predicate  dbo:foundingYear .
+
+### ObjectMap
+<SimplePropertyMapping/33/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "stichtingsjaar" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/15>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/15/OM> ;
+        rr:predicate  dbo:island .
+
+### ObjectMap
+<SimplePropertyMapping/15/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "eiland" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/72>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/72/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/72/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/18>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/18/OM> ;
+        rr:predicate  dbo:peopleName .
+
+### ObjectMap
+<SimplePropertyMapping/18/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "inwonersnaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/105>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/105/OM> ;
+        rr:predicate  dbo:flag .
+
+### ObjectMap
+<SimplePropertyMapping/105/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vlag" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/134>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/134/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/134/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/153>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/153/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/153/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/81>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/81/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/81/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "altnaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/39>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/39/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/39/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/45>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/45/OM> ;
+        rr:predicate  dbo:motto .
+
+### ObjectMap
+<SimplePropertyMapping/45/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "motto" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/84>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/84/OM> ;
+        rr:predicate  dbo:mapDescription .
+
+### ObjectMap
+<SimplePropertyMapping/84/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "caption2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/85>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/85/OM> ;
+        rr:predicate  dbo:areaTotal .
+
+### ObjectMap
+<SimplePropertyMapping/85/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oppervlakte" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/117>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/117/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/117/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ondertitel2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/146>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/146/OM> ;
+        rr:predicate  dbo:areaLand .
+
+### ObjectMap
+<SimplePropertyMapping/146/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oppervlakland" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/93>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/93/OM> ;
+        rr:predicate  dbo:areaTotal .
+
+### ObjectMap
+<SimplePropertyMapping/93/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oppervlak" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/137>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/137/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/137/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/57>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/57/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/57/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/97>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/97/OM> ;
+        rr:predicate  dbo:location .
+
+### ObjectMap
+<SimplePropertyMapping/97/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "locatie" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/158>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/158/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/158/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/0>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/0/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/0/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/159>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/159/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/159/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/68>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/68/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/68/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/149>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/149/OM> ;
+        rr:predicate  dbo:blazon .
+
+### ObjectMap
+<SimplePropertyMapping/149/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "coa" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/100>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/100/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/100/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "image3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/120>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/120/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/120/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "label" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/10>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/10/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/10/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/40>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/40/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/40/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/41>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/41/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/41/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "foto3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/112>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/112/OM> ;
+        rr:predicate  dbo:timeZone .
+
+### ObjectMap
+<SimplePropertyMapping/112/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "tijdzonenaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/31>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/31/OM> ;
+        rr:predicate  dbo:flag .
+
+### ObjectMap
+<SimplePropertyMapping/31/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vlag" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/16>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/16/OM> ;
+        rr:predicate  dbo:federalState .
+
+### ObjectMap
+<SimplePropertyMapping/16/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "staat" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/102>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/102/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/102/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "regio" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/70>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/70/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/70/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/132>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/132/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/132/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/160>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/160/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/160/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/53>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/53/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/53/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/24>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/24/OM> ;
+        rr:predicate  dbo:populationDensity .
+
+### ObjectMap
+<SimplePropertyMapping/24/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "dichtheid" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/43>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/43/OM> ;
+        rr:predicate  dbo:blazon .
+
+### ObjectMap
+<SimplePropertyMapping/43/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "wapen" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/114>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/114/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/114/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "onderschrift" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/82>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/82/OM> ;
+        rr:predicate  dbo:department .
+
+### ObjectMap
+<SimplePropertyMapping/82/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "provincie" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/115>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/115/OM> ;
+        rr:predicate  dbo:isoCodeRegion .
+
+### ObjectMap
+<SimplePropertyMapping/115/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "iso" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/144>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/144/OM> ;
+        rr:predicate  dbo:district .
+
+### ObjectMap
+<SimplePropertyMapping/144/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "districtnaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/65>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/65/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/65/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/91>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/91/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/91/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "www" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/36>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/36/OM> ;
+        rr:predicate  dbo:map .
+
+### ObjectMap
+<SimplePropertyMapping/36/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "detailkaart" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/76>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/76/OM> ;
+        rr:predicate  dbo:populationAsOf .
+
+### ObjectMap
+<SimplePropertyMapping/76/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jaar" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/55>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/55/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/55/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/108>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/108/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/108/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/94>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/94/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/94/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/156>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/156/OM> ;
+        rr:predicate  dbo:governingBody .
+
+### ObjectMap
+<SimplePropertyMapping/156/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "politiek1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/66>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/66/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/66/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/128>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/128/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/128/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "arabnaam" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/48>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/48/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/48/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/88>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/88/OM> ;
+        rr:predicate  dbo:map .
+
+### ObjectMap
+<SimplePropertyMapping/88/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "map" .
+
+
+### Predicate Object Map
+#########################
+<LatitudeMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/0/OM> ;
+        rr:predicate  geo:lat .
+
+### Function Term Map
+<LatitudeMapping/0/OM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <LatitudeMapping/0/OM/FV> .
+
+### Function Execution Mapping
+<LatitudeMapping/0/OM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LatitudeFunction> ,
+			       <LatitudeMapping/0/OM/FV/LatDegreesParameterPOM> ,
+			       <LatitudeMapping/0/OM/FV/LatMinutesParameterPOM> ,
+			       <LatitudeMapping/0/OM/FV/LatSecondsParameterPOM> ,
+			       <LatitudeMapping/0/OM/FV/latDirectionParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LatitudeMapping/0/OM/FV/LatDegreesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/0/OM/FV/LatDegreesParameterPOM/OM> ;
+        rr:predicate  dbf:latDegreesParameter .
+
+<LatitudeMapping/0/OM/FV/LatSecondsParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/0/OM/FV/LatSecondsParameterPOM/OM> ;
+        rr:predicate  dbf:latSecondsParameter .
+
+<LatitudeMapping/0/OM/FV/LatMinutesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/0/OM/FV/LatMinutesParameterPOM/OM> ;
+        rr:predicate  dbf:latMinutesParameter .
+
+<LatitudeMapping/0/OM/FV/latDirectionParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/0/OM/FV/latDirectionParameterPOM/OM> ;
+        rr:predicate  dbf:latDirectionParameter .
+
+### References
+<LatitudeMapping/0/OM/FV/LatMinutesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat_min" .
+
+<LatitudeMapping/0/OM/FV/latDirectionParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat_dir" .
+
+<LatitudeMapping/0/OM/FV/LatDegreesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat_deg" .
+
+<LatitudeMapping/0/OM/FV/LatSecondsParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat_sec" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/78>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/78/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/78/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/110>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/110/OM> ;
+        rr:predicate  dbo:foundingYear .
+
+### ObjectMap
+<SimplePropertyMapping/110/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "stichting" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/3>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/3/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/130>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/130/OM> ;
+        rr:predicate  dbo:flag .
+
+### ObjectMap
+<SimplePropertyMapping/130/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "altvlag" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/50>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/50/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/50/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering6" .
+
+
+### Predicate Object Map
+#########################
+<LongitudeMapping/2>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/2/OM> ;
+        rr:predicate  geo:long .
+
+### Function Term Map
+<LongitudeMapping/2/OM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <LongitudeMapping/2/OM/FV> .
+
+### Function Execution Mapping
+<LongitudeMapping/2/OM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LongitudeFunction> ,
+			       <LongitudeMapping/2/OM/FV/lonDegreesParameterPOM> ,
+			       <LongitudeMapping/2/OM/FV/lonMinutesParameterPOM> ,
+			       <LongitudeMapping/2/OM/FV/lonSecondsParameterPOM> ,
+			       <LongitudeMapping/2/OM/FV/lonDirectionParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LongitudeMapping/2/OM/FV/lonMinutesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/2/OM/FV/lonMinutesParameterPOM/OM> ;
+        rr:predicate  dbf:lonMinutesParameter .
+
+<LongitudeMapping/2/OM/FV/lonDirectionParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/2/OM/FV/lonDirectionParameterPOM/OM> ;
+        rr:predicate  dbf:lonDirectionParameter .
+
+<LongitudeMapping/2/OM/FV/lonDegreesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/2/OM/FV/lonDegreesParameterPOM/OM> ;
+        rr:predicate  dbf:lonDegreesParameter .
+
+<LongitudeMapping/2/OM/FV/lonSecondsParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/2/OM/FV/lonSecondsParameterPOM/OM> ;
+        rr:predicate  dbf:lonSecondsParameter .
+
+### References
+<LongitudeMapping/2/OM/FV/lonDirectionParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LongitudeMapping/2/OM/FV/lonSecondsParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LongitudeMapping/2/OM/FV/lonDegreesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LongitudeMapping/2/OM/FV/lonMinutesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/22>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/22/OM> ;
+        rr:predicate  dbo:areaTotal .
+
+### ObjectMap
+<SimplePropertyMapping/22/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "km2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/123>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/123/OM> ;
+        rr:predicate  dbo:governingBody .
+
+### ObjectMap
+<SimplePropertyMapping/123/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "politiek0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/142>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/142/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/142/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/13>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/13/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/13/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "land" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/62>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/62/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/62/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/28>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/28/OM> ;
+        rr:predicate  dbo:timeZone .
+
+### ObjectMap
+<SimplePropertyMapping/28/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "tijdzone" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/63>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/63/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/63/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/151>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/151/OM> ;
+        rr:predicate  dbo:pictureDescription .
+
+### ObjectMap
+<SimplePropertyMapping/151/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "onderschrift1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/34>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/34/OM> ;
+        rr:predicate  dbo:foundingYear .
+
+### ObjectMap
+<SimplePropertyMapping/34/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "gesticht" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/19>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/19/OM> ;
+        rr:predicate  dbo:censusYear .
+
+### ObjectMap
+<SimplePropertyMapping/19/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "census" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/106>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/106/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/106/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "plaatskop" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/73>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/73/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/73/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/74>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/74/OM> ;
+        rr:predicate  dbo:areaCode .
+
+### ObjectMap
+<SimplePropertyMapping/74/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "netnummer" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/135>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/135/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/135/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/154>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/154/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/154/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/109>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/109/OM> ;
+        rr:predicate  dbo:gridReference .
+
+### ObjectMap
+<SimplePropertyMapping/109/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "position" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/125>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/125/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/125/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/126>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/126/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/126/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/46>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/46/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/46/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situering2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/118>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/118/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/118/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "caption3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/49>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/49/OM> ;
+        rr:predicate  dbo:locatedInArea .
+
+### ObjectMap
+<SimplePropertyMapping/49/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "situeringnaam7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/86>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/86/OM> ;
+        rr:predicate  dbo:capital .
+
+### ObjectMap
+<SimplePropertyMapping/86/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "hoofdplaats" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/147>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/147/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/147/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/148>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/148/OM> ;
+        rr:predicate  dbo:depth .
+
+### ObjectMap
+<SimplePropertyMapping/148/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "diepte" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/138>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/138/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/138/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeen7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/58>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/58/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/58/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/98>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/98/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/98/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "image1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam0" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/69>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/69/OM> ;
+        rr:predicate  dbo:notes .
+
+### ObjectMap
+<SimplePropertyMapping/69/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overig2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/5>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/5/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/5/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam4" .
+
+
+### Predicate Object Map
+#########################
+<LongitudeMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/0/OM> ;
+        rr:predicate  geo:long .
+
+### Function Term Map
+<LongitudeMapping/0/OM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <LongitudeMapping/0/OM/FV> .
+
+### Function Execution Mapping
+<LongitudeMapping/0/OM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LongitudeFunction> ,
+			       <LongitudeMapping/0/OM/FV/lonDegreesParameterPOM> ,
+			       <LongitudeMapping/0/OM/FV/lonMinutesParameterPOM> ,
+			       <LongitudeMapping/0/OM/FV/lonSecondsParameterPOM> ,
+			       <LongitudeMapping/0/OM/FV/lonDirectionParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LongitudeMapping/0/OM/FV/lonMinutesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/0/OM/FV/lonMinutesParameterPOM/OM> ;
+        rr:predicate  dbf:lonMinutesParameter .
+
+<LongitudeMapping/0/OM/FV/lonDegreesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/0/OM/FV/lonDegreesParameterPOM/OM> ;
+        rr:predicate  dbf:lonDegreesParameter .
+
+<LongitudeMapping/0/OM/FV/lonDirectionParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/0/OM/FV/lonDirectionParameterPOM/OM> ;
+        rr:predicate  dbf:lonDirectionParameter .
+
+<LongitudeMapping/0/OM/FV/lonSecondsParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LongitudeMapping/0/OM/FV/lonSecondsParameterPOM/OM> ;
+        rr:predicate  dbf:lonSecondsParameter .
+
+### References
+<LongitudeMapping/0/OM/FV/lonMinutesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lon_min" .
+
+<LongitudeMapping/0/OM/FV/lonSecondsParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lon_sec" .
+
+<LongitudeMapping/0/OM/FV/lonDirectionParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lon_dir" .
+
+<LongitudeMapping/0/OM/FV/lonDegreesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lat_deg" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/20>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/20/OM> ;
+        rr:predicate  dbo:subregion .
+
+### ObjectMap
+<SimplePropertyMapping/20/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "subarea" .
+
+
+### Predicate Object Map
+#########################
+<LatitudeMapping/2>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/2/OM> ;
+        rr:predicate  geo:lat .
+
+### Function Term Map
+<LatitudeMapping/2/OM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <LatitudeMapping/2/OM/FV> .
+
+### Function Execution Mapping
+<LatitudeMapping/2/OM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/LatitudeFunction> ,
+			       <LatitudeMapping/2/OM/FV/LatDegreesParameterPOM> ,
+			       <LatitudeMapping/2/OM/FV/LatMinutesParameterPOM> ,
+			       <LatitudeMapping/2/OM/FV/LatSecondsParameterPOM> ,
+			       <LatitudeMapping/2/OM/FV/latDirectionParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<LatitudeMapping/2/OM/FV/LatMinutesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/2/OM/FV/LatMinutesParameterPOM/OM> ;
+        rr:predicate  dbf:latMinutesParameter .
+
+<LatitudeMapping/2/OM/FV/LatDegreesParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/2/OM/FV/LatDegreesParameterPOM/OM> ;
+        rr:predicate  dbf:latDegreesParameter .
+
+<LatitudeMapping/2/OM/FV/LatSecondsParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/2/OM/FV/LatSecondsParameterPOM/OM> ;
+        rr:predicate  dbf:latSecondsParameter .
+
+<LatitudeMapping/2/OM/FV/latDirectionParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <LatitudeMapping/2/OM/FV/latDirectionParameterPOM/OM> ;
+        rr:predicate  dbf:latDirectionParameter .
+
+### References
+<LatitudeMapping/2/OM/FV/LatSecondsParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LatitudeMapping/2/OM/FV/LatDegreesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LatitudeMapping/2/OM/FV/LatMinutesParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+<LatitudeMapping/2/OM/FV/latDirectionParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "null" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/121>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/121/OM> ;
+        rr:predicate  dbo:name .
+
+### ObjectMap
+<SimplePropertyMapping/121/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "algemeennaam2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/11>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/11/OM> ;
+        rr:predicate  dbo:alternativeName .
+
+### ObjectMap
+<SimplePropertyMapping/11/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "naam10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/60>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/60/OM> ;
+        rr:predicate  dbo:alias .
+
+### ObjectMap
+<SimplePropertyMapping/60/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "overignaam6" .
+
+
+######################
+# Conditional Mappings
+######################
+
+
+
+############
+# Functions
+############
+
+
+<Function/LongitudeFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:lonFunction ;
+        rr:predicate  fno:executes .
+
+<Function/LatitudeFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:latFunction ;
+        rr:predicate  fno:executes .
+
+
+### Functions SubjectMap
+#########################
+
+<SubjectMap/Function>
+        a            rr:SubjectMap ;
+        rr:class     fno:Execution ;
+        rr:termType  rr:BlankNode .
