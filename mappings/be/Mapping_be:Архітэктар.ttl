@@ -1,4 +1,4 @@
-@base	          	<http://be.dbpedia.org/resource/Mapping_be:Інфармацыя_пра_гульню/> .
+@base	          	<http://be.dbpedia.org/resource/Mapping_be:Архітэктар/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
@@ -32,29 +32,26 @@
 
 ### Main TriplesMap
 ####################
-<http://be.dbpedia.org/resource/Mapping_be:Інфармацыя_пра_гульню>
+<http://be.dbpedia.org/resource/Mapping_be:Архітэктар>
         a                      rr:TriplesMap ;
         rml:logicalSource      <LogicalSource> ;
-        rr:predicateObjectMap  <SimplePropertyMapping/4> ,
-			       <SimplePropertyMapping/8> ,
-			       <SimplePropertyMapping/11> ,
-			       <SimplePropertyMapping/9> ,
-			       <SimplePropertyMapping/2> ,
-			       <SimplePropertyMapping/6> ,
+        rr:predicateObjectMap  <SimplePropertyMapping/0> ,
 			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/2> ,
 			       <SimplePropertyMapping/7> ,
-			       <SimplePropertyMapping/0> ,
-			       <SimplePropertyMapping/10> ,
-			       <SimplePropertyMapping/1> ,
 			       <SimplePropertyMapping/5> ,
-			       <SimplePropertyMapping/12> ;
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/1> ;
         rr:subjectMap          <SubjectMap> .
 
 
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     dbo:VideoGame ;
+        rr:class     dbo:Architect ;
         rr:template  "http://be.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -63,7 +60,7 @@
 ##################
 
 <LogicalSource>  a                rml:LogicalSource ;
-        rml:iterator              "Infobox:Інфармацыя_пра_гульню" ;
+        rml:iterator              "Infobox:Архітэктар" ;
         rml:referenceFormulation  ql:wikitext ;
         rml:source                "https://be.wikipedia.org/wiki/{wikititle}" .
 
@@ -71,110 +68,6 @@
 ###########
 # Mappings
 ###########
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/4>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/4/OM> ;
-        rr:predicate  dbo:series .
-
-### ObjectMap
-<SimplePropertyMapping/4/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "серыя" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/8>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/8/OM> ;
-        rr:predicate  dbo:genre .
-
-### ObjectMap
-<SimplePropertyMapping/8/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "жанры" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/11>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/11/OM> ;
-        rr:predicate  dbo:requirement .
-
-### ObjectMap
-<SimplePropertyMapping/11/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "тэхпатрабаванні" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/9>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/9/OM> ;
-        rr:predicate  dbo:computingPlatform .
-
-### ObjectMap
-<SimplePropertyMapping/9/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "платформы" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/2>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/2/OM> ;
-        rr:predicate  dbo:developer .
-
-### ObjectMap
-<SimplePropertyMapping/2/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "распрацоўшчык" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/6>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/6/OM> ;
-        rr:predicate  dbo:releaseDate .
-
-### ObjectMap
-<SimplePropertyMapping/6/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "рэліз" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/3>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/3/OM> ;
-        rr:predicate  dbo:publisher .
-
-### ObjectMap
-<SimplePropertyMapping/3/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "выдавец" .
-
-
-### Predicate Object Map
-#########################
-<SimplePropertyMapping/7>
-        a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/7/OM> ;
-        rr:predicate  dbo:genre .
-
-### ObjectMap
-<SimplePropertyMapping/7/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "жанр" .
-
 
 ### Predicate Object Map
 #########################
@@ -186,33 +79,46 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "назва" .
+        rml:reference  "імя" .
 
 
 ### Predicate Object Map
 #########################
-<SimplePropertyMapping/10>
+<SimplePropertyMapping/3>
         a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/10/OM> ;
-        rr:predicate  dbo:computingPlatform .
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:birthPlace .
 
 ### ObjectMap
-<SimplePropertyMapping/10/OM>
+<SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "платформа" .
+        rml:reference  "месца нараджэння" .
 
 
 ### Predicate Object Map
 #########################
-<SimplePropertyMapping/1>
+<SimplePropertyMapping/2>
         a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/1/OM> ;
-        rr:predicate  foaf:homepage .
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:birthDate .
 
 ### ObjectMap
-<SimplePropertyMapping/1/OM>
+<SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "сайт" .
+        rml:reference  "дата нараджэння" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "зыходнае імя" .
 
 
 ### Predicate Object Map
@@ -220,25 +126,77 @@
 <SimplePropertyMapping/5>
         a             rr:PredicateObjectMap ;
         rr:objectMap  <SimplePropertyMapping/5/OM> ;
-        rr:predicate  dbo:latestReleaseVersion .
+        rr:predicate  dbo:deathPlace .
 
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "версія" .
+        rml:reference  "месца смерці" .
 
 
 ### Predicate Object Map
 #########################
-<SimplePropertyMapping/12>
+<SimplePropertyMapping/6>
         a             rr:PredicateObjectMap ;
-        rr:objectMap  <SimplePropertyMapping/12/OM> ;
-        rr:predicate  dbo:gameEngine .
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  foaf:name .
 
 ### ObjectMap
-<SimplePropertyMapping/12/OM>
+<SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "рухавічок" .
+        rml:reference  "арыгінальнае імя" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:deathDate .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "дата смерці" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:significantBuilding .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "найважнейшыя пабудовы" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:award .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "узнагароды" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  dbo:citizenship .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "грамадзянства" .
 
 
 ######################
