@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TriplesMap
+### Main TriplesMap Visca Catalunya
 ####################
 <http://ca.dbpedia.org/resource/Mapping_ca:Infotaula_Llibre>
         a                      rr:TriplesMap ;
