@@ -4,7 +4,7 @@
 @prefix owl:   		<http://www.w3.org/2002/07/owl#> .
 @prefix gml:   		<http://www.opengis.net/gml/> .
 @prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
-@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix bio:   	d	<http://purl.org/vocab/bio/0.1/> .
 @prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
