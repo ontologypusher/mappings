@@ -1,1 +1,1 @@
-desde local 20
+Desde remoto 20
