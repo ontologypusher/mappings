@@ -1,0 +1,5740 @@
+@base	          	<http://en.dbpedia.org/resource/Mapping_en:Infobox_Ambassador/> .
+@prefix schema: 	<http://schema.org/> .
+@prefix rr:    		<http://www.w3.org/ns/r2rml#> .
+@prefix owl:   		<http://www.w3.org/2002/07/owl#> .
+@prefix gml:   		<http://www.opengis.net/gml/> .
+@prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
+@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
+@prefix dbr-en: 	<http://en.dbpedia.org/resource/> .
+@prefix foaf:  		<http://xmlns.com/foaf/0.1/> .
+@prefix crml:  		<http://semweb.mmlab.be/ns/crml#> .
+@prefix fno:   		<http://w3id.org/function/ontology#> .
+@prefix georss: 	<http://www.georss.org/georss/> .
+@prefix dbf:   		<http://dbpedia.org/function/> .
+@prefix dbo:   		<http://dbpedia.org/ontology/> .
+@prefix mappings: 	<http://mappings.dbpedia.org/wiki/> .
+@prefix rdf:   		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:  		<http://purl.org/ontology/bibo/> .
+@prefix dul:   		<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: 	<http://www.wikidata.org/entity/> .
+@prefix dc:    		<http://purl.org/dc/elements/1.1/> .
+
+
+### Main TriplesMap
+####################
+<http://en.dbpedia.org/resource/Mapping_en:Infobox_Ambassador>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <SimplePropertyMapping/96> ,
+			       <SimplePropertyMapping/72> ,
+			       <SimplePropertyMapping/132> ,
+			       <SimplePropertyMapping/228> ,
+			       <SimplePropertyMapping/219> ,
+			       <SimplePropertyMapping/140> ,
+			       <SimplePropertyMapping/189> ,
+			       <SimplePropertyMapping/172> ,
+			       <SimplePropertyMapping/106> ,
+			       <SimplePropertyMapping/297> ,
+			       <SimplePropertyMapping/51> ,
+			       <SimplePropertyMapping/42> ,
+			       <SimplePropertyMapping/203> ,
+			       <SimplePropertyMapping/105> ,
+			       <SimplePropertyMapping/288> ,
+			       <SimplePropertyMapping/94> ,
+			       <SimplePropertyMapping/353> ,
+			       <SimplePropertyMapping/311> ,
+			       <SimplePropertyMapping/396> ,
+			       <SimplePropertyMapping/58> ,
+			       <SimplePropertyMapping/93> ,
+			       <SimplePropertyMapping/320> ,
+			       <SimplePropertyMapping/49> ,
+			       <SimplePropertyMapping/57> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/223> ,
+			       <SimplePropertyMapping/125> ,
+			       <SimplePropertyMapping/380> ,
+			       <SimplePropertyMapping/371> ,
+			       <SimplePropertyMapping/33> ,
+			       <SimplePropertyMapping/292> ,
+			       <SimplePropertyMapping/349> ,
+			       <SimplePropertyMapping/350> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/324> ,
+			       <SimplePropertyMapping/173> ,
+			       <SimplePropertyMapping/269> ,
+			       <SimplePropertyMapping/166> ,
+			       <SimplePropertyMapping/245> ,
+			       <SimplePropertyMapping/147> ,
+			       <SimplePropertyMapping/236> ,
+			       <SimplePropertyMapping/344> ,
+			       <SimplePropertyMapping/170> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/266> ,
+			       <SimplePropertyMapping/99> ,
+			       <SimplePropertyMapping/242> ,
+			       <SimplePropertyMapping/66> ,
+			       <SimplePropertyMapping/119> ,
+			       <SimplePropertyMapping/208> ,
+			       <SimplePropertyMapping/316> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/221> ,
+			       <SimplePropertyMapping/123> ,
+			       <SimplePropertyMapping/83> ,
+			       <SimplePropertyMapping/139> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/138> ,
+			       <SimplePropertyMapping/264> ,
+			       <SimplePropertyMapping/18> ,
+			       <SimplePropertyMapping/385> ,
+			       <SimplePropertyMapping/290> ,
+			       <SimplePropertyMapping/82> ,
+			       <SimplePropertyMapping/192> ,
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/38> ,
+			       <SimplePropertyMapping/366> ,
+			       <SimplePropertyMapping/272> ,
+			       <SimplePropertyMapping/238> ,
+			       <SimplePropertyMapping/114> ,
+			       <SimplePropertyMapping/150> ,
+			       <SimplePropertyMapping/85> ,
+			       <SimplePropertyMapping/387> ,
+			       <SimplePropertyMapping/61> ,
+			       <SimplePropertyMapping/309> ,
+			       <SimplePropertyMapping/363> ,
+			       <SimplePropertyMapping/338> ,
+			       <SimplePropertyMapping/217> ,
+			       <SimplePropertyMapping/187> ,
+			       <SimplePropertyMapping/60> ,
+			       <SimplePropertyMapping/329> ,
+			       <SimplePropertyMapping/178> ,
+			       <SimplePropertyMapping/342> ,
+			       <SimplePropertyMapping/300> ,
+			       <SimplePropertyMapping/91> ,
+			       <SimplePropertyMapping/47> ,
+			       <SimplePropertyMapping/357> ,
+			       <SimplePropertyMapping/142> ,
+			       <SimplePropertyMapping/393> ,
+			       <SimplePropertyMapping/46> ,
+			       <SimplePropertyMapping/212> ,
+			       <SimplePropertyMapping/182> ,
+			       <SimplePropertyMapping/333> ,
+			       <SimplePropertyMapping/141> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/52> ,
+			       <SimplePropertyMapping/79> ,
+			       <SimplePropertyMapping/390> ,
+			       <SimplePropertyMapping/298> ,
+			       <SimplePropertyMapping/281> ,
+			       <EndDateMapping/0> ,
+			       <SimplePropertyMapping/279> ,
+			       <SimplePropertyMapping/277> ,
+			       <SimplePropertyMapping/112> ,
+			       <SimplePropertyMapping/253> ,
+			       <SimplePropertyMapping/164> ,
+			       <SimplePropertyMapping/155> ,
+			       <StartDateMapping/0> ,
+			       <SimplePropertyMapping/307> ,
+			       <SimplePropertyMapping/163> ,
+			       <SimplePropertyMapping/195> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/359> ,
+			       <SimplePropertyMapping/360> ,
+			       <SimplePropertyMapping/74> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/255> ,
+			       <SimplePropertyMapping/376> ,
+			       <SimplePropertyMapping/88> ,
+			       <SimplePropertyMapping/231> ,
+			       <SimplePropertyMapping/108> ,
+			       <SimplePropertyMapping/246> ,
+			       <SimplePropertyMapping/157> ,
+			       <SimplePropertyMapping/305> ,
+			       <SimplePropertyMapping/282> ,
+			       <SimplePropertyMapping/313> ,
+			       <SimplePropertyMapping/398> ,
+			       <SimplePropertyMapping/128> ,
+			       <SimplePropertyMapping/71> ,
+			       <SimplePropertyMapping/374> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/225> ,
+			       <SimplePropertyMapping/36> ,
+			       <SimplePropertyMapping/136> ,
+			       <SimplePropertyMapping/127> ,
+			       <SimplePropertyMapping/261> ,
+			       <SimplePropertyMapping/382> ,
+			       <SimplePropertyMapping/35> ,
+			       <SimplePropertyMapping/201> ,
+			       <SimplePropertyMapping/103> ,
+			       <SimplePropertyMapping/197> ,
+			       <SimplePropertyMapping/133> ,
+			       <SimplePropertyMapping/222> ,
+			       <SimplePropertyMapping/55> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/274> ,
+			       <SimplePropertyMapping/176> ,
+			       <SimplePropertyMapping/367> ,
+			       <SimplePropertyMapping/346> ,
+			       <SimplePropertyMapping/131> ,
+			       <SimplePropertyMapping/319> ,
+			       <SimplePropertyMapping/129> ,
+			       <SimplePropertyMapping/227> ,
+			       <SimplePropertyMapping/218> ,
+			       <SimplePropertyMapping/322> ,
+			       <SimplePropertyMapping/339> ,
+			       <SimplePropertyMapping/130> ,
+			       <SimplePropertyMapping/171> ,
+			       <SimplePropertyMapping/169> ,
+			       <SimplePropertyMapping/226> ,
+			       <SimplePropertyMapping/244> ,
+			       <SimplePropertyMapping/41> ,
+			       <SimplePropertyMapping/50> ,
+			       <SimplePropertyMapping/68> ,
+			       <SimplePropertyMapping/296> ,
+			       <SimplePropertyMapping/202> ,
+			       <SimplePropertyMapping/287> ,
+			       <SimplePropertyMapping/352> ,
+			       <SimplePropertyMapping/343> ,
+			       <SimplePropertyMapping/295> ,
+			       <SimplePropertyMapping/318> ,
+			       <SimplePropertyMapping/395> ,
+			       <SimplePropertyMapping/209> ,
+			       <SimplePropertyMapping/92> ,
+			       <SimplePropertyMapping/116> ,
+			       <SimplePropertyMapping/152> ,
+			       <SimplePropertyMapping/168> ,
+			       <SimplePropertyMapping/348> ,
+			       <SimplePropertyMapping/63> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/347> ,
+			       <SimplePropertyMapping/365> ,
+			       <SimplePropertyMapping/323> ,
+			       <SimplePropertyMapping/268> ,
+			       <SimplePropertyMapping/259> ,
+			       <SimplePropertyMapping/165> ,
+			       <SimplePropertyMapping/146> ,
+			       <SimplePropertyMapping/235> ,
+			       <SimplePropertyMapping/302> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/144> ,
+			       <SimplePropertyMapping/98> ,
+			       <SimplePropertyMapping/89> ,
+			       <SimplePropertyMapping/120> ,
+			       <SimplePropertyMapping/184> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/207> ,
+			       <SimplePropertyMapping/65> ,
+			       <SimplePropertyMapping/118> ,
+			       <SimplePropertyMapping/109> ,
+			       <SimplePropertyMapping/315> ,
+			       <SimplePropertyMapping/30> ,
+			       <SimplePropertyMapping/220> ,
+			       <SimplePropertyMapping/122> ,
+			       <SimplePropertyMapping/211> ,
+			       <SimplePropertyMapping/44> ,
+			       <SimplePropertyMapping/332> ,
+			       <SimplePropertyMapping/389> ,
+			       <SimplePropertyMapping/263> ,
+			       <SimplePropertyMapping/384> ,
+			       <SimplePropertyMapping/37> ,
+			       <SimplePropertyMapping/137> ,
+			       <SimplePropertyMapping/81> ,
+			       <SimplePropertyMapping/191> ,
+			       <SimplePropertyMapping/5> ,
+			       <SimplePropertyMapping/271> ,
+			       <SimplePropertyMapping/262> ,
+			       <SimplePropertyMapping/383> ,
+			       <SimplePropertyMapping/113> ,
+			       <SimplePropertyMapping/84> ,
+			       <SimplePropertyMapping/16> ,
+			       <SimplePropertyMapping/308> ,
+			       <SimplePropertyMapping/216> ,
+			       <SimplePropertyMapping/328> ,
+			       <SimplePropertyMapping/337> ,
+			       <SimplePropertyMapping/186> ,
+			       <SimplePropertyMapping/177> ,
+			       <SimplePropertyMapping/215> ,
+			       <SimplePropertyMapping/336> ,
+			       <SimplePropertyMapping/185> ,
+			       <SimplePropertyMapping/233> ,
+			       <SimplePropertyMapping/249> ,
+			       <SimplePropertyMapping/285> ,
+			       <SimplePropertyMapping/341> ,
+			       <SimplePropertyMapping/159> ,
+			       <SimplePropertyMapping/248> ,
+			       <SimplePropertyMapping/284> ,
+			       <SimplePropertyMapping/90> ,
+			       <SimplePropertyMapping/356> ,
+			       <SimplePropertyMapping/392> ,
+			       <SimplePropertyMapping/45> ,
+			       <SimplePropertyMapping/21> ,
+			       <SimplePropertyMapping/78> ,
+			       <SimplePropertyMapping/199> ,
+			       <SimplePropertyMapping/278> ,
+			       <SimplePropertyMapping/276> ,
+			       <SimplePropertyMapping/111> ,
+			       <SimplePropertyMapping/200> ,
+			       <SimplePropertyMapping/257> ,
+			       <SimplePropertyMapping/369> ,
+			       <SimplePropertyMapping/378> ,
+			       <SimplePropertyMapping/252> ,
+			       <SimplePropertyMapping/154> ,
+			       <SimplePropertyMapping/162> ,
+			       <SimplePropertyMapping/194> ,
+			       <SimplePropertyMapping/251> ,
+			       <SimplePropertyMapping/97> ,
+			       <SimplePropertyMapping/73> ,
+			       <SimplePropertyMapping/64> ,
+			       <SimplePropertyMapping/254> ,
+			       <SimplePropertyMapping/375> ,
+			       <SimplePropertyMapping/87> ,
+			       <SimplePropertyMapping/229> ,
+			       <SimplePropertyMapping/230> ,
+			       <SimplePropertyMapping/205> ,
+			       <SimplePropertyMapping/107> ,
+			       <SimplePropertyMapping/304> ,
+			       <SimplePropertyMapping/204> ,
+			       <SimplePropertyMapping/95> ,
+			       <SimplePropertyMapping/354> ,
+			       <SimplePropertyMapping/397> ,
+			       <SimplePropertyMapping/312> ,
+			       <SimplePropertyMapping/303> ,
+			       <SimplePropertyMapping/330> ,
+			       <SimplePropertyMapping/59> ,
+			       <SimplePropertyMapping/321> ,
+			       <SimplePropertyMapping/373> ,
+			       <SimplePropertyMapping/126> ,
+			       <SimplePropertyMapping/135> ,
+			       <SimplePropertyMapping/70> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/224> ,
+			       <SimplePropertyMapping/260> ,
+			       <SimplePropertyMapping/381> ,
+			       <SimplePropertyMapping/372> ,
+			       <SimplePropertyMapping/34> ,
+			       <SimplePropertyMapping/102> ,
+			       <SimplePropertyMapping/293> ,
+			       <SimplePropertyMapping/54> ,
+			       <SimplePropertyMapping/326> ,
+			       <SimplePropertyMapping/175> ,
+			       <SimplePropertyMapping/325> ,
+			       <SimplePropertyMapping/174> ,
+			       <SimplePropertyMapping/167> ,
+			       <SimplePropertyMapping/148> ,
+			       <SimplePropertyMapping/237> ,
+			       <SimplePropertyMapping/289> ,
+			       <SimplePropertyMapping/180> ,
+			       <SimplePropertyMapping/345> ,
+			       <SimplePropertyMapping/20> ,
+			       <SimplePropertyMapping/145> ,
+			       <SimplePropertyMapping/243> ,
+			       <SimplePropertyMapping/40> ,
+			       <SimplePropertyMapping/76> ,
+			       <SimplePropertyMapping/67> ,
+			       <SimplePropertyMapping/286> ,
+			       <SimplePropertyMapping/351> ,
+			       <SimplePropertyMapping/317> ,
+			       <SimplePropertyMapping/294> ,
+			       <SimplePropertyMapping/265> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/386> ,
+			       <SimplePropertyMapping/100> ,
+			       <SimplePropertyMapping/39> ,
+			       <SimplePropertyMapping/291> ,
+			       <SimplePropertyMapping/273> ,
+			       <SimplePropertyMapping/241> ,
+			       <SimplePropertyMapping/239> ,
+			       <SimplePropertyMapping/115> ,
+			       <SimplePropertyMapping/151> ,
+			       <SimplePropertyMapping/240> ,
+			       <SimplePropertyMapping/86> ,
+			       <SimplePropertyMapping/10> ,
+			       <SimplePropertyMapping/62> ,
+			       <SimplePropertyMapping/364> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/188> ,
+			       <SimplePropertyMapping/267> ,
+			       <SimplePropertyMapping/69> ,
+			       <SimplePropertyMapping/258> ,
+			       <SimplePropertyMapping/379> ,
+			       <SimplePropertyMapping/234> ,
+			       <SimplePropertyMapping/301> ,
+			       <SimplePropertyMapping/0> ,
+			       <SimplePropertyMapping/48> ,
+			       <SimplePropertyMapping/358> ,
+			       <SimplePropertyMapping/143> ,
+			       <SimplePropertyMapping/394> ,
+			       <SimplePropertyMapping/124> ,
+			       <SimplePropertyMapping/213> ,
+			       <SimplePropertyMapping/334> ,
+			       <SimplePropertyMapping/183> ,
+			       <SimplePropertyMapping/370> ,
+			       <SimplePropertyMapping/206> ,
+			       <SimplePropertyMapping/117> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/53> ,
+			       <SimplePropertyMapping/299> ,
+			       <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/121> ,
+			       <SimplePropertyMapping/210> ,
+			       <SimplePropertyMapping/43> ,
+			       <SimplePropertyMapping/331> ,
+			       <SimplePropertyMapping/388> ,
+			       <SimplePropertyMapping/80> ,
+			       <SimplePropertyMapping/190> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/270> ,
+			       <SimplePropertyMapping/179> ,
+			       <SimplePropertyMapping/156> ,
+			       <SimplePropertyMapping/310> ,
+			       <SimplePropertyMapping/362> ,
+			       <SimplePropertyMapping/196> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/361> ,
+			       <SimplePropertyMapping/75> ,
+			       <SimplePropertyMapping/327> ,
+			       <SimplePropertyMapping/214> ,
+			       <SimplePropertyMapping/335> ,
+			       <SimplePropertyMapping/232> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/160> ,
+			       <SimplePropertyMapping/340> ,
+			       <SimplePropertyMapping/149> ,
+			       <SimplePropertyMapping/158> ,
+			       <SimplePropertyMapping/247> ,
+			       <SimplePropertyMapping/306> ,
+			       <SimplePropertyMapping/283> ,
+			       <SimplePropertyMapping/181> ,
+			       <SimplePropertyMapping/355> ,
+			       <SimplePropertyMapping/314> ,
+			       <SimplePropertyMapping/391> ,
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/280> ,
+			       <SimplePropertyMapping/77> ,
+			       <SimplePropertyMapping/104> ,
+			       <SimplePropertyMapping/198> ,
+			       <SimplePropertyMapping/134> ,
+			       <SimplePropertyMapping/56> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/275> ,
+			       <SimplePropertyMapping/110> ,
+			       <SimplePropertyMapping/101> ,
+			       <SimplePropertyMapping/256> ,
+			       <SimplePropertyMapping/32> ,
+			       <SimplePropertyMapping/377> ,
+			       <SimplePropertyMapping/368> ,
+			       <SimplePropertyMapping/153> ,
+			       <SimplePropertyMapping/250> ,
+			       <SimplePropertyMapping/161> ,
+			       <SimplePropertyMapping/193> ;
+        rr:subjectMap          <SubjectMap> .
+
+
+### Main SubjectMap
+####################
+<SubjectMap>  a      rr:SubjectMap ;
+        rr:class     dbo:Ambassador ;
+        rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
+        rr:termType  rr:IRI .
+
+
+### LogicalSource
+##################
+
+<LogicalSource>  a                rml:LogicalSource ;
+        rml:iterator              "Infobox:Infobox_Ambassador" ;
+        rml:referenceFormulation  ql:wikitext ;
+        rml:source                "https://en.wikipedia.org/wiki/{wikititle}" .
+
+
+###########
+# Mappings
+###########
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/96>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/96/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/96/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/72>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/72/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/72/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/132>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/132/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/132/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/228>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/228/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/228/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/219>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/219/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/219/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/140>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/140/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/140/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/189>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/189/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/189/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/172>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/172/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/172/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/106>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/106/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/106/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/297>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/297/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/297/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/51>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/51/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/51/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/42>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/42/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/42/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/203>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/203/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/203/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/105>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/105/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/105/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/288>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/288/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/288/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/353>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/353/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/353/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/94>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/94/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/94/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/311>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/311/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/311/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/396>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/396/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/396/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/320>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/320/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/320/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/58>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/58/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/58/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/93>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/93/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/93/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/49>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/49/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/49/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/57>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/57/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/57/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/25>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/25/OM> ;
+        rr:predicate  dbo:religion .
+
+### ObjectMap
+<SimplePropertyMapping/25/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "religion" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/223>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/223/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/223/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/125>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/125/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/125/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/380>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/380/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/380/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/371>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/371/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/371/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/33>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/33/OM> ;
+        rr:predicate  dbo:taoiseach .
+
+### ObjectMap
+<SimplePropertyMapping/33/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "taoiseach" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/292>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/292/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/292/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/349>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/349/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/349/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/350>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/350/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/350/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/12>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/12/OM> ;
+        rr:predicate  dbo:award .
+
+### ObjectMap
+<SimplePropertyMapping/12/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "award" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/324>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/324/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/324/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/173>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/173/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/173/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/269>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/269/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/269/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/166>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/166/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/166/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/245>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/245/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/245/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/147>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/147/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/147/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/236>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/236/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/236/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/344>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/344/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/344/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/170>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/170/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/170/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/2>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:birthDate .
+
+### ObjectMap
+<SimplePropertyMapping/2/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "birth_date" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/266>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/266/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/266/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/99>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/99/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/99/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/242>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/242/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/242/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/66>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/66/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/66/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/119>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/119/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/119/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/208>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/208/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/208/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/316>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/316/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/316/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/31>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/31/OM> ;
+        rr:predicate  dbo:militaryCommand .
+
+### ObjectMap
+<SimplePropertyMapping/31/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "commands" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/221>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/221/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/221/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/123>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/123/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/123/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/83>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/83/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/83/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/139>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/139/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/139/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  dbo:birthName .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "birthname" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/385>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/385/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/385/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/264>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/264/OM> ;
+        rr:predicate  dbo:party .
+
+### ObjectMap
+<SimplePropertyMapping/264/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "party_election" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/18>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/18/OM> ;
+        rr:predicate  dbo:occupation .
+
+### ObjectMap
+<SimplePropertyMapping/18/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "occupation" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/366>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/366/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/366/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/138>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/138/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/138/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/290>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/290/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/290/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/82>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/82/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/82/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/192>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/192/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/192/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/38>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/38/OM> ;
+        rr:predicate  dbo:appointer .
+
+### ObjectMap
+<SimplePropertyMapping/38/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "appointer" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/6>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  dbo:restingPlace .
+
+### ObjectMap
+<SimplePropertyMapping/6/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "restingplace" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/272>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/272/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/272/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/238>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/238/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/238/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/114>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/114/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/114/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/150>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/150/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/150/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/85>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/85/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/85/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/387>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/387/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/387/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/61>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/61/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/61/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/309>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/309/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/309/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/363>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/363/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/363/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/338>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/338/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/338/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/217>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/217/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/217/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/329>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/329/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/329/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/60>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/60/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/60/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/187>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/187/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/187/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/178>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/178/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/178/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/342>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/342/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/342/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/300>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/300/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/300/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/91>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/91/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/91/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/47>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/47/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/47/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/357>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/357/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/357/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/142>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/142/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/142/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/393>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/393/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/393/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/46>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/46/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/46/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/212>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/212/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/212/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/333>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/333/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/333/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/182>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/182/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/182/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/141>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/141/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/141/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/22>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/22/OM> ;
+        rr:predicate  dbo:committee .
+
+### ObjectMap
+<SimplePropertyMapping/22/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "committees" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/52>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/52/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/52/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/79>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/79/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/79/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/390>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/390/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/390/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/298>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/298/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/298/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/281>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/281/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/281/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP7" .
+
+
+### Predicate Object Map
+#########################
+<EndDateMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/0/FTM> ;
+        rr:predicate  dbo:serviceEndYear .
+
+### Function Term Map
+<EndDateMapping/0/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <EndDateMapping/0/FTM/FV> .
+
+### Function Execution Mapping
+<EndDateMapping/0/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/EndDateFunction> ,
+			       <EndDateMapping/0/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<EndDateMapping/0/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/0/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:endDatePropertyParameter .
+
+### References
+<EndDateMapping/0/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "serviceyears" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/279>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/279/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/279/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/277>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/277/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/277/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/112>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/112/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/112/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/253>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/253/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/253/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/164>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/164/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/164/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/155>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/155/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/155/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president6" .
+
+
+### Predicate Object Map
+#########################
+<StartDateMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/0/FTM> ;
+        rr:predicate  dbo:serviceEndYear .
+
+### Function Term Map
+<StartDateMapping/0/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <StartDateMapping/0/FTM/FV> .
+
+### Function Execution Mapping
+<StartDateMapping/0/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/StartDateFunction> ,
+			       <StartDateMapping/0/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<StartDateMapping/0/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/0/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:startDatePropertyParameter .
+
+### References
+<StartDateMapping/0/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "serviceyears" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/307>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/307/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/307/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/163>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/163/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/163/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/195>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/195/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/195/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/359>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/359/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/359/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/14>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/14/OM> ;
+        rr:predicate  dbo:relation .
+
+### ObjectMap
+<SimplePropertyMapping/14/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "relations" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/360>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/360/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/360/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/74>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/74/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/74/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/13>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/13/OM> ;
+        rr:predicate  dbo:partner .
+
+### ObjectMap
+<SimplePropertyMapping/13/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "partner" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/255>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/255/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/255/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/376>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/376/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/376/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/88>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/88/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/88/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/231>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/231/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/231/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/108>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/108/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/108/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/305>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/305/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/305/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/157>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/157/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/157/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/246>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/246/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/246/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/282>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/282/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/282/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/313>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/313/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/313/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/398>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/398/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/398/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/128>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/128/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/128/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/374>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/374/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/374/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/71>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/71/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/71/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/27>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/27/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/27/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "allegiance" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/225>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/225/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/225/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/36>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/36/OM> ;
+        rr:predicate  dbo:governorGeneral .
+
+### ObjectMap
+<SimplePropertyMapping/36/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor_general" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/136>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/136/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/136/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/127>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/127/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/127/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/261>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/261/OM> ;
+        rr:predicate  dbo:opponent .
+
+### ObjectMap
+<SimplePropertyMapping/261/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "opponent" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/382>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/382/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/382/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/35>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/35/OM> ;
+        rr:predicate  dbo:governorGeneral .
+
+### ObjectMap
+<SimplePropertyMapping/35/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor-general" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/201>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/201/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/201/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/103>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/103/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/103/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/197>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/197/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/197/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/133>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/133/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/133/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/222>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/222/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/222/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/55>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/55/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/55/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:nationality .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "nationality" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/274>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/274/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/274/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/176>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/176/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/176/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/367>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/367/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/367/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/346>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/346/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/346/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/131>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/131/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/131/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/319>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/319/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/319/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/129>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/129/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/129/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/227>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/227/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/227/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/218>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/218/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/218/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/339>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/339/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/339/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/322>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/322/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/322/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/130>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/130/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/130/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/171>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/171/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/171/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/169>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/169/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/169/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/226>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/226/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/226/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/244>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/244/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/244/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/41>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/41/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/41/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/50>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/50/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/50/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/68>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/68/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/68/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/296>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/296/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/296/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/202>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/202/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/202/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/287>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/287/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/287/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/352>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/352/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/352/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/343>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/343/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/343/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/395>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/395/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/395/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/318>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/318/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/318/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/295>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/295/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/295/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/209>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/209/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/209/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/92>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/92/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/92/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/116>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/116/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/116/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/152>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/152/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/152/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/168>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/168/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/168/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/348>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/348/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/348/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/63>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/63/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/63/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/11>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/11/OM> ;
+        rr:predicate  dbo:award .
+
+### ObjectMap
+<SimplePropertyMapping/11/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "awards" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/347>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/347/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/347/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/365>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/365/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/365/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/323>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/323/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/323/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/268>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/268/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/268/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/259>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/259/OM> ;
+        rr:predicate  dbo:electionDate .
+
+### ObjectMap
+<SimplePropertyMapping/259/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "election_date" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/165>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/165/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/165/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/146>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/146/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/146/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/235>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/235/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/235/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/302>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/302/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/302/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "name" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/144>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/144/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/144/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/98>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/98/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/98/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/89>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/89/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/89/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/120>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/120/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/120/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/184>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/184/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/184/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/24>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/24/OM> ;
+        rr:predicate  dbo:profession .
+
+### ObjectMap
+<SimplePropertyMapping/24/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "profession" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/207>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/207/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/207/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/65>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/65/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/65/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/118>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/118/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/118/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/109>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/109/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/109/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/315>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/315/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/315/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/30>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/30/OM> ;
+        rr:predicate  dbo:militaryUnit .
+
+### ObjectMap
+<SimplePropertyMapping/30/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "unit" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/220>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/220/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/220/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/122>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/122/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/122/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/211>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/211/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/211/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/389>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/389/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/389/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/332>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/332/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/332/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/44>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/44/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/44/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/263>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/263/OM> ;
+        rr:predicate  dbo:nominee .
+
+### ObjectMap
+<SimplePropertyMapping/263/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "nominee" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/384>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/384/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/384/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/37>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/37/OM> ;
+        rr:predicate  dbo:appointer .
+
+### ObjectMap
+<SimplePropertyMapping/37/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "appointed" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/137>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/137/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/137/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/81>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/81/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/81/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/191>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/191/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/191/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/5>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/5/OM> ;
+        rr:predicate  dbo:deathPlace .
+
+### ObjectMap
+<SimplePropertyMapping/5/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "death_place" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/271>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/271/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/271/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/262>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/262/OM> ;
+        rr:predicate  dbo:incumbent .
+
+### ObjectMap
+<SimplePropertyMapping/262/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "incumbent" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/383>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/383/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/383/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/113>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/113/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/113/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/84>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/84/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/84/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/16>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/16/OM> ;
+        rr:predicate  dbo:residence .
+
+### ObjectMap
+<SimplePropertyMapping/16/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "residence" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/308>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/308/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/308/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/216>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/216/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/216/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/337>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/337/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/337/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/328>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/328/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/328/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/186>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/186/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/186/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/177>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/177/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/177/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/215>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/215/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/215/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/336>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/336/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/336/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/185>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/185/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/185/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/233>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/233/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/233/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/249>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/249/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/249/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/285>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/285/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/285/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/341>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/341/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/341/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/159>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/159/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/159/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/248>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/248/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/248/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/284>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/284/OM> ;
+        rr:predicate  dbo:speaker .
+
+### ObjectMap
+<SimplePropertyMapping/284/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "speaker" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/90>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/90/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/90/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/356>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/356/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/356/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/392>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/392/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/392/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/45>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/45/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/45/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/21>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/21/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/21/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "cabinet" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/78>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/78/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/78/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/199>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/199/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/199/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/278>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/278/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/278/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/276>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/276/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/276/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/111>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/111/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/111/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/200>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/200/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/200/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/257>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/257/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/257/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/378>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/378/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/378/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/369>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/369/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/369/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/252>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/252/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/252/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/154>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/154/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/154/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/162>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/162/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/162/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/194>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/194/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/194/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/251>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/251/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/251/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/97>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/97/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/97/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/73>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/73/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/73/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/64>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/64/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/64/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/254>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/254/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/254/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/375>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/375/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/375/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/87>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/87/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/87/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/229>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/229/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/229/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/230>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/230/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/230/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/205>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/205/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/205/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/107>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/107/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/107/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/304>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/304/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/304/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/204>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/204/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/204/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/354>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/354/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/354/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/95>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/95/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/95/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alongside6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/397>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/397/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/397/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/312>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/312/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/312/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/303>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/303/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/303/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/330>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/330/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/330/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/59>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/59/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/59/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/321>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/321/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/321/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/373>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/373/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/373/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/126>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/126/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/126/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/135>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/135/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/135/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/70>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/70/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/70/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/26>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/26/OM> ;
+        rr:predicate  foaf:nick .
+
+### ObjectMap
+<SimplePropertyMapping/26/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "nickname" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/224>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/224/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/224/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "assembly5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/260>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/260/OM> ;
+        rr:predicate  dbo:runningMate .
+
+### ObjectMap
+<SimplePropertyMapping/260/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "runningmate" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/381>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/381/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/381/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/372>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/372/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/372/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/34>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/34/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/34/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "chancellor" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/102>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/102/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/102/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/293>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/293/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/293/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/54>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/54/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/54/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/326>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/326/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/326/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/175>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/175/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/175/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/325>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/325/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/325/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/174>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/174/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/174/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "governor5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/167>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/167/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/167/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/148>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/148/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/148/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/237>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/237/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/237/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/289>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/289/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/289/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/345>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/345/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/345/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_legislature5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/180>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/180/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/180/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/20>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/20/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/20/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "website" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/145>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/145/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/145/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/243>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/243/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/243/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/40>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/40/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/40/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/76>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/76/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/76/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/67>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/67/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/67/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/286>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/286/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/286/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/351>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/351/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/351/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/317>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/317/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/317/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/294>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/294/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/294/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/265>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/265/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/265/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/19>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/19/OM> ;
+        rr:predicate  dbo:religion .
+
+### ObjectMap
+<SimplePropertyMapping/19/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "religion" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/386>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/386/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/386/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/100>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/100/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/100/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/39>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/39/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/39/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/291>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/291/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/291/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/273>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/273/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/273/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/241>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/241/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/241/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/239>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/239/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/239/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/115>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/115/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/115/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/151>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/151/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/151/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/240>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/240/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/240/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/86>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/86/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/86/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/62>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/62/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/62/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "office3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/10>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/10/OM> ;
+        rr:predicate  dbo:spouse .
+
+### ObjectMap
+<SimplePropertyMapping/10/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "spouse" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/364>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/364/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/364/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/3>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:birthPlace .
+
+### ObjectMap
+<SimplePropertyMapping/3/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "birth_place" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/188>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/188/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/188/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/69>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/69/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/69/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/267>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/267/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/267/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/258>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/258/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/258/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/379>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/379/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/379/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/234>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/234/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/234/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/301>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/301/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/301/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/0>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/0/OM> ;
+        rr:predicate  dbo:otherParty .
+
+### ObjectMap
+<SimplePropertyMapping/0/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "otherparty" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/48>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/48/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/48/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/358>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/358/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/358/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/143>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/143/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/143/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "monarch4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/394>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/394/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/394/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/124>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/124/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/124/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/213>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/213/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/213/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/334>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/334/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/334/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/183>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/183/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/183/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/370>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/370/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/370/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/117>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/117/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/117/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/23>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/23/OM> ;
+        rr:predicate  dbo:portfolio .
+
+### ObjectMap
+<SimplePropertyMapping/23/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "portfolio" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/206>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/206/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/206/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/53>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/53/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/53/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/299>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/299/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/299/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "district5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/17>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/17/OM> ;
+        rr:predicate  dbo:almaMater .
+
+### ObjectMap
+<SimplePropertyMapping/17/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alma_mater" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/121>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/121/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/121/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "deputy2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/210>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/210/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/210/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/388>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/388/OM> ;
+        rr:predicate  dbo:majorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/388/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority_floor_leader9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/331>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/331/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/331/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/43>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/43/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/43/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "successor4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/80>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/80/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/80/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_end1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/270>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/270/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/270/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "parliament6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:deathDate .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "death_date" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/190>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/190/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/190/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/179>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/179/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/179/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/156>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/156/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/156/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/310>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/310/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/310/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/362>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/362/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/362/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/196>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/196/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/196/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/15>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/15/OM> ;
+        rr:predicate  dbo:child .
+
+### ObjectMap
+<SimplePropertyMapping/15/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "children" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/361>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/361/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/361/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/75>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/75/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/75/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/327>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/327/OM> ;
+        rr:predicate  dbo:stateDelegate .
+
+### ObjectMap
+<SimplePropertyMapping/327/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_delegate6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/214>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/214/OM> ;
+        rr:predicate  dbo:electionMajority .
+
+### ObjectMap
+<SimplePropertyMapping/214/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majority5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/335>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/335/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/335/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/232>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/232/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/232/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ambassador_from3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/160>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/160/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/160/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/29>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/29/OM> ;
+        rr:predicate  dbo:militaryRank .
+
+### ObjectMap
+<SimplePropertyMapping/29/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "rank" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/340>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/340/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/340/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_senate9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/306>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/306/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/306/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_house3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/247>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/247/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/247/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "country8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/158>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/158/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/158/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/149>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/149/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/149/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/283>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/283/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/283/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/355>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/355/OM> ;
+        rr:predicate  dbo:seniority .
+
+### ObjectMap
+<SimplePropertyMapping/355/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jr/sr6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/314>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/314/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/314/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "state_assembly2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/181>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/181/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/181/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "preceding2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/391>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/391/OM> ;
+        rr:predicate  dbo:minorityFloorLeader .
+
+### ObjectMap
+<SimplePropertyMapping/391/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_floor_leader2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/28>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/28/OM> ;
+        rr:predicate  dbo:militaryBranch .
+
+### ObjectMap
+<SimplePropertyMapping/28/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "branch" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/280>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/280/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/280/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/77>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/77/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/77/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "term_start8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/104>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/104/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/104/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/198>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/198/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/198/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/134>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/134/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/134/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lieutenant5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/56>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/56/OM> ;
+        rr:predicate  dbo:orderInOffice .
+
+### ObjectMap
+<SimplePropertyMapping/56/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "order7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:party .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "party" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/275>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/275/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/275/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_MP1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/110>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/110/OM> ;
+        rr:predicate  dbo:vicePrimeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/110/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "viceprimeminister1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/101>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/101/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/101/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "vicepresident2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/256>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/256/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/256/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/377>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/377/OM> ;
+        rr:predicate  dbo:minorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/377/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "minority_leader8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/32>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/32/OM> ;
+        rr:predicate  dbo:battle .
+
+### ObjectMap
+<SimplePropertyMapping/32/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "battles" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/368>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/368/OM> ;
+        rr:predicate  dbo:majorityLeader .
+
+### ObjectMap
+<SimplePropertyMapping/368/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "majorityleader9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/153>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/153/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/153/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "president4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/161>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/161/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/161/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "primeminister2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/193>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/193/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/193/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "succeeding4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/250>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/250/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/250/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "constituency_AM1" .
+
+
+######################
+# Conditional Mappings
+######################
+
+
+
+############
+# Functions
+############
+
+
+<Function/StartDateFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:startDateFunction ;
+        rr:predicate  fno:executes .
+
+<Function/EndDateFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:endDateFunction ;
+        rr:predicate  fno:executes .
+
+
+### Functions SubjectMap
+#########################
+
+<SubjectMap/Function>
+        a            rr:SubjectMap ;
+        rr:class     fno:Execution ;
+        rr:termType  rr:BlankNode .

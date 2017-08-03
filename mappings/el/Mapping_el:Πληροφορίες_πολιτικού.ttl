@@ -1,0 +1,2598 @@
+@base	          	<http://el.dbpedia.org/resource/Mapping_el:Πληροφορίες_πολιτικού/> .
+@prefix schema: 	<http://schema.org/> .
+@prefix rr:    		<http://www.w3.org/ns/r2rml#> .
+@prefix owl:   		<http://www.w3.org/2002/07/owl#> .
+@prefix gml:   		<http://www.opengis.net/gml/> .
+@prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
+@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
+@prefix dbr-en: 	<http://en.dbpedia.org/resource/> .
+@prefix foaf:  		<http://xmlns.com/foaf/0.1/> .
+@prefix crml:  		<http://semweb.mmlab.be/ns/crml#> .
+@prefix fno:   		<http://w3id.org/function/ontology#> .
+@prefix georss: 	<http://www.georss.org/georss/> .
+@prefix dbf:   		<http://dbpedia.org/function/> .
+@prefix dbo:   		<http://dbpedia.org/ontology/> .
+@prefix mappings: 	<http://mappings.dbpedia.org/wiki/> .
+@prefix rdf:   		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:  		<http://purl.org/ontology/bibo/> .
+@prefix dul:   		<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: 	<http://www.wikidata.org/entity/> .
+@prefix dc:    		<http://purl.org/dc/elements/1.1/> .
+
+
+### Main TriplesMap
+####################
+<http://el.dbpedia.org/resource/Mapping_el:Πληροφορίες_πολιτικού>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <SimplePropertyMapping/51> ,
+			       <SimplePropertyMapping/170> ,
+			       <SimplePropertyMapping/5> ,
+			       <SimplePropertyMapping/69> ,
+			       <SimplePropertyMapping/114> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/97> ,
+			       <SimplePropertyMapping/71> ,
+			       <SimplePropertyMapping/134> ,
+			       <SimplePropertyMapping/119> ,
+			       <SimplePropertyMapping/91> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/50> ,
+			       <SimplePropertyMapping/75> ,
+			       <SimplePropertyMapping/113> ,
+			       <SimplePropertyMapping/138> ,
+			       <SimplePropertyMapping/180> ,
+			       <SimplePropertyMapping/96> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/141> ,
+			       <SimplePropertyMapping/70> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/159> ,
+			       <SimplePropertyMapping/173> ,
+			       <SimplePropertyMapping/81> ,
+			       <SimplePropertyMapping/90> ,
+			       <SimplePropertyMapping/42> ,
+			       <SimplePropertyMapping/117> ,
+			       <SimplePropertyMapping/145> ,
+			       <SimplePropertyMapping/74> ,
+			       <SimplePropertyMapping/102> ,
+			       <SimplePropertyMapping/137> ,
+			       <SimplePropertyMapping/10> ,
+			       <SimplePropertyMapping/85> ,
+			       <SimplePropertyMapping/46> ,
+			       <SimplePropertyMapping/165> ,
+			       <SimplePropertyMapping/148> ,
+			       <SimplePropertyMapping/122> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/150> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/66> ,
+			       <SimplePropertyMapping/49> ,
+			       <SimplePropertyMapping/63> ,
+			       <SimplePropertyMapping/169> ,
+			       <SimplePropertyMapping/77> ,
+			       <SimplePropertyMapping/126> ,
+			       <SimplePropertyMapping/35> ,
+			       <SimplePropertyMapping/154> ,
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/30> ,
+			       <SimplePropertyMapping/55> ,
+			       <SimplePropertyMapping/174> ,
+			       <SimplePropertyMapping/118> ,
+			       <SimplePropertyMapping/132> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/34> ,
+			       <SimplePropertyMapping/153> ,
+			       <SimplePropertyMapping/59> ,
+			       <SimplePropertyMapping/178> ,
+			       <SimplePropertyMapping/54> ,
+			       <SimplePropertyMapping/109> ,
+			       <SimplePropertyMapping/82> ,
+			       <SimplePropertyMapping/157> ,
+			       <SimplePropertyMapping/131> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/40> ,
+			       <SimplePropertyMapping/142> ,
+			       <SimplePropertyMapping/103> ,
+			       <SimplePropertyMapping/58> ,
+			       <SimplePropertyMapping/177> ,
+			       <SimplePropertyMapping/86> ,
+			       <SimplePropertyMapping/60> ,
+			       <SimplePropertyMapping/43> ,
+			       <SimplePropertyMapping/162> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/149> ,
+			       <SimplePropertyMapping/123> ,
+			       <SimplePropertyMapping/106> ,
+			       <SimplePropertyMapping/108> ,
+			       <SimplePropertyMapping/120> ,
+			       <SimplePropertyMapping/80> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/89> ,
+			       <SimplePropertyMapping/0> ,
+			       <SimplePropertyMapping/64> ,
+			       <SimplePropertyMapping/47> ,
+			       <SimplePropertyMapping/166> ,
+			       <SimplePropertyMapping/127> ,
+			       <SimplePropertyMapping/18> ,
+			       <SimplePropertyMapping/67> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/112> ,
+			       <SimplePropertyMapping/20> ,
+			       <SimplePropertyMapping/95> ,
+			       <SimplePropertyMapping/39> ,
+			       <SimplePropertyMapping/158> ,
+			       <SimplePropertyMapping/172> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/116> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/99> ,
+			       <SimplePropertyMapping/73> ,
+			       <SimplePropertyMapping/111> ,
+			       <SimplePropertyMapping/136> ,
+			       <SimplePropertyMapping/94> ,
+			       <SimplePropertyMapping/38> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/52> ,
+			       <SimplePropertyMapping/171> ,
+			       <SimplePropertyMapping/115> ,
+			       <SimplePropertyMapping/98> ,
+			       <SimplePropertyMapping/143> ,
+			       <SimplePropertyMapping/72> ,
+			       <SimplePropertyMapping/100> ,
+			       <SimplePropertyMapping/135> ,
+			       <SimplePropertyMapping/83> ,
+			       <SimplePropertyMapping/44> ,
+			       <SimplePropertyMapping/163> ,
+			       <SimplePropertyMapping/146> ,
+			       <SimplePropertyMapping/107> ,
+			       <SimplePropertyMapping/160> ,
+			       <SimplePropertyMapping/76> ,
+			       <SimplePropertyMapping/121> ,
+			       <SimplePropertyMapping/104> ,
+			       <SimplePropertyMapping/139> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/87> ,
+			       <SimplePropertyMapping/61> ,
+			       <SimplePropertyMapping/48> ,
+			       <SimplePropertyMapping/167> ,
+			       <SimplePropertyMapping/124> ,
+			       <SimplePropertyMapping/33> ,
+			       <SimplePropertyMapping/152> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/68> ,
+			       <SimplePropertyMapping/79> ,
+			       <SimplePropertyMapping/53> ,
+			       <SimplePropertyMapping/128> ,
+			       <SimplePropertyMapping/156> ,
+			       <SimplePropertyMapping/130> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/32> ,
+			       <SimplePropertyMapping/21> ,
+			       <SimplePropertyMapping/151> ,
+			       <SimplePropertyMapping/57> ,
+			       <SimplePropertyMapping/176> ,
+			       <SimplePropertyMapping/78> ,
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/92> ,
+			       <SimplePropertyMapping/36> ,
+			       <SimplePropertyMapping/155> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/140> ,
+			       <SimplePropertyMapping/101> ,
+			       <SimplePropertyMapping/56> ,
+			       <SimplePropertyMapping/175> ,
+			       <SimplePropertyMapping/84> ,
+			       <SimplePropertyMapping/133> ,
+			       <SimplePropertyMapping/41> ,
+			       <SimplePropertyMapping/147> ,
+			       <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/161> ,
+			       <SimplePropertyMapping/144> ,
+			       <SimplePropertyMapping/105> ,
+			       <SimplePropertyMapping/179> ,
+			       <SimplePropertyMapping/88> ,
+			       <SimplePropertyMapping/62> ,
+			       <SimplePropertyMapping/45> ,
+			       <SimplePropertyMapping/164> ,
+			       <SimplePropertyMapping/125> ,
+			       <SimplePropertyMapping/16> ,
+			       <SimplePropertyMapping/110> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/65> ,
+			       <SimplePropertyMapping/93> ,
+			       <SimplePropertyMapping/168> ,
+			       <SimplePropertyMapping/129> ,
+			       <SimplePropertyMapping/37> ;
+        rr:subjectMap          <SubjectMap> .
+
+
+### Main SubjectMap
+####################
+<SubjectMap>  a      rr:SubjectMap ;
+        rr:class     dbo:Politician ;
+        rr:template  "http://el.dbpedia.org/resource/{wikititle}" ;
+        rr:termType  rr:IRI .
+
+
+### LogicalSource
+##################
+
+<LogicalSource>  a                rml:LogicalSource ;
+        rml:iterator              "Infobox:Πληροφορίες_πολιτικού" ;
+        rml:referenceFormulation  ql:wikitext ;
+        rml:source                "https://el.wikipedia.org/wiki/{wikititle}" .
+
+
+###########
+# Mappings
+###########
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/51>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/51/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/51/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/170>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/170/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/170/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/5>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/5/OM> ;
+        rr:predicate  dbo:nationality .
+
+### ObjectMap
+<SimplePropertyMapping/5/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "εθνικότητα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/69>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/69/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/69/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/114>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/114/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/114/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/22>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/22/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/22/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/97>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/97/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/97/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/71>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/71/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/71/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/134>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/134/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/134/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/119>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/119/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/119/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/91>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/91/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/91/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/25>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/25/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/25/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/50>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/50/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/50/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/75>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/75/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/75/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/113>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/113/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/113/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/180>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/180/OM> ;
+        rr:predicate  dbo:picture .
+
+### ObjectMap
+<SimplePropertyMapping/180/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "εικόνα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/138>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/138/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/138/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/96>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/96/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/96/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/11>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/11/OM> ;
+        rr:predicate  dbo:almaMater .
+
+### ObjectMap
+<SimplePropertyMapping/11/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "σπουδές" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/141>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/141/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/141/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/70>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/70/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/70/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/159>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/159/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/159/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/29>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/29/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/29/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/173>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/173/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/173/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/81>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/81/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/81/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/90>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/90/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/90/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/42>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/42/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/42/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/117>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/117/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/117/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/145>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/145/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/145/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/74>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/74/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/74/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/102>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/102/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/102/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/137>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/137/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/137/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/10>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/10/OM> ;
+        rr:predicate  dbo:residence .
+
+### ObjectMap
+<SimplePropertyMapping/10/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "τόπος διαμονής" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/85>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/85/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/85/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/46>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/46/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/46/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/165>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/165/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/165/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/148>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/148/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/148/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/122>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/122/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/122/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/31>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/31/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/31/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/150>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/150/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/150/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/2>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:birthPlace .
+
+### ObjectMap
+<SimplePropertyMapping/2/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "τόπος_γέννησης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/66>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/66/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/66/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/49>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/49/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/49/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/63>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/63/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/63/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/169>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/169/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/169/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/77>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/77/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/77/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/126>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/126/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/126/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/35>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/35/OM> ;
+        rr:predicate  dbo:imageSize .
+
+### ObjectMap
+<SimplePropertyMapping/35/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μέγεθος_εικόνας" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/154>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/154/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/154/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/6>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  dbo:citizenship .
+
+### ObjectMap
+<SimplePropertyMapping/6/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υπηκοότητα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/30>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/30/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/30/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/55>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/55/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/55/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/174>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/174/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/174/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/118>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/118/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/118/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/132>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/132/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/132/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/26>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/26/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/26/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/153>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/153/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/153/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/34>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/34/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/34/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/23>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/23/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/23/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/59>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/59/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/59/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/178>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/178/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/178/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/54>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/54/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/54/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/109>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/109/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/109/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/82>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/82/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/82/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/157>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/157/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/157/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/131>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/131/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/131/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/15>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/15/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/15/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ιστοσελίδα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/40>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/40/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/40/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/142>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/142/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/142/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/103>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/103/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/103/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/58>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/58/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/58/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/177>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/177/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/177/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/86>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/86/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/86/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/60>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/60/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/60/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/43>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/43/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/43/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/162>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/162/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/162/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/19>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/19/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/19/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/149>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/149/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/149/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/123>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/123/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/123/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/106>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/106/OM> ;
+        rr:predicate  dbo:primeMinister .
+
+### ObjectMap
+<SimplePropertyMapping/106/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρωθυπουργός6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/108>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/108/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/108/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/120>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/120/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/120/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/80>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/80/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/80/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/14>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/14/OM> ;
+        rr:predicate  dbo:religion .
+
+### ObjectMap
+<SimplePropertyMapping/14/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "θρησκεία" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/89>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/89/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/89/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/0>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/0/OM> ;
+        rr:predicate  foaf:nick .
+
+### ObjectMap
+<SimplePropertyMapping/0/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "παρατσούκλι" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/64>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/64/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/64/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/47>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/47/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/47/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/166>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/166/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/166/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/127>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/127/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/127/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/18>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/18/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/18/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "όνομα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/67>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/67/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/67/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/3>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:deathDate .
+
+### ObjectMap
+<SimplePropertyMapping/3/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ημ_θανάτου" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/112>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/112/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/112/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/20>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/20/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/20/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/95>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/95/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/95/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/39>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/39/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/39/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/158>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/158/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/158/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/172>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/172/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/172/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  dbo:party .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτικό_κόμμα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/116>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/116/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/116/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:child .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "παιδιά" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/24>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/24/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/24/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/99>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/99/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/99/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/73>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/73/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/73/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/111>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/111/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/111/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/136>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/136/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/136/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/94>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/94/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/94/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/38>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/38/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/38/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/27>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/27/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/27/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/52>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/52/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/52/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/171>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/171/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/171/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/115>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/115/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/115/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/98>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/98/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/98/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/143>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/143/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/143/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/72>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/72/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/72/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/100>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/100/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/100/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/135>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/135/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/135/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/83>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/83/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/83/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/44>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/44/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/44/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/163>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/163/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/163/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/146>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/146/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/146/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/107>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/107/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/107/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/160>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/160/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/160/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/76>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/76/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/76/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/121>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/121/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/121/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/104>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/104/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/104/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/139>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/139/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/139/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/12>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/12/OM> ;
+        rr:predicate  dbo:profession .
+
+### ObjectMap
+<SimplePropertyMapping/12/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "επάγγελμα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/87>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/87/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/87/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/61>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/61/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/61/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/48>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/48/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/48/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/167>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/167/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/167/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/124>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/124/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/124/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/33>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/33/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/33/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/152>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/152/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/152/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:deathPlace .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "τόπος_θανάτου" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/68>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/68/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/68/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/79>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/79/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/79/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/53>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/53/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/53/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/128>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/128/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/128/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/156>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/156/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/156/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/130>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/130/OM> ;
+        rr:predicate  dbo:predecessor .
+
+### ObjectMap
+<SimplePropertyMapping/130/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "προκάτοχος7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:spouse .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "σύζυγος" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/151>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/151/OM> ;
+        rr:predicate  dbo:associate .
+
+### ObjectMap
+<SimplePropertyMapping/151/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μαζίμε9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/32>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/32/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/32/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/21>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/21/OM> ;
+        rr:predicate  dbo:activeYearsEndDate .
+
+### ObjectMap
+<SimplePropertyMapping/21/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λήξη" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/57>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/57/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/57/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/176>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/176/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/176/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/78>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/78/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/78/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/28>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/28/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/28/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/92>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/92/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/92/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/36>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/36/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/36/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/155>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/155/OM> ;
+        rr:predicate  dbo:governor .
+
+### ObjectMap
+<SimplePropertyMapping/155/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "κυβερνήτης9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/13>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/13/OM> ;
+        rr:predicate  dbo:award .
+
+### ObjectMap
+<SimplePropertyMapping/13/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "βραβεύσεις" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/140>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/140/OM> ;
+        rr:predicate  dbo:region .
+
+### ObjectMap
+<SimplePropertyMapping/140/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πολιτεία8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/56>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/56/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/56/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/101>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/101/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/101/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/175>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/175/OM> ;
+        rr:predicate  dbo:chancellor .
+
+### ObjectMap
+<SimplePropertyMapping/175/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "καγκελάριος10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/84>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/84/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/84/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/133>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/133/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/133/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/41>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/41/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/41/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/17>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/17/OM> ;
+        rr:predicate  dbo:signature .
+
+### ObjectMap
+<SimplePropertyMapping/17/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υπογραφή" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/147>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/147/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/147/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/161>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/161/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/161/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/144>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/144/OM> ;
+        rr:predicate  dbo:deputy .
+
+### ObjectMap
+<SimplePropertyMapping/144/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αναπληρωτής8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/105>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/105/OM> ;
+        rr:predicate  dbo:vicePresident .
+
+### ObjectMap
+<SimplePropertyMapping/105/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αντιπρόεδρος6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/179>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/179/OM> ;
+        rr:predicate  dbo:successor .
+
+### ObjectMap
+<SimplePropertyMapping/179/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "διάδοχος10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/88>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/88/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/88/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/62>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/62/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/62/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/45>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/45/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/45/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/164>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/164/OM> ;
+        rr:predicate  dbo:office .
+
+### ObjectMap
+<SimplePropertyMapping/164/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "αξίωμα10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/125>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/125/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/125/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/16>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/16/OM> ;
+        rr:predicate  rdfs:label .
+
+### ObjectMap
+<SimplePropertyMapping/16/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "λεζάντα" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  dbo:birthDate .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ημ_γέννησης" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/65>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/65/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/65/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/110>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/110/OM> ;
+        rr:predicate  dbo:leader .
+
+### ObjectMap
+<SimplePropertyMapping/110/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ηγέτης6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/93>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/93/OM> ;
+        rr:predicate  dbo:lieutenant .
+
+### ObjectMap
+<SimplePropertyMapping/93/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "υποκυβερνήτης5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/168>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/168/OM> ;
+        rr:predicate  dbo:president .
+
+### ObjectMap
+<SimplePropertyMapping/168/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "πρόεδρος10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/129>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/129/OM> ;
+        rr:predicate  dbo:monarch .
+
+### ObjectMap
+<SimplePropertyMapping/129/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "μονάρχης7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/37>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/37/OM> ;
+        rr:predicate  dbo:activeYearsStartDate .
+
+### ObjectMap
+<SimplePropertyMapping/37/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "έναρξη2" .
+
+
+######################
+# Conditional Mappings
+######################
