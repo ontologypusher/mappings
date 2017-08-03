@@ -198,8 +198,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tên" ;
-        rr:language    "vi" .
+        rml:reference  "tên" .
 
 
 ### Predicate Object Map
@@ -381,8 +380,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tên khai sinh" ;
-        rr:language    "vi" .
+        rml:reference  "tên khai sinh" .
 
 
 ### Predicate Object Map

@@ -208,8 +208,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "所在地" ;
-        rr:language    "ja" .
+        rml:reference  "所在地" .
 
 
 ######################

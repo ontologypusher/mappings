@@ -163,8 +163,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ΜΠΚ" ;
-        rr:language    "el" .
+        rml:reference  "ΜΠΚ" .
 
 
 ### Predicate Object Map

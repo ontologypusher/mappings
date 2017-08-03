@@ -161,8 +161,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "név" ;
-        rr:language    "hu" .
+        rml:reference  "név" .
 
 
 ### Predicate Object Map
@@ -188,8 +187,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "közigazgatás4címke" ;
-        rr:language    "hu" .
+        rml:reference  "közigazgatás4címke" .
 
 
 ### Predicate Object Map
@@ -410,8 +408,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "közigazgatás3címke" ;
-        rr:language    "hu" .
+        rml:reference  "közigazgatás3címke" .
 
 
 ### Predicate Object Map
@@ -437,8 +434,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "becenév" ;
-        rr:language    "hu" .
+        rml:reference  "becenév" .
 
 
 ### Predicate Object Map
@@ -464,8 +460,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "közigazgatás5címke" ;
-        rr:language    "hu" .
+        rml:reference  "közigazgatás5címke" .
 
 
 ### Predicate Object Map
@@ -491,8 +486,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "közigazgatás1címke" ;
-        rr:language    "hu" .
+        rml:reference  "közigazgatás1címke" .
 
 
 ### Predicate Object Map
@@ -505,8 +499,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "helyi_név" ;
-        rr:language    "hu" .
+        rml:reference  "helyi_név" .
 
 
 ### Predicate Object Map
@@ -571,8 +564,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "közigazgatás2címke" ;
-        rr:language    "hu" .
+        rml:reference  "közigazgatás2címke" .
 
 
 ### Predicate Object Map

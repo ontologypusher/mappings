@@ -252,8 +252,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "objectnaam" ;
-        rr:language    "nl" .
+        rml:reference  "objectnaam" .
 
 
 ### Predicate Object Map
@@ -279,8 +278,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "adres" ;
-        rr:language    "nl" .
+        rml:reference  "adres" .
 
 
 ### Predicate Object Map
@@ -293,8 +291,7 @@
 ### ObjectMap
 <ConditionalMapping/0/Condition/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "object" ;
-        rr:language    "nl" .
+        rml:reference  "object" .
 
 
 ### Predicate Object Map
@@ -317,8 +314,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/1/SimplePropertyMapping/0> , <ConditionalMapping/0/Condition/1/ClassMapping> ;
         rr:object            dbo:ArchitecturalStructure ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
@@ -353,12 +348,6 @@
         rr:objectMap         <ConditionalMapping/0/Condition/0/SimplePropertyMapping/0/OM> ;
         rr:predicate         dbo:name .
 
-### ObjectMap
-<ConditionalMapping/0/Condition/0/SimplePropertyMapping/0/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "object" ;
-        rr:language    "nl" .
-
 ### Conditional Mapping
 ###################################
 <ConditionalMapping/0/Condition/1/ClassMapping>
@@ -366,8 +355,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/1/FTM> ;
         rr:object            dbo:ArchitecturalStructure ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
@@ -400,12 +387,6 @@
         a             rr:PredicateObjectMap ;
         rr:objectMap  <ConditionalMapping/0/Condition/1/SimplePropertyMapping/0/OM> ;
         rr:predicate  dbo:name .
-
-### ObjectMap
-<ConditionalMapping/0/Condition/1/SimplePropertyMapping/0/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "object" ;
-        rr:language    "nl" .
 
 
 

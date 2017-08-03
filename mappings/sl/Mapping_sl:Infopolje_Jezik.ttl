@@ -306,8 +306,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nativename" ;
-        rr:language    "sl" .
+        rml:reference  "nativename" .
 
 
 ### Predicate Object Map

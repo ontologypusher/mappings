@@ -206,8 +206,7 @@
 ### ObjectMap
 <SimplePropertyMapping/69/OM>
         a              rr:ObjectMap ;
-        rml:reference  "34-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "34-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -220,8 +219,7 @@
 ### ObjectMap
 <SimplePropertyMapping/48/OM>
         a              rr:ObjectMap ;
-        rml:reference  "13-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "13-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -234,8 +232,7 @@
 ### ObjectMap
 <SimplePropertyMapping/46/OM>
         a              rr:ObjectMap ;
-        rml:reference  "11-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "11-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -248,8 +245,7 @@
 ### ObjectMap
 <SimplePropertyMapping/58/OM>
         a              rr:ObjectMap ;
-        rml:reference  "23-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "23-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -275,8 +271,7 @@
 ### ObjectMap
 <SimplePropertyMapping/66/OM>
         a              rr:ObjectMap ;
-        rml:reference  "31-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "31-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -302,8 +297,7 @@
 ### ObjectMap
 <SimplePropertyMapping/65/OM>
         a              rr:ObjectMap ;
-        rml:reference  "30-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "30-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -342,8 +336,7 @@
 ### ObjectMap
 <SimplePropertyMapping/42/OM>
         a              rr:ObjectMap ;
-        rml:reference  "07-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "07-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -369,8 +362,7 @@
 ### ObjectMap
 <SimplePropertyMapping/55/OM>
         a              rr:ObjectMap ;
-        rml:reference  "20-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "20-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -383,8 +375,7 @@
 ### ObjectMap
 <SimplePropertyMapping/54/OM>
         a              rr:ObjectMap ;
-        rml:reference  "19-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "19-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -397,8 +388,7 @@
 ### ObjectMap
 <SimplePropertyMapping/62/OM>
         a              rr:ObjectMap ;
-        rml:reference  "27-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "27-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -411,8 +401,7 @@
 ### ObjectMap
 <SimplePropertyMapping/60/OM>
         a              rr:ObjectMap ;
-        rml:reference  "25-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "25-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -451,8 +440,7 @@
 ### ObjectMap
 <SimplePropertyMapping/37/OM>
         a              rr:ObjectMap ;
-        rml:reference  "02-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "02-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -478,8 +466,7 @@
 ### ObjectMap
 <SimplePropertyMapping/51/OM>
         a              rr:ObjectMap ;
-        rml:reference  "16-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "16-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -505,8 +492,7 @@
 ### ObjectMap
 <SimplePropertyMapping/49/OM>
         a              rr:ObjectMap ;
-        rml:reference  "14-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "14-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -519,8 +505,7 @@
 ### ObjectMap
 <SimplePropertyMapping/47/OM>
         a              rr:ObjectMap ;
-        rml:reference  "12-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "12-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -559,8 +544,7 @@
 ### ObjectMap
 <SimplePropertyMapping/67/OM>
         a              rr:ObjectMap ;
-        rml:reference  "32-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "32-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -586,8 +570,7 @@
 ### ObjectMap
 <SimplePropertyMapping/44/OM>
         a              rr:ObjectMap ;
-        rml:reference  "09-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "09-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -626,8 +609,7 @@
 ### ObjectMap
 <SimplePropertyMapping/43/OM>
         a              rr:ObjectMap ;
-        rml:reference  "08-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "08-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -640,8 +622,7 @@
 ### ObjectMap
 <SimplePropertyMapping/56/OM>
         a              rr:ObjectMap ;
-        rml:reference  "21-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "21-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -654,8 +635,7 @@
 ### ObjectMap
 <SimplePropertyMapping/63/OM>
         a              rr:ObjectMap ;
-        rml:reference  "28-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "28-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -668,8 +648,7 @@
 ### ObjectMap
 <SimplePropertyMapping/61/OM>
         a              rr:ObjectMap ;
-        rml:reference  "26-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "26-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -708,8 +687,7 @@
 ### ObjectMap
 <SimplePropertyMapping/40/OM>
         a              rr:ObjectMap ;
-        rml:reference  "05-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "05-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -748,8 +726,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "03-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "03-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -775,8 +752,7 @@
 ### ObjectMap
 <SimplePropertyMapping/52/OM>
         a              rr:ObjectMap ;
-        rml:reference  "17-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "17-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -789,8 +765,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "01-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "01-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -803,8 +778,7 @@
 ### ObjectMap
 <SimplePropertyMapping/50/OM>
         a              rr:ObjectMap ;
-        rml:reference  "15-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "15-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -817,8 +791,7 @@
 ### ObjectMap
 <SimplePropertyMapping/70/OM>
         a              rr:ObjectMap ;
-        rml:reference  "35-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "35-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -883,8 +856,7 @@
 ### ObjectMap
 <SimplePropertyMapping/68/OM>
         a              rr:ObjectMap ;
-        rml:reference  "33-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "33-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -910,8 +882,7 @@
 ### ObjectMap
 <SimplePropertyMapping/45/OM>
         a              rr:ObjectMap ;
-        rml:reference  "10-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "10-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -924,8 +895,7 @@
 ### ObjectMap
 <SimplePropertyMapping/59/OM>
         a              rr:ObjectMap ;
-        rml:reference  "24-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "24-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -938,8 +908,7 @@
 ### ObjectMap
 <SimplePropertyMapping/57/OM>
         a              rr:ObjectMap ;
-        rml:reference  "22-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "22-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -952,8 +921,7 @@
 ### ObjectMap
 <SimplePropertyMapping/64/OM>
         a              rr:ObjectMap ;
-        rml:reference  "29-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "29-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -992,8 +960,7 @@
 ### ObjectMap
 <SimplePropertyMapping/41/OM>
         a              rr:ObjectMap ;
-        rml:reference  "06-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "06-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -1045,8 +1012,7 @@
 ### ObjectMap
 <SimplePropertyMapping/39/OM>
         a              rr:ObjectMap ;
-        rml:reference  "04-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "04-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -1059,8 +1025,7 @@
 ### ObjectMap
 <SimplePropertyMapping/53/OM>
         a              rr:ObjectMap ;
-        rml:reference  "18-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "18-BEZEICHNUNG" .
 
 
 ### Predicate Object Map
@@ -1099,8 +1064,7 @@
 ### ObjectMap
 <SimplePropertyMapping/71/OM>
         a              rr:ObjectMap ;
-        rml:reference  "36-BEZEICHNUNG" ;
-        rr:language    "de" .
+        rml:reference  "36-BEZEICHNUNG" .
 
 
 ######################

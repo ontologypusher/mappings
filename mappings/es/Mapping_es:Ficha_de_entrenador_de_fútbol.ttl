@@ -70,8 +70,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombrecompleto" ;
-        rr:language    "es" .
+        rml:reference  "nombrecompleto" .
 
 
 ######################

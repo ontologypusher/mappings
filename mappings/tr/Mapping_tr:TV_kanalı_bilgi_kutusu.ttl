@@ -181,8 +181,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "former names" ;
-        rr:language    "tr" .
+        rml:reference  "former names" .
 
 
 ### Predicate Object Map
@@ -234,8 +233,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "değişen_adları" ;
-        rr:language    "tr" .
+        rml:reference  "değişen_adları" .
 
 
 ### Predicate Object Map
@@ -274,8 +272,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dönüşümlü_adlar" ;
-        rr:language    "tr" .
+        rml:reference  "dönüşümlü_adlar" .
 
 
 ### Predicate Object Map
@@ -340,8 +337,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eski_adları" ;
-        rr:language    "tr" .
+        rml:reference  "eski_adları" .
 
 
 ### Predicate Object Map
@@ -458,8 +454,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -774,8 +769,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -788,8 +782,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tamadı" ;
-        rr:language    "tr" .
+        rml:reference  "tamadı" .
 
 
 ### Predicate Object Map
@@ -841,8 +834,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "replaced_by_names" ;
-        rr:language    "tr" .
+        rml:reference  "replaced_by_names" .
 
 
 ### Predicate Object Map
@@ -950,8 +942,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "key people" ;
-        rr:language    "tr" .
+        rml:reference  "key people" .
 
 
 
@@ -1003,8 +994,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "key people" ;
-        rr:language    "tr" .
+        rml:reference  "key people" .
 
 
 

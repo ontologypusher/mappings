@@ -156,8 +156,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "station" ;
-        rr:language    "en" .
+        rml:reference  "station" .
 
 
 ### Predicate Object Map

@@ -111,8 +111,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "рат" ;
-        rr:language    "sr" .
+        rml:reference  "рат" .
 
 
 ### Predicate Object Map

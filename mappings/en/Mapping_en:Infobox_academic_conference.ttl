@@ -99,8 +99,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "abbreviation" ;
-        rr:language    "en" .
+        rml:reference  "abbreviation" .
 
 
 ### Predicate Object Map

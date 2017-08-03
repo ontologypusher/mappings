@@ -122,8 +122,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre_orig" ;
-        rr:language    "fr" .
+        rml:reference  "titre_orig" .
 
 
 ### Predicate Object Map
@@ -149,8 +148,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre_orig" ;
-        rr:language    "fr" .
+        rml:reference  "titre_orig" .
 
 
 ### Predicate Object Map
@@ -319,8 +317,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -373,8 +370,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre" ;
-        rr:language    "fr" .
+        rml:reference  "titre" .
 
 
 ### Predicate Object Map
@@ -456,8 +452,6 @@
         rr:object            dbo:Play ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -491,8 +485,6 @@
         rr:object            dbo:Play ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
         a                   fnml:FunctionTermMap ;
@@ -525,8 +517,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/2/FTM> ;
         rr:object            dbo:Book ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>

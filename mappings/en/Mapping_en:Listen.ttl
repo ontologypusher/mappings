@@ -123,8 +123,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description8" ;
-        rr:language    "en" .
+        rml:reference  "description8" .
 
 
 
@@ -137,8 +136,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title8" ;
-        rr:language    "en" .
+        rml:reference  "title8" .
 
 
 
@@ -205,8 +203,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description3" ;
-        rr:language    "en" .
+        rml:reference  "description3" .
 
 
 
@@ -219,8 +216,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title3" ;
-        rr:language    "en" .
+        rml:reference  "title3" .
 
 
 
@@ -287,8 +283,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description1" ;
-        rr:language    "en" .
+        rml:reference  "description1" .
 
 
 
@@ -301,8 +296,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title1" ;
-        rr:language    "en" .
+        rml:reference  "title1" .
 
 
 
@@ -369,8 +363,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description" ;
-        rr:language    "en" .
+        rml:reference  "description" .
 
 
 
@@ -383,8 +376,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title" ;
-        rr:language    "en" .
+        rml:reference  "title" .
 
 
 
@@ -451,8 +443,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description6" ;
-        rr:language    "en" .
+        rml:reference  "description6" .
 
 
 
@@ -465,8 +456,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title6" ;
-        rr:language    "en" .
+        rml:reference  "title6" .
 
 
 
@@ -533,8 +523,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description7" ;
-        rr:language    "en" .
+        rml:reference  "description7" .
 
 
 
@@ -547,8 +536,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title7" ;
-        rr:language    "en" .
+        rml:reference  "title7" .
 
 
 
@@ -615,8 +603,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description5" ;
-        rr:language    "en" .
+        rml:reference  "description5" .
 
 
 
@@ -629,8 +616,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title5" ;
-        rr:language    "en" .
+        rml:reference  "title5" .
 
 
 
@@ -697,8 +683,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description4" ;
-        rr:language    "en" .
+        rml:reference  "description4" .
 
 
 
@@ -711,8 +696,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title4" ;
-        rr:language    "en" .
+        rml:reference  "title4" .
 
 
 
@@ -779,8 +763,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description2" ;
-        rr:language    "en" .
+        rml:reference  "description2" .
 
 
 
@@ -793,8 +776,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title2" ;
-        rr:language    "en" .
+        rml:reference  "title2" .
 
 
 
@@ -861,8 +843,7 @@
 ### ObjectMap
 <IntermediateMapping/10/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description10" ;
-        rr:language    "en" .
+        rml:reference  "description10" .
 
 
 
@@ -875,8 +856,7 @@
 ### ObjectMap
 <IntermediateMapping/10/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title10" ;
-        rr:language    "en" .
+        rml:reference  "title10" .
 
 
 
@@ -943,8 +923,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "description9" ;
-        rr:language    "en" .
+        rml:reference  "description9" .
 
 
 
@@ -957,8 +936,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title9" ;
-        rr:language    "en" .
+        rml:reference  "title9" .
 
 
 

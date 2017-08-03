@@ -78,8 +78,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "都道府県名" ;
-        rr:language    "ja" .
+        rml:reference  "都道府県名" .
 
 
 ### Predicate Object Map

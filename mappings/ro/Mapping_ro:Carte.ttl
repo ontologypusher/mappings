@@ -94,8 +94,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "data_apariției" ;
-        rr:language    "ro" .
+        rml:reference  "data_apariției" .
 
 
 ### Predicate Object Map

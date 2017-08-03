@@ -76,8 +76,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nomo" ;
-        rr:language    "eo" .
+        rml:reference  "nomo" .
 
 
 ### Predicate Object Map

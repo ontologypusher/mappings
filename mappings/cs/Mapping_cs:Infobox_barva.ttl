@@ -72,8 +72,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "css" ;
-        rr:language    "cs" .
+        rml:reference  "css" .
 
 
 ### Predicate Object Map
@@ -86,8 +85,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "css" ;
-        rr:language    "cs" .
+        rml:reference  "css" .
 
 
 ### Predicate Object Map

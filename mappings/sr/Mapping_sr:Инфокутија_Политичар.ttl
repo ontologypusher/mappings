@@ -215,8 +215,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "надимак" ;
-        rr:language    "sr" .
+        rml:reference  "надимак" .
 
 
 ### Predicate Object Map
@@ -297,8 +296,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име при рођењу" ;
-        rr:language    "sr" .
+        rml:reference  "име при рођењу" .
 
 
 
@@ -325,8 +323,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име" ;
-        rr:language    "sr" .
+        rml:reference  "име" .
 
 
 
@@ -405,8 +402,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 1" ;
-        rr:language    "sr" .
+        rml:reference  "функција 1" .
 
 
 
@@ -676,8 +672,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 3" ;
-        rr:language    "sr" .
+        rml:reference  "функција 3" .
 
 
 
@@ -920,8 +915,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 8" ;
-        rr:language    "sr" .
+        rml:reference  "функција 8" .
 
 
 
@@ -1073,8 +1067,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 2" ;
-        rr:language    "sr" .
+        rml:reference  "функција 2" .
 
 
 
@@ -1224,8 +1217,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 4" ;
-        rr:language    "sr" .
+        rml:reference  "функција 4" .
 
 
 
@@ -1508,8 +1500,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 5" ;
-        rr:language    "sr" .
+        rml:reference  "функција 5" .
 
 
 
@@ -1634,8 +1625,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 7" ;
-        rr:language    "sr" .
+        rml:reference  "функција 7" .
 
 
 
@@ -1879,8 +1869,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "функција 6" ;
-        rr:language    "sr" .
+        rml:reference  "функција 6" .
 
 
 

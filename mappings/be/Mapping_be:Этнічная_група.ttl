@@ -170,8 +170,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "group" ;
-        rr:language    "be" .
+        rml:reference  "group" .
 
 
 ### Predicate Object Map

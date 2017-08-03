@@ -213,8 +213,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Meno" ;
-        rr:language    "sk" .
+        rml:reference  "Meno" .
 
 
 ### Predicate Object Map
@@ -240,8 +239,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Označenie" ;
-        rr:language    "sk" .
+        rml:reference  "Označenie" .
 
 
 ### Predicate Object Map

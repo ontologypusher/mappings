@@ -133,8 +133,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "herritarra" ;
-        rr:language    "eu" .
+        rml:reference  "herritarra" .
 
 
 ### Predicate Object Map
@@ -147,8 +146,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ofiziala" ;
-        rr:language    "eu" .
+        rml:reference  "ofiziala" .
 
 
 ### Predicate Object Map
@@ -207,8 +205,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nongo" ;
-        rr:language    "eu" .
+        rml:reference  "nongo" .
 
 
 ### Predicate Object Map
@@ -286,8 +283,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izena" ;
-        rr:language    "eu" .
+        rml:reference  "izena" .
 
 
 ### Predicate Object Map

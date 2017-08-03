@@ -136,8 +136,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "benaming" ;
-        rr:language    "nl" .
+        rml:reference  "benaming" .
 
 
 ### Predicate Object Map
@@ -176,8 +175,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map

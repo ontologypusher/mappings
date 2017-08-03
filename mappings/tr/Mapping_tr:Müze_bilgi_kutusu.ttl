@@ -251,8 +251,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yerel_isim" ;
-        rr:language    "tr" .
+        rml:reference  "yerel_isim" .
 
 
 ### Predicate Object Map
@@ -317,8 +316,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -393,8 +391,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "native_name" ;
-        rr:language    "tr" .
+        rml:reference  "native_name" .
 
 
 ### Predicate Object Map
@@ -516,8 +513,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "tr" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map

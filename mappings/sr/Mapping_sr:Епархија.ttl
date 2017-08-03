@@ -90,8 +90,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Епархија" ;
-        rr:language    "sr" .
+        rml:reference  "Епархија" .
 
 
 ### Predicate Object Map
@@ -104,8 +103,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Титула архијереја" ;
-        rr:language    "sr" .
+        rml:reference  "Титула архијереја" .
 
 
 ### Predicate Object Map

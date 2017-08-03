@@ -72,8 +72,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име" ;
-        rr:language    "sr" .
+        rml:reference  "име" .
 
 
 ### Predicate Object Map

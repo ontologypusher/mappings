@@ -123,8 +123,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "MeshName" ;
-        rr:language    "sl" .
+        rml:reference  "MeshName" .
 
 
 ### Predicate Object Map
@@ -215,8 +214,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Latin" ;
-        rr:language    "sl" .
+        rml:reference  "Latin" .
 
 
 ### Predicate Object Map
@@ -229,8 +227,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "sl" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map

@@ -112,8 +112,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "doğumadı" ;
-        rr:language    "tr" .
+        rml:reference  "doğumadı" .
 
 
 ### Predicate Object Map
@@ -461,8 +460,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ad" ;
-        rr:language    "tr" .
+        rml:reference  "ad" .
 
 
 ### Predicate Object Map
@@ -501,8 +499,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "diğeradları" ;
-        rr:language    "tr" .
+        rml:reference  "diğeradları" .
 
 
 ### Predicate Object Map

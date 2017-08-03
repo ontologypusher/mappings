@@ -308,8 +308,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "road_name" ;
-        rr:language    "pl" .
+        rml:reference  "road_name" .
 
 
 ######################

@@ -113,8 +113,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "T" ;
-        rr:language    "de" .
+        rml:reference  "T" .
 
 
 ### Predicate Object Map

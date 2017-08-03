@@ -241,8 +241,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izenburu originala" ;
-        rr:language    "eu" .
+        rml:reference  "izenburu originala" .
 
 
 ### Predicate Object Map
@@ -268,8 +267,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izena" ;
-        rr:language    "eu" .
+        rml:reference  "izena" .
 
 
 ### Predicate Object Map

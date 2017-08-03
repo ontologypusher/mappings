@@ -373,8 +373,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "aka" ;
-        rr:language    "nl" .
+        rml:reference  "aka" .
 
 
 ### Predicate Object Map
@@ -426,8 +425,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "huidige_leden" ;
-        rr:language    "nl" .
+        rml:reference  "huidige_leden" .
 
 
 ### Predicate Object Map
@@ -1131,8 +1129,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "huidige leden" ;
-        rr:language    "nl" .
+        rml:reference  "huidige leden" .
 
 
 ### Predicate Object Map
@@ -1735,8 +1732,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "band_naam" ;
-        rr:language    "nl" .
+        rml:reference  "band_naam" .
 
 
 ### Predicate Object Map

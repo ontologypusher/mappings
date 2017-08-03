@@ -81,8 +81,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nomo_de_loĝantoj" ;
-        rr:language    "eo" .
+        rml:reference  "nomo_de_loĝantoj" .
 
 
 ### Predicate Object Map
@@ -199,8 +198,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nomo" ;
-        rr:language    "eo" .
+        rml:reference  "nomo" .
 
 
 ### Predicate Object Map

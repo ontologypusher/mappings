@@ -244,8 +244,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tên" ;
-        rr:language    "vi" .
+        rml:reference  "tên" .
 
 
 ### Predicate Object Map

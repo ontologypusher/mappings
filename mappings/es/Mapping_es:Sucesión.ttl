@@ -70,8 +70,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "sucesor" ;
-        rr:language    "es" .
+        rml:reference  "sucesor" .
 
 
 ######################

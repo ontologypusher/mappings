@@ -125,8 +125,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "predecesor" ;
-        rr:language    "ro" .
+        rml:reference  "predecesor" .
 
 
 ### Predicate Object Map
@@ -217,8 +216,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nume-botez" ;
-        rr:language    "ro" .
+        rml:reference  "nume-botez" .
 
 
 ### Predicate Object Map

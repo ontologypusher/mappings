@@ -171,8 +171,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Πόλη" ;
-        rr:language    "el" .
+        rml:reference  "Πόλη" .
 
 
 ### Predicate Object Map

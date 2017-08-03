@@ -173,8 +173,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "звание" ;
-        rr:language    "bg" .
+        rml:reference  "звание" .
 
 
 ### Predicate Object Map
@@ -448,8 +447,7 @@
 ### ObjectMap
 <SimplePropertyMapping/40/OM>
         a              rr:ObjectMap ;
-        rml:reference  "описание" ;
-        rr:language    "bg" .
+        rml:reference  "описание" .
 
 
 ### Predicate Object Map
@@ -540,8 +538,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "пълно име" ;
-        rr:language    "bg" .
+        rml:reference  "пълно име" .
 
 
 ### Predicate Object Map
@@ -677,8 +674,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име" ;
-        rr:language    "bg" .
+        rml:reference  "име" .
 
 
 ### Predicate Object Map
@@ -753,8 +749,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/0/FTM> ;
         rr:object            <http://dbpedia.org/resource/Female> ;
         rr:predicate         dbo:gender .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>

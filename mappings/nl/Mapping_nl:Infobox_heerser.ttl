@@ -484,8 +484,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "rang" ;
-        rr:language    "nl" .
+        rml:reference  "rang" .
 
 
 ### Predicate Object Map
@@ -498,8 +497,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map

@@ -182,8 +182,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birthname" ;
-        rr:language    "en" .
+        rml:reference  "birthname" .
 
 
 ### Predicate Object Map
@@ -619,8 +618,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "en" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -646,8 +644,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birth name" ;
-        rr:language    "en" .
+        rml:reference  "birth name" .
 
 
 ### Predicate Object Map
@@ -660,8 +657,7 @@
 ### ObjectMap
 <SimplePropertyMapping/33/OM>
         a              rr:ObjectMap ;
-        rml:reference  "other_names" ;
-        rr:language    "en" .
+        rml:reference  "other_names" .
 
 
 ### Predicate Object Map
@@ -674,8 +670,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "alias" ;
-        rr:language    "en" .
+        rml:reference  "alias" .
 
 
 ### Predicate Object Map
@@ -688,8 +683,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "othername" ;
-        rr:language    "en" .
+        rml:reference  "othername" .
 
 
 ### Predicate Object Map
@@ -902,8 +896,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birth_name" ;
-        rr:language    "en" .
+        rml:reference  "birth_name" .
 
 
 ### Predicate Object Map
@@ -1155,8 +1148,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "other names" ;
-        rr:language    "en" .
+        rml:reference  "other names" .
 
 
 ### Predicate Object Map

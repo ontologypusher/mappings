@@ -381,8 +381,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentílico" ;
-        rr:language    "pt" .
+        rml:reference  "gentílico" .
 
 
 ### Predicate Object Map

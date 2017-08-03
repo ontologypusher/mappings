@@ -286,8 +286,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "station_branding" ;
-        rr:language    "en" .
+        rml:reference  "station_branding" .
 
 
 ### Predicate Object Map
@@ -300,8 +299,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "call_letters" ;
-        rr:language    "en" .
+        rml:reference  "call_letters" .
 
 
 ### Predicate Object Map
@@ -449,8 +447,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "station_slogan" ;
-        rr:language    "en" .
+        rml:reference  "station_slogan" .
 
 
 ### Predicate Object Map

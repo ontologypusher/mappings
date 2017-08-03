@@ -122,8 +122,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single3" ;
-        rr:language    "de" .
+        rml:reference  "Single3" .
 
 
 ### Predicate Object Map
@@ -136,8 +135,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Titel" ;
-        rr:language    "de" .
+        rml:reference  "Titel" .
 
 
 ### Predicate Object Map
@@ -150,8 +148,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single4" ;
-        rr:language    "de" .
+        rml:reference  "Single4" .
 
 
 ### Predicate Object Map
@@ -177,8 +174,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single6" ;
-        rr:language    "de" .
+        rml:reference  "Single6" .
 
 
 ### Predicate Object Map
@@ -191,8 +187,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single8" ;
-        rr:language    "de" .
+        rml:reference  "Single8" .
 
 
 ### Predicate Object Map
@@ -257,8 +252,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single1" ;
-        rr:language    "de" .
+        rml:reference  "Single1" .
 
 
 ### Predicate Object Map
@@ -388,8 +382,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single2" ;
-        rr:language    "de" .
+        rml:reference  "Single2" .
 
 
 ### Predicate Object Map
@@ -480,8 +473,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single9" ;
-        rr:language    "de" .
+        rml:reference  "Single9" .
 
 
 ### Predicate Object Map
@@ -520,8 +512,7 @@
 ### ObjectMap
 <SimplePropertyMapping/28/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single5" ;
-        rr:language    "de" .
+        rml:reference  "Single5" .
 
 
 ### Predicate Object Map
@@ -534,8 +525,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single7" ;
-        rr:language    "de" .
+        rml:reference  "Single7" .
 
 
 ### Predicate Object Map
@@ -561,8 +551,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Single10" ;
-        rr:language    "de" .
+        rml:reference  "Single10" .
 
 
 ### Predicate Object Map

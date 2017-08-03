@@ -222,8 +222,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "monument_name" ;
-        rr:language    "en" .
+        rml:reference  "monument_name" .
 
 
 ######################

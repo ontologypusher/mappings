@@ -171,8 +171,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 
@@ -290,8 +289,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "adı" ;
-        rr:language    "tr" .
+        rml:reference  "adı" .
 
 
 ### Predicate Object Map
@@ -402,8 +400,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "tr" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -631,8 +628,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "htanım" ;
-        rr:language    "tr" .
+        rml:reference  "htanım" .
 
 
 ### Predicate Object Map
@@ -716,8 +712,7 @@
 ### ObjectMap
 <SimplePropertyMapping/40/OM>
         a              rr:ObjectMap ;
-        rml:reference  "üyelik" ;
-        rr:language    "tr" .
+        rml:reference  "üyelik" .
 
 
 ### Predicate Object Map
@@ -730,8 +725,7 @@
 ### ObjectMap
 <SimplePropertyMapping/39/OM>
         a              rr:ObjectMap ;
-        rml:reference  "üyeler" ;
-        rr:language    "tr" .
+        rml:reference  "üyeler" .
 
 
 
@@ -798,8 +792,7 @@
 ### ObjectMap
 <SimplePropertyMapping/43/OM>
         a              rr:ObjectMap ;
-        rml:reference  "lider_ünvanı" ;
-        rr:language    "tr" .
+        rml:reference  "lider_ünvanı" .
 
 
 ### Predicate Object Map
@@ -825,8 +818,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "membership" ;
-        rr:language    "tr" .
+        rml:reference  "membership" .
 
 
 ### Predicate Object Map
@@ -878,8 +870,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "rtanım" ;
-        rr:language    "tr" .
+        rml:reference  "rtanım" .
 
 
 ### Predicate Object Map
@@ -962,8 +953,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title4" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title4" .
 
 
 
@@ -1015,8 +1005,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title" .
 
 
 
@@ -1068,8 +1057,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title2" .
 
 
 
@@ -1121,8 +1109,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title" .
 
 
 
@@ -1174,8 +1161,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title2" .
 
 
 
@@ -1227,8 +1213,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title3" .
 
 
 
@@ -1280,8 +1265,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title4" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title4" .
 
 
 
@@ -1333,8 +1317,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "tr" .
+        rml:reference  "leader_title3" .
 
 
 

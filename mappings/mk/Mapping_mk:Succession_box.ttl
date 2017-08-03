@@ -74,8 +74,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title" ;
-        rr:language    "mk" .
+        rml:reference  "title" .
 
 
 ### Predicate Object Map
@@ -88,8 +87,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "after" ;
-        rr:language    "mk" .
+        rml:reference  "after" .
 
 
 ### Predicate Object Map
@@ -102,8 +100,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "before" ;
-        rr:language    "mk" .
+        rml:reference  "before" .
 
 
 ### Predicate Object Map

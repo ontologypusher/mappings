@@ -202,8 +202,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "nl" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -216,8 +215,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map
@@ -243,8 +241,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ledenaantal" ;
-        rr:language    "nl" .
+        rml:reference  "ledenaantal" .
 
 
 ### Predicate Object Map

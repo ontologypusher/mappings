@@ -133,8 +133,7 @@
 ### ObjectMap
 <SimplePropertyMapping/37/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Abbreviations" ;
-        rr:language    "ja" .
+        rml:reference  "Abbreviations" .
 
 
 ### Predicate Object Map
@@ -212,8 +211,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPACName" ;
-        rr:language    "ja" .
+        rml:reference  "IUPACName" .
 
 
 ### Predicate Object Map
@@ -330,8 +328,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "ja" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map
@@ -383,8 +380,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPAC名" ;
-        rr:language    "ja" .
+        rml:reference  "IUPAC名" .
 
 
 ### Predicate Object Map
@@ -514,8 +510,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "OtherNames" ;
-        rr:language    "ja" .
+        rml:reference  "OtherNames" .
 
 
 ### Predicate Object Map
@@ -593,8 +588,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "別称" ;
-        rr:language    "ja" .
+        rml:reference  "別称" .
 
 
 ######################

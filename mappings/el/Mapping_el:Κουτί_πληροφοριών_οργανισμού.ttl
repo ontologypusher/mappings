@@ -97,8 +97,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "el" .
+        rml:reference  "leader_title3" .
 
 
 ### Predicate Object Map
@@ -124,8 +123,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "el" .
+        rml:reference  "leader_title3" .
 
 
 ### Predicate Object Map
@@ -229,8 +227,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "el" .
+        rml:reference  "leader_title" .
 
 
 ### Predicate Object Map
@@ -347,8 +344,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "μέλη" ;
-        rr:language    "el" .
+        rml:reference  "μέλη" .
 
 
 ### Predicate Object Map
@@ -374,8 +370,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "el" .
+        rml:reference  "leader_title2" .
 
 
 ### Predicate Object Map
@@ -414,8 +409,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title4" ;
-        rr:language    "el" .
+        rml:reference  "leader_title4" .
 
 
 ### Predicate Object Map
@@ -428,8 +422,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "όνομα" ;
-        rr:language    "el" .
+        rml:reference  "όνομα" .
 
 
 ### Predicate Object Map

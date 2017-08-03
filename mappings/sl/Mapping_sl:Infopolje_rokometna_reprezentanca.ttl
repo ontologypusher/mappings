@@ -70,8 +70,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naziv" ;
-        rr:language    "sl" .
+        rml:reference  "naziv" .
 
 
 ######################

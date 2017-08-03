@@ -75,8 +75,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "label" ;
-        rr:language    "el" .
+        rml:reference  "label" .
 
 
 ### Predicate Object Map

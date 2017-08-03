@@ -262,8 +262,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "inny_tytuł" ;
-        rr:language    "pl" .
+        rml:reference  "inny_tytuł" .
 
 
 ### Predicate Object Map
@@ -328,8 +327,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tytuł_serialu" ;
-        rr:language    "pl" .
+        rml:reference  "tytuł_serialu" .
 
 
 ### Predicate Object Map
@@ -446,8 +444,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "oryginalny_tytuł" ;
-        rr:language    "pl" .
+        rml:reference  "oryginalny_tytuł" .
 
 
 ### Predicate Object Map

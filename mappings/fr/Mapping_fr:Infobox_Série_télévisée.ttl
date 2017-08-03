@@ -106,8 +106,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "translittération" ;
-        rr:language    "fr" .
+        rml:reference  "translittération" .
 
 
 ### Predicate Object Map
@@ -146,8 +145,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre" ;
-        rr:language    "fr" .
+        rml:reference  "titre" .
 
 
 ### Predicate Object Map
@@ -186,8 +184,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre original" ;
-        rr:language    "fr" .
+        rml:reference  "titre original" .
 
 
 ### Predicate Object Map
@@ -226,8 +223,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre original non latin" ;
-        rr:language    "fr" .
+        rml:reference  "titre original non latin" .
 
 
 ### Predicate Object Map
@@ -253,8 +249,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre_original_non_latin" ;
-        rr:language    "fr" .
+        rml:reference  "titre_original_non_latin" .
 
 
 ### Predicate Object Map
@@ -293,8 +288,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "autres titres francophones" ;
-        rr:language    "fr" .
+        rml:reference  "autres titres francophones" .
 
 
 ### Predicate Object Map
@@ -346,8 +340,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "autres_titres_francophones" ;
-        rr:language    "fr" .
+        rml:reference  "autres_titres_francophones" .
 
 
 ### Predicate Object Map
@@ -399,8 +392,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre_original" ;
-        rr:language    "fr" .
+        rml:reference  "titre_original" .
 
 
 ######################

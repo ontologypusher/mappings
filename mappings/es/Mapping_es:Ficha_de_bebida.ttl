@@ -196,8 +196,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre" ;
-        rr:language    "es" .
+        rml:reference  "nombre" .
 
 
 ######################

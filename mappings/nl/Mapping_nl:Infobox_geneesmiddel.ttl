@@ -158,8 +158,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPAC_naam" ;
-        rr:language    "nl" .
+        rml:reference  "IUPAC_naam" .
 
 
 ### Predicate Object Map
@@ -263,8 +262,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPAC" ;
-        rr:language    "nl" .
+        rml:reference  "IUPAC" .
 
 
 ### Predicate Object Map
@@ -381,8 +379,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map

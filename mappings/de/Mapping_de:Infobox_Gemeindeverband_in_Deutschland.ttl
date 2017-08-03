@@ -112,8 +112,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "de" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map
@@ -323,8 +322,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Organwaltertitel" ;
-        rr:language    "de" .
+        rml:reference  "Organwaltertitel" .
 
 
 ### Predicate Object Map

@@ -181,8 +181,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "torna_neve" ;
-        rr:language    "hu" .
+        rml:reference  "torna_neve" .
 
 
 ### Predicate Object Map
@@ -260,8 +259,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "egyéb_cím" ;
-        rr:language    "hu" .
+        rml:reference  "egyéb_cím" .
 
 
 ### Predicate Object Map

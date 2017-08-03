@@ -79,8 +79,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Назва" ;
-        rr:language    "be" .
+        rml:reference  "Назва" .
 
 
 ### Predicate Object Map
@@ -132,8 +131,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Назва-арыгінал" ;
-        rr:language    "be" .
+        rml:reference  "Назва-арыгінал" .
 
 
 ### Predicate Object Map

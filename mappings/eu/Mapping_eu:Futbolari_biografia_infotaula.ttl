@@ -116,8 +116,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izena" ;
-        rr:language    "eu" .
+        rml:reference  "izena" .
 
 
 ### Predicate Object Map
@@ -130,8 +129,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izen osoa" ;
-        rr:language    "eu" .
+        rml:reference  "izen osoa" .
 
 
 ### Predicate Object Map
@@ -183,8 +181,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ezizena" ;
-        rr:language    "eu" .
+        rml:reference  "ezizena" .
 
 
 ### Predicate Object Map
@@ -371,8 +368,6 @@
         rr:object            dbo:SoccerManager ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -406,8 +401,6 @@
         rr:object            dbo:SoccerManager ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
         a                   fnml:FunctionTermMap ;
@@ -440,8 +433,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/2/FTM> ;
         rr:object            dbo:SoccerPlayer ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>

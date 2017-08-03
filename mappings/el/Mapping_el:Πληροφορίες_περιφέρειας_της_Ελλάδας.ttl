@@ -155,8 +155,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "περιφέρεια_στην_ονομαστική" ;
-        rr:language    "el" .
+        rml:reference  "περιφέρεια_στην_ονομαστική" .
 
 
 ### Predicate Object Map

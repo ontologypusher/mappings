@@ -126,8 +126,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Начало" ;
-        rr:language    "bg" .
+        rml:reference  "Начало" .
 
 
 ######################

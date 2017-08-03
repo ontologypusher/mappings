@@ -88,8 +88,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -198,8 +197,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "göbek_adı" ;
-        rr:language    "tr" .
+        rml:reference  "göbek_adı" .
 
 
 ### Predicate Object Map

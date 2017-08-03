@@ -116,8 +116,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME_USB_K" ;
-        rr:language    "de" .
+        rml:reference  "NAME_USB_K" .
 
 
 ### Predicate Object Map
@@ -243,8 +242,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME_KAA_L" ;
-        rr:language    "de" .
+        rml:reference  "NAME_KAA_L" .
 
 
 ### Predicate Object Map
@@ -257,8 +255,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME_USB_L" ;
-        rr:language    "de" .
+        rml:reference  "NAME_USB_L" .
 
 
 ### Predicate Object Map
@@ -310,8 +307,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "BÜRGERMEISTERTITEL" ;
-        rr:language    "de" .
+        rml:reference  "BÜRGERMEISTERTITEL" .
 
 
 ### Predicate Object Map
@@ -337,8 +333,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME" ;
-        rr:language    "de" .
+        rml:reference  "NAME" .
 
 
 ### Predicate Object Map
@@ -412,8 +407,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME_KAA_K" ;
-        rr:language    "de" .
+        rml:reference  "NAME_KAA_K" .
 
 
 ### Predicate Object Map

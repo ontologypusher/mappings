@@ -156,8 +156,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "заглавие" ;
-        rr:language    "bg" .
+        rml:reference  "заглавие" .
 
 
 

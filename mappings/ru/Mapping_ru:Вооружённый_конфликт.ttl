@@ -80,8 +80,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "конфликт" ;
-        rr:language    "ru" .
+        rml:reference  "конфликт" .
 
 
 ### Predicate Object Map

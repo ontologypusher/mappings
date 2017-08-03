@@ -167,8 +167,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "park" ;
-        rr:language    "en" .
+        rml:reference  "park" .
 
 
 ######################

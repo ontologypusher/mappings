@@ -238,8 +238,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "type" ;
-        rr:language    "fr" .
+        rml:reference  "type" .
 
 
 
@@ -253,8 +252,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -401,8 +399,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "type_centrale" ;
-        rr:language    "fr" .
+        rml:reference  "type_centrale" .
 
 
 
@@ -441,8 +438,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_centrale" ;
-        rr:language    "fr" .
+        rml:reference  "nom_centrale" .
 
 
 

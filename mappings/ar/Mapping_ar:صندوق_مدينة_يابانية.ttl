@@ -81,8 +81,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "الاسم_الياباني" ;
-        rr:language    "ar" .
+        rml:reference  "الاسم_الياباني" .
 
 
 ### Predicate Object Map
@@ -256,8 +255,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "عمدة" ;
-        rr:language    "ar" .
+        rml:reference  "عمدة" .
 
 
 ### Predicate Object Map
@@ -309,8 +307,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "اسم" ;
-        rr:language    "ar" .
+        rml:reference  "اسم" .
 
 
 ### Predicate Object Map

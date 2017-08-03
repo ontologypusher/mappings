@@ -110,8 +110,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPAC_name" ;
-        rr:language    "en" .
+        rml:reference  "IUPAC_name" .
 
 
 ### Predicate Object Map
@@ -124,8 +123,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "drug_name" ;
-        rr:language    "en" .
+        rml:reference  "drug_name" .
 
 
 ### Predicate Object Map

@@ -98,8 +98,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Ainm" ;
-        rr:language    "ga" .
+        rml:reference  "Ainm" .
 
 
 ######################

@@ -183,8 +183,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "luchtvaartmaatschappij" ;
-        rr:language    "nl" .
+        rml:reference  "luchtvaartmaatschappij" .
 
 
 ### Predicate Object Map

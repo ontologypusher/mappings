@@ -244,8 +244,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 
@@ -371,8 +370,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours7" ;
-        rr:language    "fr" .
+        rml:reference  "concours7" .
 
 
 ### Intermediate Predicate Object Map
@@ -452,8 +450,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours6" ;
-        rr:language    "fr" .
+        rml:reference  "concours6" .
 
 
 ### Intermediate Predicate Object Map
@@ -533,8 +530,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours5" ;
-        rr:language    "fr" .
+        rml:reference  "concours5" .
 
 
 ### Intermediate Predicate Object Map
@@ -614,8 +610,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours4" ;
-        rr:language    "fr" .
+        rml:reference  "concours4" .
 
 
 ### Intermediate Predicate Object Map
@@ -695,8 +690,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours10" ;
-        rr:language    "fr" .
+        rml:reference  "concours10" .
 
 
 ### Intermediate Predicate Object Map
@@ -776,8 +770,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours3" ;
-        rr:language    "fr" .
+        rml:reference  "concours3" .
 
 
 ### Intermediate Predicate Object Map
@@ -857,8 +850,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours9" ;
-        rr:language    "fr" .
+        rml:reference  "concours9" .
 
 
 ### Intermediate Predicate Object Map
@@ -938,8 +930,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours2" ;
-        rr:language    "fr" .
+        rml:reference  "concours2" .
 
 
 ### Intermediate Predicate Object Map
@@ -1019,8 +1010,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours1" ;
-        rr:language    "fr" .
+        rml:reference  "concours1" .
 
 
 ### Intermediate Predicate Object Map
@@ -1100,8 +1090,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "concours8" ;
-        rr:language    "fr" .
+        rml:reference  "concours8" .
 
 
 ######################

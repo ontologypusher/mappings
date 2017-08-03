@@ -127,8 +127,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -180,8 +179,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre cardinalice" ;
-        rr:language    "fr" .
+        rml:reference  "titre cardinalice" .
 
 
 ### Predicate Object Map
@@ -288,8 +286,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom naissance" ;
-        rr:language    "fr" .
+        rml:reference  "nom naissance" .
 
 
 ### Predicate Object Map
@@ -356,8 +353,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "évêque" ;
-        rr:language    "fr" .
+        rml:reference  "évêque" .
 
 
 ### Predicate Object Map
@@ -645,8 +641,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 6" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 6" .
 
 
 
@@ -847,8 +842,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 8" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 8" .
 
 
 
@@ -932,8 +926,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "charge abbatiale" ;
-        rr:language    "fr" .
+        rml:reference  "charge abbatiale" .
 
 
 
@@ -1121,8 +1114,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 1" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 1" .
 
 
 
@@ -1219,8 +1211,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 3" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 3" .
 
 
 
@@ -1369,8 +1360,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 2" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 2" .
 
 
 
@@ -1480,8 +1470,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 4" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 4" .
 
 
 
@@ -1591,8 +1580,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 5" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 5" .
 
 
 
@@ -1793,8 +1781,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ministère 7" ;
-        rr:language    "fr" .
+        rml:reference  "ministère 7" .
 
 
 
@@ -1837,8 +1824,6 @@
         rr:object            dbo:Pope ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -1877,8 +1862,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/2/ClassMapping> ;
         rr:object            dbo:ChristianBishop ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
@@ -1920,8 +1903,6 @@
         rr:object            dbo:ChristianBishop ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>
         a                   fnml:FunctionTermMap ;
@@ -1961,8 +1942,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/4/ClassMapping> ;
         rr:object            dbo:Cardinal ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/3/FTM>
@@ -2004,8 +1983,6 @@
         rr:object            dbo:Priest ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/4/FTM>
         a                   fnml:FunctionTermMap ;
@@ -2044,8 +2021,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/5/FTM> ;
         rr:object            dbo:Cleric ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/5/FTM>

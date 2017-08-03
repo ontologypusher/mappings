@@ -132,8 +132,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnom français" ;
-        rr:language    "fr" .
+        rml:reference  "surnom français" .
 
 
 ### Predicate Object Map
@@ -293,8 +292,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnom" ;
-        rr:language    "fr" .
+        rml:reference  "surnom" .
 
 
 ### Predicate Object Map
@@ -333,8 +331,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -485,8 +482,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom français" ;
-        rr:language    "fr" .
+        rml:reference  "nom français" .
 
 
 

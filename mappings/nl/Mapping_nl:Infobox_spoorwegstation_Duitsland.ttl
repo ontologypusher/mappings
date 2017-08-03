@@ -125,8 +125,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bijnaam2" ;
-        rr:language    "nl" .
+        rml:reference  "bijnaam2" .
 
 
 ### Predicate Object Map
@@ -308,8 +307,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "stadsdeel" ;
-        rr:language    "nl" .
+        rml:reference  "stadsdeel" .
 
 
 ### Predicate Object Map
@@ -348,8 +346,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bijnaam1" ;
-        rr:language    "nl" .
+        rml:reference  "bijnaam1" .
 
 
 ### Predicate Object Map
@@ -486,8 +483,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bijnaam3" ;
-        rr:language    "nl" .
+        rml:reference  "bijnaam3" .
 
 
 ### Predicate Object Map
@@ -587,8 +583,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map
@@ -666,8 +661,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bijnaam4" ;
-        rr:language    "nl" .
+        rml:reference  "bijnaam4" .
 
 
 ### Predicate Object Map
@@ -741,8 +735,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "straat" ;
-        rr:language    "nl" .
+        rml:reference  "straat" .
 
 
 ### Predicate Object Map

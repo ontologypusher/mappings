@@ -143,8 +143,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "originalatitolo" ;
-        rr:language    "eo" .
+        rml:reference  "originalatitolo" .
 
 
 ### Predicate Object Map

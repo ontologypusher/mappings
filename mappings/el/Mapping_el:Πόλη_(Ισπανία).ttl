@@ -149,8 +149,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Λεζάντα" ;
-        rr:language    "el" .
+        rml:reference  "Λεζάντα" .
 
 
 ### Predicate Object Map
@@ -228,8 +227,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Πόλη" ;
-        rr:language    "el" .
+        rml:reference  "Πόλη" .
 
 
 ### Predicate Object Map

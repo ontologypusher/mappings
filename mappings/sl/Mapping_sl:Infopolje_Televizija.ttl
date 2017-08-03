@@ -154,8 +154,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ime_oddaje" ;
-        rr:language    "sl" .
+        rml:reference  "ime_oddaje" .
 
 
 ######################

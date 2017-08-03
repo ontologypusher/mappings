@@ -282,8 +282,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "izena" ;
-        rr:language    "eu" .
+        rml:reference  "izena" .
 
 
 ### Predicate Object Map
@@ -296,8 +295,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "helbidea" ;
-        rr:language    "eu" .
+        rml:reference  "helbidea" .
 
 
 ### Predicate Object Map
@@ -310,8 +308,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bertako izena" ;
-        rr:language    "eu" .
+        rml:reference  "bertako izena" .
 
 
 ### Predicate Object Map

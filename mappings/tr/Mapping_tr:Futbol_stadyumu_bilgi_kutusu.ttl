@@ -185,8 +185,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -264,8 +263,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "takmaisim" ;
-        rr:language    "tr" .
+        rml:reference  "takmaisim" .
 
 
 ### Predicate Object Map
@@ -327,8 +325,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eskiisimleri" ;
-        rr:language    "tr" .
+        rml:reference  "eskiisimleri" .
 
 
 ### Predicate Object Map
@@ -380,8 +377,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eskiisim" ;
-        rr:language    "tr" .
+        rml:reference  "eskiisim" .
 
 
 ### Predicate Object Map
@@ -394,8 +390,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tamisim" ;
-        rr:language    "tr" .
+        rml:reference  "tamisim" .
 
 
 ### Predicate Object Map

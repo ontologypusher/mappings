@@ -130,8 +130,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "buurt" ;
-        rr:language    "nl" .
+        rml:reference  "buurt" .
 
 
 ### Predicate Object Map

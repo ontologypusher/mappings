@@ -545,8 +545,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Naam in Landstaal" ;
-        rr:language    "nl" .
+        rml:reference  "Naam in Landstaal" .
 
 
 ### Predicate Object Map

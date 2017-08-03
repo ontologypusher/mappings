@@ -89,8 +89,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "όνομα_φεστιβάλ_μουσικής" ;
-        rr:language    "el" .
+        rml:reference  "όνομα_φεστιβάλ_μουσικής" .
 
 
 ### Predicate Object Map

@@ -92,8 +92,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Jazyk" ;
-        rr:language    "cs" .
+        rml:reference  "Jazyk" .
 
 
 ### Predicate Object Map

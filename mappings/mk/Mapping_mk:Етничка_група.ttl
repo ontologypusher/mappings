@@ -437,8 +437,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "група" ;
-        rr:language    "mk" .
+        rml:reference  "група" .
 
 
 ### Predicate Object Map

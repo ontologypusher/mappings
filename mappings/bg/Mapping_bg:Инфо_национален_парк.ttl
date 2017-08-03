@@ -306,8 +306,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Име" ;
-        rr:language    "bg" .
+        rml:reference  "Име" .
 
 
 ######################

@@ -267,8 +267,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bajnokság_neve" ;
-        rr:language    "hu" .
+        rml:reference  "bajnokság_neve" .
 
 
 ### Predicate Object Map

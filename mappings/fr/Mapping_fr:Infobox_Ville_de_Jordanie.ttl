@@ -176,8 +176,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -190,8 +189,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentilé" ;
-        rr:language    "fr" .
+        rml:reference  "gentilé" .
 
 
 
@@ -296,8 +294,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "autres noms" ;
-        rr:language    "fr" .
+        rml:reference  "autres noms" .
 
 
 
@@ -513,8 +510,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre autorité2" ;
-        rr:language    "fr" .
+        rml:reference  "titre autorité2" .
 
 
 
@@ -566,8 +562,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre autorité3" ;
-        rr:language    "fr" .
+        rml:reference  "titre autorité3" .
 
 
 
@@ -657,8 +652,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre autorité4" ;
-        rr:language    "fr" .
+        rml:reference  "titre autorité4" .
 
 
 
@@ -826,8 +820,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre autorité" ;
-        rr:language    "fr" .
+        rml:reference  "titre autorité" .
 
 
 

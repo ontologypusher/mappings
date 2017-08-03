@@ -199,8 +199,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_local4" ;
-        rr:language    "gl" .
+        rml:reference  "nome_local4" .
 
 
 ### Predicate Object Map
@@ -226,8 +225,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "xentilicio" ;
-        rr:language    "gl" .
+        rml:reference  "xentilicio" .
 
 
 ### Predicate Object Map
@@ -253,8 +251,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome división 4" ;
-        rr:language    "gl" .
+        rml:reference  "nome división 4" .
 
 
 ### Predicate Object Map
@@ -293,8 +290,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome división 2" ;
-        rr:language    "gl" .
+        rml:reference  "nome división 2" .
 
 
 ### Predicate Object Map
@@ -320,8 +316,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_local2" ;
-        rr:language    "gl" .
+        rml:reference  "nome_local2" .
 
 
 ### Predicate Object Map
@@ -373,8 +368,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_local" ;
-        rr:language    "gl" .
+        rml:reference  "nome_local" .
 
 
 ### Predicate Object Map
@@ -491,8 +485,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_local3" ;
-        rr:language    "gl" .
+        rml:reference  "nome_local3" .
 
 
 ### Predicate Object Map
@@ -531,8 +524,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome" ;
-        rr:language    "gl" .
+        rml:reference  "nome" .
 
 
 ### Predicate Object Map
@@ -558,8 +550,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome división 1" ;
-        rr:language    "gl" .
+        rml:reference  "nome división 1" .
 
 
 ### Predicate Object Map
@@ -611,8 +602,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome división 3" ;
-        rr:language    "gl" .
+        rml:reference  "nome división 3" .
 
 
 ######################

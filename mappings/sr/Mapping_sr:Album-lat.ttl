@@ -122,8 +122,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ovaj_album" ;
-        rr:language    "sr" .
+        rml:reference  "ovaj_album" .
 
 
 ### Predicate Object Map
@@ -201,8 +200,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ime_albuma" ;
-        rr:language    "sr" .
+        rml:reference  "ime_albuma" .
 
 
 ##############################
@@ -258,8 +256,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "album_posle" ;
-        rr:language    "sr" .
+        rml:reference  "album_posle" .
 
 
 ### Intermediate Predicate Object Map
@@ -311,8 +308,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "album_pre" ;
-        rr:language    "sr" .
+        rml:reference  "album_pre" .
 
 
 ######################

@@ -122,8 +122,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "demonym" ;
-        rr:language    "en" .
+        rml:reference  "demonym" .
 
 
 ### Predicate Object Map
@@ -361,8 +360,6 @@
         rr:object            dbo:City ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -401,8 +398,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/2/ClassMapping> ;
         rr:object            dbo:Town ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
@@ -444,8 +439,6 @@
         rr:object            dbo:Village ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>
         a                   fnml:FunctionTermMap ;
@@ -484,8 +477,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/3/FTM> ;
         rr:object            dbo:Town ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/3/FTM>

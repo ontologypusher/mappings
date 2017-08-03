@@ -88,8 +88,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "속령" ;
-        rr:language    "ko" .
+        rml:reference  "속령" .
 
 
 ### Predicate Object Map

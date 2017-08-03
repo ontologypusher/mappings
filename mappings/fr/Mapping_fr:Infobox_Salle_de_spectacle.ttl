@@ -177,8 +177,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnom" ;
-        rr:language    "fr" .
+        rml:reference  "surnom" .
 
 
 ### Predicate Object Map
@@ -248,8 +247,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "anciens noms" ;
-        rr:language    "fr" .
+        rml:reference  "anciens noms" .
 
 
 ### Predicate Object Map
@@ -392,8 +390,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -437,8 +434,6 @@
         rr:object            dbo:Theatre ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -478,8 +473,6 @@
         rr:object            dbo:Theatre ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
         a                   fnml:FunctionTermMap ;
@@ -518,8 +511,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/2/FTM> ;
         rr:object            dbo:Venue ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>

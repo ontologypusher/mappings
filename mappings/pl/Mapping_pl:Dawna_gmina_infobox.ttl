@@ -350,8 +350,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Gmina" ;
-        rr:language    "pl" .
+        rml:reference  "Gmina" .
 
 
 ### Predicate Object Map
@@ -377,8 +376,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "zarządzający" ;
-        rr:language    "pl" .
+        rml:reference  "zarządzający" .
 
 
 ######################

@@ -140,8 +140,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "المسؤول الثاني" ;
-        rr:language    "ar" .
+        rml:reference  "المسؤول الثاني" .
 
 
 ### Predicate Object Map
@@ -154,8 +153,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "الاسم الرسمي" ;
-        rr:language    "ar" .
+        rml:reference  "الاسم الرسمي" .
 
 
 ### Predicate Object Map
@@ -220,8 +218,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "اللقب" ;
-        rr:language    "ar" .
+        rml:reference  "اللقب" .
 
 
 ### Predicate Object Map
@@ -247,8 +244,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "المسؤول الثالث" ;
-        rr:language    "ar" .
+        rml:reference  "المسؤول الثالث" .
 
 
 ### Predicate Object Map
@@ -261,8 +257,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "المسؤول الاعلى" ;
-        rr:language    "ar" .
+        rml:reference  "المسؤول الاعلى" .
 
 
 ### Predicate Object Map

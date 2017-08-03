@@ -226,8 +226,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_ponte" ;
-        rr:language    "pt" .
+        rml:reference  "nome_ponte" .
 
 
 ### Predicate Object Map
@@ -340,8 +339,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "via" ;
-        rr:language    "pt" .
+        rml:reference  "via" .
 
 
 ### Predicate Object Map
@@ -480,8 +478,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_oficial" ;
-        rr:language    "pt" .
+        rml:reference  "nome_oficial" .
 
 
 ### Predicate Object Map

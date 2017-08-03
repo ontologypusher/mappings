@@ -156,8 +156,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Σύνθημα" ;
-        rr:language    "el" .
+        rml:reference  "Σύνθημα" .
 
 
 ### Predicate Object Map
@@ -170,8 +169,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ΠλήρεςΌνομα" ;
-        rr:language    "el" .
+        rml:reference  "ΠλήρεςΌνομα" .
 
 
 ### Predicate Object Map
@@ -210,8 +208,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Ψευδώνυμο" ;
-        rr:language    "el" .
+        rml:reference  "Ψευδώνυμο" .
 
 
 ### Predicate Object Map
@@ -302,8 +299,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Όνομα" ;
-        rr:language    "el" .
+        rml:reference  "Όνομα" .
 
 
 ### Predicate Object Map

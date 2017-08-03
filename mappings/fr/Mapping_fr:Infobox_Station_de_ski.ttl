@@ -610,8 +610,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 
@@ -695,8 +694,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "lien subdivision3" ;
-        rr:language    "fr" .
+        rml:reference  "lien subdivision3" .
 
 
 
@@ -748,8 +746,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "lien subdivision2" ;
-        rr:language    "fr" .
+        rml:reference  "lien subdivision2" .
 
 
 
@@ -839,8 +836,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "lien subdivision" ;
-        rr:language    "fr" .
+        rml:reference  "lien subdivision" .
 
 
 

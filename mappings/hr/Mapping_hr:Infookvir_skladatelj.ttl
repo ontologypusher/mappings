@@ -169,8 +169,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "puno_ime" ;
-        rr:language    "hr" .
+        rml:reference  "puno_ime" .
 
 
 ### Predicate Object Map
@@ -183,8 +182,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ime" ;
-        rr:language    "hr" .
+        rml:reference  "ime" .
 
 
 ######################

@@ -77,8 +77,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "table-note" ;
-        rr:language    "sl" .
+        rml:reference  "table-note" .
 
 
 ### Predicate Object Map
@@ -189,8 +188,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team2_short" ;
-        rr:language    "sl" .
+        rml:reference  "team2_short" .
 
 
 
@@ -216,8 +214,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team2" ;
-        rr:language    "sl" .
+        rml:reference  "team2" .
 
 
 ### Intermediate Predicate Object Map
@@ -285,8 +282,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team1_short" ;
-        rr:language    "sl" .
+        rml:reference  "team1_short" .
 
 
 
@@ -312,8 +308,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team1" ;
-        rr:language    "sl" .
+        rml:reference  "team1" .
 
 
 ######################

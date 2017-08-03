@@ -86,8 +86,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naskonomo" ;
-        rr:language    "eo" .
+        rml:reference  "naskonomo" .
 
 
 ### Predicate Object Map

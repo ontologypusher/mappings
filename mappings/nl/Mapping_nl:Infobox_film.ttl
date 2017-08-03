@@ -126,8 +126,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "alternatieve titel" ;
-        rr:language    "nl" .
+        rml:reference  "alternatieve titel" .
 
 
 ### Predicate Object Map
@@ -309,8 +308,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titel" ;
-        rr:language    "nl" .
+        rml:reference  "titel" .
 
 
 ### Predicate Object Map

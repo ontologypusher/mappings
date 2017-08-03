@@ -113,8 +113,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "season_name" ;
-        rr:language    "en" .
+        rml:reference  "season_name" .
 
 
 ### Predicate Object Map

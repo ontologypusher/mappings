@@ -95,8 +95,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "оригинал имени" ;
-        rr:language    "ru" .
+        rml:reference  "оригинал имени" .
 
 
 ### Predicate Object Map
@@ -153,8 +152,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "имя при рождении" ;
-        rr:language    "ru" .
+        rml:reference  "имя при рождении" .
 
 
 ### Predicate Object Map
@@ -180,8 +178,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Оригинал имени" ;
-        rr:language    "ru" .
+        rml:reference  "Оригинал имени" .
 
 
 ### Predicate Object Map
@@ -233,8 +230,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "имя" ;
-        rr:language    "ru" .
+        rml:reference  "имя" .
 
 
 ### Predicate Object Map
@@ -348,8 +344,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Имя" ;
-        rr:language    "ru" .
+        rml:reference  "Имя" .
 
 
 ### Predicate Object Map
@@ -414,8 +409,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Имя при рождении" ;
-        rr:language    "ru" .
+        rml:reference  "Имя при рождении" .
 
 
 ### Predicate Object Map

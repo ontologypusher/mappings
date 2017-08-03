@@ -72,8 +72,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "英語名2" ;
-        rr:language    "ja" .
+        rml:reference  "英語名2" .
 
 
 ### Predicate Object Map
@@ -86,8 +85,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "英語名" ;
-        rr:language    "ja" .
+        rml:reference  "英語名" .
 
 
 ### Predicate Object Map
@@ -100,8 +98,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "名前" ;
-        rr:language    "ja" .
+        rml:reference  "名前" .
 
 
 ######################

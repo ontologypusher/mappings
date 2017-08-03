@@ -179,8 +179,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map
@@ -206,8 +205,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam2" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam2" .
 
 
 ### Predicate Object Map
@@ -363,8 +361,7 @@
 ### ObjectMap
 <SimplePropertyMapping/40/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam6" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam6" .
 
 
 ### Predicate Object Map
@@ -403,8 +400,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam4" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam4" .
 
 
 ### Predicate Object Map
@@ -443,8 +439,7 @@
 ### ObjectMap
 <SimplePropertyMapping/39/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam5" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam5" .
 
 
 ### Predicate Object Map
@@ -574,8 +569,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam" .
 
 
 ### Predicate Object Map
@@ -718,8 +712,7 @@
 ### ObjectMap
 <SimplePropertyMapping/37/OM>
         a              rr:ObjectMap ;
-        rml:reference  "overignaam3" ;
-        rr:language    "nl" .
+        rml:reference  "overignaam3" .
 
 
 ### Predicate Object Map
@@ -1127,8 +1120,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "altnaam" ;
-        rr:language    "nl" .
+        rml:reference  "altnaam" .
 
 
 ### Predicate Object Map

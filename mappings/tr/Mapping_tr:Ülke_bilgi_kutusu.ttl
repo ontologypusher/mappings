@@ -149,8 +149,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "demonym" ;
-        rr:language    "tr" .
+        rml:reference  "demonym" .
 
 
 ### Predicate Object Map
@@ -163,8 +162,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yönetici_unvanı1" ;
-        rr:language    "tr" .
+        rml:reference  "yönetici_unvanı1" .
 
 
 ### Predicate Object Map
@@ -316,8 +314,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "adı" ;
-        rr:language    "tr" .
+        rml:reference  "adı" .
 
 
 ### Predicate Object Map
@@ -330,8 +327,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yönetici_unvanı2" ;
-        rr:language    "tr" .
+        rml:reference  "yönetici_unvanı2" .
 
 
 ### Predicate Object Map
@@ -344,8 +340,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yönetici_unvanı5" ;
-        rr:language    "tr" .
+        rml:reference  "yönetici_unvanı5" .
 
 
 ### Predicate Object Map
@@ -497,8 +492,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "kendi_dilinde_adı" ;
-        rr:language    "tr" .
+        rml:reference  "kendi_dilinde_adı" .
 
 
 ### Predicate Object Map
@@ -511,8 +505,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tam_adı" ;
-        rr:language    "tr" .
+        rml:reference  "tam_adı" .
 
 
 ### Predicate Object Map
@@ -603,8 +596,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yönetici_unvanı4" ;
-        rr:language    "tr" .
+        rml:reference  "yönetici_unvanı4" .
 
 
 ### Predicate Object Map
@@ -708,8 +700,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yönetici_unvanı3" ;
-        rr:language    "tr" .
+        rml:reference  "yönetici_unvanı3" .
 
 
 ### Predicate Object Map

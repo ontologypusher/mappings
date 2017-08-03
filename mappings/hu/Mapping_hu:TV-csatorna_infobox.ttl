@@ -320,8 +320,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "név" ;
-        rr:language    "hu" .
+        rml:reference  "név" .
 
 
 ### Predicate Object Map
@@ -360,8 +359,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "korábbi_nevek" ;
-        rr:language    "hu" .
+        rml:reference  "korábbi_nevek" .
 
 
 ### Predicate Object Map
@@ -374,8 +372,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "szlogen" ;
-        rr:language    "hu" .
+        rml:reference  "szlogen" .
 
 
 ### Predicate Object Map
@@ -414,8 +411,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "timeshift_nevek" ;
-        rr:language    "hu" .
+        rml:reference  "timeshift_nevek" .
 
 
 ### Predicate Object Map

@@ -153,8 +153,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "native_name" ;
-        rr:language    "uk" .
+        rml:reference  "native_name" .
 
 
 ### Predicate Object Map

@@ -214,8 +214,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_original" ;
-        rr:language    "es" .
+        rml:reference  "nombre_original" .
 
 
 ### Predicate Object Map
@@ -293,8 +292,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "obra" ;
-        rr:language    "es" .
+        rml:reference  "obra" .
 
 
 ### Predicate Object Map
@@ -307,8 +305,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre" ;
-        rr:language    "es" .
+        rml:reference  "nombre" .
 
 
 ### Predicate Object Map
@@ -347,8 +344,7 @@
 ### ObjectMap
 <SimplePropertyMapping/45/OM>
         a              rr:ObjectMap ;
-        rml:reference  "doblador_españa" ;
-        rr:language    "es" .
+        rml:reference  "doblador_españa" .
 
 
 ### Predicate Object Map
@@ -452,8 +448,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "episodio" ;
-        rr:language    "es" .
+        rml:reference  "episodio" .
 
 
 ### Predicate Object Map
@@ -492,8 +487,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "sobrenombre" ;
-        rr:language    "es" .
+        rml:reference  "sobrenombre" .
 
 
 ### Predicate Object Map
@@ -506,8 +500,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "enemigos" ;
-        rr:language    "es" .
+        rml:reference  "enemigos" .
 
 
 ### Predicate Object Map
@@ -572,8 +565,7 @@
 ### ObjectMap
 <SimplePropertyMapping/46/OM>
         a              rr:ObjectMap ;
-        rml:reference  "doblador hispanoamérica" ;
-        rr:language    "es" .
+        rml:reference  "doblador hispanoamérica" .
 
 
 ### Predicate Object Map
@@ -612,8 +604,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "alias" ;
-        rr:language    "es" .
+        rml:reference  "alias" .
 
 
 ### Predicate Object Map
@@ -626,8 +617,7 @@
 ### ObjectMap
 <SimplePropertyMapping/44/OM>
         a              rr:ObjectMap ;
-        rml:reference  "doblador españa" ;
-        rr:language    "es" .
+        rml:reference  "doblador españa" .
 
 
 ### Predicate Object Map
@@ -653,8 +643,7 @@
 ### ObjectMap
 <SimplePropertyMapping/28/OM>
         a              rr:ObjectMap ;
-        rml:reference  "actor" ;
-        rr:language    "es" .
+        rml:reference  "actor" .
 
 
 ### Predicate Object Map
@@ -667,8 +656,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título" ;
-        rr:language    "es" .
+        rml:reference  "título" .
 
 
 ### Predicate Object Map
@@ -720,8 +708,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre original" ;
-        rr:language    "es" .
+        rml:reference  "nombre original" .
 
 
 ### Predicate Object Map
@@ -734,8 +721,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "aliados" ;
-        rr:language    "es" .
+        rml:reference  "aliados" .
 
 
 ### Predicate Object Map
@@ -774,8 +760,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_personaje" ;
-        rr:language    "es" .
+        rml:reference  "nombre_personaje" .
 
 
 ### Predicate Object Map
@@ -801,8 +786,7 @@
 ### ObjectMap
 <SimplePropertyMapping/47/OM>
         a              rr:ObjectMap ;
-        rml:reference  "doblador_hispanoamérica" ;
-        rr:language    "es" .
+        rml:reference  "doblador_hispanoamérica" .
 
 
 ### Predicate Object Map

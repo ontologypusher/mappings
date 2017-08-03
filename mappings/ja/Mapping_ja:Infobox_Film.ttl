@@ -284,8 +284,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "作品名" ;
-        rr:language    "ja" .
+        rml:reference  "作品名" .
 
 
 ### Predicate Object Map

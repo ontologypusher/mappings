@@ -155,8 +155,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "λεζάντα" ;
-        rr:language    "el" .
+        rml:reference  "λεζάντα" .
 
 
 ### Predicate Object Map

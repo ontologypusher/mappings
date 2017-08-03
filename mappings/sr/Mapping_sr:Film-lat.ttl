@@ -126,8 +126,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naziv" ;
-        rr:language    "sr" .
+        rml:reference  "naziv" .
 
 
 ### Predicate Object Map

@@ -119,8 +119,7 @@
 ### ObjectMap
 <SimplePropertyMapping/44/OM>
         a              rr:ObjectMap ;
-        rml:reference  "river_name" ;
-        rr:language    "sl" .
+        rml:reference  "river_name" .
 
 
 ### Predicate Object Map
@@ -367,8 +366,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "sl" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -407,8 +405,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "native_name" ;
-        rr:language    "sl" .
+        rml:reference  "native_name" .
 
 
 ### Predicate Object Map

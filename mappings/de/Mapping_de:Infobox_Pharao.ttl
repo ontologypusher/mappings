@@ -105,8 +105,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NEBTINAME5" ;
-        rr:language    "de" .
+        rml:reference  "NEBTINAME5" .
 
 
 ### Predicate Object Map
@@ -119,8 +118,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSNAME2" ;
-        rr:language    "de" .
+        rml:reference  "HORUSNAME2" .
 
 
 ### Predicate Object Map
@@ -133,8 +131,7 @@
 ### ObjectMap
 <SimplePropertyMapping/28/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NEBTINAME4" ;
-        rr:language    "de" .
+        rml:reference  "NEBTINAME4" .
 
 
 ### Predicate Object Map
@@ -147,8 +144,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSNAME4" ;
-        rr:language    "de" .
+        rml:reference  "HORUSNAME4" .
 
 
 ### Predicate Object Map
@@ -161,8 +157,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSNAME" ;
-        rr:language    "de" .
+        rml:reference  "HORUSNAME" .
 
 
 ### Predicate Object Map
@@ -175,8 +170,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "SETHNAME5" ;
-        rr:language    "de" .
+        rml:reference  "SETHNAME5" .
 
 
 ### Predicate Object Map
@@ -189,8 +183,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "THRONNAME4" ;
-        rr:language    "de" .
+        rml:reference  "THRONNAME4" .
 
 
 ### Predicate Object Map
@@ -203,8 +196,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSNAME3" ;
-        rr:language    "de" .
+        rml:reference  "HORUSNAME3" .
 
 
 ### Predicate Object Map
@@ -217,8 +209,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "EIGENNAME5" ;
-        rr:language    "de" .
+        rml:reference  "EIGENNAME5" .
 
 
 ### Predicate Object Map
@@ -231,8 +222,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NEBTINAME2" ;
-        rr:language    "de" .
+        rml:reference  "NEBTINAME2" .
 
 
 ### Predicate Object Map
@@ -245,8 +235,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "SETHNAME4" ;
-        rr:language    "de" .
+        rml:reference  "SETHNAME4" .
 
 
 ### Predicate Object Map
@@ -259,8 +248,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "THRONNAME3" ;
-        rr:language    "de" .
+        rml:reference  "THRONNAME3" .
 
 
 ### Predicate Object Map
@@ -273,8 +261,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "EIGENNAME4" ;
-        rr:language    "de" .
+        rml:reference  "EIGENNAME4" .
 
 
 ### Predicate Object Map
@@ -287,8 +274,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "THRONNAME5" ;
-        rr:language    "de" .
+        rml:reference  "THRONNAME5" .
 
 
 ### Predicate Object Map
@@ -301,8 +287,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GOLDNAME2" ;
-        rr:language    "de" .
+        rml:reference  "GOLDNAME2" .
 
 
 ### Predicate Object Map
@@ -315,8 +300,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSSETHNAME2" ;
-        rr:language    "de" .
+        rml:reference  "HORUSSETHNAME2" .
 
 
 ### Predicate Object Map
@@ -329,8 +313,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NEBTINAME3" ;
-        rr:language    "de" .
+        rml:reference  "NEBTINAME3" .
 
 
 ### Predicate Object Map
@@ -343,8 +326,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "SETHNAME" ;
-        rr:language    "de" .
+        rml:reference  "SETHNAME" .
 
 
 ### Predicate Object Map
@@ -357,8 +339,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSSETHNAME4" ;
-        rr:language    "de" .
+        rml:reference  "HORUSSETHNAME4" .
 
 
 ### Predicate Object Map
@@ -371,8 +352,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GOLDNAME" ;
-        rr:language    "de" .
+        rml:reference  "GOLDNAME" .
 
 
 ### Predicate Object Map
@@ -385,8 +365,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSSETHNAME" ;
-        rr:language    "de" .
+        rml:reference  "HORUSSETHNAME" .
 
 
 ### Predicate Object Map
@@ -399,8 +378,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSNAME5" ;
-        rr:language    "de" .
+        rml:reference  "HORUSNAME5" .
 
 
 ### Predicate Object Map
@@ -413,8 +391,7 @@
 ### ObjectMap
 <SimplePropertyMapping/33/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GOLDNAME4" ;
-        rr:language    "de" .
+        rml:reference  "GOLDNAME4" .
 
 
 ### Predicate Object Map
@@ -427,8 +404,7 @@
 ### ObjectMap
 <SimplePropertyMapping/35/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GRIECHISCH" ;
-        rr:language    "de" .
+        rml:reference  "GRIECHISCH" .
 
 
 ### Predicate Object Map
@@ -441,8 +417,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "EIGENNAME" ;
-        rr:language    "de" .
+        rml:reference  "EIGENNAME" .
 
 
 ### Predicate Object Map
@@ -455,8 +430,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GOLDNAME3" ;
-        rr:language    "de" .
+        rml:reference  "GOLDNAME3" .
 
 
 ### Predicate Object Map
@@ -469,8 +443,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "EIGENNAME3" ;
-        rr:language    "de" .
+        rml:reference  "EIGENNAME3" .
 
 
 ### Predicate Object Map
@@ -483,8 +456,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GOLDNAME5" ;
-        rr:language    "de" .
+        rml:reference  "GOLDNAME5" .
 
 
 ### Predicate Object Map
@@ -497,8 +469,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "EIGENNAME2" ;
-        rr:language    "de" .
+        rml:reference  "EIGENNAME2" .
 
 
 ### Predicate Object Map
@@ -511,8 +482,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NEBTINAME" ;
-        rr:language    "de" .
+        rml:reference  "NEBTINAME" .
 
 
 ### Predicate Object Map
@@ -525,8 +495,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "SETHNAME3" ;
-        rr:language    "de" .
+        rml:reference  "SETHNAME3" .
 
 
 ### Predicate Object Map
@@ -539,8 +508,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "THRONNAME2" ;
-        rr:language    "de" .
+        rml:reference  "THRONNAME2" .
 
 
 ### Predicate Object Map
@@ -553,8 +521,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSSETHNAME3" ;
-        rr:language    "de" .
+        rml:reference  "HORUSSETHNAME3" .
 
 
 ### Predicate Object Map
@@ -567,8 +534,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "HORUSSETHNAME5" ;
-        rr:language    "de" .
+        rml:reference  "HORUSSETHNAME5" .
 
 
 ### Predicate Object Map
@@ -581,8 +547,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "SETHNAME2" ;
-        rr:language    "de" .
+        rml:reference  "SETHNAME2" .
 
 
 ### Predicate Object Map
@@ -595,8 +560,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "THRONNAME" ;
-        rr:language    "de" .
+        rml:reference  "THRONNAME" .
 
 
 ######################

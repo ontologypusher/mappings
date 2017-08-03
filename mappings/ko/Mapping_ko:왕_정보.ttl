@@ -190,8 +190,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "칭호" ;
-        rr:language    "ko" .
+        rml:reference  "칭호" .
 
 
 ### Predicate Object Map
@@ -243,8 +242,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "다른 이름" ;
-        rr:language    "ko" .
+        rml:reference  "다른 이름" .
 
 
 ### Predicate Object Map
@@ -270,8 +268,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "별명" ;
-        rr:language    "ko" .
+        rml:reference  "별명" .
 
 
 ### Predicate Object Map
@@ -284,8 +281,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "본명" ;
-        rr:language    "ko" .
+        rml:reference  "본명" .
 
 
 ### Predicate Object Map
@@ -298,8 +294,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "이름" ;
-        rr:language    "ko" .
+        rml:reference  "이름" .
 
 
 ######################

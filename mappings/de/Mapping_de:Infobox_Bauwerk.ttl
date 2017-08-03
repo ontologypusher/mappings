@@ -76,8 +76,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "BILDBESCHREIBUNG" ;
-        rr:language    "de" .
+        rml:reference  "BILDBESCHREIBUNG" .
 
 
 ### Predicate Object Map
@@ -196,8 +195,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NAME" ;
-        rr:language    "de" .
+        rml:reference  "NAME" .
 
 
 ######################

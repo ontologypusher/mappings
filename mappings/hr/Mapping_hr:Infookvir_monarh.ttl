@@ -119,8 +119,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "posthumno ime" ;
-        rr:language    "hr" .
+        rml:reference  "posthumno ime" .
 
 
 ### Predicate Object Map
@@ -343,8 +342,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titula" ;
-        rr:language    "hr" .
+        rml:reference  "titula" .
 
 
 ### Predicate Object Map
@@ -541,8 +539,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "puno ime" ;
-        rr:language    "hr" .
+        rml:reference  "puno ime" .
 
 
 ### Predicate Object Map
@@ -625,8 +622,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titula1" ;
-        rr:language    "hr" .
+        rml:reference  "titula1" .
 
 
 ### Predicate Object Map
@@ -639,8 +635,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titula2" ;
-        rr:language    "hr" .
+        rml:reference  "titula2" .
 
 
 ### Predicate Object Map
@@ -710,8 +705,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titula3" ;
-        rr:language    "hr" .
+        rml:reference  "titula3" .
 
 
 ### Predicate Object Map
@@ -724,8 +718,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ime" ;
-        rr:language    "hr" .
+        rml:reference  "ime" .
 
 
 ######################

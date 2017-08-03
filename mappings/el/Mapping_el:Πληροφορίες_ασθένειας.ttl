@@ -95,8 +95,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Alt" ;
-        rr:language    "el" .
+        rml:reference  "Alt" .
 
 
 ### Predicate Object Map
@@ -109,8 +108,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ονομασία" ;
-        rr:language    "el" .
+        rml:reference  "ονομασία" .
 
 
 ### Predicate Object Map
@@ -149,8 +147,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eMedicineTopic" ;
-        rr:language    "el" .
+        rml:reference  "eMedicineTopic" .
 
 
 ### Predicate Object Map
@@ -163,8 +160,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "λεζάντα" ;
-        rr:language    "el" .
+        rml:reference  "λεζάντα" .
 
 
 ### Predicate Object Map
@@ -229,8 +225,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eMedicineSubj" ;
-        rr:language    "el" .
+        rml:reference  "eMedicineSubj" .
 
 
 ### Predicate Object Map
@@ -269,8 +264,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Caption" ;
-        rr:language    "el" .
+        rml:reference  "Caption" .
 
 
 ### Predicate Object Map
@@ -296,8 +290,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eMedicine_mult" ;
-        rr:language    "el" .
+        rml:reference  "eMedicine_mult" .
 
 
 ### Predicate Object Map
@@ -310,8 +303,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "GeneReviewsName" ;
-        rr:language    "el" .
+        rml:reference  "GeneReviewsName" .
 
 
 ### Predicate Object Map
@@ -428,8 +420,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "MeshName" ;
-        rr:language    "el" .
+        rml:reference  "MeshName" .
 
 
 ######################

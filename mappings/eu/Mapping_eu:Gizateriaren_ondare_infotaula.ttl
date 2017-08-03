@@ -113,8 +113,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Izena" ;
-        rr:language    "eu" .
+        rml:reference  "Izena" .
 
 
 ### Predicate Object Map

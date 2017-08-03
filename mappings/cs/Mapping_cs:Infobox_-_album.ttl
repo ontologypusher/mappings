@@ -228,8 +228,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "toto album" ;
-        rr:language    "cs" .
+        rml:reference  "toto album" .
 
 
 ### Predicate Object Map
@@ -255,8 +254,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "jméno" ;
-        rr:language    "cs" .
+        rml:reference  "jméno" .
 
 
 ### Predicate Object Map

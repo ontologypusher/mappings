@@ -128,8 +128,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Назва турніру" ;
-        rr:language    "be" .
+        rml:reference  "Назва турніру" .
 
 
 ### Predicate Object Map

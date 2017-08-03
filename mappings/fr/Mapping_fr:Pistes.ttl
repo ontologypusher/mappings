@@ -112,8 +112,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre" ;
-        rr:language    "fr" .
+        rml:reference  "titre" .
 
 
 
@@ -235,8 +234,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste3" ;
-        rr:language    "fr" .
+        rml:reference  "piste3" .
 
 
 
@@ -275,8 +273,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title3" ;
-        rr:language    "fr" .
+        rml:reference  "title3" .
 
 
 
@@ -390,8 +387,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title2" ;
-        rr:language    "fr" .
+        rml:reference  "title2" .
 
 
 
@@ -482,8 +478,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste2" ;
-        rr:language    "fr" .
+        rml:reference  "piste2" .
 
 
 
@@ -597,8 +592,7 @@
 ### ObjectMap
 <IntermediateMapping/14/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title15" ;
-        rr:language    "fr" .
+        rml:reference  "title15" .
 
 
 
@@ -611,8 +605,7 @@
 ### ObjectMap
 <IntermediateMapping/14/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste15" ;
-        rr:language    "fr" .
+        rml:reference  "piste15" .
 
 
 
@@ -804,8 +797,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title10" ;
-        rr:language    "fr" .
+        rml:reference  "title10" .
 
 
 
@@ -831,8 +823,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste10" ;
-        rr:language    "fr" .
+        rml:reference  "piste10" .
 
 
 
@@ -985,8 +976,7 @@
 ### ObjectMap
 <IntermediateMapping/11/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste12" ;
-        rr:language    "fr" .
+        rml:reference  "piste12" .
 
 
 
@@ -1012,8 +1002,7 @@
 ### ObjectMap
 <IntermediateMapping/11/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title12" ;
-        rr:language    "fr" .
+        rml:reference  "title12" .
 
 
 
@@ -1140,8 +1129,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste6" ;
-        rr:language    "fr" .
+        rml:reference  "piste6" .
 
 
 
@@ -1232,8 +1220,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title6" ;
-        rr:language    "fr" .
+        rml:reference  "title6" .
 
 
 
@@ -1425,8 +1412,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste1" ;
-        rr:language    "fr" .
+        rml:reference  "piste1" .
 
 
 
@@ -1478,8 +1464,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title1" ;
-        rr:language    "fr" .
+        rml:reference  "title1" .
 
 
 ### Intermediate Predicate Object Map
@@ -1593,8 +1578,7 @@
 ### ObjectMap
 <IntermediateMapping/12/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title13" ;
-        rr:language    "fr" .
+        rml:reference  "title13" .
 
 
 
@@ -1633,8 +1617,7 @@
 ### ObjectMap
 <IntermediateMapping/12/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste13" ;
-        rr:language    "fr" .
+        rml:reference  "piste13" .
 
 
 
@@ -1722,8 +1705,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title9" ;
-        rr:language    "fr" .
+        rml:reference  "title9" .
 
 
 
@@ -1814,8 +1796,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste9" ;
-        rr:language    "fr" .
+        rml:reference  "piste9" .
 
 
 
@@ -1929,8 +1910,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste8" ;
-        rr:language    "fr" .
+        rml:reference  "piste8" .
 
 
 
@@ -2008,8 +1988,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title8" ;
-        rr:language    "fr" .
+        rml:reference  "title8" .
 
 
 
@@ -2149,8 +2128,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title5" ;
-        rr:language    "fr" .
+        rml:reference  "title5" .
 
 
 
@@ -2176,8 +2154,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste5" ;
-        rr:language    "fr" .
+        rml:reference  "piste5" .
 
 
 
@@ -2356,8 +2333,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste4" ;
-        rr:language    "fr" .
+        rml:reference  "piste4" .
 
 
 
@@ -2383,8 +2359,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title4" ;
-        rr:language    "fr" .
+        rml:reference  "title4" .
 
 
 
@@ -2511,8 +2486,7 @@
 ### ObjectMap
 <IntermediateMapping/10/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title11" ;
-        rr:language    "fr" .
+        rml:reference  "title11" .
 
 
 
@@ -2538,8 +2512,7 @@
 ### ObjectMap
 <IntermediateMapping/10/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste11" ;
-        rr:language    "fr" .
+        rml:reference  "piste11" .
 
 
 
@@ -2783,8 +2756,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title7" ;
-        rr:language    "fr" .
+        rml:reference  "title7" .
 
 
 
@@ -2810,8 +2782,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste7" ;
-        rr:language    "fr" .
+        rml:reference  "piste7" .
 
 
 
@@ -2990,8 +2961,7 @@
 ### ObjectMap
 <IntermediateMapping/13/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "piste14" ;
-        rr:language    "fr" .
+        rml:reference  "piste14" .
 
 
 
@@ -3004,8 +2974,7 @@
 ### ObjectMap
 <IntermediateMapping/13/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title14" ;
-        rr:language    "fr" .
+        rml:reference  "title14" .
 
 
 

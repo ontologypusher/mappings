@@ -196,8 +196,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nama" ;
-        rr:language    "in" .
+        rml:reference  "nama" .
 
 
 ######################

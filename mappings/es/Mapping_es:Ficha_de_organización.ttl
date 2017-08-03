@@ -317,8 +317,7 @@
 ### ObjectMap
 <SimplePropertyMapping/62/OM>
         a              rr:ObjectMap ;
-        rml:reference  "company_name" ;
-        rr:language    "es" .
+        rml:reference  "company_name" .
 
 
 ### Predicate Object Map
@@ -540,8 +539,7 @@
 ### ObjectMap
 <SimplePropertyMapping/75/OM>
         a              rr:ObjectMap ;
-        rml:reference  "acronimo" ;
-        rr:language    "es" .
+        rml:reference  "acronimo" .
 
 
 ### Predicate Object Map
@@ -554,8 +552,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre" ;
-        rr:language    "es" .
+        rml:reference  "nombre" .
 
 
 ### Predicate Object Map
@@ -568,8 +565,7 @@
 ### ObjectMap
 <SimplePropertyMapping/74/OM>
         a              rr:ObjectMap ;
-        rml:reference  "acrónimo" ;
-        rr:language    "es" .
+        rml:reference  "acrónimo" .
 
 
 ### Predicate Object Map
@@ -608,8 +604,7 @@
 ### ObjectMap
 <SimplePropertyMapping/51/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tipo_miembros" ;
-        rr:language    "es" .
+        rml:reference  "tipo_miembros" .
 
 
 ### Predicate Object Map
@@ -622,8 +617,7 @@
 ### ObjectMap
 <SimplePropertyMapping/50/OM>
         a              rr:ObjectMap ;
-        rml:reference  "membership" ;
-        rr:language    "es" .
+        rml:reference  "membership" .
 
 
 ### Predicate Object Map
@@ -740,8 +734,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eslogan" ;
-        rr:language    "es" .
+        rml:reference  "eslogan" .
 
 
 ### Predicate Object Map
@@ -1109,8 +1102,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "company_slogan" ;
-        rr:language    "es" .
+        rml:reference  "company_slogan" .
 
 
 ### Predicate Object Map
@@ -1335,8 +1327,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "es" .
+        rml:reference  "leader_title" .
 
 
 
@@ -1349,8 +1340,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_name" ;
-        rr:language    "es" .
+        rml:reference  "leader_name" .
 
 
 ### Intermediate Predicate Object Map
@@ -1389,8 +1379,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder" ;
-        rr:language    "es" .
+        rml:reference  "título_líder" .
 
 
 
@@ -1403,8 +1392,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_líder" ;
-        rr:language    "es" .
+        rml:reference  "nombre_líder" .
 
 
 ### Intermediate Predicate Object Map
@@ -1443,8 +1431,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder3" ;
-        rr:language    "es" .
+        rml:reference  "título_líder3" .
 
 
 
@@ -1457,8 +1444,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_líder3" ;
-        rr:language    "es" .
+        rml:reference  "nombre_líder3" .
 
 
 ### Intermediate Predicate Object Map
@@ -1497,8 +1483,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder1" ;
-        rr:language    "es" .
+        rml:reference  "título_líder1" .
 
 
 
@@ -1511,8 +1496,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_líder1" ;
-        rr:language    "es" .
+        rml:reference  "nombre_líder1" .
 
 
 ### Intermediate Predicate Object Map
@@ -1551,8 +1535,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder2" ;
-        rr:language    "es" .
+        rml:reference  "título_líder2" .
 
 
 
@@ -1565,8 +1548,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_líder2" ;
-        rr:language    "es" .
+        rml:reference  "nombre_líder2" .
 
 
 ######################

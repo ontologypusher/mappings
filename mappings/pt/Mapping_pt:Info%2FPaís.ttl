@@ -123,8 +123,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_pt" ;
-        rr:language    "pt" .
+        rml:reference  "nome_pt" .
 
 
 ### Predicate Object Map
@@ -215,8 +214,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder1" ;
-        rr:language    "pt" .
+        rml:reference  "título_líder1" .
 
 
 ### Predicate Object Map
@@ -229,8 +227,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder2" ;
-        rr:language    "pt" .
+        rml:reference  "título_líder2" .
 
 
 ### Predicate Object Map
@@ -334,8 +331,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_longo_convencional" ;
-        rr:language    "pt" .
+        rml:reference  "nome_longo_convencional" .
 
 
 ### Predicate Object Map
@@ -556,8 +552,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder3" ;
-        rr:language    "pt" .
+        rml:reference  "título_líder3" .
 
 
 ### Predicate Object Map
@@ -570,8 +565,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder5" ;
-        rr:language    "pt" .
+        rml:reference  "título_líder5" .
 
 
 ### Predicate Object Map
@@ -610,8 +604,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentílico" ;
-        rr:language    "pt" .
+        rml:reference  "gentílico" .
 
 
 ### Predicate Object Map
@@ -624,8 +617,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "título_líder4" ;
-        rr:language    "pt" .
+        rml:reference  "título_líder4" .
 
 
 ### Predicate Object Map
@@ -916,8 +908,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_nativo" ;
-        rr:language    "pt" .
+        rml:reference  "nome_nativo" .
 
 
 ######################

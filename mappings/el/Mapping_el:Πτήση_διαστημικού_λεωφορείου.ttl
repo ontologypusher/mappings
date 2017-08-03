@@ -81,8 +81,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "λεζάντα αναμνηστικής" ;
-        rr:language    "el" .
+        rml:reference  "λεζάντα αναμνηστικής" .
 
 
 ### Predicate Object Map

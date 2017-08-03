@@ -94,8 +94,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "chrtitle" ;
-        rr:language    "en" .
+        rml:reference  "chrtitle" .
 
 
 ### Predicate Object Map

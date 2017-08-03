@@ -145,8 +145,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "sobrenombre" ;
-        rr:language    "es" .
+        rml:reference  "sobrenombre" .
 
 
 ### Predicate Object Map
@@ -211,8 +210,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vicerrector" ;
-        rr:language    "es" .
+        rml:reference  "vicerrector" .
 
 
 ### Predicate Object Map
@@ -225,8 +223,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_original" ;
-        rr:language    "es" .
+        rml:reference  "nombre_original" .
 
 
 ### Predicate Object Map
@@ -252,8 +249,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre" ;
-        rr:language    "es" .
+        rml:reference  "nombre" .
 
 
 ### Predicate Object Map
@@ -318,8 +314,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "inspector" ;
-        rr:language    "es" .
+        rml:reference  "inspector" .
 
 
 ### Predicate Object Map
@@ -358,8 +353,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "mascota" ;
-        rr:language    "es" .
+        rml:reference  "mascota" .
 
 
 ### Predicate Object Map
@@ -437,8 +431,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "fundador" ;
-        rr:language    "es" .
+        rml:reference  "fundador" .
 
 
 ### Predicate Object Map
@@ -464,8 +457,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "lema" ;
-        rr:language    "es" .
+        rml:reference  "lema" .
 
 
 ### Predicate Object Map
@@ -556,8 +548,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "acrónimo" ;
-        rr:language    "es" .
+        rml:reference  "acrónimo" .
 
 
 ### Predicate Object Map

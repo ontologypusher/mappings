@@ -140,8 +140,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "conflict" ;
-        rr:language    "in" .
+        rml:reference  "conflict" .
 
 
 ### Predicate Object Map

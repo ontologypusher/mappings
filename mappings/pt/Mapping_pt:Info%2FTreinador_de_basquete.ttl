@@ -140,8 +140,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Nome" ;
-        rr:language    "pt" .
+        rml:reference  "Nome" .
 
 
 ######################

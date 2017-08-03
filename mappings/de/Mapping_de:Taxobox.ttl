@@ -112,8 +112,7 @@
 ### ObjectMap
 <SimplePropertyMapping/33/OM>
         a              rr:ObjectMap ;
-        rml:reference  "MioVon" ;
-        rr:language    "de" .
+        rml:reference  "MioVon" .
 
 
 ### Predicate Object Map
@@ -126,8 +125,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon6_LinkName" ;
-        rr:language    "de" .
+        rml:reference  "Taxon6_LinkName" .
 
 
 ### Predicate Object Map
@@ -140,8 +138,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon_Rang" .
 
 
 ### Predicate Object Map
@@ -154,8 +151,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon2_Autor" ;
-        rr:language    "de" .
+        rml:reference  "Taxon2_Autor" .
 
 
 ### Predicate Object Map
@@ -168,8 +164,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Subtaxa_Plural" ;
-        rr:language    "de" .
+        rml:reference  "Subtaxa_Plural" .
 
 
 ### Predicate Object Map
@@ -182,8 +177,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon4_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon4_Name" .
 
 
 ### Predicate Object Map
@@ -196,8 +190,7 @@
 ### ObjectMap
 <SimplePropertyMapping/40/OM>
         a              rr:ObjectMap ;
-        rml:reference  "TausendBis" ;
-        rr:language    "de" .
+        rml:reference  "TausendBis" .
 
 
 ### Predicate Object Map
@@ -223,8 +216,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ErdzeitalterVon" ;
-        rr:language    "de" .
+        rml:reference  "ErdzeitalterVon" .
 
 
 ### Predicate Object Map
@@ -237,8 +229,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon5_Autor" ;
-        rr:language    "de" .
+        rml:reference  "Taxon5_Autor" .
 
 
 ### Predicate Object Map
@@ -277,8 +268,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon2_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon2_Name" .
 
 
 ### Predicate Object Map
@@ -291,8 +281,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon4_LinkName" ;
-        rr:language    "de" .
+        rml:reference  "Taxon4_LinkName" .
 
 
 ### Predicate Object Map
@@ -318,8 +307,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "MioBis" ;
-        rr:language    "de" .
+        rml:reference  "MioBis" .
 
 
 ### Predicate Object Map
@@ -332,8 +320,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon2_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon2_Rang" .
 
 
 ### Predicate Object Map
@@ -346,8 +333,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Subtaxa_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Subtaxa_Rang" .
 
 
 ### Predicate Object Map
@@ -360,8 +346,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon3_Autor" ;
-        rr:language    "de" .
+        rml:reference  "Taxon3_Autor" .
 
 
 ### Predicate Object Map
@@ -374,8 +359,7 @@
 ### ObjectMap
 <SimplePropertyMapping/39/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Rangunterdrückung" ;
-        rr:language    "de" .
+        rml:reference  "Rangunterdrückung" .
 
 
 ### Predicate Object Map
@@ -388,8 +372,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon5_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon5_Name" .
 
 
 ### Predicate Object Map
@@ -402,8 +385,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon2_LinkName" ;
-        rr:language    "de" .
+        rml:reference  "Taxon2_LinkName" .
 
 
 ### Predicate Object Map
@@ -416,8 +398,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon5_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon5_Rang" .
 
 
 ### Predicate Object Map
@@ -430,8 +411,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon4_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon4_Rang" .
 
 
 ### Predicate Object Map
@@ -444,8 +424,7 @@
 ### ObjectMap
 <SimplePropertyMapping/41/OM>
         a              rr:ObjectMap ;
-        rml:reference  "TausendVon" ;
-        rr:language    "de" .
+        rml:reference  "TausendVon" .
 
 
 ### Predicate Object Map
@@ -484,8 +463,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon3_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon3_Name" .
 
 
 ### Predicate Object Map
@@ -498,8 +476,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Fundorte" ;
-        rr:language    "de" .
+        rml:reference  "Fundorte" .
 
 
 ### Predicate Object Map
@@ -512,8 +489,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon5_LinkName" ;
-        rr:language    "de" .
+        rml:reference  "Taxon5_LinkName" .
 
 
 ### Predicate Object Map
@@ -526,8 +502,7 @@
 ### ObjectMap
 <SimplePropertyMapping/35/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Subtaxa" ;
-        rr:language    "de" .
+        rml:reference  "Subtaxa" .
 
 
 ### Predicate Object Map
@@ -540,8 +515,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon_Autor" ;
-        rr:language    "de" .
+        rml:reference  "Taxon_Autor" .
 
 
 ### Predicate Object Map
@@ -554,8 +528,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon3_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon3_Rang" .
 
 
 ### Predicate Object Map
@@ -568,8 +541,7 @@
 ### ObjectMap
 <SimplePropertyMapping/37/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ErdzeitalterBis" ;
-        rr:language    "de" .
+        rml:reference  "ErdzeitalterBis" .
 
 
 ### Predicate Object Map
@@ -582,8 +554,7 @@
 ### ObjectMap
 <SimplePropertyMapping/28/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon4_Autor" ;
-        rr:language    "de" .
+        rml:reference  "Taxon4_Autor" .
 
 
 ### Predicate Object Map
@@ -596,8 +567,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon6_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon6_Name" .
 
 
 ### Predicate Object Map
@@ -610,8 +580,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Modus" ;
-        rr:language    "de" .
+        rml:reference  "Modus" .
 
 
 ### Predicate Object Map
@@ -624,8 +593,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon6_Rang" ;
-        rr:language    "de" .
+        rml:reference  "Taxon6_Rang" .
 
 
 ### Predicate Object Map
@@ -638,8 +606,7 @@
 ### ObjectMap
 <SimplePropertyMapping/42/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "de" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map
@@ -652,8 +619,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Bildbeschreibung" ;
-        rr:language    "de" .
+        rml:reference  "Bildbeschreibung" .
 
 
 ### Predicate Object Map
@@ -666,8 +632,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon_Name" ;
-        rr:language    "de" .
+        rml:reference  "Taxon_Name" .
 
 
 ### Predicate Object Map
@@ -680,8 +645,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Taxon3_LinkName" ;
-        rr:language    "de" .
+        rml:reference  "Taxon3_LinkName" .
 
 
 ### Predicate Object Map

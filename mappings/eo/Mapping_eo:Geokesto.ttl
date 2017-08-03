@@ -424,8 +424,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "oficiala_nomo" ;
-        rr:language    "eo" .
+        rml:reference  "oficiala_nomo" .
 
 
 ### Predicate Object Map

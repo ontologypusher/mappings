@@ -95,8 +95,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "본명" ;
-        rr:language    "ko" .
+        rml:reference  "본명" .
 
 
 ### Predicate Object Map
@@ -179,8 +178,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "이름" ;
-        rr:language    "ko" .
+        rml:reference  "이름" .
 
 
 ### Predicate Object Map

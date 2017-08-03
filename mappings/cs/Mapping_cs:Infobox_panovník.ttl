@@ -151,8 +151,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tituly" ;
-        rr:language    "cs" .
+        rml:reference  "tituly" .
 
 
 ### Predicate Object Map
@@ -191,8 +190,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "celé jméno" ;
-        rr:language    "cs" .
+        rml:reference  "celé jméno" .
 
 
 ### Predicate Object Map
@@ -288,8 +286,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "rod" ;
-        rr:language    "cs" .
+        rml:reference  "rod" .
 
 
 ### Predicate Object Map
@@ -302,8 +299,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "jméno" ;
-        rr:language    "cs" .
+        rml:reference  "jméno" .
 
 
 ### Predicate Object Map
@@ -355,8 +351,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titul" ;
-        rr:language    "cs" .
+        rml:reference  "titul" .
 
 
 ### Predicate Object Map
@@ -369,8 +364,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "popisek" ;
-        rr:language    "cs" .
+        rml:reference  "popisek" .
 
 
 ### Predicate Object Map
@@ -453,8 +447,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dynastie" ;
-        rr:language    "cs" .
+        rml:reference  "dynastie" .
 
 
 ### Predicate Object Map

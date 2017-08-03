@@ -168,8 +168,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title5" ;
-        rr:language    "in" .
+        rml:reference  "leader_title5" .
 
 
 ### Predicate Object Map
@@ -208,8 +207,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title6" ;
-        rr:language    "in" .
+        rml:reference  "leader_title6" .
 
 
 ### Predicate Object Map
@@ -439,8 +437,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title1" ;
-        rr:language    "in" .
+        rml:reference  "leader_title1" .
 
 
 ### Predicate Object Map
@@ -466,8 +463,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "conventional_long_name" ;
-        rr:language    "in" .
+        rml:reference  "conventional_long_name" .
 
 
 ### Predicate Object Map
@@ -480,8 +476,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "in" .
+        rml:reference  "leader_title3" .
 
 
 ### Predicate Object Map
@@ -533,8 +528,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "in" .
+        rml:reference  "leader_title2" .
 
 
 ### Predicate Object Map
@@ -686,8 +680,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "common_name" ;
-        rr:language    "in" .
+        rml:reference  "common_name" .
 
 
 ### Predicate Object Map
@@ -726,8 +719,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "native_name" ;
-        rr:language    "in" .
+        rml:reference  "native_name" .
 
 
 ### Predicate Object Map
@@ -883,8 +875,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "demonym" ;
-        rr:language    "in" .
+        rml:reference  "demonym" .
 
 
 ### Predicate Object Map
@@ -962,8 +953,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title4" ;
-        rr:language    "in" .
+        rml:reference  "leader_title4" .
 
 
 ### Predicate Object Map

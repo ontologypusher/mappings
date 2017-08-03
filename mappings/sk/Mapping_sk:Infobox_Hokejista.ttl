@@ -166,8 +166,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Celé meno" ;
-        rr:language    "sk" .
+        rml:reference  "Celé meno" .
 
 
 ### Predicate Object Map
@@ -180,8 +179,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Meno" ;
-        rr:language    "sk" .
+        rml:reference  "Meno" .
 
 
 ### Predicate Object Map

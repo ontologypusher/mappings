@@ -324,8 +324,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "megnevezés" ;
-        rr:language    "hu" .
+        rml:reference  "megnevezés" .
 
 
 ### Predicate Object Map

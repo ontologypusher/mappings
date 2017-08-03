@@ -80,8 +80,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "synonymes" ;
-        rr:language    "fr" .
+        rml:reference  "synonymes" .
 
 
 ### Predicate Object Map
@@ -107,8 +106,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -147,8 +145,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "legende" ;
-        rr:language    "fr" .
+        rml:reference  "legende" .
 
 
 ### Predicate Object Map
@@ -187,8 +184,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nomIUPAC" ;
-        rr:language    "fr" .
+        rml:reference  "nomIUPAC" .
 
 
 ### Predicate Object Map

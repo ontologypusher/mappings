@@ -346,8 +346,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eski_adları" ;
-        rr:language    "tr" .
+        rml:reference  "eski_adları" .
 
 
 ### Predicate Object Map
@@ -642,8 +641,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -752,8 +750,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "marka" ;
-        rr:language    "tr" .
+        rml:reference  "marka" .
 
 
 ### Predicate Object Map
@@ -766,8 +763,7 @@
 ### ObjectMap
 <SimplePropertyMapping/27/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -793,8 +789,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "yeni_adı" ;
-        rr:language    "tr" .
+        rml:reference  "yeni_adı" .
 
 
 ### Predicate Object Map
@@ -872,8 +867,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "tr" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -964,8 +958,7 @@
 ### ObjectMap
 <SimplePropertyMapping/35/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -978,8 +971,7 @@
 ### ObjectMap
 <SimplePropertyMapping/28/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tam_adı" ;
-        rr:language    "tr" .
+        rml:reference  "tam_adı" .
 
 
 ### Predicate Object Map
@@ -1018,8 +1010,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "branding" ;
-        rr:language    "tr" .
+        rml:reference  "branding" .
 
 
 ### Predicate Object Map

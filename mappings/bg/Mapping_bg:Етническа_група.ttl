@@ -77,8 +77,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "група" ;
-        rr:language    "bg" .
+        rml:reference  "група" .
 
 
 ### Predicate Object Map

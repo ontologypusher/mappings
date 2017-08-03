@@ -84,8 +84,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Long_name" ;
-        rr:language    "en" .
+        rml:reference  "Long_name" .
 
 
 ######################

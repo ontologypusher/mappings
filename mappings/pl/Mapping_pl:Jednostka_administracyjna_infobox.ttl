@@ -161,8 +161,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "zarządzający" ;
-        rr:language    "pl" .
+        rml:reference  "zarządzający" .
 
 
 ### Predicate Object Map
@@ -188,8 +187,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa" .
 
 
 ### Predicate Object Map
@@ -328,8 +326,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa oryginalna" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa oryginalna" .
 
 
 ### Predicate Object Map
@@ -342,8 +339,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa jednostki" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa jednostki" .
 
 
 ### Predicate Object Map
@@ -408,8 +404,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dopełniacz" ;
-        rr:language    "pl" .
+        rml:reference  "dopełniacz" .
 
 
 ### Predicate Object Map

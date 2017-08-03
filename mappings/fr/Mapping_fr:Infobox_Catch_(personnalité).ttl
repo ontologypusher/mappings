@@ -178,8 +178,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_de_ring" ;
-        rr:language    "fr" .
+        rml:reference  "nom_de_ring" .
 
 
 ### Predicate Object Map
@@ -218,8 +217,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_complet" ;
-        rr:language    "fr" .
+        rml:reference  "nom_complet" .
 
 
 ### Predicate Object Map

@@ -142,8 +142,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Авіякампанія" ;
-        rr:language    "be" .
+        rml:reference  "Авіякампанія" .
 
 
 ### Predicate Object Map

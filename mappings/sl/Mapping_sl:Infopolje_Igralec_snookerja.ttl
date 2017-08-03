@@ -189,8 +189,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Nickname" ;
-        rr:language    "sl" .
+        rml:reference  "Nickname" .
 
 
 ### Predicate Object Map
@@ -203,8 +202,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "sl" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map
@@ -252,8 +250,6 @@
         rr:object            dbo:SnookerChamp ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -285,8 +281,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/1/FTM> ;
         rr:object            dbo:SnookerPlayer ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>

@@ -71,8 +71,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Ship caption" ;
-        rr:language    "sl" .
+        rml:reference  "Ship caption" .
 
 
 ### Predicate Object Map

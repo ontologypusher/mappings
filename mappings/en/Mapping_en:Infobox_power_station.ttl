@@ -147,8 +147,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tertiary_fuel" ;
-        rr:language    "en" .
+        rml:reference  "tertiary_fuel" .
 
 
 ### Predicate Object Map
@@ -187,8 +186,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "generation_units" ;
-        rr:language    "en" .
+        rml:reference  "generation_units" .
 
 
 ### Predicate Object Map
@@ -240,8 +238,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "primary_fuel" ;
-        rr:language    "en" .
+        rml:reference  "primary_fuel" .
 
 
 ### Predicate Object Map
@@ -267,8 +264,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "en" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -281,8 +277,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "secondary_fuel" ;
-        rr:language    "en" .
+        rml:reference  "secondary_fuel" .
 
 
 ### Predicate Object Map
@@ -308,8 +303,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ps_fuel_tertiary" ;
-        rr:language    "en" .
+        rml:reference  "ps_fuel_tertiary" .
 
 
 ### Predicate Object Map
@@ -474,8 +468,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ps_fuel_primary" ;
-        rr:language    "en" .
+        rml:reference  "ps_fuel_primary" .
 
 
 ### Predicate Object Map
@@ -514,8 +507,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ps_fuel_secondary" ;
-        rr:language    "en" .
+        rml:reference  "ps_fuel_secondary" .
 
 
 ### Predicate Object Map
@@ -541,8 +533,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "official_name" ;
-        rr:language    "en" .
+        rml:reference  "official_name" .
 
 
 ### Predicate Object Map

@@ -102,8 +102,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "название_библиотеки" ;
-        rr:language    "ru" .
+        rml:reference  "название_библиотеки" .
 
 
 ### Predicate Object Map

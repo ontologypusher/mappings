@@ -70,8 +70,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vietējais_nosaukums" ;
-        rr:language    "lv" .
+        rml:reference  "vietējais_nosaukums" .
 
 
 ######################

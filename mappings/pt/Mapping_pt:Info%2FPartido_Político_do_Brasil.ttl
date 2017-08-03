@@ -93,8 +93,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "cores" ;
-        rr:language    "pt" .
+        rml:reference  "cores" .
 
 
 ### Predicate Object Map
@@ -146,8 +145,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_partido" ;
-        rr:language    "pt" .
+        rml:reference  "nome_partido" .
 
 
 ### Predicate Object Map
@@ -173,8 +171,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "precedido" ;
-        rr:language    "pt" .
+        rml:reference  "precedido" .
 
 
 ### Predicate Object Map

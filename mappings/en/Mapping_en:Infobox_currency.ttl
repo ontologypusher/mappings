@@ -71,8 +71,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "currency_name_in_local" ;
-        rr:language    "en" .
+        rml:reference  "currency_name_in_local" .
 
 
 ### Predicate Object Map

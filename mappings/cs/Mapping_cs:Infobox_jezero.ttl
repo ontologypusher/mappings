@@ -111,8 +111,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "jezero" ;
-        rr:language    "cs" .
+        rml:reference  "jezero" .
 
 
 ### Predicate Object Map

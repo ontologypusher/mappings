@@ -140,8 +140,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naslov filma" ;
-        rr:language    "hr" .
+        rml:reference  "naslov filma" .
 
 
 ### Predicate Object Map

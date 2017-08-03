@@ -101,8 +101,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "building_name" ;
-        rr:language    "be" .
+        rml:reference  "building_name" .
 
 
 ### Predicate Object Map

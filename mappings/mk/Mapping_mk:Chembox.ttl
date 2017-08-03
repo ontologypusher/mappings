@@ -106,8 +106,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPACName_hidden" ;
-        rr:language    "mk" .
+        rml:reference  "IUPACName_hidden" .
 
 
 ### Predicate Object Map
@@ -120,8 +119,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "IUPACName" ;
-        rr:language    "mk" .
+        rml:reference  "IUPACName" .
 
 
 ### Predicate Object Map
@@ -173,8 +171,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "mk" .
+        rml:reference  "Name" .
 
 
 ### Predicate Object Map

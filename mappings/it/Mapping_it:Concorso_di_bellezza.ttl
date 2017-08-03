@@ -74,8 +74,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome della manifestazione" ;
-        rr:language    "it" .
+        rml:reference  "nome della manifestazione" .
 
 
 ### Predicate Object Map

@@ -106,8 +106,7 @@
 ### ObjectMap
 <ConditionalMapping/0/Condition/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titre" ;
-        rr:language    "fr" .
+        rml:reference  "titre" .
 
 
 
@@ -134,8 +133,7 @@
 ### ObjectMap
 <ConditionalMapping/0/Condition/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titreJaponais" ;
-        rr:language    "fr" .
+        rml:reference  "titreJaponais" .
 
 
 ### Predicate Object Map
@@ -148,8 +146,7 @@
 ### ObjectMap
 <ConditionalMapping/0/Condition/1/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titreKanji" ;
-        rr:language    "fr" .
+        rml:reference  "titreKanji" .
 
 
 
@@ -179,14 +176,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/0/FTM> ;
         rr:objectMap         <ConditionalMapping/0/Condition/0/SimplePropertyMapping/1/OM> ;
         rr:predicate         dbo:originalTitle .
-
-### ObjectMap
-<ConditionalMapping/0/Condition/0/SimplePropertyMapping/1/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "titreJaponais" ;
-        rr:language    "fr" .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
@@ -227,12 +216,6 @@
         rr:objectMap         <ConditionalMapping/0/Condition/0/SimplePropertyMapping/2/OM> ;
         rr:predicate         dbo:originalTitle .
 
-### ObjectMap
-<ConditionalMapping/0/Condition/0/SimplePropertyMapping/2/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "titreKanji" ;
-        rr:language    "fr" .
-
 
 ### Conditional Mapping
 ###################################
@@ -251,12 +234,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/0/FTM> ;
         rr:objectMap         <ConditionalMapping/0/Condition/0/SimplePropertyMapping/0/OM> ;
         rr:predicate         foaf:name .
-
-### ObjectMap
-<ConditionalMapping/0/Condition/0/SimplePropertyMapping/0/OM>
-        a              rr:ObjectMap ;
-        rml:reference  "titre" ;
-        rr:language    "fr" .
 
 
 

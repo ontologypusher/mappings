@@ -397,8 +397,7 @@
 ### ObjectMap
 <SimplePropertyMapping/60/OM>
         a              rr:ObjectMap ;
-        rml:reference  "principal_label" ;
-        rr:language    "tr" .
+        rml:reference  "principal_label" .
 
 
 ### Predicate Object Map
@@ -411,8 +410,7 @@
 ### ObjectMap
 <SimplePropertyMapping/104/OM>
         a              rr:ObjectMap ;
-        rml:reference  "campus type" ;
-        rr:language    "tr" .
+        rml:reference  "campus type" .
 
 
 ### Predicate Object Map
@@ -568,8 +566,7 @@
 ### ObjectMap
 <SimplePropertyMapping/112/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team_name" ;
-        rr:language    "tr" .
+        rml:reference  "team_name" .
 
 
 ### Predicate Object Map
@@ -1159,8 +1156,7 @@
 ### ObjectMap
 <SimplePropertyMapping/111/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nickname" ;
-        rr:language    "tr" .
+        rml:reference  "nickname" .
 
 
 ### Predicate Object Map
@@ -1316,8 +1312,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "tr" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -1434,8 +1429,7 @@
 ### ObjectMap
 <SimplePropertyMapping/160/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -1539,8 +1533,7 @@
 ### ObjectMap
 <SimplePropertyMapping/42/OM>
         a              rr:ObjectMap ;
-        rml:reference  "head_label" ;
-        rr:language    "tr" .
+        rml:reference  "head_label" .
 
 
 ### Predicate Object Map
@@ -1758,8 +1751,7 @@
 ### ObjectMap
 <SimplePropertyMapping/135/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -1798,8 +1790,7 @@
 ### ObjectMap
 <SimplePropertyMapping/114/OM>
         a              rr:ObjectMap ;
-        rml:reference  "teams" ;
-        rr:language    "tr" .
+        rml:reference  "teams" .
 
 
 ### Predicate Object Map
@@ -1864,8 +1855,7 @@
 ### ObjectMap
 <SimplePropertyMapping/108/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -2307,8 +2297,7 @@
 ### ObjectMap
 <SimplePropertyMapping/113/OM>
         a              rr:ObjectMap ;
-        rml:reference  "team name" ;
-        rr:language    "tr" .
+        rml:reference  "team name" .
 
 
 ### Predicate Object Map

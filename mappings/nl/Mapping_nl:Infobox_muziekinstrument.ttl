@@ -91,8 +91,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "bijschrift bereik" ;
-        rr:language    "nl" .
+        rml:reference  "bijschrift bereik" .
 
 
 ### Predicate Object Map
@@ -105,8 +104,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map
@@ -119,8 +117,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "namen" ;
-        rr:language    "nl" .
+        rml:reference  "namen" .
 
 
 ### Predicate Object Map

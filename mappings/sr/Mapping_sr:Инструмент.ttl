@@ -84,8 +84,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "инструмент" ;
-        rr:language    "sr" .
+        rml:reference  "инструмент" .
 
 
 ######################

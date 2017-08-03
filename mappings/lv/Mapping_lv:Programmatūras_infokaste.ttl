@@ -194,8 +194,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "lv" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map

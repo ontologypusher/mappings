@@ -154,8 +154,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "andere_naam" ;
-        rr:language    "nl" .
+        rml:reference  "andere_naam" .
 
 
 ######################

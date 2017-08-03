@@ -131,8 +131,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "изговор изворног имена државе" ;
-        rr:language    "sr" .
+        rml:reference  "изговор изворног имена државе" .
 
 
 ### Predicate Object Map
@@ -171,8 +170,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име државе" ;
-        rr:language    "sr" .
+        rml:reference  "име државе" .
 
 
 ### Predicate Object Map
@@ -367,8 +365,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "титула владара" ;
-        rr:language    "sr" .
+        rml:reference  "титула владара" .
 
 
 ### Predicate Object Map
@@ -487,8 +484,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "коментар" ;
-        rr:language    "sr" .
+        rml:reference  "коментар" .
 
 
 ### Predicate Object Map
@@ -557,8 +553,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "титула владара1" ;
-        rr:language    "sr" .
+        rml:reference  "титула владара1" .
 
 
 
@@ -571,8 +566,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име владара1" ;
-        rr:language    "sr" .
+        rml:reference  "име владара1" .
 
 
 ### Intermediate Predicate Object Map
@@ -611,8 +605,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "титула владара2" ;
-        rr:language    "sr" .
+        rml:reference  "титула владара2" .
 
 
 
@@ -625,8 +618,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име владара2" ;
-        rr:language    "sr" .
+        rml:reference  "име владара2" .
 
 
 ### Intermediate Predicate Object Map
@@ -665,8 +657,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "титула владара3" ;
-        rr:language    "sr" .
+        rml:reference  "титула владара3" .
 
 
 
@@ -679,8 +670,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име владара3" ;
-        rr:language    "sr" .
+        rml:reference  "име владара3" .
 
 
 ######################

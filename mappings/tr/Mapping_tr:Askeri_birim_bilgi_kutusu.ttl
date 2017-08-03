@@ -325,8 +325,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "unit_name" ;
-        rr:language    "tr" .
+        rml:reference  "unit_name" .
 
 
 ### Predicate Object Map
@@ -656,8 +655,7 @@
 ### ObjectMap
 <SimplePropertyMapping/60/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nickname" ;
-        rr:language    "tr" .
+        rml:reference  "nickname" .
 
 
 ### Predicate Object Map
@@ -891,8 +889,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nickname" ;
-        rr:language    "tr" .
+        rml:reference  "nickname" .
 
 
 ### Predicate Object Map
@@ -1136,8 +1133,7 @@
 ### ObjectMap
 <SimplePropertyMapping/47/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birim_ismi" ;
-        rr:language    "tr" .
+        rml:reference  "birim_ismi" .
 
 
 ### Predicate Object Map
@@ -1150,8 +1146,7 @@
 ### ObjectMap
 <SimplePropertyMapping/58/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -1177,8 +1172,7 @@
 ### ObjectMap
 <SimplePropertyMapping/63/OM>
         a              rr:ObjectMap ;
-        rml:reference  "colors" ;
-        rr:language    "tr" .
+        rml:reference  "colors" .
 
 
 ### Predicate Object Map
@@ -1282,8 +1276,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "colors" ;
-        rr:language    "tr" .
+        rml:reference  "colors" .
 
 
 ######################

@@ -87,8 +87,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "adı" ;
-        rr:language    "az" .
+        rml:reference  "adı" .
 
 
 ### Predicate Object Map

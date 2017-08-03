@@ -186,8 +186,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "altnaam" ;
-        rr:language    "nl" .
+        rml:reference  "altnaam" .
 
 
 ### Predicate Object Map
@@ -356,8 +355,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "luchthaven" ;
-        rr:language    "nl" .
+        rml:reference  "luchthaven" .
 
 
 ### Predicate Object Map
@@ -531,8 +529,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "alt" ;
-        rr:language    "nl" .
+        rml:reference  "alt" .
 
 
 ### Predicate Object Map

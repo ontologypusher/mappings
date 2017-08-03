@@ -78,8 +78,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Farben" ;
-        rr:language    "de" .
+        rml:reference  "Farben" .
 
 
 ### Predicate Object Map
@@ -118,8 +117,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Partei" ;
-        rr:language    "de" .
+        rml:reference  "Partei" .
 
 
 ### Predicate Object Map

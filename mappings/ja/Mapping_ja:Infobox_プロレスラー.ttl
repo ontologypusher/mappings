@@ -139,8 +139,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "names" ;
-        rr:language    "ja" .
+        rml:reference  "names" .
 
 
 ### Predicate Object Map
@@ -166,8 +165,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "名前" ;
-        rr:language    "ja" .
+        rml:reference  "名前" .
 
 
 ### Predicate Object Map
@@ -193,8 +191,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "リングネーム" ;
-        rr:language    "ja" .
+        rml:reference  "リングネーム" .
 
 
 ### Predicate Object Map
@@ -220,8 +217,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "本名" ;
-        rr:language    "ja" .
+        rml:reference  "本名" .
 
 
 ### Predicate Object Map
@@ -247,8 +243,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ニックネーム" ;
-        rr:language    "ja" .
+        rml:reference  "ニックネーム" .
 
 
 ### Predicate Object Map
@@ -365,8 +360,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "ja" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map

@@ -134,8 +134,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "албум" ;
-        rr:language    "bg" .
+        rml:reference  "албум" .
 
 
 ### Predicate Object Map

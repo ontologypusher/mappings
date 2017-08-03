@@ -323,8 +323,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "simpchinesename" ;
-        rr:language    "sl" .
+        rml:reference  "simpchinesename" .
 
 
 ### Predicate Object Map
@@ -350,8 +349,7 @@
 ### ObjectMap
 <SimplePropertyMapping/33/OM>
         a              rr:ObjectMap ;
-        rml:reference  "pinyinchinesename" ;
-        rr:language    "sl" .
+        rml:reference  "pinyinchinesename" .
 
 
 ### Predicate Object Map
@@ -578,8 +576,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tradchinesename" ;
-        rr:language    "sl" .
+        rml:reference  "tradchinesename" .
 
 
 ### Predicate Object Map
@@ -592,8 +589,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birthname" ;
-        rr:language    "sl" .
+        rml:reference  "birthname" .
 
 
 ### Predicate Object Map
@@ -645,8 +641,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "othername" ;
-        rr:language    "sl" .
+        rml:reference  "othername" .
 
 
 ### Predicate Object Map
@@ -802,8 +797,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "sl" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -842,8 +836,7 @@
 ### ObjectMap
 <SimplePropertyMapping/30/OM>
         a              rr:ObjectMap ;
-        rml:reference  "chinesename" ;
-        rr:language    "sl" .
+        rml:reference  "chinesename" .
 
 
 ### Predicate Object Map
@@ -856,8 +849,7 @@
 ### ObjectMap
 <SimplePropertyMapping/34/OM>
         a              rr:ObjectMap ;
-        rml:reference  "jyutpingchinesename" ;
-        rr:language    "sl" .
+        rml:reference  "jyutpingchinesename" .
 
 
 ######################
@@ -873,8 +865,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/1/ClassMapping> ;
         rr:object            dbo:Band ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
@@ -908,8 +898,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/2/ClassMapping> ;
         rr:object            dbo:Band ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
@@ -945,8 +933,6 @@
         rr:object            dbo:Actor ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>
         a                   fnml:FunctionTermMap ;
@@ -980,8 +966,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/4/ClassMapping> ;
         rr:object            dbo:Actor ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/3/FTM>
@@ -1017,8 +1001,6 @@
         rr:object            dbo:MusicalArtist ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/4/FTM>
         a                   fnml:FunctionTermMap ;
@@ -1053,8 +1035,6 @@
         rr:object            dbo:MusicalArtist ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/5/FTM>
         a                   fnml:FunctionTermMap ;
@@ -1087,8 +1067,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/6/FTM> ;
         rr:object            dbo:Artist ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/6/FTM>

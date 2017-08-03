@@ -85,8 +85,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naam" ;
-        rr:language    "nl" .
+        rml:reference  "naam" .
 
 
 ### Predicate Object Map
@@ -395,8 +394,6 @@
         rr:object            dbo:RoadTunnel ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
         a                   fnml:FunctionTermMap ;
@@ -429,8 +426,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/2/ClassMapping> ;
         rr:object            dbo:RoadTunnel ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>
@@ -466,8 +461,6 @@
         rr:object            dbo:RoadTunnel ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/2/FTM>
         a                   fnml:FunctionTermMap ;
@@ -501,8 +494,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/4/ClassMapping> ;
         rr:object            dbo:RailwayTunnel ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/3/FTM>
@@ -538,8 +529,6 @@
         rr:object            dbo:WaterwayTunnel ;
         rr:predicate         rdf:type .
 
-
-
 ### Function Term Map
 <ConditionalMapping/0/Condition/4/FTM>
         a                   fnml:FunctionTermMap ;
@@ -572,8 +561,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/5/FTM> ;
         rr:object            dbo:Tunnel ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/5/FTM>

@@ -162,8 +162,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Non-profit_slogan" ;
-        rr:language    "de" .
+        rml:reference  "Non-profit_slogan" .
 
 
 ### Predicate Object Map
@@ -228,8 +227,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Non-profit_name" ;
-        rr:language    "de" .
+        rml:reference  "Non-profit_name" .
 
 
 ### Predicate Object Map

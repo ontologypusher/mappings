@@ -350,8 +350,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "county" ;
-        rr:language    "ar" .
+        rml:reference  "county" .
 
 
 ### Predicate Object Map

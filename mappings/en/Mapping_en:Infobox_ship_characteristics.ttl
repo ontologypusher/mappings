@@ -119,8 +119,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Ship nickname" ;
-        rr:language    "en" .
+        rml:reference  "Ship nickname" .
 
 
 ### Predicate Object Map

@@ -109,8 +109,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "en" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -341,8 +340,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dam_type" ;
-        rr:language    "en" .
+        rml:reference  "dam_type" .
 
 
 ### Predicate Object Map
@@ -494,8 +492,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name_official" ;
-        rr:language    "en" .
+        rml:reference  "name_official" .
 
 
 ##############################
@@ -662,8 +659,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "plant_turbines" ;
-        rr:language    "en" .
+        rml:reference  "plant_turbines" .
 
 
 
@@ -715,8 +711,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "en" .
+        rml:reference  "name" .
 
 
 
@@ -808,8 +803,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "plant_name" ;
-        rr:language    "en" .
+        rml:reference  "plant_name" .
 
 
 ### Intermediate Predicate Object Map
@@ -903,8 +897,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "res_name" ;
-        rr:language    "en" .
+        rml:reference  "res_name" .
 
 
 ######################

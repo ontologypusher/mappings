@@ -230,8 +230,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "apodo" ;
-        rr:language    "es" .
+        rml:reference  "apodo" .
 
 
 ### Predicate Object Map
@@ -270,8 +269,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentilicio" ;
-        rr:language    "es" .
+        rml:reference  "gentilicio" .
 
 
 ### Predicate Object Map

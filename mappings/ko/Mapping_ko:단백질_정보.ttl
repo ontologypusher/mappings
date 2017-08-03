@@ -84,8 +84,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "명칭" ;
-        rr:language    "ko" .
+        rml:reference  "명칭" .
 
 
 ######################

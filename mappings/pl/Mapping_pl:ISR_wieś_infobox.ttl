@@ -257,8 +257,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Wieś" ;
-        rr:language    "pl" .
+        rml:reference  "Wieś" .
 
 
 ### Predicate Object Map
@@ -397,8 +396,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "wieś" ;
-        rr:language    "pl" .
+        rml:reference  "wieś" .
 
 
 ### Predicate Object Map
@@ -463,8 +461,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dopełniacz_wsi" ;
-        rr:language    "pl" .
+        rml:reference  "dopełniacz_wsi" .
 
 
 ### Predicate Object Map

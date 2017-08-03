@@ -126,8 +126,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "film" ;
-        rr:language    "cs" .
+        rml:reference  "film" .
 
 
 ### Predicate Object Map
@@ -166,8 +165,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "originál" ;
-        rr:language    "cs" .
+        rml:reference  "originál" .
 
 
 ### Predicate Object Map

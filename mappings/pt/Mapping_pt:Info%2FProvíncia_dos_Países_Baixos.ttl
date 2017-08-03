@@ -162,8 +162,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "enome" ;
-        rr:language    "pt" .
+        rml:reference  "enome" .
 
 
 ### Predicate Object Map
@@ -189,8 +188,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "fnome" ;
-        rr:language    "pt" .
+        rml:reference  "fnome" .
 
 
 ### Predicate Object Map
@@ -203,8 +201,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "dnome" ;
-        rr:language    "pt" .
+        rml:reference  "dnome" .
 
 
 ### Predicate Object Map
@@ -256,8 +253,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "common_name" ;
-        rr:language    "pt" .
+        rml:reference  "common_name" .
 
 
 ### Predicate Object Map

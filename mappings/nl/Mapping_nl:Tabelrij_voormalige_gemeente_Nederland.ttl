@@ -193,8 +193,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "alternatieve_namen" ;
-        rr:language    "nl" .
+        rml:reference  "alternatieve_namen" .
 
 
 ### Predicate Object Map

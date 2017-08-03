@@ -256,8 +256,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "détail2" ;
-        rr:language    "fr" .
+        rml:reference  "détail2" .
 
 
 
@@ -270,8 +269,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "détail1" ;
-        rr:language    "fr" .
+        rml:reference  "détail1" .
 
 
 
@@ -284,8 +282,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "activité" ;
-        rr:language    "fr" .
+        rml:reference  "activité" .
 
 
 

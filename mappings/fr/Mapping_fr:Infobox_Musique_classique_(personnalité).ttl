@@ -264,8 +264,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom de naissance" ;
-        rr:language    "fr" .
+        rml:reference  "nom de naissance" .
 
 
 
@@ -518,8 +517,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnom" ;
-        rr:language    "fr" .
+        rml:reference  "surnom" .
 
 
 ### Predicate Object Map
@@ -532,8 +530,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -572,8 +569,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom autre" ;
-        rr:language    "fr" .
+        rml:reference  "nom autre" .
 
 
 ######################
@@ -589,8 +585,6 @@
         crml:fallbackMap     <ConditionalMapping/0/Condition/1/ClassMapping> ;
         rr:object            dbo:Dancer ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/0/FTM>
@@ -629,8 +623,6 @@
         crml:equalCondition  <ConditionalMapping/0/Condition/1/FTM> ;
         rr:object            dbo:ClassicalMusicArtist ;
         rr:predicate         rdf:type .
-
-
 
 ### Function Term Map
 <ConditionalMapping/0/Condition/1/FTM>

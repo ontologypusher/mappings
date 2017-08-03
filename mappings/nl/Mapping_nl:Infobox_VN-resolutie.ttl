@@ -213,8 +213,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "besl" ;
-        rr:language    "nl" .
+        rml:reference  "besl" .
 
 
 ### Predicate Object Map

@@ -186,8 +186,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vezető_cím_1" ;
-        rr:language    "hu" .
+        rml:reference  "vezető_cím_1" .
 
 
 ### Predicate Object Map
@@ -226,8 +225,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "saját_név" ;
-        rr:language    "hu" .
+        rml:reference  "saját_név" .
 
 
 ### Predicate Object Map
@@ -253,8 +251,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vezető_cím_4" ;
-        rr:language    "hu" .
+        rml:reference  "vezető_cím_4" .
 
 
 ### Predicate Object Map
@@ -423,8 +420,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "idegen_karakteres_név" ;
-        rr:language    "hu" .
+        rml:reference  "idegen_karakteres_név" .
 
 
 ### Predicate Object Map
@@ -502,8 +498,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vezető_cím_3" ;
-        rr:language    "hu" .
+        rml:reference  "vezető_cím_3" .
 
 
 ### Predicate Object Map
@@ -620,8 +615,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vezető_cím_5" ;
-        rr:language    "hu" .
+        rml:reference  "vezető_cím_5" .
 
 
 ### Predicate Object Map
@@ -686,8 +680,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "teljes_név" ;
-        rr:language    "hu" .
+        rml:reference  "teljes_név" .
 
 
 ### Predicate Object Map
@@ -778,8 +771,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "vezető_cím_2" ;
-        rr:language    "hu" .
+        rml:reference  "vezető_cím_2" .
 
 
 ### Predicate Object Map

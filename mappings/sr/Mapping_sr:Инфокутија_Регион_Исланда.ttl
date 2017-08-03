@@ -154,8 +154,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "име регије" ;
-        rr:language    "sr" .
+        rml:reference  "име регије" .
 
 
 ######################

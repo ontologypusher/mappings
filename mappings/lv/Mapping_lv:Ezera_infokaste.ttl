@@ -208,8 +208,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ezers" ;
-        rr:language    "lv" .
+        rml:reference  "ezers" .
 
 
 ######################

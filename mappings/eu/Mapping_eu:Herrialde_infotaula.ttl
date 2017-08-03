@@ -166,8 +166,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentilizioa" ;
-        rr:language    "eu" .
+        rml:reference  "gentilizioa" .
 
 
 ### Predicate Object Map
@@ -180,8 +179,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "tituluak" ;
-        rr:language    "eu" .
+        rml:reference  "tituluak" .
 
 
 ### Predicate Object Map
@@ -207,8 +205,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "berezko_izena" ;
-        rr:language    "eu" .
+        rml:reference  "berezko_izena" .
 
 
 ### Predicate Object Map
@@ -234,8 +231,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentilizioa" ;
-        rr:language    "eu" .
+        rml:reference  "gentilizioa" .
 
 
 ### Predicate Object Map
@@ -300,8 +296,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "estatuaren_izena" ;
-        rr:language    "eu" .
+        rml:reference  "estatuaren_izena" .
 
 
 ### Predicate Object Map

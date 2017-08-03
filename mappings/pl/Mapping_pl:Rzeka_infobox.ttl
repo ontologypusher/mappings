@@ -300,8 +300,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa_rzeki" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa_rzeki" .
 
 
 ### Predicate Object Map

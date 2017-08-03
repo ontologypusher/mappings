@@ -238,8 +238,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "isim" ;
-        rr:language    "tr" .
+        rml:reference  "isim" .
 
 
 ### Predicate Object Map
@@ -304,8 +303,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "kısaltma" ;
-        rr:language    "tr" .
+        rml:reference  "kısaltma" .
 
 
 ### Predicate Object Map
@@ -370,8 +368,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "resmi renkleri" ;
-        rr:language    "tr" .
+        rml:reference  "resmi renkleri" .
 
 
 ### Predicate Object Map
@@ -514,8 +511,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "colors" ;
-        rr:language    "tr" .
+        rml:reference  "colors" .
 
 
 ### Predicate Object Map
@@ -528,8 +524,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "slogan" ;
-        rr:language    "tr" .
+        rml:reference  "slogan" .
 
 
 ### Predicate Object Map
@@ -607,8 +602,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "colours" ;
-        rr:language    "tr" .
+        rml:reference  "colours" .
 
 
 ######################

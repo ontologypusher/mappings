@@ -115,8 +115,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "régió-tagság_kezdete" ;
-        rr:language    "hu" .
+        rml:reference  "régió-tagság_kezdete" .
 
 
 ### Predicate Object Map
@@ -142,8 +141,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "FIFA-tagság_kezdete" ;
-        rr:language    "hu" .
+        rml:reference  "FIFA-tagság_kezdete" .
 
 
 ### Predicate Object Map
@@ -156,8 +154,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "szövetség_neve" ;
-        rr:language    "hu" .
+        rml:reference  "szövetség_neve" .
 
 
 ######################

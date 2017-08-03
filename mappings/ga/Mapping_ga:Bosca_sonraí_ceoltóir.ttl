@@ -189,8 +189,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ainm_breithe" ;
-        rr:language    "ga" .
+        rml:reference  "ainm_breithe" .
 
 
 ### Predicate Object Map
@@ -281,8 +280,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ainm_an_cheoltóir" ;
-        rr:language    "ga" .
+        rml:reference  "ainm_an_cheoltóir" .
 
 
 ### Predicate Object Map
@@ -321,8 +319,7 @@
 ### ObjectMap
 <SimplePropertyMapping/12/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ainm_eile" ;
-        rr:language    "ga" .
+        rml:reference  "ainm_eile" .
 
 
 ### Predicate Object Map

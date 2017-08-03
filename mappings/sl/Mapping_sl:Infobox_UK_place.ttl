@@ -144,8 +144,7 @@
 ### ObjectMap
 <SimplePropertyMapping/67/OM>
         a              rr:ObjectMap ;
-        rml:reference  "other_language_name" ;
-        rr:language    "sl" .
+        rml:reference  "other_language_name" .
 
 
 ### Predicate Object Map
@@ -158,8 +157,7 @@
 ### ObjectMap
 <SimplePropertyMapping/37/OM>
         a              rr:ObjectMap ;
-        rml:reference  "welsh_name" ;
-        rr:language    "sl" .
+        rml:reference  "welsh_name" .
 
 
 ### Predicate Object Map
@@ -263,8 +261,7 @@
 ### ObjectMap
 <SimplePropertyMapping/42/OM>
         a              rr:ObjectMap ;
-        rml:reference  "irish_name" ;
-        rr:language    "sl" .
+        rml:reference  "irish_name" .
 
 
 ### Predicate Object Map
@@ -329,8 +326,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "local_name" ;
-        rr:language    "sl" .
+        rml:reference  "local_name" .
 
 
 ### Predicate Object Map
@@ -382,8 +378,7 @@
 ### ObjectMap
 <SimplePropertyMapping/49/OM>
         a              rr:ObjectMap ;
-        rml:reference  "manx_name" ;
-        rr:language    "sl" .
+        rml:reference  "manx_name" .
 
 
 ### Predicate Object Map
@@ -466,8 +461,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "official_name" ;
-        rr:language    "sl" .
+        rml:reference  "official_name" .
 
 
 ### Predicate Object Map
@@ -506,8 +500,7 @@
 ### ObjectMap
 <SimplePropertyMapping/66/OM>
         a              rr:ObjectMap ;
-        rml:reference  "cornish_name" ;
-        rr:language    "sl" .
+        rml:reference  "cornish_name" .
 
 
 ### Predicate Object Map
@@ -559,8 +552,7 @@
 ### ObjectMap
 <SimplePropertyMapping/32/OM>
         a              rr:ObjectMap ;
-        rml:reference  "scots_name" ;
-        rr:language    "sl" .
+        rml:reference  "scots_name" .
 
 
 ### Predicate Object Map
@@ -729,8 +721,7 @@
 ### ObjectMap
 <SimplePropertyMapping/31/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gaelic_name" ;
-        rr:language    "sl" .
+        rml:reference  "gaelic_name" .
 
 
 ### Predicate Object Map

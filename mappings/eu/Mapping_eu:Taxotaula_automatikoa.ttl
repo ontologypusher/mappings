@@ -406,8 +406,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "eu" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map

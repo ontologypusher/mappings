@@ -136,8 +136,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "arcybiskup" ;
-        rr:language    "pl" .
+        rml:reference  "arcybiskup" .
 
 
 ### Predicate Object Map

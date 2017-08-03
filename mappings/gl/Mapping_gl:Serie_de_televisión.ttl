@@ -142,8 +142,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome" ;
-        rr:language    "gl" .
+        rml:reference  "nome" .
 
 
 ### Predicate Object Map
@@ -156,8 +155,7 @@
 ### ObjectMap
 <SimplePropertyMapping/29/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nome_2" ;
-        rr:language    "gl" .
+        rml:reference  "nome_2" .
 
 
 ### Predicate Object Map
@@ -326,8 +324,7 @@
 ### ObjectMap
 <SimplePropertyMapping/26/OM>
         a              rr:ObjectMap ;
-        rml:reference  "twitter" ;
-        rr:language    "gl" .
+        rml:reference  "twitter" .
 
 
 ### Predicate Object Map
@@ -418,8 +415,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "facebook" ;
-        rr:language    "gl" .
+        rml:reference  "facebook" .
 
 
 ### Predicate Object Map

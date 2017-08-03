@@ -83,8 +83,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Énergie" ;
-        rr:language    "fr" .
+        rml:reference  "Énergie" .
 
 
 ### Predicate Object Map
@@ -268,8 +267,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Nom" ;
-        rr:language    "fr" .
+        rml:reference  "Nom" .
 
 
 ### Predicate Object Map

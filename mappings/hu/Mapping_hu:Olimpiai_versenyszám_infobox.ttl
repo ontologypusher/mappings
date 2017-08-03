@@ -85,8 +85,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "hosszú_nevek" ;
-        rr:language    "hu" .
+        rml:reference  "hosszú_nevek" .
 
 
 ### Predicate Object Map

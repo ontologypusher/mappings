@@ -484,8 +484,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "típusnév" ;
-        rr:language    "hu" .
+        rml:reference  "típusnév" .
 
 
 ### Predicate Object Map

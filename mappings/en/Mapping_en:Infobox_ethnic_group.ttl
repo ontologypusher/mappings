@@ -207,8 +207,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "group" ;
-        rr:language    "en" .
+        rml:reference  "group" .
 
 
 ### Predicate Object Map

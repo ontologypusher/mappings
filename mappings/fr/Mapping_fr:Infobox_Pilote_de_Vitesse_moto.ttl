@@ -101,8 +101,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnom" ;
-        rr:language    "fr" .
+        rml:reference  "surnom" .
 
 
 ### Predicate Object Map
@@ -142,8 +141,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 
@@ -348,8 +346,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Compétition #3" ;
-        rr:language    "fr" .
+        rml:reference  "Compétition #3" .
 
 
 
@@ -511,8 +508,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Compétition #1" ;
-        rr:language    "fr" .
+        rml:reference  "Compétition #1" .
 
 
 
@@ -700,8 +696,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Compétition #4" ;
-        rr:language    "fr" .
+        rml:reference  "Compétition #4" .
 
 
 ### Intermediate Predicate Object Map
@@ -824,8 +819,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Compétition #2" ;
-        rr:language    "fr" .
+        rml:reference  "Compétition #2" .
 
 
 
@@ -948,8 +942,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Compétition #5" ;
-        rr:language    "fr" .
+        rml:reference  "Compétition #5" .
 
 
 

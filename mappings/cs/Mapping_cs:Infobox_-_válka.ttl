@@ -204,8 +204,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Střetnutí" ;
-        rr:language    "cs" .
+        rml:reference  "Střetnutí" .
 
 
 ### Predicate Object Map

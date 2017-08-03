@@ -201,8 +201,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ainm_dúchasach" ;
-        rr:language    "ga" .
+        rml:reference  "ainm_dúchasach" .
 
 
 ### Predicate Object Map
@@ -215,8 +214,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "teidil_na_gceannairí" ;
-        rr:language    "ga" .
+        rml:reference  "teidil_na_gceannairí" .
 
 
 ### Predicate Object Map

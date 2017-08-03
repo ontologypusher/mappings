@@ -230,8 +230,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "airline" ;
-        rr:language    "en" .
+        rml:reference  "airline" .
 
 
 ### Predicate Object Map

@@ -101,8 +101,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "開催サーキット" ;
-        rr:language    "ja" .
+        rml:reference  "開催サーキット" .
 
 
 ### Predicate Object Map
@@ -154,8 +153,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "グランプリ名" ;
-        rr:language    "ja" .
+        rml:reference  "グランプリ名" .
 
 
 ### Predicate Object Map

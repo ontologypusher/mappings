@@ -83,8 +83,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nosaukums" ;
-        rr:language    "lv" .
+        rml:reference  "nosaukums" .
 
 
 ### Predicate Object Map
@@ -188,8 +187,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "citi_nos" ;
-        rr:language    "lv" .
+        rml:reference  "citi_nos" .
 
 
 ### Predicate Object Map

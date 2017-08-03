@@ -144,8 +144,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa łacińska" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa łacińska" .
 
 
 ### Predicate Object Map
@@ -210,8 +209,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "2. inna nazwa" ;
-        rr:language    "pl" .
+        rml:reference  "2. inna nazwa" .
 
 
 ### Predicate Object Map
@@ -315,8 +313,7 @@
 ### ObjectMap
 <SimplePropertyMapping/38/OM>
         a              rr:ObjectMap ;
-        rml:reference  "former_names" ;
-        rr:language    "pl" .
+        rml:reference  "former_names" .
 
 
 ### Predicate Object Map
@@ -581,8 +578,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "inna nazwa" ;
-        rr:language    "pl" .
+        rml:reference  "inna nazwa" .
 
 
 ### Predicate Object Map
@@ -673,8 +669,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa angielska" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa angielska" .
 
 
 ### Predicate Object Map
@@ -687,8 +682,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa uczelni" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa uczelni" .
 
 
 ### Predicate Object Map
@@ -714,8 +708,7 @@
 ### ObjectMap
 <SimplePropertyMapping/42/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nickname" ;
-        rr:language    "pl" .
+        rml:reference  "nickname" .
 
 
 ### Predicate Object Map
@@ -780,8 +773,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "adres" ;
-        rr:language    "pl" .
+        rml:reference  "adres" .
 
 
 ### Predicate Object Map

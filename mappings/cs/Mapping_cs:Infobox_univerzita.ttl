@@ -130,8 +130,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "latinský název" ;
-        rr:language    "cs" .
+        rml:reference  "latinský název" .
 
 
 ### Predicate Object Map
@@ -196,8 +195,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "název" ;
-        rr:language    "cs" .
+        rml:reference  "název" .
 
 
 ### Predicate Object Map
@@ -288,8 +286,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "původní název" ;
-        rr:language    "cs" .
+        rml:reference  "původní název" .
 
 
 ### Predicate Object Map

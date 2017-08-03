@@ -200,8 +200,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Bildtext" ;
-        rr:language    "de" .
+        rml:reference  "Bildtext" .
 
 
 ### Predicate Object Map

@@ -219,8 +219,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Schip naam" ;
-        rr:language    "nl" .
+        rml:reference  "Schip naam" .
 
 
 ### Predicate Object Map
@@ -506,8 +505,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Schip lot" ;
-        rr:language    "nl" .
+        rml:reference  "Schip lot" .
 
 
 ### Predicate Object Map

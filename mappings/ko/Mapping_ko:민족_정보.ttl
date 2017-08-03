@@ -140,8 +140,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "민족" ;
-        rr:language    "ko" .
+        rml:reference  "민족" .
 
 
 ######################

@@ -195,8 +195,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "PostCognomeVirgola" ;
-        rr:language    "it" .
+        rml:reference  "PostCognomeVirgola" .
 
 
 ### Predicate Object Map
@@ -248,8 +247,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "PostCognome" ;
-        rr:language    "it" .
+        rml:reference  "PostCognome" .
 
 
 ### Predicate Object Map
@@ -314,8 +312,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Nome" ;
-        rr:language    "it" .
+        rml:reference  "Nome" .
 
 
 ### Predicate Object Map
@@ -367,8 +364,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Cognome" ;
-        rr:language    "it" .
+        rml:reference  "Cognome" .
 
 
 ######################

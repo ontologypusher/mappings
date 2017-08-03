@@ -223,8 +223,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "membership" ;
-        rr:language    "in" .
+        rml:reference  "membership" .
 
 
 ### Predicate Object Map
@@ -384,8 +383,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "in" .
+        rml:reference  "name" .
 
 
 
@@ -429,8 +427,7 @@
 ### ObjectMap
 <IntermediateMapping/3/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title1" ;
-        rr:language    "in" .
+        rml:reference  "leader_title1" .
 
 
 
@@ -482,8 +479,7 @@
 ### ObjectMap
 <IntermediateMapping/7/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "in" .
+        rml:reference  "leader_title3" .
 
 
 
@@ -535,8 +531,7 @@
 ### ObjectMap
 <IntermediateMapping/9/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title5" ;
-        rr:language    "in" .
+        rml:reference  "leader_title5" .
 
 
 
@@ -588,8 +583,7 @@
 ### ObjectMap
 <IntermediateMapping/2/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title1" ;
-        rr:language    "in" .
+        rml:reference  "leader_title1" .
 
 
 
@@ -641,8 +635,7 @@
 ### ObjectMap
 <IntermediateMapping/4/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "in" .
+        rml:reference  "leader_title2" .
 
 
 
@@ -694,8 +687,7 @@
 ### ObjectMap
 <IntermediateMapping/6/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title3" ;
-        rr:language    "in" .
+        rml:reference  "leader_title3" .
 
 
 
@@ -747,8 +739,7 @@
 ### ObjectMap
 <IntermediateMapping/8/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title4" ;
-        rr:language    "in" .
+        rml:reference  "leader_title4" .
 
 
 
@@ -800,8 +791,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "in" .
+        rml:reference  "leader_title" .
 
 
 
@@ -853,8 +843,7 @@
 ### ObjectMap
 <IntermediateMapping/5/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title2" ;
-        rr:language    "in" .
+        rml:reference  "leader_title2" .
 
 
 
@@ -906,8 +895,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "leader_title" ;
-        rr:language    "in" .
+        rml:reference  "leader_title" .
 
 
 

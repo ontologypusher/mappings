@@ -81,8 +81,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eMedicineSubj" ;
-        rr:language    "pl" .
+        rml:reference  "eMedicineSubj" .
 
 
 ### Predicate Object Map
@@ -95,8 +94,7 @@
 ### ObjectMap
 <SimplePropertyMapping/10/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa" .
 
 
 ### Predicate Object Map
@@ -109,8 +107,7 @@
 ### ObjectMap
 <SimplePropertyMapping/8/OM>
         a              rr:ObjectMap ;
-        rml:reference  "eMedicineTopic" ;
-        rr:language    "pl" .
+        rml:reference  "eMedicineTopic" .
 
 
 ### Predicate Object Map
@@ -123,8 +120,7 @@
 ### ObjectMap
 <SimplePropertyMapping/11/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nazwa łacińska" ;
-        rr:language    "pl" .
+        rml:reference  "nazwa łacińska" .
 
 
 ### Predicate Object Map

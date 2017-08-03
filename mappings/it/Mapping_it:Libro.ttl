@@ -155,8 +155,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titoloalfa" ;
-        rr:language    "it" .
+        rml:reference  "titoloalfa" .
 
 
 ### Predicate Object Map
@@ -195,8 +194,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "didascalia" ;
-        rr:language    "it" .
+        rml:reference  "didascalia" .
 
 
 ### Predicate Object Map
@@ -222,8 +220,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titoloorig" ;
-        rr:language    "it" .
+        rml:reference  "titoloorig" .
 
 
 ### Predicate Object Map
@@ -236,8 +233,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titolialt" ;
-        rr:language    "it" .
+        rml:reference  "titolialt" .
 
 
 ### Predicate Object Map
@@ -328,8 +324,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titolo" ;
-        rr:language    "it" .
+        rml:reference  "titolo" .
 
 
 ### Predicate Object Map

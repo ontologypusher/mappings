@@ -548,8 +548,7 @@
 ### ObjectMap
 <SimplePropertyMapping/36/OM>
         a              rr:ObjectMap ;
-        rml:reference  "grupo" ;
-        rr:language    "pt" .
+        rml:reference  "grupo" .
 
 
 ### Predicate Object Map

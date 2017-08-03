@@ -90,8 +90,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "otro2" ;
-        rr:language    "es" .
+        rml:reference  "otro2" .
 
 
 ### Predicate Object Map
@@ -143,8 +142,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "otro3" ;
-        rr:language    "es" .
+        rml:reference  "otro3" .
 
 
 ### Predicate Object Map
@@ -157,8 +155,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "otro1_nombre" ;
-        rr:language    "es" .
+        rml:reference  "otro1_nombre" .
 
 
 ### Predicate Object Map
@@ -197,8 +194,7 @@
 ### ObjectMap
 <SimplePropertyMapping/15/OM>
         a              rr:ObjectMap ;
-        rml:reference  "apodo" ;
-        rr:language    "es" .
+        rml:reference  "apodo" .
 
 
 ### Predicate Object Map
@@ -263,8 +259,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "otro1" ;
-        rr:language    "es" .
+        rml:reference  "otro1" .
 
 
 ### Predicate Object Map
@@ -290,8 +285,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre" ;
-        rr:language    "es" .
+        rml:reference  "nombre" .
 
 
 ### Predicate Object Map
@@ -304,8 +298,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "otro2_nombre" ;
-        rr:language    "es" .
+        rml:reference  "otro2_nombre" .
 
 
 ### Predicate Object Map
@@ -318,8 +311,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nombre_oficial" ;
-        rr:language    "es" .
+        rml:reference  "nombre_oficial" .
 
 
 ### Predicate Object Map

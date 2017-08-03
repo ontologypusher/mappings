@@ -111,8 +111,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "gentilé" ;
-        rr:language    "fr" .
+        rml:reference  "gentilé" .
 
 
 ### Predicate Object Map
@@ -125,8 +124,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_local_4" ;
-        rr:language    "fr" .
+        rml:reference  "nom_local_4" .
 
 
 ### Predicate Object Map
@@ -192,8 +190,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_local_2" ;
-        rr:language    "fr" .
+        rml:reference  "nom_local_2" .
 
 
 ### Predicate Object Map
@@ -206,8 +203,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -377,8 +373,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_local_3" ;
-        rr:language    "fr" .
+        rml:reference  "nom_local_3" .
 
 
 ### Predicate Object Map
@@ -431,8 +426,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom_local_1" ;
-        rr:language    "fr" .
+        rml:reference  "nom_local_1" .
 
 
 ##############################
@@ -475,8 +469,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "titres_dirigeants" ;
-        rr:language    "fr" .
+        rml:reference  "titres_dirigeants" .
 
 
 

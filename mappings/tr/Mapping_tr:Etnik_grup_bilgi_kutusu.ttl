@@ -168,8 +168,7 @@
 ### ObjectMap
 <SimplePropertyMapping/46/OM>
         a              rr:ObjectMap ;
-        rml:reference  "başlık" ;
-        rr:language    "tr" .
+        rml:reference  "başlık" .
 
 
 ### Predicate Object Map
@@ -429,8 +428,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "group" ;
-        rr:language    "tr" .
+        rml:reference  "group" .
 
 
 ### Predicate Object Map
@@ -690,8 +688,7 @@
 ### ObjectMap
 <SimplePropertyMapping/45/OM>
         a              rr:ObjectMap ;
-        rml:reference  "grup" ;
-        rr:language    "tr" .
+        rml:reference  "grup" .
 
 
 ### Predicate Object Map

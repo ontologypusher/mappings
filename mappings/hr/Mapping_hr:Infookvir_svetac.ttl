@@ -97,8 +97,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "naslov" ;
-        rr:language    "hr" .
+        rml:reference  "naslov" .
 
 
 ### Predicate Object Map
@@ -267,8 +266,7 @@
 ### ObjectMap
 <SimplePropertyMapping/9/OM>
         a              rr:ObjectMap ;
-        rml:reference  "ime" ;
-        rr:language    "hr" .
+        rml:reference  "ime" .
 
 
 ######################

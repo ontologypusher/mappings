@@ -92,8 +92,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "hra" ;
-        rr:language    "cs" .
+        rml:reference  "hra" .
 
 
 ### Predicate Object Map
@@ -106,8 +105,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "hra" ;
-        rr:language    "cs" .
+        rml:reference  "hra" .
 
 
 ### Predicate Object Map

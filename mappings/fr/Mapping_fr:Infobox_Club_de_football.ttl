@@ -143,8 +143,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "surnoms" ;
-        rr:language    "fr" .
+        rml:reference  "surnoms" .
 
 
 ### Predicate Object Map
@@ -157,8 +156,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom" ;
-        rr:language    "fr" .
+        rml:reference  "nom" .
 
 
 ### Predicate Object Map
@@ -197,8 +195,7 @@
 ### ObjectMap
 <SimplePropertyMapping/16/OM>
         a              rr:ObjectMap ;
-        rml:reference  "couleurs" ;
-        rr:language    "fr" .
+        rml:reference  "couleurs" .
 
 
 ### Predicate Object Map
@@ -302,8 +299,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "noms précédents" ;
-        rr:language    "fr" .
+        rml:reference  "noms précédents" .
 
 
 ### Predicate Object Map
@@ -329,8 +325,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom complet" ;
-        rr:language    "fr" .
+        rml:reference  "nom complet" .
 
 
 ### Predicate Object Map
@@ -356,8 +351,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "nom du club" ;
-        rr:language    "fr" .
+        rml:reference  "nom du club" .
 
 
 ### Predicate Object Map

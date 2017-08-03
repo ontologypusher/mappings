@@ -162,8 +162,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "biskup" ;
-        rr:language    "pl" .
+        rml:reference  "biskup" .
 
 
 ######################

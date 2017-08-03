@@ -124,8 +124,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Szövetség_hivatalos_neve" ;
-        rr:language    "hu" .
+        rml:reference  "Szövetség_hivatalos_neve" .
 
 
 ### Predicate Object Map
@@ -190,8 +189,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Szövetség_magyar_neve" ;
-        rr:language    "hu" .
+        rml:reference  "Szövetség_magyar_neve" .
 
 
 ### Predicate Object Map
@@ -217,8 +215,7 @@
 ### ObjectMap
 <SimplePropertyMapping/19/OM>
         a              rr:ObjectMap ;
-        rml:reference  "VB_részvétel" ;
-        rr:language    "hu" .
+        rml:reference  "VB_részvétel" .
 
 
 ### Predicate Object Map
@@ -270,8 +267,7 @@
 ### ObjectMap
 <SimplePropertyMapping/25/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Konf_kupa_részv" ;
-        rr:language    "hu" .
+        rml:reference  "Konf_kupa_részv" .
 
 
 ### Predicate Object Map
@@ -284,8 +280,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Becenév" ;
-        rr:language    "hu" .
+        rml:reference  "Becenév" .
 
 
 ### Predicate Object Map
@@ -311,8 +306,7 @@
 ### ObjectMap
 <SimplePropertyMapping/22/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Terbaj_név" ;
-        rr:language    "hu" .
+        rml:reference  "Terbaj_név" .
 
 
 ### Predicate Object Map
@@ -351,8 +345,7 @@
 ### ObjectMap
 <SimplePropertyMapping/24/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Terbaj_első_részvétel" ;
-        rr:language    "hu" .
+        rml:reference  "Terbaj_első_részvétel" .
 
 
 ### Predicate Object Map
@@ -365,8 +358,7 @@
 ### ObjectMap
 <SimplePropertyMapping/23/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Terbaj_részvétel" ;
-        rr:language    "hu" .
+        rml:reference  "Terbaj_részvétel" .
 
 
 ### Predicate Object Map
@@ -379,8 +371,7 @@
 ### ObjectMap
 <SimplePropertyMapping/21/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Legjobb_VB_szereplés" ;
-        rr:language    "hu" .
+        rml:reference  "Legjobb_VB_szereplés" .
 
 
 ### Predicate Object Map
@@ -471,8 +462,7 @@
 ### ObjectMap
 <SimplePropertyMapping/20/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Első_VB_szereplés" ;
-        rr:language    "hu" .
+        rml:reference  "Első_VB_szereplés" .
 
 
 ######################

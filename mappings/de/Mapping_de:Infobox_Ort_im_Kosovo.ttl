@@ -91,8 +91,7 @@
 ### ObjectMap
 <SimplePropertyMapping/3/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameAlbanischAlternativ" ;
-        rr:language    "de" .
+        rml:reference  "NameAlbanischAlternativ" .
 
 
 ### Predicate Object Map
@@ -144,8 +143,7 @@
 ### ObjectMap
 <SimplePropertyMapping/5/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameSerbischKyrillisch" ;
-        rr:language    "de" .
+        rml:reference  "NameSerbischKyrillisch" .
 
 
 ### Predicate Object Map
@@ -171,8 +169,7 @@
 ### ObjectMap
 <SimplePropertyMapping/7/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameTürkisch" ;
-        rr:language    "de" .
+        rml:reference  "NameTürkisch" .
 
 
 ### Predicate Object Map
@@ -272,8 +269,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameAlbanischBestimmt" ;
-        rr:language    "de" .
+        rml:reference  "NameAlbanischBestimmt" .
 
 
 ### Predicate Object Map
@@ -299,8 +295,7 @@
 ### ObjectMap
 <SimplePropertyMapping/1/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameAlbanischUnbestimmt" ;
-        rr:language    "de" .
+        rml:reference  "NameAlbanischUnbestimmt" .
 
 
 ### Predicate Object Map
@@ -313,8 +308,7 @@
 ### ObjectMap
 <SimplePropertyMapping/4/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameSerbischLateinisch" ;
-        rr:language    "de" .
+        rml:reference  "NameSerbischLateinisch" .
 
 
 ### Predicate Object Map
@@ -340,8 +334,7 @@
 ### ObjectMap
 <SimplePropertyMapping/6/OM>
         a              rr:ObjectMap ;
-        rml:reference  "NameKroatisch" ;
-        rr:language    "de" .
+        rml:reference  "NameKroatisch" .
 
 
 ### Predicate Object Map
@@ -467,8 +460,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Name" ;
-        rr:language    "de" .
+        rml:reference  "Name" .
 
 
 ######################

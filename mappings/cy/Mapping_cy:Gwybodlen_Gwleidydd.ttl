@@ -95,8 +95,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "enw" ;
-        rr:language    "cy" .
+        rml:reference  "enw" .
 
 
 ### Predicate Object Map

@@ -212,8 +212,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "мјесто" ;
-        rr:language    "sr" .
+        rml:reference  "мјесто" .
 
 
 ### Predicate Object Map

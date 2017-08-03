@@ -70,8 +70,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "show_name" ;
-        rr:language    "lv" .
+        rml:reference  "show_name" .
 
 
 ######################

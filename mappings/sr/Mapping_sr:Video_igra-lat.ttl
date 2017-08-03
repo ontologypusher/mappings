@@ -100,8 +100,7 @@
 ### ObjectMap
 <SimplePropertyMapping/2/OM>
         a              rr:ObjectMap ;
-        rml:reference  "Naslov" ;
-        rr:language    "sr" .
+        rml:reference  "Naslov" .
 
 
 ### Predicate Object Map

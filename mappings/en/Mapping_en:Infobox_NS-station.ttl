@@ -397,8 +397,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "station" ;
-        rr:language    "en" .
+        rml:reference  "station" .
 
 
 ######################

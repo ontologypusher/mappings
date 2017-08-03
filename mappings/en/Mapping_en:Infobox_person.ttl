@@ -100,7 +100,7 @@
 ### Main SubjectMap
 ####################
 <SubjectMap>  a      rr:SubjectMap ;
-        rr:class     dbo:Person;
+        rr:class     dbo:Person ;
         rr:template  "http://en.dbpedia.org/resource/{wikititle}" ;
         rr:termType  rr:IRI .
 
@@ -154,8 +154,7 @@
 ### ObjectMap
 <SimplePropertyMapping/13/OM>
         a              rr:ObjectMap ;
-        rml:reference  "other_names" ;
-        rr:language    "en" .
+        rml:reference  "other_names" .
 
 
 ### Predicate Object Map
@@ -303,8 +302,7 @@
 ### ObjectMap
 <SimplePropertyMapping/18/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birthname" ;
-        rr:language    "en" .
+        rml:reference  "birthname" .
 
 
 ### Predicate Object Map
@@ -387,8 +385,7 @@
 ### ObjectMap
 <SimplePropertyMapping/35/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title" ;
-        rr:language    "en" .
+        rml:reference  "title" .
 
 
 ### Predicate Object Map
@@ -562,8 +559,7 @@
 ### ObjectMap
 <SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "name" ;
-        rr:language    "en" .
+        rml:reference  "name" .
 
 
 ### Predicate Object Map
@@ -647,8 +643,7 @@
 ### ObjectMap
 <SimplePropertyMapping/49/OM>
         a              rr:ObjectMap ;
-        rml:reference  "pseudonym" ;
-        rr:language    "en" .
+        rml:reference  "pseudonym" .
 
 
 ### Predicate Object Map
@@ -674,8 +669,7 @@
 ### ObjectMap
 <SimplePropertyMapping/14/OM>
         a              rr:ObjectMap ;
-        rml:reference  "othername" ;
-        rr:language    "en" .
+        rml:reference  "othername" .
 
 
 ### Predicate Object Map
@@ -792,8 +786,7 @@
 ### ObjectMap
 <SimplePropertyMapping/17/OM>
         a              rr:ObjectMap ;
-        rml:reference  "birth_name" ;
-        rr:language    "en" .
+        rml:reference  "birth_name" .
 
 
 ### Predicate Object Map
@@ -1115,8 +1108,7 @@
 ### ObjectMap
 <IntermediateMapping/1/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "title" ;
-        rr:language    "en" .
+        rml:reference  "title" .
 
 
 ### Intermediate Predicate Object Map
@@ -1228,8 +1220,7 @@
 ### ObjectMap
 <IntermediateMapping/0/SimplePropertyMapping/0/OM>
         a              rr:ObjectMap ;
-        rml:reference  "occupation" ;
-        rr:language    "en" .
+        rml:reference  "occupation" .
 
 
 
