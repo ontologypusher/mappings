@@ -1,0 +1,514 @@
+@base	          	<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_televisieprogramma/> .
+@prefix schema: 	<http://schema.org/> .
+@prefix rr:    		<http://www.w3.org/ns/r2rml#> .
+@prefix owl:   		<http://www.w3.org/2002/07/owl#> .
+@prefix gml:   		<http://www.opengis.net/gml/> .
+@prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
+@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
+@prefix dbr-en: 	<http://en.dbpedia.org/resource/> .
+@prefix foaf:  		<http://xmlns.com/foaf/0.1/> .
+@prefix crml:  		<http://semweb.mmlab.be/ns/crml#> .
+@prefix fno:   		<http://w3id.org/function/ontology#> .
+@prefix georss: 	<http://www.georss.org/georss/> .
+@prefix dbf:   		<http://dbpedia.org/function/> .
+@prefix dbo:   		<http://dbpedia.org/ontology/> .
+@prefix mappings: 	<http://mappings.dbpedia.org/wiki/> .
+@prefix rdf:   		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:  		<http://purl.org/ontology/bibo/> .
+@prefix dul:   		<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: 	<http://www.wikidata.org/entity/> .
+@prefix dc:    		<http://purl.org/dc/elements/1.1/> .
+
+
+### Main TriplesMap
+####################
+<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_televisieprogramma>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/0> ,
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/18> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/5> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/21> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/30> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/20> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/10> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/16> ;
+        rr:subjectMap          <SubjectMap> .
+
+
+### Main SubjectMap
+####################
+<SubjectMap>  a      rr:SubjectMap ;
+        rr:class     dbo:TelevisionShow ;
+        rr:template  "http://nl.dbpedia.org/resource/{wikititle}" ;
+        rr:termType  rr:IRI .
+
+
+### LogicalSource
+##################
+
+<LogicalSource>  a                rml:LogicalSource ;
+        rml:iterator              "Infobox:Infobox_televisieprogramma" ;
+        rml:referenceFormulation  ql:wikitext ;
+        rml:source                "https://nl.wikipedia.org/wiki/{wikititle}" .
+
+
+###########
+# Mappings
+###########
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:creator .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "bedenker" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/26>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/26/OM> ;
+        rr:predicate  dbo:runtime .
+
+### ObjectMap
+<SimplePropertyMapping/26/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "speelduur" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/12>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/12/OM> ;
+        rr:predicate  dbo:location .
+
+### ObjectMap
+<SimplePropertyMapping/12/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "locatie" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/29>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/29/OM> ;
+        rr:predicate  dbo:executiveProducer .
+
+### ObjectMap
+<SimplePropertyMapping/29/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "uitvoerend" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/0>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/0/OM> ;
+        rr:predicate  dbo:producer .
+
+### ObjectMap
+<SimplePropertyMapping/0/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "producer" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/18>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/18/OM> ;
+        rr:predicate  foaf:img .
+
+### ObjectMap
+<SimplePropertyMapping/18/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "afbeelding" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/6>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  dbo:channel .
+
+### ObjectMap
+<SimplePropertyMapping/6/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "netwerk" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/19>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/19/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/19/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "onderschrift" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/21>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/21/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/21/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "titel" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/13>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/13/OM> ;
+        rr:predicate  dbo:writer .
+
+### ObjectMap
+<SimplePropertyMapping/13/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "schrijver" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/5>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/5/OM> ;
+        rr:predicate  dbo:country .
+
+### ObjectMap
+<SimplePropertyMapping/5/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "land" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:releaseDate .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "start" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/28>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/28/OM> ;
+        rr:predicate  dbo:channel .
+
+### ObjectMap
+<SimplePropertyMapping/28/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "zender" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/31>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/31/OM> ;
+        rr:predicate  dbo:productionCompany .
+
+### ObjectMap
+<SimplePropertyMapping/31/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "productiebedrijf" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/30>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/30/OM> ;
+        rr:predicate  dbo:coProducer .
+
+### ObjectMap
+<SimplePropertyMapping/30/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "coproducent" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:genre .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "genre" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/20>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/20/OM> ;
+        rr:predicate  dbo:editor .
+
+### ObjectMap
+<SimplePropertyMapping/20/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "montage" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  dbo:starring .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "spelers" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/24>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/24/OM> ;
+        rr:predicate  dbo:tvComId .
+
+### ObjectMap
+<SimplePropertyMapping/24/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "tv_com" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  dbo:language .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "taal" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/25>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/25/OM> ;
+        rr:predicate  dbo:developer .
+
+### ObjectMap
+<SimplePropertyMapping/25/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "ontwikkelaar" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/23>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/23/OM> ;
+        rr:predicate  dbo:showJudge .
+
+### ObjectMap
+<SimplePropertyMapping/23/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jury" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/14>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/14/OM> ;
+        rr:predicate  dbo:imdbId .
+
+### ObjectMap
+<SimplePropertyMapping/14/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "imdb" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/2>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:numberOfEpisodes .
+
+### ObjectMap
+<SimplePropertyMapping/2/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "afleveringen" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/15>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/15/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/15/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "website" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/22>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/22/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/22/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "alternatieve titel" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/10>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/10/OM> ;
+        rr:predicate  dbo:completionDate .
+
+### ObjectMap
+<SimplePropertyMapping/10/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "einde" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/11>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/11/OM> ;
+        rr:predicate  dbo:presenter .
+
+### ObjectMap
+<SimplePropertyMapping/11/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "presentatie" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/17>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/17/OM> ;
+        rr:predicate  dbo:related .
+
+### ObjectMap
+<SimplePropertyMapping/17/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "gerelateerd" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/27>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/27/OM> ;
+        rr:predicate  dbo:director .
+
+### ObjectMap
+<SimplePropertyMapping/27/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "regie" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/16>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/16/OM> ;
+        rr:predicate  dbo:voice .
+
+### ObjectMap
+<SimplePropertyMapping/16/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "stemmen" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/3>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:numberOfSeasons .
+
+### ObjectMap
+<SimplePropertyMapping/3/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "seizoenen" .
+
+
+######################
+# Conditional Mappings
+######################

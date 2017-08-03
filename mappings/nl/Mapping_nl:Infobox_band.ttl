@@ -1,0 +1,1874 @@
+@base	          	<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_band/> .
+@prefix schema: 	<http://schema.org/> .
+@prefix rr:    		<http://www.w3.org/ns/r2rml#> .
+@prefix owl:   		<http://www.w3.org/2002/07/owl#> .
+@prefix gml:   		<http://www.opengis.net/gml/> .
+@prefix xsd:   		<http://www.w3.org/2001/XMLSchema#> .
+@prefix bio:   		<http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  		<http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0:    		<http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo:   		<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rml:   		<http://semweb.mmlab.be/ns/rml#> .
+@prefix dct:   		<http://purl.org/dc/terms/> .
+@prefix fnml:  		<http://semweb.mmlab.be/ns/fnml#> .
+@prefix dcterms: 	<http://purl.org/dc/terms/> .
+@prefix ql:    		<http://semweb.mmlab.be/ns/ql#> .
+@prefix dbr-en: 	<http://en.dbpedia.org/resource/> .
+@prefix foaf:  		<http://xmlns.com/foaf/0.1/> .
+@prefix crml:  		<http://semweb.mmlab.be/ns/crml#> .
+@prefix fno:   		<http://w3id.org/function/ontology#> .
+@prefix georss: 	<http://www.georss.org/georss/> .
+@prefix dbf:   		<http://dbpedia.org/function/> .
+@prefix dbo:   		<http://dbpedia.org/ontology/> .
+@prefix mappings: 	<http://mappings.dbpedia.org/wiki/> .
+@prefix rdf:   		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:  		<http://purl.org/ontology/bibo/> .
+@prefix dul:   		<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: 	<http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: 	<http://www.wikidata.org/entity/> .
+@prefix dc:    		<http://purl.org/dc/elements/1.1/> .
+
+
+### Main TriplesMap
+####################
+<http://nl.dbpedia.org/resource/Mapping_nl:Infobox_band>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <SimplePropertyMapping/17> ,
+			       <SimplePropertyMapping/27> ,
+			       <SimplePropertyMapping/48> ,
+			       <SimplePropertyMapping/58> ,
+			       <SimplePropertyMapping/57> ,
+			       <SimplePropertyMapping/67> ,
+			       <SimplePropertyMapping/44> ,
+			       <SimplePropertyMapping/54> ,
+			       <SimplePropertyMapping/53> ,
+			       <SimplePropertyMapping/63> ,
+			       <SimplePropertyMapping/84> ,
+			       <SimplePropertyMapping/94> ,
+			       <SimplePropertyMapping/8> ,
+			       <SimplePropertyMapping/93> ,
+			       <SimplePropertyMapping/15> ,
+			       <SimplePropertyMapping/25> ,
+			       <SimplePropertyMapping/24> ,
+			       <SimplePropertyMapping/34> ,
+			       <SimplePropertyMapping/11> ,
+			       <SimplePropertyMapping/21> ,
+			       <StartDateMapping/1> ,
+			       <SimplePropertyMapping/30> ,
+			       <SimplePropertyMapping/20> ,
+			       <SimplePropertyMapping/51> ,
+			       <SimplePropertyMapping/61> ,
+			       <SimplePropertyMapping/60> ,
+			       <SimplePropertyMapping/70> ,
+			       <SimplePropertyMapping/106> ,
+			       <SimplePropertyMapping/105> ,
+			       <SimplePropertyMapping/115> ,
+			       <SimplePropertyMapping/103> ,
+			       <SimplePropertyMapping/113> ,
+			       <SimplePropertyMapping/112> ,
+			       <SimplePropertyMapping/1> ,
+			       <SimplePropertyMapping/88> ,
+			       <SimplePropertyMapping/98> ,
+			       <SimplePropertyMapping/97> ,
+			       <SimplePropertyMapping/38> ,
+			       <EndDateMapping/0> ,
+			       <EndDateMapping/1> ,
+			       <SimplePropertyMapping/29> ,
+			       <SimplePropertyMapping/108> ,
+			       <SimplePropertyMapping/28> ,
+			       <SimplePropertyMapping/59> ,
+			       <SimplePropertyMapping/69> ,
+			       <SimplePropertyMapping/68> ,
+			       <SimplePropertyMapping/78> ,
+			       <SimplePropertyMapping/55> ,
+			       <SimplePropertyMapping/65> ,
+			       <SimplePropertyMapping/64> ,
+			       <SimplePropertyMapping/74> ,
+			       <SimplePropertyMapping/95> ,
+			       <SimplePropertyMapping/26> ,
+			       <SimplePropertyMapping/36> ,
+			       <SimplePropertyMapping/35> ,
+			       <SimplePropertyMapping/45> ,
+			       <SimplePropertyMapping/22> ,
+			       <SimplePropertyMapping/32> ,
+			       <SimplePropertyMapping/41> ,
+			       <SimplePropertyMapping/31> ,
+			       <SimplePropertyMapping/62> ,
+			       <SimplePropertyMapping/72> ,
+			       <SimplePropertyMapping/71> ,
+			       <SimplePropertyMapping/107> ,
+			       <SimplePropertyMapping/117> ,
+			       <SimplePropertyMapping/81> ,
+			       <SimplePropertyMapping/116> ,
+			       <SimplePropertyMapping/5> ,
+			       <SimplePropertyMapping/12> ,
+			       <SimplePropertyMapping/114> ,
+			       <SimplePropertyMapping/3> ,
+			       <SimplePropertyMapping/18> ,
+			       <SimplePropertyMapping/2> ,
+			       <SimplePropertyMapping/80> ,
+			       <SimplePropertyMapping/90> ,
+			       <SimplePropertyMapping/110> ,
+			       <SimplePropertyMapping/99> ,
+			       <SimplePropertyMapping/109> ,
+			       <SimplePropertyMapping/39> ,
+			       <SimplePropertyMapping/49> ,
+			       <SimplePropertyMapping/79> ,
+			       <SimplePropertyMapping/76> ,
+			       <SimplePropertyMapping/66> ,
+			       <SimplePropertyMapping/100> ,
+			       <SimplePropertyMapping/89> ,
+			       <SimplePropertyMapping/75> ,
+			       <SimplePropertyMapping/85> ,
+			       <SimplePropertyMapping/16> ,
+			       <SimplePropertyMapping/37> ,
+			       <SimplePropertyMapping/47> ,
+			       <SimplePropertyMapping/46> ,
+			       <SimplePropertyMapping/56> ,
+			       <SimplePropertyMapping/33> ,
+			       <SimplePropertyMapping/43> ,
+			       <SimplePropertyMapping/52> ,
+			       <SimplePropertyMapping/42> ,
+			       <SimplePropertyMapping/73> ,
+			       <SimplePropertyMapping/83> ,
+			       <SimplePropertyMapping/7> ,
+			       <SimplePropertyMapping/82> ,
+			       <SimplePropertyMapping/92> ,
+			       <SimplePropertyMapping/6> ,
+			       <SimplePropertyMapping/14> ,
+			       <SimplePropertyMapping/13> ,
+			       <SimplePropertyMapping/23> ,
+			       <SimplePropertyMapping/10> ,
+			       <StartDateMapping/0> ,
+			       <SimplePropertyMapping/40> ,
+			       <SimplePropertyMapping/50> ,
+			       <SimplePropertyMapping/4> ,
+			       <SimplePropertyMapping/104> ,
+			       <SimplePropertyMapping/19> ,
+			       <SimplePropertyMapping/91> ,
+			       <SimplePropertyMapping/0> ,
+			       <SimplePropertyMapping/9> ,
+			       <SimplePropertyMapping/102> ,
+			       <SimplePropertyMapping/77> ,
+			       <SimplePropertyMapping/101> ,
+			       <SimplePropertyMapping/111> ,
+			       <SimplePropertyMapping/87> ,
+			       <SimplePropertyMapping/86> ,
+			       <SimplePropertyMapping/96> ;
+        rr:subjectMap          <SubjectMap> .
+
+
+### Main SubjectMap
+####################
+<SubjectMap>  a      rr:SubjectMap ;
+        rr:class     dbo:Band ;
+        rr:template  "http://nl.dbpedia.org/resource/{wikititle}" ;
+        rr:termType  rr:IRI .
+
+
+### LogicalSource
+##################
+
+<LogicalSource>  a                rml:LogicalSource ;
+        rml:iterator              "Infobox:Infobox_band" ;
+        rml:referenceFormulation  ql:wikitext ;
+        rml:source                "https://nl.wikipedia.org/wiki/{wikititle}" .
+
+
+###########
+# Mappings
+###########
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/48>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/48/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/48/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie17" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/17>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/17/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/17/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/27>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/27/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/27/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/58>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/58/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/58/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie22" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/57>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/57/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/57/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid21" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/67>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/67/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/67/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid25" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/44>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/44/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/44/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie15" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/54>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/54/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/54/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie20" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/53>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/53/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/53/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid19" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/63>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/63/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/63/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid23" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/84>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/84/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/84/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/94>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/94/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/94/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/8>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/8/OM> ;
+        rr:predicate  dbo:parentOrganisation .
+
+### ObjectMap
+<SimplePropertyMapping/8/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "record_label" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/93>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/93/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/93/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/15>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/15/OM> ;
+        rr:predicate  foaf:nick .
+
+### ObjectMap
+<SimplePropertyMapping/15/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "aka" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/25>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/25/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/25/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/24>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/24/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/24/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/34>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/34/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/34/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/11>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/11/OM> ;
+        rr:predicate  dbo:membership .
+
+### ObjectMap
+<SimplePropertyMapping/11/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "huidige_leden" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/21>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/21/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/21/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid3" .
+
+
+### Predicate Object Map
+#########################
+<StartDateMapping/1>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/1/FTM> ;
+        rr:predicate  dbo:activeYearsEndYear .
+
+### Function Term Map
+<StartDateMapping/1/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <StartDateMapping/1/FTM/FV> .
+
+### Function Execution Mapping
+<StartDateMapping/1/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/StartDateFunction> ,
+			       <StartDateMapping/1/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<StartDateMapping/1/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/1/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:startDatePropertyParameter .
+
+### References
+<StartDateMapping/1/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jaren actief" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/51>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/51/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/51/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid18" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/20>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/20/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/20/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/30>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/30/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/30/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/61>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/61/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/61/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid23" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/60>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/60/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/60/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie12" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/70>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/70/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/70/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie27" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/106>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/106/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/106/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie15" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/105>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/105/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/105/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid14" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/115>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/115/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/115/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid19" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/103>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/103/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/103/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid13" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/113>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/113/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/113/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid18" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/112>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/112/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/112/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie18" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/1>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/1/OM> ;
+        rr:predicate  foaf:img .
+
+### ObjectMap
+<SimplePropertyMapping/1/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "afbeelding" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/88>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/88/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/88/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/98>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/98/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/98/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie11" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/97>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/97/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/97/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/108>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/108/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/108/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie16" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/59>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/59/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/59/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid22" .
+
+
+### Predicate Object Map
+#########################
+<EndDateMapping/1>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/1/FTM> ;
+        rr:predicate  dbo:activeYearsEndYear .
+
+### Function Term Map
+<EndDateMapping/1/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <EndDateMapping/1/FTM/FV> .
+
+### Function Execution Mapping
+<EndDateMapping/1/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/EndDateFunction> ,
+			       <EndDateMapping/1/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<EndDateMapping/1/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/1/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:endDatePropertyParameter .
+
+### References
+<EndDateMapping/1/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jaren actief" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/29>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/29/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/29/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid7" .
+
+
+### Predicate Object Map
+#########################
+<EndDateMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/0/FTM> ;
+        rr:predicate  dbo:activeYearsEndYear .
+
+### Function Term Map
+<EndDateMapping/0/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <EndDateMapping/0/FTM/FV> .
+
+### Function Execution Mapping
+<EndDateMapping/0/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/EndDateFunction> ,
+			       <EndDateMapping/0/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<EndDateMapping/0/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <EndDateMapping/0/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:endDatePropertyParameter .
+
+### References
+<EndDateMapping/0/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jaren_actief" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/28>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/28/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/28/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/38>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/38/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/38/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie12" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/69>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/69/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/69/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid26" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/68>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/68/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/68/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie26" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/78>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/78/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/78/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/55>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/55/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/55/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid20" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/65>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/65/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/65/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid24" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/64>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/64/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/64/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie24" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/74>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/74/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/74/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie29" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/95>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/95/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/95/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/26>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/26/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/26/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/36>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/36/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/36/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie11" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/35>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/35/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/35/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid10" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/45>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/45/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/45/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid15" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/22>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/22/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/22/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/32>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/32/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/32/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/62>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/62/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/62/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie23" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/31>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/31/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/31/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/41>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/41/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/41/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid13" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/72>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/72/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/72/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie28" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/71>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/71/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/71/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid27" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/107>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/107/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/107/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid15" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/117>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/117/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/117/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid20" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/81>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/81/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/81/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/116>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/116/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/116/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie20" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/5>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/5/OM> ;
+        rr:predicate  dbo:genre .
+
+### ObjectMap
+<SimplePropertyMapping/5/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "muziekgenre" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/12>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/12/OM> ;
+        rr:predicate  dbo:membership .
+
+### ObjectMap
+<SimplePropertyMapping/12/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "huidige leden" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/114>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/114/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/114/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie19" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/3>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/3/OM> ;
+        rr:predicate  dbo:origin .
+
+### ObjectMap
+<SimplePropertyMapping/3/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oorsprong" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/2>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/2/OM> ;
+        rr:predicate  dbo:subtitle .
+
+### ObjectMap
+<SimplePropertyMapping/2/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "onderschrift" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/18>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/18/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/18/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/80>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/80/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/80/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/90>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/90/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/90/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/110>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/110/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/110/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie17" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/99>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/99/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/99/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid11" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/109>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/109/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/109/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid16" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/39>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/39/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/39/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid12" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/49>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/49/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/49/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid17" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/79>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/79/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/79/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/100>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/100/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/100/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie12" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/89>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/89/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/89/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid6" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/66>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/66/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/66/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie25" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/76>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/76/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/76/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie30" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/75>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/75/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/75/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid29" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/85>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/85/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/85/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/37>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/37/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/37/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid11" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/16>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/16/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/16/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie1" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/47>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/47/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/47/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid16" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/46>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/46/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/46/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie16" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/56>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/56/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/56/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie21" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/33>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/33/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/33/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid9" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/43>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/43/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/43/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid14" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/73>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/73/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/73/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid28" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/42>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/42/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/42/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie14" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/52>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/52/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/52/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie19" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/83>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/83/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/83/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/82>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/82/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/82/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie3" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/7>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/7/OM> ;
+        rr:predicate  dbo:parentOrganisation .
+
+### ObjectMap
+<SimplePropertyMapping/7/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "record label" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/92>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/92/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/92/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie8" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/6>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/6/OM> ;
+        rr:predicate  dbo:genre .
+
+### ObjectMap
+<SimplePropertyMapping/6/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "muziek_genre" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/14>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/14/OM> ;
+        rr:predicate  dbo:logo .
+
+### ObjectMap
+<SimplePropertyMapping/14/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "logo" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/13>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/13/OM> ;
+        rr:predicate  dbo:manager .
+
+### ObjectMap
+<SimplePropertyMapping/13/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "manager" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/23>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/23/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/23/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid4" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/10>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/10/OM> ;
+        rr:predicate  foaf:homepage .
+
+### ObjectMap
+<SimplePropertyMapping/10/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "website" .
+
+
+### Predicate Object Map
+#########################
+<StartDateMapping/0>  a  rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/0/FTM> ;
+        rr:predicate  dbo:activeYearsEndYear .
+
+### Function Term Map
+<StartDateMapping/0/FTM>
+        a                   fnml:FunctionTermMap ;
+        fnml:functionValue  <StartDateMapping/0/FTM/FV> .
+
+### Function Execution Mapping
+<StartDateMapping/0/FTM/FV>
+        a                      rr:TriplesMap ;
+        rml:logicalSource      <LogicalSource> ;
+        rr:predicateObjectMap  <Function/StartDateFunction> ,
+			       <StartDateMapping/0/FTM/FV/PropertyParameterPOM> ;
+        rr:subjectMap          <SubjectMap/Function> .
+
+### Parameters
+<StartDateMapping/0/FTM/FV/PropertyParameterPOM>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <StartDateMapping/0/FTM/FV/PropertyParameterPOM/OM> ;
+        rr:predicate  dbf:startDatePropertyParameter .
+
+### References
+<StartDateMapping/0/FTM/FV/PropertyParameterPOM/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "jaren_actief" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/40>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/40/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/40/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie13" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/50>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/50/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/50/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "functie18" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/104>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/104/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/104/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie14" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/4>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/4/OM> ;
+        rr:predicate  dbo:genre .
+
+### ObjectMap
+<SimplePropertyMapping/4/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "muziek genre" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/19>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/19/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/19/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid2" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/91>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/91/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/91/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid7" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/0>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/0/OM> ;
+        rr:predicate  foaf:name .
+
+### ObjectMap
+<SimplePropertyMapping/0/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "band_naam" ;
+        rr:language    "nl" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/9>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/9/OM> ;
+        rr:predicate  dbo:related .
+
+### ObjectMap
+<SimplePropertyMapping/9/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "andere acts" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/102>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/102/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/102/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie13" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/111>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/111/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/111/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid17" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/101>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/101/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/101/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid12" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/77>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/77/OM> ;
+        rr:predicate  dbo:bandMember .
+
+### ObjectMap
+<SimplePropertyMapping/77/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "lid30" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/87>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/87/OM> ;
+        rr:predicate  dbo:formerBandMember .
+
+### ObjectMap
+<SimplePropertyMapping/87/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudlid5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/86>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/86/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/86/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie5" .
+
+
+### Predicate Object Map
+#########################
+<SimplePropertyMapping/96>
+        a             rr:PredicateObjectMap ;
+        rr:objectMap  <SimplePropertyMapping/96/OM> ;
+        rr:predicate  dbo:personFunction .
+
+### ObjectMap
+<SimplePropertyMapping/96/OM>
+        a              rr:ObjectMap ;
+        rml:reference  "oudfunctie10" .
+
+
+######################
+# Conditional Mappings
+######################
+
+
+
+############
+# Functions
+############
+
+
+<Function/EndDateFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:endDateFunction ;
+        rr:predicate  fno:executes .
+
+<Function/StartDateFunction>
+        a             rr:PredicateObjectMap ;
+        rr:object     dbf:startDateFunction ;
+        rr:predicate  fno:executes .
+
+
+### Functions SubjectMap
+#########################
+
+<SubjectMap/Function>
+        a            rr:SubjectMap ;
+        rr:class     fno:Execution ;
+        rr:termType  rr:BlankNode .
