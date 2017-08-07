@@ -1,3 +1,4 @@
+#edited in UI
 @base	          	<http://en.dbpedia.org/resource/Mapping_en:US-scientist-stub/> .
 @prefix schema: 	<http://schema.org/> .
 @prefix rr:    		<http://www.w3.org/ns/r2rml#> .
