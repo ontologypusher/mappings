@@ -2529,6 +2529,7 @@ xsd:time rdf:type rdfs:Datatype ;
 :altitude rdf:type owl:ObjectProperty ;
           rdfs:domain :Place ;
           rdfs:range :Altitude ;
+          rdfs:comment "asdfasf"@se ;
           rdfs:label "Höhe"@de ,
                      "altitud"@es ,
                      "altitude"@en ,

@@ -5024,6 +5024,7 @@ ObjectPropertyRange(:alpsSupergroup :MountainRange)
 
 # Object Property: :altitude (апсолутна висина)
 
+AnnotationAssertion(rdfs:comment :altitude "asdfasf"@se)
 AnnotationAssertion(rdfs:label :altitude "Höhe"@de)
 AnnotationAssertion(rdfs:label :altitude "altitud"@es)
 AnnotationAssertion(rdfs:label :altitude "altitude"@en)

@@ -3862,6 +3862,7 @@
     <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/altitude">
         <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Place"/>
         <rdfs:range rdf:resource="http://dbpedia.org/ontology/Altitude"/>
+        <rdfs:comment xml:lang="se">asdfasf</rdfs:comment>
         <rdfs:label xml:lang="de">Höhe</rdfs:label>
         <rdfs:label xml:lang="es">altitud</rdfs:label>
         <rdfs:label xml:lang="en">altitude</rdfs:label>
