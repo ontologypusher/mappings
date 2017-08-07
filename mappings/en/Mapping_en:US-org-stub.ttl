@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TriplesMap
+### Main TriplesMapasdfa
 ####################
 <http://en.dbpedia.org/resource/Mapping_en:US-org-stub>
         a                      rr:TriplesMap ;
