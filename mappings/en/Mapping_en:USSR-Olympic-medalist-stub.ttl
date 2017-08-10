@@ -30,7 +30,7 @@
 @prefix dc:    		<http://purl.org/dc/elements/1.1/> .
 
 
-### Main TriplesMap
+### Main TriplesMapdas
 ####################
 <http://en.dbpedia.org/resource/Mapping_en:USSR-Olympic-medalist-stub>
         a                      rr:TriplesMap ;
